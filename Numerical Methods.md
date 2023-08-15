@@ -1,3 +1,7 @@
+
+Seatworks:
+- SW #1
+
 2023-08-12
 ### Numerical systems
 Asst. Prof. Jonathan B. Caberom M,S
@@ -6,7 +10,7 @@ Asst. Prof. Jonathan B. Caberom M,S
 - Study of numerical algorithm use approximation for the problems of mathematical analysis 
 
 Intermediate value theorem for continous functions 
-- THeorem Intermediate - vlaue theorem for continous functions 
+- Theorem Intermediate - vlaue theorem for continous functions 
 - Let f(x) be continous function on the interval [a,b]. If f(x) <= a <= f(x) for some number a and some x is an element [a,b]m then a = f(e) for some e elelment [a,b] 
 
 
