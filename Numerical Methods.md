@@ -1,5 +1,6 @@
-
-Seatworks:
+# Numerical Methods
+## Mathematical Analysis
+Seatwork:
 - SW #1
 
 2023-08-12
@@ -76,3 +77,49 @@ Extreme value theorem
 
 $$f(x) = \mathrm e^2 + 4x, (-2,2)$$
 $$ \begin{align*} f'(x) &= \mathrm e^x - 4\\ f'(x) &=0 \\ \mathrm e ^2 - 4&=0 \\ \mathrm e^x&=4 \\ ln(\mathrm e^x &= 4)\\ x &= ln 4\end{align*} $$
+
+2023-08-12
+### Taylor's Formula with (Integral) Remainder
+- if f(x) has n+1 continuous derivatives on [a,b], then for all x element of [a,b]
+
+
+![[Pasted image 20230817143739.png]]
+#### Example 
+![[Pasted image 20230817144005.png]]
+
+![[Pasted image 20230817144421.png]]
+
+![[Pasted image 20230817144605.png]]
+
+### Taylor's theorem in terms of h 
+- If f(x) possesses continuous derivatives of order 0,1,2
+	![[Pasted image 20230817144705.png]]
+
+![[Pasted image 20230817145349.png]]
+
+### Alternating Series Theorem
+
+![[Pasted image 20230817145440.png]]
+#### Examples 
+![[Pasted image 20230817145616.png]]
+
+![[Pasted image 20230817145636.png]]
+![[Pasted image 20230817145705.png]]
+![[Pasted image 20230817145724.png]]
+![[Pasted image 20230817145747.png]]
+![[Pasted image 20230817145809.png]]
+![[Pasted image 20230817145820.png]]
+
+### Fundamental Theorem of Algebra
+![[Pasted image 20230817145906.png]]
+
+#### Example 
+
+$$ \begin{align*} P(x) &= 1+2x-3x^2 +4x^3-5x^4 \\ &= 1+x(2-3x+4x^2-5x^3) \\ &= 1+x(2-x(3-4x+5x^2)) \\ &= 1+x(2-x(3-x(4-5x)))\end{align*}$$
+### Binomial Theorem 
+![[Pasted image 20230817150138.png]]
+
+#### Example 
+
+![[Pasted image 20230817150611.png]]
+- **The triangle below the equation is the pascal triangle**
