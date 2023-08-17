@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b2f95f4664a1fd14",
+            "id": "81070e2cad86e901",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Programming languages.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Programming languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Programming languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods.md"
+                "file": "Programming languages.md"
               }
             }
           }
@@ -160,16 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2f95f4664a1fd14",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Data warehousing.md",
-    "Numerical Methods.md",
-    "Test table.md",
+    "Software Engineering I.md",
     "Numerical Methods SW.md",
     "Programming languages.md",
-    "Software Engineering I.md",
-    "Untitled 1.canvas",
+    "Numerical Methods.md",
     "Untitled.canvas",
+    "Ethics.md",
+    "Untitled.md",
+    "Test table.md",
+    "Data warehousing.md",
+    "Untitled 1.canvas",
     "2023-08-15.md",
     "The3rdYearWorld.canvas"
   ]

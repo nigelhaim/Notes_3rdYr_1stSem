@@ -26,7 +26,7 @@ $$ \begin{align*} 2c&=0\\ c&=0\end{align*} $$
    $$ \begin{align*}  f(3) &= 3^2 + 3(3) - 18 \\ &= 9+9-18 \\ &=0 \end{align*} $$
    $$ \begin{align*} f'(x)=2x+3 \\ f'(c)=2c+3 \end{align*} $$
    $$\begin{align*} 2c +3 &= 0 \\ c &= -\frac {3}{2}\end{align*}$$
-   5. $$f(x) = 4x^2 -16x+15, [\frac {3}{2}, \frac {5}{2}]$$
+5. $$f(x) = 4x^2 -16x+15, [\frac {3}{2}, \frac {5}{2}]$$
    $$ \begin{align*} f(\frac {3}{2}) &= 4(\frac {3}{2})^2 - 16(\frac {3}{2}) +15 \\ &=25-40+15 \\ &= 0 \end{align*} $$
    $$ \begin{align*} f(\frac {5}{2}) &= 4(\frac {5}{2})^4 - 16(\frac {5}{2}) + 15 \\ &= 25-40+5 \\ &=0\end{align*} $$
    $$\begin{align*} f'(x)=8x-16 \\ f'(c)=8-c16 \end{align*}$$
