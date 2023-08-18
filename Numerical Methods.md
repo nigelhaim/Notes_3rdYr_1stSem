@@ -83,19 +83,36 @@ $$ \begin{align*} f'(x) &= \mathrm e^x - 4\\ f'(x) &=0 \\ \mathrm e ^2 - 4&=0 \\
 - if f(x) has n+1 continuous derivatives on [a,b], then for all x element of [a,b]
 
 
-![[Pasted image 20230817143739.png]]
+$$R_{n+1}(x)=\frac{1}{n!} \int_{c}^{x} (x-s)^n f^{(n+1)}(s)ds$$
 #### Example 
-![[Pasted image 20230817144005.png]]
+1. $$\begin{align*} f(x)&=e^x, \; c=0 \\ f(x) &=e^x \;\; f(0)=1 \\ f'(x) &=e^x \;\; f'(0)=1 \\ f''(x) &=e^x \;\; f''(0)=1 \\ f'''(x) &=e^x \;\; f'''(0)=1 \end{align*}$$
+$$e^x \approx 1 + x + \frac {x^2}{x!} + \frac {x^3}{3!}+...+\frac {x^n}{n!}+...$$
 
-![[Pasted image 20230817144421.png]]
+2. $$\begin{align*} f(x) &= ln\;x, \; &c = 12 \\ f(x) &=ln \;x, &f(1)=0 \\ f'(x) &= \frac {1}{x}=x^{-1} \; &f'(1)=1 \\ f''(x) &=-x^{-2} \; &f(1)=-1 \\ f'''(x)&=2x^{-3} \; &f'''(1) =2 \\ f''''(x) &=(-6x)^{-4} \; &f''''(1) =-6  \end{align*}$$
+
 
 ![[Pasted image 20230817144605.png]]
-
+3. $$ f(x)= x^2e^n $$
+   $$\begin{align*} x^2e^x \approx x^2(1+x+x^) x\end{align*}$$
 ### Taylor's theorem in terms of h 
 - If f(x) possesses continuous derivatives of order 0,1,2
-	![[Pasted image 20230817144705.png]]
+#### The Big O Notation 
+$$\vartheta(h^{n+1}) = R_{n+1}(x)$$
+$$\text{for some }\varepsilon \text{ let } x \text{ and } x+h $$
+$$ \begin{align*} f(x+h) &= f(x) + f'(\varepsilon)h \\ f(x+h) &= f(x)+ \vartheta (h)\\ f(x+h) &=f(x) + f'^{(x)}h+ \frac{1}{2} f''(\varepsilon_2)h^2\\ f(x+h) &=f(x)+f'^{(x)}h + \vartheta (h^2) \\ f(x+h) &= f(x) + f'^{(x)}h + \frac {1}{2} f''^{(x)h^2} + \frac {1}{3} f'''(\epsilon_3)h^3 \\ f(x+h) &= f(x) + f'^{(x)}h + \frac {1}{2} f''^{(\epsilon_2)^{h^2}}+ \vartheta (h^3)\end{align*}$$
+$$\text{and so on}$$
 
-![[Pasted image 20230817145349.png]]
+
+#### Example
+Approximate 
+
+a.) $$\sqrt{1.00001}$$
+$$\text{Set } x =1, \; h=10^{-5}$$
+$$ \begin{align*} f(x) &= \sqrt x = x^{\frac {1}{2}} \; &f(1)=1 \\ f'(x) &= \frac {1}{2}x^{-\frac {1}{2}} \; &f'(1)=\frac {1}{2} \\ f''(x) &= -\frac{1}{4}x^{-\frac {3}{2}} \; &f'(1)=\frac {1}{2} \\ f'''(x) &= \frac {3}{8}x^{- \frac {5}{2}} \; &f'''(1)=\frac {3}{8}\end{align*} $$
+$$ \begin{align*} \sqrt{1.00001} &= \sqrt{1+10^{-5}}\\ & \approx 1+\frac {1}{2}h - \frac {1}{4}h^2 \\ &\approx 1+\frac {1}{2}(10^-3)-\frac {1}{4}(10^{-5})^2\\ &\approx 1.00000499999875 \end{align*} $$
+b.) $$\sqrt {.99999}$$
+$$\begin{align*} \sqrt {.99999} &= \sqrt{1-10^{-5}}\\ &\approx 1-\frac {1}{2}(10^-5) + \frac {1}{4}(10^{-5})^2\\ &\approx .99999999997875 \end{align*}$$
+
 
 ### Alternating Series Theorem
 
@@ -122,4 +139,24 @@ $$ \begin{align*} P(x) &= 1+2x-3x^2 +4x^3-5x^4 \\ &= 1+x(2-3x+4x^2-5x^3) \\ &= 1
 #### Example 
 
 ![[Pasted image 20230817150611.png]]
+$$\begin{align*}(x+y)^4 &= \binom{4}{0}x^4y^0 + \binom{4}{1}x^3y^1+\binom{4}{2}x^2y^2 + \binom{4}{3}x^1y^3+\binom{4}{4}x^0y^4 \\&=x^4+4x^3y+6x^2y^2+4xy^3+y^4\end{align*}$$
 - **The triangle below the equation is the pascal triangle**
+
+$$
+\documentclass[preview,border=12pt]{standalone}
+
+\usepackage{array}
+\begin{document}
+\begin{tabular}{>{$n=}l<{$\hspace{12pt}}*{13}{c}}
+0 &&&&&&&1&&&&&&\\
+1 &&&&&&1&&1&&&&&\\
+2 &&&&&1&&2&&1&&&&\\
+3 &&&&1&&3&&3&&1&&&\\
+4 &&&1&&4&&6&&4&&1&&\\
+5 &&1&&5&&10&&10&&5&&1&\\
+6 &1&&6&&15&&20&&15&&6&&1
+\end{tabular}
+\end{document}
+$$
+
+

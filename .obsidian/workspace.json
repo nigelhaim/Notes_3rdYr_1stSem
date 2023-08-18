@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods SW.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods SW.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods SW.md"
+                "file": "Numerical Methods.md"
               }
             }
           }
@@ -160,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81070e2cad86e901",
+  "active": "21f4efdf360a616e",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Numerical Methods.md",
+    "Numerical Methods SW.md",
     "Programming languages.md",
     "Software Engineering I.md",
-    "Numerical Methods SW.md",
-    "Numerical Methods.md",
     "Ethics.md",
     "Concepts-of-Programming-Languages.pdf",
     "Data warehousing.md",
@@ -180,7 +180,6 @@
     "Media/Pasted image 20230817145747.png",
     "Media/Pasted image 20230817145724.png",
     "Media/Pasted image 20230817145705.png",
-    "Untitled.canvas",
     "Untitled.md",
     "Test table.md",
     "Untitled 1.canvas",
