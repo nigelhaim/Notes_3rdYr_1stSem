@@ -31,3 +31,189 @@ $$ \begin{align*} 2c&=0\\ c&=0\end{align*} $$
    $$ \begin{align*} f(\frac {5}{2}) &= 4(\frac {5}{2})^4 - 16(\frac {5}{2}) + 15 \\ &= 25-40+5 \\ &=0\end{align*} $$
    $$\begin{align*} f'(x)=8x-16 \\ f'(c)=8-c16 \end{align*}$$
    $$  \begin{align*} 8c -16 &= 0 \\ c &= \frac {16}{8} \\ c &= 2 \end{align*} $$
+
+
+
+Seatwork #2 - 2023-08-17
+
+Write the approximate polynomial of the following transcendental functions using the Maclaurin's series of approximation 
+1. $$f(x) = e^{-2x}$$
+   $$f(0)=1$$
+   $$ \begin{align*} f'(x) &= -2 e^{-2x}, P'(0)=-2 \\ f''(x) &=4e^{-2x},P''(0)=4\end{align*} $$
+$$\text{Therefore the approximate polynomial is}$$
+$$\begin{align*} p(x) &= f(0)+(x-0)\frac {f'0}{1!}+(x-0)^2 \frac{f''(0)}{2!}+...\\&=1+x \frac {-2}{1!} + x^2 \frac {4}{2}+... \\ &= 1-2x+2x^2+...\end{align*}$$
+
+
+2. $$ f(x)=ln(x+1) $$
+   $$ \begin{align*} f(0) &= ln(1)=0 \\ f'(x) &= \frac {1}{x+1} \\ f'(0) &= 1 \\ f''(x) &= -\frac {2}{(x+1)^2}\\ f''(0) &= \frac {2}{(x+1)^3} \\ f'''(0) &= 2 \end{align*}$$
+$$\text{There the approximate polynomial}$$
+$$\begin{align*} p(x) &= f(0) + (x-0) \frac {f'(0)}{1!} + (x-0)^2 \frac{f''(0)}{2!} + (x-0)^3 \frac {f'''(0)}{3!} +...\\ &= 0+1*x-\frac{1}{2} * x^2 + \frac{2}{6}* x^3 + ... \\ &=x-\frac {x^2}{2} + \frac {x^3}{3} +...  \end{align*}$$
+
+
+Seatwork #3 - 2023-08-17
+
+use the binomial theorem to expand and simplify the expression 
+
+1. $$(x+\frac{1}{2})^5$$
+<center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>5</th>  
+    <th>10</th>  
+    <th>10</th>
+    <th>5</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$1(x)^5(\frac {1}{2})^0 + 5(x)^4(\frac {1}{2})^1+10(x)^3(\frac {1}{2})^2+10(x)^2(\frac {1}{2})^3+5(x)^1(\frac {1}{2})^4+1(x)^0(\frac {1}{2})^5$$
+$$= x^5+\frac{5x^4}{2}+\frac{10x^3}{2}+\frac{10x^2}{2}+\frac{5x}{2}+\frac{1}{32}$$
+
+2. $$(x+1)^8$$
+   <center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>8</th>  
+    <th>28</th>  
+    <th>56</th>
+    <th>70</th>
+    <th>56</th>
+    <th>28</th>
+    <th>8</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$\begin{align*}&1(x)^8(1)^0+8(x)^7(1)^1+28(X)^6(1)^2+56(x)^5(1)^3+70(x)^4(1)^4+\\&56(x)^3(1)^5+70(x)^4(1)^4+56(x)^3(1)^5+28(x)^2(1)^6+8(x)^1(1)^7\\&+1(x)^0(1)^8 \end{align*}$$
+
+$$= x^8 +8x^7+28x^6+ 56x^5+40x^4+56x^3+28x^2+8x+1 $$
+
+3. $$(1-2y)^4$$
+   <center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>4</th>  
+    <th>6</th>  
+    <th>4</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$1(1)^4(-2y)^0+4(1)^3(-2y)^1+6(1)^2(-2y)^2+4(1)^1(-2y)^3+1(1)^0(-2y)^4$$
+$$=1-8y-24y^2-32y^3-16y^4$$
+4. $$(x-3)^6$$
+<center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>6</th>  
+    <th>15</th>  
+    <th>20</th>
+    <th>15</th>
+    <th>6</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$\begin{align*} &1(x)^6(-3)^0+6(x)^5(-3)^1+15(x)^4(-3)^2+20(x)^3(-3)^3+\\&15(x)^2(-3)^4+6(x)^1(-3)^5+1(x)^0(-3)^6\end{align*}$$
+
+$$=x^6-18x^5+135x^4-540x^3+1215x^2-1458x+759$$
+5. $$ (3x+4)^6 $$
+   <center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>6</th>  
+    <th>15</th>  
+    <th>20</th>
+    <th>15</th>
+    <th>6</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$ 1(3x)^6(4)^0+6(3x)^5(4)^1+15(3x)^4(4)^2+20(3x)^3(4)^3+15(3x)^2(4)^4+6(3x)^1(4)^5+1(3x)^0(4)^6$$
+$$=729x^6+5832x^5+19440x^4+34560x^3+18432x+4096$$
+
+6.$$(2x+3)^5$$
+<center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>5</th>  
+    <th>10</th>  
+    <th>10</th>
+    <th>5</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+	$$1(2x)^5+5(2x)^4(3)^1+10(2x)^3(3)^2+10(2x)^2(3)^3+5(2x)^1(3)^4+1(2x)^0(3)^5$$
+	$$=32x^5+240x^4+720x^3+1080x^2+810x+243$$ 7. $$(4-y)^7$$
+	   <center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>7</th>  
+    <th>21</th>  
+    <th>35</th>
+    <th>35</th>
+    <th>21</th>
+    <th>7</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$\begin{align*}&1(4)^7(-y)^0+7(4)^6(-y)^1+21(4)^5(-y)^2+35(4)^4(-y)^3+\\&35(4)^3(-y)^4+21(4)^2(-y)^5+7(4)^1(-y)^6+1(4)^0(-y)^7\end{align*}$$
+$$16384-2867y+21504y^2-8960y^3+2240y^4-336y^5+28y^6-y^7$$
+8. $$(\frac {x}{2}+1)^5$$
+   <center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>5</th>  
+    <th>10</th>  
+    <th>10</th>
+    <th>5</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$1(\frac{x}{2})^5(1)^0 + 5(\frac{x}{2})^4(1)^1+10(\frac{x}{2})^3(1)^2+10(\frac{x}{2})^2(1)^3+5(\frac{x}{2})^1(1)^4+1(\frac{x}{2})^0(1)^5$$
+$$=\frac {x5}{32}+\frac{5x^4}{16}+\frac{5x^3}{4}+\frac{5x^2}{2}+\frac {5x}{2}+1 $$
+
+9. $$(1-\frac{1}{x})^5$$
+   <center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>5</th>  
+    <th>10</th>  
+    <th>10</th>
+    <th>5</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$1(1)^5(-\frac{1}{x})^0+5(1)^4(-\frac{1}{x})^1+10(1)^3(-\frac{1}{x})^2+10(1)^2(-\frac{1}{x})^3+5(1)^1(-\frac{1}{x})^4+1(1)^0(-\frac{1}{x})$$
+$$=1-\frac {5}{x}+\frac {10}{x^2} - \frac {10}{x^3} + \frac {5}{x^4} - \frac {1}{x^5}$$
+
+10. $$(2-\frac {1}{2x})^6$$
+   <center>
+<table>  
+  <tr>  
+    <th>1</th>  
+    <th>6</th>  
+    <th>15</th>  
+    <th>20</th>
+    <th>15</th>
+    <th>6</th>
+    <th>1</th>
+  </tr>  
+</table>
+</center>
+$$\begin{align*} &1(2)^6(-\frac{1}{2x})^0 + 6 (2)^5(-\frac{1}{2x})^1+15(2)^4(-\frac{1}{2x})^2+20(2)^3(-\frac{1}{2x})^3+\\&15(2)^2(-\frac{1}{2x})^4+6(2)^1(-\frac{1}{2x})^5+1(2)^0(-\frac{1}{2x})^6 \end{align*}$$
+$$ =64-\frac{96}{x}+\frac {60}{x^2}+ \frac {20}{x^3} + \frac {15}{4x^4} - \frac {3}{8x^5} + \frac {1}{64x^6}$$

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods SW.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Numerical Methods SW.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Numerical Methods SW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Numerical Methods SW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data warehousing.md"
+                "file": "Numerical Methods SW.md"
               }
             }
           }
@@ -162,12 +162,14 @@
   },
   "active": "81070e2cad86e901",
   "lastOpenFiles": [
+    "Programming languages.md",
+    "Software Engineering I.md",
+    "Numerical Methods SW.md",
     "Numerical Methods.md",
     "Ethics.md",
-    "Data warehousing.md",
     "Concepts-of-Programming-Languages.pdf",
+    "Data warehousing.md",
     "Media/Pasted image 20230817135027.png",
-    "Numerical Methods SW.md",
     "Media",
     "Media/Pasted image 20230817150611.png",
     "Media/Pasted image 20230817150138.png",
@@ -178,8 +180,6 @@
     "Media/Pasted image 20230817145747.png",
     "Media/Pasted image 20230817145724.png",
     "Media/Pasted image 20230817145705.png",
-    "Programming languages.md",
-    "Software Engineering I.md",
     "Untitled.canvas",
     "Untitled.md",
     "Test table.md",
