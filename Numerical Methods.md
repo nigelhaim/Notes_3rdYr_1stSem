@@ -115,30 +115,71 @@ $$\begin{align*} \sqrt {.99999} &= \sqrt{1-10^{-5}}\\ &\approx 1-\frac {1}{2}(10
 
 
 ### Alternating Series Theorem
-
 ![[Pasted image 20230817145440.png]]
-#### Examples 
-![[Pasted image 20230817145616.png]]
+$$\begin{align*} &\text{If } a_1 \geq a_2 \geq ... \geq a_n...0 \text{for all n in } \lim_{n \to n} a_n = 0,\\ &\text{then the alternating series} \end{align*}$$
+$$a_1 - a_2 + a_3 - a_4 + ...$$
+$$\text{converges, that is}$$
+$$\lim_{n \to \infty} \sum\limits_{k=1}^n (-1)^{k-1}????$$
 
-![[Pasted image 20230817145636.png]]
-![[Pasted image 20230817145705.png]]
-![[Pasted image 20230817145724.png]]
-![[Pasted image 20230817145747.png]]
-![[Pasted image 20230817145809.png]]
-![[Pasted image 20230817145820.png]]
+$$\text{Where S is its sum and } S_n \text{ is the nth partial sum. Moreover, for all n}$$
+$$|S-S_n| \leq a_{n+1}$$
+$\text{Where S is its sum and } S_n \text{is the nth partial sum. Moreover, for all } n|S-S_n|\leq a_{n+1}$
+Convergent Series 
+A series is convergent ifi the sequence of its partial sums ${S_1,S_2,S-3...}$ converges; in other words, it approaches a given number. In more formal language, a series converges if there exists a limit $\iota$ such that for any arbitrarily small positive number $\epsilon > 0$, there is a large integer $N$ such that for all $n \geq N$,
+$$|S_n - \iota| \leq \epsilon$$
+Any series that is not convergent is said to be divergent
+
+#### Examples 
+1. The reciprocals of the positive integers produce a divergent series (harmonic series):
+	$\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+...\to\infty$
+2. Alternating the signs of the reciprocals of positive integers produces a convergent series: 
+	$\frac{1}{1}-\frac{1}{2}+\frac{1}{3}-\frac{1}{4}+\frac{1}{5}...=ln(2)$
+3. Alternating the signs of the reciprocals of positive odd integers produces a convergent series (the Lebniz formula of pi):
+	$\frac{1}{1}-\frac{1}{3}+\frac{1}{5}-\frac{1}{7}+\frac{1}{9}-\frac{1}{11}+...=\frac{\pi}{4}$
+	
+4. The reciprocals of prime numbers produce a divergent series (so the set of primes is "large"):
+	$\frac{1}{2}+\frac{1}{3}+\frac{1}{5}+\frac{1}{7}+\frac{1}{11}+\frac{1}{13}+...\to \infty$
+5. The reciprocals of triangular numbers produce a convergent series:
+	$\frac{1}{1}+\frac{1}{3}+\frac{1}{6}+\frac{1}{10}+\frac{1}{15}+\frac{1}{21}+...=2$
+	
+6. The reciprocals of factorials produce a convergent series (see e):
+	$\frac{1}{1}+\frac{1}{1}+\frac{1}{2}+\frac{1}{6}+\frac{1}{24}+\frac{1}{120}+...=e$
+7. The reciprocals of square numbers produce a convergent series (the Basel problem):
+	$\frac{1}{1}+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\frac{1}{25}+\frac{1}{36}+...=\frac{\pi^2}{6}$
+	
+8. The reciprocals of powers of 2 produce a convergent series (so the set of powers of 2 is "small"):
+	$\frac{1}{1}+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\frac{1}{32}+...=2$
+9. Alternating the signs of reciprocals of powers of 2 also produces a convergent series:
+	$\frac{1}{1}-\frac{1}{2}+\frac{1}{4}-\frac{1}{8}+\frac{1}{16}-\frac{1}{32}+...=\frac{2}{3}$
+10. the reciprocals of the Fibonacci numbers produces a convergent series (see $\psi$)
+		$\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{5}+\frac{1}{8}+...=\psi$
 
 ### Fundamental Theorem of Algebra
-![[Pasted image 20230817145906.png]]
+If $p(x)$ is a polynomial of degree $n \geq 1$, that is,
+$p(x) = a_0 + a_1x +a_2 x^2+...+a_xx^n$
+
+with $a_0,a_1,a_2,...,a_n$ real or complex numbers and $a_n \neq 0$. Then $p(x)$ has at least one zero, that ism there exists a complex number $\epsilon$ such that $p(\epsilon) = 0$.
+
+The polynomial $p(x)$ can be written 
+$p(x) = \sum\limits_{i=0}^n a_ix^i = \sum\limits_{i=0}^n(a_i\prod\limits_{j=1}^ix)$
+To evaluate a polynomial $p(x)$ efficiently, write
+$p(x) = a_0 + a_1x+a_2x^2+...a_nx^n$
+In the form 
+$p(x)=a_0+x(a_1+x(a_2+...+x(x_{n-1}+x(a_n)))...))$
 
 #### Example 
 
 $$ \begin{align*} P(x) &= 1+2x-3x^2 +4x^3-5x^4 \\ &= 1+x(2-3x+4x^2-5x^3) \\ &= 1+x(2-x(3-4x+5x^2)) \\ &= 1+x(2-x(3-x(4-5x)))\end{align*}$$
 ### Binomial Theorem 
-![[Pasted image 20230817150138.png]]
 
+The binomial theorem is defined by
+$(a+b)^n = \binom{n}{0}a^nb^0+\binom{n}{1}a^{n-1}b^1+...+\binom{n}{n-1}a^1b^n-1+\binom{n}{n}a^0b^n$
+
+Where the binomial coefficient is $\binom{n}{r} = \frac {n!}{r!(n-r)!}$
+The (r+1)th term is $\binom{n}{r}a^{n-r}b^r$
 #### Example 
 
-![[Pasted image 20230817150611.png]]
+
 $$\begin{align*}(x+y)^4 &= \binom{4}{0}x^4y^0 + \binom{4}{1}x^3y^1+\binom{4}{2}x^2y^2 + \binom{4}{3}x^1y^3+\binom{4}{4}x^0y^4 \\&=x^4+4x^3y+6x^2y^2+4xy^3+y^4\end{align*}$$
 - **The triangle below the equation is the pascal triangle**
 
