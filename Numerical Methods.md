@@ -228,9 +228,9 @@ Note: in the combination of a number and a unit of measurement, we can easily de
 
 #### Examples 
 
-
-| 2.745 | has four significant digits: | 2,7,4,5 |
+|  |  |  |
 | --- | --- | --- |
+| 2.745 | has four significant digits: | 2,7,4,5 |
 | 20.003 | has five significant digits:  | 2,0,0,0,3 |
 | 0.0021 | has two significant digits: | 2,1 |
 | 0.002100 | has four significant digits: | 2,1,0,0 |
@@ -275,12 +275,12 @@ $$n=4$$
 $$\begin{align*} e^.5 &\approx 1+0.5 + \frac{.5^2}{2!} +\frac{.5^3}{3!} +\frac{.5^4}{4!} \\ &\approx 1.6484\end{align*}$$
 
 
-The rounding off error is 
-$e^{.5} - 1.648721$
+$$\text{The rounding off error is} $$
+$$e^{.5} - 1.648721$$
 
-The Truncating error is 
+$$\text{The Truncating error is} $$
 $n=2$
-$e^x-1+x+\frac{x^2}{2} = \frac{x^3}{3!}+ \frac{x^4}{4!}+\frac{x^5}{5!}+...+\frac{x^n}{n!}+.+R_{n+1}$
+$$e^x-1+x+\frac{x^2}{2} = \frac{x^3}{3!}+ \frac{x^4}{4!}+\frac{x^5}{5!}+...+\frac{x^n}{n!}+.+R_{n+1}$$
 
 
 #### True error and Relative error
@@ -293,7 +293,6 @@ The relative true error which is the ratio between the true error and the true v
 $$RelativeError = \frac{TrueError}{TrueValue}$$
 #### Example
 
-6th picture
 $$\begin{align*}f(x)=\sqrt{x}=x^{\frac{1}{2}}  \;\;,x=5 \end{align*}$$
 $$f'(x)=\frac {1}{2}x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}$$
 $$f'(x) = \frac {1}{2\sqrt{5}}=$$
@@ -303,63 +302,69 @@ $$f'(5) \approx \frac{\sqrt{5.01}-\sqrt{5}}{.01}\approx$$
 
 $$\text{The true value is}$$
 7th picture 
+$$e^.5-1.648721$$
+$$Absolute \; Error = |\frac {1}{2\sqrt{5}} - \frac{\sqrt{5.01}-\sqrt{5}}{.05}|$$
+$$Relative \; Error = \frac {|\frac{1}{2\sqrt{5}}-\frac{\sqrt{5.01}-\sqrt{5}}{0.5}|}{\frac{1}{2\sqrt{5}}}$$
 
-AE- absolute error
-RE - relative error 
 
 #### Approximate error 
-
-8th picture 
-
+- Calculated only if true values are known
+- Useful if a program is in working order 
+- When solving a problem numerically, we will only have access to approximate values 
+	- Approximate error is defined as the deviation between the present approximation and previous approximation, i.e,
+	- $\text{Approximate Error = Present Approximation - Previous Approximation}$
 
 #### Example
-
-9th picture 
-
+This is connected to the previous example 
+$$h=0.001$$
+$$f'(5)\approx \frac{\sqrt{5.001}-\sqrt{5}}{0.001}$$
+$$Approx \; Error = |\frac{\sqrt{5.001}-\sqrt{5}}{0.001} - \frac{\sqrt{5.01}-\sqrt{5}}{0.01}|$$
 
 #### Relative Appriximate Error 
-- Defined as the ratio between the approximate error and the rpresent approximation 
-$$RelativeApproximateError$$
-9th picture 
-
+- Defined as the ratio between the approximate error and the present approximation 
+$$RelativeApproximateError = \frac{Approximate \; Error}{Present \; Approximation}$$
 ##### Example 
-10th picture 
+This is also Connected to the previous example
+$$Relative \; Approx \; Error = \frac {Approx \; Error}{\frac {\sqrt{5.001}-\sqrt{5}}{0.001}}$$
 
 #### Tolerance 
-- 11th picture 
-- We can use the approximate error to minimie the error when solving mathematical model using numerical methods by calculating the relative approximate error at thte end of every iteration 
-- We can pre-specify a nimimum acceptable tolerance called the pre-specified tolerance
-- If the value of absolute relative apprximate error is at the most pre-specified tolerance then the acceptable error has been reahed and no more iteration would be needed. Otherwise 
+- We can use the approximate error to minimize the error when solving mathematical model using numerical methods by calculating the relative approximate error at the end of every iteration 
+- We can pre-specify a minimum acceptable tolerance called the pre-specified tolerance
+- If the value of absolute relative approximate error is at the most pre-specified tolerance then the acceptable error has been reached and no more iteration would be needed. Otherwise, one may pre-specify how many significant digits they would like to be correct in the answer
+- If one wants at least significant digits to be correct in the answer, the you would need to have the absolute relative approximate error.
 
 ## Number Representation 
 ### Octal and Hexadecimal representation 
-- First Year and 2nd Year 
+- First Year and 2nd Year topics 
 ### Normalized Floating-point Representation 
+Every nonzero real number x has a floating-point representation
+$$x=\pm M x r^e, where \frac{1}{r} \leq M < 1 \; or -\frac{1}{r} \leq M < -1$$
+$$Where$$
+$$M = \sum_{k=1}^t d_kr^{-k}$$
+M is called the mantissa, e is an integer called exponent, r the base, $d_k$ is the value of the kth digit
 
-12th picture 
 
 #### Examples 
 
 13th picture 
 
-$-18.25 \text{ has representation } -0.1825
-
+$-18.25 \text{ has representation } -0.1825 * 10^2(M - 0.1825, e =2)$
+$0.1 has \; representation \; 0.1*10^0(M=0.1,e=0)$ 
+$\frac {1}{15} \; has \; representation (\frac{1}{15}*10)*10^{-1}(M=0.66, e=-1)$
 
 ### Machine numbers 
 - A Machine number for a calculator is a real number that it stores exactly normalized floating-point form. 
-- A nonzero x is a machine number 
-- 14th picture 
+- A nonzero x is a machine number if and only if its normalized floating decimal point representation is of the form 
+$$x\pm M*10^e$$
+- Computers use a normalized floating point binary representation for real numbers
+$$x \pm M * 2^e$$
+
 #### Example 
 
-15th picture 
+$-18.25 \; has \; representation \; -(\frac{73}{4}*\frac{1}{32})*2^5(M=\frac{73}{128'},e=5)$
+$0.1  \; has \; representation \;  (\frac{1}{10}*8)*2^{-3}(M-\frac{4}{5}e=-3)$
+$\frac{1}{15}  \; has \; representation \; (\frac{1}{15}*8)*2^{-3}(M=\frac{8}{15},e=-3)$
+
 
 ### Decimal System 
-16th picture 
-
-
-
-
-
-
-
-# Kitang kita ako eh 
+No available notes 
