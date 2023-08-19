@@ -81,7 +81,9 @@ Transaction processing
 - Cashiers
 
 Business support 
-- Transaction processing first then business rep= ort 
+- Transaction processing first then business report 
 - Customer services 
 - Knowledge management system 
+
+2023-08-19
 

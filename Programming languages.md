@@ -163,3 +163,92 @@ OOP
 		- Cobol 
 	- Academic 
 		- Fortran
+
+#### Language Categories
+**Imperative**
+- Central features are variables, assignment statements, and iteration 
+- Include languages that support object-oriented programming i
+- include scripting and visual languages 
+**Functional**
+- Main means of making computations is by applying functions to given parameters
+**Logic**
+- Rule-based (rules are specified in no particular order)
+- Returns true or false 
+
+##### PROLOG
+- y:-x "if x then y " - Rule based 
+
+**Markup/Programming hybrid**
+- Markup languages to extend to support some programming 
+#### Language Design Trade-offs
+**Reliability vs cost of execution** - 
+**Readability vs writability** - 
+**Writability (flexibility) vs reliability**
+
+#### Layered View of Computer
+- The operating system and language implementation are layered over machine interface of a computer
+![[Pasted image 20230819180832.png]]
+
+####  Methods of Implementation
+- **Compilation**
+	- Compiler - The programming language is developed 
+	- Interpretation - source code is translated 
+	- Hybrid interpretation - Compromise between compiler and interpreter
+- **Pure Interpretation**
+- **Hybrid Interpretation**
+#### Compilation process phases
+- Source code is translated into equivalent machine code as a unit and stored in to a file that has to be executed in separate step.
+- **Lexical analysis**
+	- extracts a sequence of tokens from source code 
+	- the symbol table contains the definitions of the identifiers
+- **Syntax analysis** 
+	- Transforms tokens into parse trees which represent the syntactic structure of program.
+- **Semantics analysis** 
+	- Generate intermediate code
+- **Code generation** 
+	- Machine code is generated
+
+#####  Backus-Naur Rules Form (BNF)
+- Assignment statement - Composed of left hand side followed by a symbol followed by the right hand side 
+- Left hand side - has an identifier
+- Right hand side - has identifier followed an operand and another identifier
+
+#### Pure Interpretation Process
+- Pure Interpretation - source code is translated into machine code and executed immediatly 
+- Advantage -run-time errors can refer to source level units such as array index out of bounds errors
+- Disadvantage
+	- 10 to 100 times slower execution time 
+	- Often requires more space 
+- Significant comeback with some Web scripting languages 
+![[Pasted image 20230819183328.png]]
+
+#### Hybrid Implementation Process
+- A compromise between compilers and pure interpreters
+- A high-level language program is translated into an intermediate language that allows easy interpretation
+- Faster than pure interpretation since source language statements decode only once 
+
+
+#### Additional compilation terminologies
+**Linking and loading** - process of collection system program units and linking them to a user program 
+**Load module** - the user and system code together
+**Preprocessor** 
+- Preprocessor macros Commonly used to specify that code from another file is to be included 
+- A preprocessor processes a program immediately before the program is compiled to expand embedded preprocessor macros
+
+#### Programming environments 
+- Collection of tools used in software development 
+- Simple - file system, text editor, compiler, interpreter or linker.
+- Extensive - rich set of tools 
+	- Borland Jbuilder
+		- An integrated development environment for Java
+	- Microsoft visual Studio.NET
+		- A large, complex visual .....
+
+
+### Chapter 2 hint 
+
+#### Computter Lnauges History
+
+levenez.com
+
+The history of a programming language 

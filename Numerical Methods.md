@@ -1,8 +1,9 @@
-# Numerical Methods
+
 ## Mathematical Analysis
 Seatwork:
 - SW #1
-
+- SW #2
+- SW #3
 2023-08-12
 ### Numerical systems
 Asst. Prof. Jonathan B. Cabero M,S
@@ -57,10 +58,10 @@ Rolle's theorem
  $$ 3c^2-4=0 $$
  $$\begin{align*} 3c^2&=4 \\ c^2&=\frac{4}{3} \\ c &= \pm \frac {2}{\sqrt{3}}\end{align*}$$
 
-Mean value theorem for Derivatives 
+### Mean value theorem for Derivatives 
 - If f(x) is continous on the (closed and finite) interbal [a,b] and differentiable on (a,b) then 
 
-Mean value theorem -- (f(b) - f(a))/(b-a)
+$$Mean \; Value \; Theorem = \frac {f(b)-f(a)}{b-a}$$
 
 $$ f(x) = x^3, (-2,2) $$
 $$ f(-2) = 8'$$
@@ -79,7 +80,7 @@ $$f(x) = \mathrm e^2 + 4x, (-2,2)$$
 $$ \begin{align*} f'(x) &= \mathrm e^x - 4\\ f'(x) &=0 \\ \mathrm e ^2 - 4&=0 \\ \mathrm e^x&=4 \\ ln(\mathrm e^x &= 4)\\ x &= ln 4\end{align*} $$
 
 2023-08-12
-### Taylor's Formula with (Integral) Remainder
+## Taylor's Formula with (Integral) Remainder
 - if f(x) has n+1 continuous derivatives on [a,b], then for all x element of [a,b]
 
 
@@ -89,12 +90,9 @@ $$R_{n+1}(x)=\frac{1}{n!} \int_{c}^{x} (x-s)^n f^{(n+1)}(s)ds$$
 $$e^x \approx 1 + x + \frac {x^2}{x!} + \frac {x^3}{3!}+...+\frac {x^n}{n!}+...$$
 
 2. $$\begin{align*} f(x) &= ln\;x, \; &c = 12 \\ f(x) &=ln \;x, &f(1)=0 \\ f'(x) &= \frac {1}{x}=x^{-1} \; &f'(1)=1 \\ f''(x) &=-x^{-2} \; &f(1)=-1 \\ f'''(x)&=2x^{-3} \; &f'''(1) =2 \\ f''''(x) &=(-6x)^{-4} \; &f''''(1) =-6  \end{align*}$$
-
-
-![[Pasted image 20230817144605.png]]
-3. $$ f(x)= x^2e^n $$
+3. $$ \begin{align*}&f(x)= x^2e^n \\ &x^2e^n \approx x^2(1+x+\frac {x^2}{2!} + \frac {x^3}{3!} + \frac {x^4}{4!} + ....)\\ &\text{  }\approx x^2+x^3+\frac {x^4}{2} + \frac {x^5}{6} + \frac{x^6}{24} + ..... \end{align*}$$
    $$\begin{align*} x^2e^x \approx x^2(1+x+x^) x\end{align*}$$
-### Taylor's theorem in terms of h 
+## Taylor's theorem in terms of h 
 - If f(x) possesses continuous derivatives of order 0,1,2
 #### The Big O Notation 
 $$\vartheta(h^{n+1}) = R_{n+1}(x)$$
@@ -114,7 +112,7 @@ b.) $$\sqrt {.99999}$$
 $$\begin{align*} \sqrt {.99999} &= \sqrt{1-10^{-5}}\\ &\approx 1-\frac {1}{2}(10^-5) + \frac {1}{4}(10^{-5})^2\\ &\approx .99999999997875 \end{align*}$$
 
 
-### Alternating Series Theorem
+## Alternating Series Theorem
 ![[Pasted image 20230817145440.png]]
 $$\begin{align*} &\text{If } a_1 \geq a_2 \geq ... \geq a_n...0 \text{for all n in } \lim_{n \to n} a_n = 0,\\ &\text{then the alternating series} \end{align*}$$
 $$a_1 - a_2 + a_3 - a_4 + ...$$
@@ -177,6 +175,7 @@ $(a+b)^n = \binom{n}{0}a^nb^0+\binom{n}{1}a^{n-1}b^1+...+\binom{n}{n-1}a^1b^n-1+
 
 Where the binomial coefficient is $\binom{n}{r} = \frac {n!}{r!(n-r)!}$
 The (r+1)th term is $\binom{n}{r}a^{n-r}b^r$
+
 #### Example 
 
 
@@ -201,3 +200,166 @@ $$
 $$
 
 
+2023-08-19
+
+## Error
+- Numerical methods deal with approximation, since its approximation it is prone to error.
+
+2 sources of errors
+- Rounding off errors
+	- deals Significant digits
+		- Takes a meaning that contributes to its accuracy 
+		- often used in connection with rounding
+		- A more general purpose technique than rounding to n decimal place
+- Truncation error
+
+#### Rules 
+1. All non-zero digits are considered significant 
+2. Zeros appearing anywhere between two non-zero digits are significant 
+3. Leading zeros are not significant 
+4.  Trailing zeros in a number containing a decimal point are significant 
+5. The number 0 has one significant digits
+6. The significance of trailing zeros in a number not containing a decimal point can be indefinite. Thus, the following conditions are given:
+	1. A bar may be placed over the last significant figure, any trailing zeros following this are not significant 
+	2. The last significant digit of a number maybe underlined
+	3. A decimal point may be placed after the number 
+Note: in the combination of a number and a unit of measurement, we can easily determine the significant digit by supplying the suitable unit prefix
+
+
+#### Examples 
+
+
+| 2.745 | has four significant digits: | 2,7,4,5 |
+| --- | --- | --- |
+| 20.003 | has five significant digits:  | 2,0,0,0,3 |
+| 0.0021 | has two significant digits: | 2,1 |
+| 0.002100 | has four significant digits: | 2,1,0,0 |
+| 20000 | has three significant digits| 2,0,0|
+|0.201000| has five significant digits | 2,0,1,0,0 |
+|1.05 $10^5$| has three significant digits:  |1,0,5|
+|2.0300 $10^7$| has five significant digits: |2,0,3,0,0|
+
+
+### Measuring errors
+**Error** - normally encountered during the calculation in the numerical analysis
+
+To deal errors considering the following factors
+1. Identification where the error comes from
+2. Quantifying the error 
+3. Minimizing the error as per the needs 
+
+### Sources of error 
+- Error can arise due to several factors
+1. May be in the modelling technique 
+2. May arise from mistakes in programs themselves 
+3. May arise from mistakes in the measurement of physical quantities
+
+**Round off error**
+- Occur because digital computers cannot represent some quantities exactly its value can be calculated by deviating the rounded digits and the exact value. 
+- Two component of round off error involved in numerical calculations:
+	- Digital computers have size and precision limits on their ability to represent the numbers
+	- Certain numerical manipulation are highly sensitive to round off errors.
+
+**Truncation error**
+- Caused by truncating a mathematical procedure. That is, replacing an infinite process by a finite one. 
+- Its value can also be calculated by getting the deviation between the exact vale and its approximate value
+#### Examples 
+$$\epsilon = 10^4$$
+$$e^{0.5} \approx 1.648721  $$
+$$e^x \approx 1+x+ \frac{x^2}{2}+ \frac{x^3}{3!}+\frac{x^4}{4!}+\frac{x^5}{5!}+$$
+$$n=5$$
+
+
+$$ \begin{align*}e^0.5 &\approx 1 + 0.5 + \frac {.5^2}{2} +\frac {.5^3}{3!}+ \frac {.5^4}{4!}+\frac {.5^5}{5!} \\ &\approx 1.6487 \end{align*}$$
+$$n=4$$
+$$\begin{align*} e^.5 &\approx 1+0.5 + \frac{.5^2}{2!} +\frac{.5^3}{3!} +\frac{.5^4}{4!} \\ &\approx 1.6484\end{align*}$$
+
+
+The rounding off error is 
+$e^{.5} - 1.648721$
+
+The Truncating error is 
+$n=2$
+$e^x-1+x+\frac{x^2}{2} = \frac{x^3}{3!}+ \frac{x^4}{4!}+\frac{x^5}{5!}+...+\frac{x^n}{n!}+.+R_{n+1}$
+
+
+#### True error and Relative error
+- One of the most common error that we encountered during numerical calculation is the true error which is  just the deviation between the true or exact value and the approximate value, i.e,
+
+TrueError = TrueValue - ApproximateValue 
+
+The relative true error which is the ratio between the true error and the true value, i.e,
+
+$$RelativeError = \frac{TrueError}{TrueValue}$$
+#### Example
+
+6th picture
+$$\begin{align*}f(x)=\sqrt{x}=x^{\frac{1}{2}}  \;\;,x=5 \end{align*}$$
+$$f'(x)=\frac {1}{2}x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}$$
+$$f'(x) = \frac {1}{2\sqrt{5}}=$$
+$$f'(x)= \lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$
+$$f'(x)\approx \frac{f(x+h)-f(x)}{h}, \;\; h=0.1, \;\; x=5$$
+$$f'(5) \approx \frac{\sqrt{5.01}-\sqrt{5}}{.01}\approx$$
+
+$$\text{The true value is}$$
+7th picture 
+
+AE- absolute error
+RE - relative error 
+
+#### Approximate error 
+
+8th picture 
+
+
+#### Example
+
+9th picture 
+
+
+#### Relative Appriximate Error 
+- Defined as the ratio between the approximate error and the rpresent approximation 
+$$RelativeApproximateError$$
+9th picture 
+
+##### Example 
+10th picture 
+
+#### Tolerance 
+- 11th picture 
+- We can use the approximate error to minimie the error when solving mathematical model using numerical methods by calculating the relative approximate error at thte end of every iteration 
+- We can pre-specify a nimimum acceptable tolerance called the pre-specified tolerance
+- If the value of absolute relative apprximate error is at the most pre-specified tolerance then the acceptable error has been reahed and no more iteration would be needed. Otherwise 
+
+## Number Representation 
+### Octal and Hexadecimal representation 
+- First Year and 2nd Year 
+### Normalized Floating-point Representation 
+
+12th picture 
+
+#### Examples 
+
+13th picture 
+
+$-18.25 \text{ has representation } -0.1825
+
+
+### Machine numbers 
+- A Machine number for a calculator is a real number that it stores exactly normalized floating-point form. 
+- A nonzero x is a machine number 
+- 14th picture 
+#### Example 
+
+15th picture 
+
+### Decimal System 
+16th picture 
+
+
+
+
+
+
+
+# Kitang kita ako eh 
