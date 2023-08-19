@@ -23,5 +23,12 @@
     "editor:toggle-keyboard",
     "editor:configure-toolbar",
     "insert-current-date"
-  ]
+  ],
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
