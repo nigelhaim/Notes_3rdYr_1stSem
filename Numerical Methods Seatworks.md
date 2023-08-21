@@ -1,5 +1,5 @@
 
-Seatwork #1 - 2023-08-12
+## Seatwork #1 - 2023-08-12
 
 Find the suitable value for c that satisfies the conclusion of Rolle's Theorem or Mean Value Theorem 
 
@@ -34,7 +34,7 @@ $$ \begin{align*} 2c&=0\\ c&=0\end{align*} $$
 
 
 
-Seatwork #2 - 2023-08-17
+## Seatwork #2 - 2023-08-17
 
 Write the approximate polynomial of the following transcendental functions using the Maclaurin's series of approximation 
 1. $$f(x) = e^{-2x}$$
@@ -50,7 +50,7 @@ $$\text{There the approximate polynomial}$$
 $$\begin{align*} p(x) &= f(0) + (x-0) \frac {f'(0)}{1!} + (x-0)^2 \frac{f''(0)}{2!} + (x-0)^3 \frac {f'''(0)}{3!} +...\\ &= 0+1*x-\frac{1}{2} * x^2 + \frac{2}{6}* x^3 + ... \\ &=x-\frac {x^2}{2} + \frac {x^3}{3} +...  \end{align*}$$
 
 
-Seatwork #3 - 2023-08-17
+## Seatwork #3 - 2023-08-17
 
 use the binomial theorem to expand and simplify the expression 
 
@@ -217,3 +217,89 @@ $$=1-\frac {5}{x}+\frac {10}{x^2} - \frac {10}{x^3} + \frac {5}{x^4} - \frac {1}
 </center>
 $$\begin{align*} &1(2)^6(-\frac{1}{2x})^0 + 6 (2)^5(-\frac{1}{2x})^1+15(2)^4(-\frac{1}{2x})^2+20(2)^3(-\frac{1}{2x})^3+\\&15(2)^2(-\frac{1}{2x})^4+6(2)^1(-\frac{1}{2x})^5+1(2)^0(-\frac{1}{2x})^6 \end{align*}$$
 $$ =64-\frac{96}{x}+\frac {60}{x^2}+ \frac {20}{x^3} + \frac {15}{4x^4} - \frac {3}{8x^5} + \frac {1}{64x^6}$$
+
+## Seatwork #4 - 2023-08-21
+Find the a.) True error, b.) relative true error, c.) absolute relative true error, e.) relative approximate error of the following 
+
+Level of tolerance $10^6$
+
+1. The derivative of $f(x)=x^3+2x+1$ at $x=0.5$ when 
+	a. $h_1 = 0.005$
+	b. $h_2 = 0.001$
+
+###### $h_1=0.005$
+
+**True Error**
+$$ f(x)=x^3+2x+1 \;, x=0.5 $$
+$$f'(x)=3x^2+2$$
+$$f'(x)=\lim_{h\to0} = \frac{f(x+h)-f(x)}{h}$$
+$$f'(x)=\lim_{h\to0}\approx \frac{f(x+h)-f(x)}{h}\;,h=0.005\;,x=0.5$$
+$$f'(x)=\lim_{h\to0}\approx \frac{f(0.5+0.005)-f(0.5)}{0.005}$$
+$$f'(x)=\lim_{h\to0}\approx \frac{f(0.505)-f(0.5)}{0.005}$$
+$$\approx \frac{(0.505^3+2(0.505)+1)-(0.505^3+2(0.505)+1)}{0.005}$$
+
+$$f(0.505)=0.505^3+2(0.505)+1 = 2.138787625$$
+$$f(0.5)=0.5^3+2(0.5)+1 = 2.125$$
+$$\approx 2.767525$$
+**Absolute Error**
+$f'(x)=3x^2+2$
+$$\begin{align*} \text{Absolute Error} &= | f'(x) - \frac{f(x+h)-f(x)}{h} |\\ &=|f'(0.5)-\frac{f(0.5+0.005)-f(0.5)}{0.005}|\\&=|(3(0.5)^2+2)-\frac{(0.505^3+2(0.505)+1)-(0.505^3+2(0.505)+1)}{0.005}|\end{align*}$$
+$$f'(0.5) = 3(0.5)^2+2=2.75$$
+$$\text{Absolute Error } = |-\frac {301}{4000}|$$
+**Relative True Error**
+
+$$\begin{align*}\text{Relative True Error}&=\frac {Absolute \; Error}{True \;Value}\\&= \frac{|(3(0.5)^2+2)-\frac{(0.505^3+2(0.505)+1)-(0.505^3+2(0.505)+1)}{0.005}|}{0.5^2+2}\end{align*}$$
+$$=1$$
+
+###### $h_2 = 0.001$
+**Approximate Error**
+
+$$\begin{align*}\text{Approx Error} &= |\frac{f(x+h_2)-f(x)}{h_2} - \frac{f(x+h_1)-f(x)}{h_1}|\\&=|\frac{f(0.5+0.001)-f(x)}{0.001} - \frac{f(0.5+0.005)-f(9.5)}{0.005}|\end{align*}$$
+$$=|\frac{(0.501^3+2(0.501)+1)-(0.5^3+2(0.5)+1)}{0.001}-\frac{(0.505^3+2(0.505)+1)-(0.505^3+2(0.505)+1)}{0.005}|$$
+$$f(0.501) = 0.501^3+2(0.501)+1 = 2.1277510501$$
+$$f(0.5)=0.5^3+2(0.5)+1 = 2.125$$
+$$=24.8392575$$
+
+**Relative Approximate Error**
+
+$\text{Relative Approximate Error} = \frac{|\frac{f(x+h_2)-f(x)}{h_2} - \frac{f(x+h_1)-f(x)}{h_1}|}{\frac{f(x+h_2)-f(x)}{h_2}}$
+$$=\frac{|\frac{f(0.5+0.001)-f(x)}{0.001} - \frac{f(0.5+0.005)-f(9.5)}{0.005}|}{\frac{f(0.5+0.001)-f(x)}{0.001} }$$
+$$=\frac{|\frac{(0.501^3+2(0.501)+1)-(0.5^3+2(0.5)+1)}{0.001}-\frac{(0.505^3+2(0.505)+1)-(0.505^3+2(0.505)+1)}{0.005}|}{\frac{(0.501^3+2(0.501)+1)-(0.5^3+2(0.5)+1)}{0.001}}$$
+
+$$=0.902752988$$
+2. The Derivative of $f(x)=(x^2+3)^3 \; at \; x=3$ when
+	a. $h_1=0.01$
+	b. $h_2=0.0001$
+
+##### $h_1 = 0.01$
+**True Error**
+
+$$f(x)=(x^2+3)^3 \; at \; x=3 $$
+$$f'(x) = 6x(x^2+3)^2$$
+$$f'(x)=\lim_{h\to0} \frac {f(x+h)-f(x)}{h} \;, h=0.001 \;, x=3 $$
+$$\approx \frac{f(3.01) - f(3)}{0.01}$$
+$$f(3.01) = (3.01^2 + 3)^3 = 1754.093449$$
+$$f(3) = (3^2 + 3)^3 = 1728$$
+$$\approx 2609.344943$$
+**Absolute Error**
+$$f'(x)=6x(x^2+3)^2$$
+$$\text{Absolute Error} = | f'(x) - \frac{f(x+h)-f(x)}{h} |$$
+$$=|f'(3)- \frac{f(3.01) - f(3)}{0.01}|$$
+
+$$f'(3)=6(3)((3)^2+3)^2=2592$$
+$$=|-17.344944|$$
+**Relative True Error**
+$$=\frac{ |f'(3)- \frac{f(3.01) - f(3)}{0.01}|}{\frac{f(3.01) - f(3)}{0.01}}$$
+$$=-6.69172222*10^{-03}$$
+
+##### $h_2=0.001$
+**Approximate Error**
+$$Approx \; Error = |\frac{f(3.001)-f(3)}{0.001} - \frac{f(3.01) - f(3)}{0.01}|$$
+$$f(3.001)=(3.001^2+3)^3 = 1730.593729$$
+$$f(3)=(3^2+3)^3 = 1728$$
+$$\approx -15.6129586$$
+**Relative Approximate Error**
+$$Relative Approx Error = \frac{|\frac{f(3.001)-f(3)}{0.001} - \frac{f(3.01) - f(3)}{0.01}|}{\frac{f(3.001)-f(3)}{0.001}}$$
+
+
+$$=-5.984787178*10^{-3}$$

@@ -298,13 +298,13 @@ $$f'(x)=\frac {1}{2}x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}$$
 $$f'(x) = \frac {1}{2\sqrt{5}}=$$
 $$f'(x)= \lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$
 $$f'(x)\approx \frac{f(x+h)-f(x)}{h}, \;\; h=0.1, \;\; x=5$$
-$$f'(5) \approx \frac{\sqrt{5.01}-\sqrt{5}}{.01}\approx$$
 
 $$\text{The true value is}$$
-7th picture 
-$$e^.5-1.648721$$
-$$Absolute \; Error = |\frac {1}{2\sqrt{5}} - \frac{\sqrt{5.01}-\sqrt{5}}{.05}|$$
-$$Relative \; Error = \frac {|\frac{1}{2\sqrt{5}}-\frac{\sqrt{5.01}-\sqrt{5}}{0.5}|}{\frac{1}{2\sqrt{5}}}$$
+$$f'(5) \approx \frac{\sqrt{5.01}-\sqrt{5}}{.01}\approx$$
+
+
+$$Absolute \; Error = |\frac {1}{2\sqrt{5}} - \frac{\sqrt{5.01}-\sqrt{5}}{.01}|$$
+$$Relative \; Error = \frac {|\frac{1}{2\sqrt{5}}-\frac{\sqrt{5.01}-\sqrt{5}}{0.1}|}{\frac{1}{2\sqrt{5}}}$$
 
 
 #### Approximate error 
@@ -320,7 +320,7 @@ $$h=0.001$$
 $$f'(5)\approx \frac{\sqrt{5.001}-\sqrt{5}}{0.001}$$
 $$Approx \; Error = |\frac{\sqrt{5.001}-\sqrt{5}}{0.001} - \frac{\sqrt{5.01}-\sqrt{5}}{0.01}|$$
 
-#### Relative Appriximate Error 
+#### Relative Approximate Error 
 - Defined as the ratio between the approximate error and the present approximation 
 $$RelativeApproximateError = \frac{Approximate \; Error}{Present \; Approximation}$$
 ##### Example 

@@ -13,19 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods Seatworks.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "7130b40eef78040b",
+        "type": "tabs",
+        "children": [
           {
-            "id": "81070e2cad86e901",
+            "id": "eacd91c416c7ab46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods SW.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -97,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods Seatworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods Seatworks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web and mobile programming.md"
+                "file": "Numerical Methods Seatworks.md"
               }
             }
           }
@@ -162,17 +169,17 @@
   "active": "21f4efdf360a616e",
   "lastOpenFiles": [
     "Numerical Methods.md",
-    "Programming languages.md",
+    "Numerical Methods Seatworks.md",
     "Web and mobile programming.md",
+    "Software Engineering I.md",
+    "Untitled.canvas",
+    "Programming languages.md",
     "Media/Pasted image 20230819180832.png",
     "Media/Pasted image 20230819183328.png",
     "Media/Pasted image 20230817150138.png",
     "Media/Pasted image 20230817145349.png",
     "Media/Pasted image 20230817145236.png",
-    "Numerical Methods SW.md",
-    "Software Engineering I.md",
     "Ethics.md",
-    "Untitled.canvas",
     "Concepts-of-Programming-Languages.pdf",
     "Data warehousing.md",
     "Media/Pasted image 20230817135027.png",
