@@ -303,3 +303,44 @@ $$Relative Approx Error = \frac{|\frac{f(3.001)-f(3)}{0.001} - \frac{f(3.01) - f
 
 
 $$=-5.984787178*10^{-3}$$
+
+
+## Seatwork #5 - 2023-08-21
+Reciprocal the following into floating point binary format given that the number is written into 10 bits. The first two bits represents the magnitude of mantissa and the remaining 3 bits represents the magnitude of the exponent.
+
+
+1. 99.123
+
+| Sign | Exponent | Mantissa | 
+| --- | --- | ---|
+| 00 | 101 | 11011| 
+**0010111011**
+
+2. 49.324
+
+| Sign | Exponent | Mantissa | 
+| --- | --- | ---|
+| 00 | 101 | 01100 |
+**0010101100**
+
+3. -57.214
+
+| Sign | Exponent | Mantissa | 
+| --- | --- | ---|
+| 10 | 101 | 10000 |
+**1010110000**
+
+4. 0.9134
+
+| Sign | Exponent | Mantissa | 
+| --- | --- | ---|
+| 00 | 001 | 00011 |
+**0000100011**
+
+5. -0.6543
+
+| Sign | Exponent | Mantissa | 
+| --- | --- | ---|
+| 10 | 001 | 00010 |
+**1000100010**
+
