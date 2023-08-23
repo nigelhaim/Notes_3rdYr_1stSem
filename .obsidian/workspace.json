@@ -13,25 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "7130b40eef78040b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eacd91c416c7ab46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Numerical Methods.md",
+                "file": "Ethics.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods Seatworks.md"
+                "file": "Ethics.md"
               }
             }
           }
@@ -166,10 +148,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21f4efdf360a616e",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Numerical Methods.md",
+    "Untitled.md",
+    "Ethics.md",
     "Numerical Methods Seatworks.md",
+    "Numerical Methods.md",
     "Web and mobile programming.md",
     "Software Engineering I.md",
     "Untitled.canvas",
@@ -179,7 +163,6 @@
     "Media/Pasted image 20230817150138.png",
     "Media/Pasted image 20230817145349.png",
     "Media/Pasted image 20230817145236.png",
-    "Ethics.md",
     "Concepts-of-Programming-Languages.pdf",
     "Data warehousing.md",
     "Media/Pasted image 20230817135027.png",
@@ -188,7 +171,6 @@
     "Media/Pasted image 20230817150124.png",
     "Media/Pasted image 20230817145906.png",
     "Media/Pasted image 20230817145820.png",
-    "Untitled.md",
     "Test table.md",
     "Untitled 1.canvas",
     "2023-08-15.md",
