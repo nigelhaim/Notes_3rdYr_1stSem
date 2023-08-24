@@ -368,3 +368,32 @@ $\frac{1}{15}  \; has \; representation \; (\frac{1}{15}*8)*2^{-3}(M=\frac{8}{15
 
 ### Decimal System 
 No available notes 
+
+
+2023-08-24
+
+## Solution of Equation 
+**Iterative method**
+- The solution of a problem by successive approximation is often the simplest method
+- A machine will shifty and accurately carry out routine calculations repeated over and over again until an answer of sufficient accuracy is obtained
+
+Example 
+1. Find $\sqrt{8}$ by iteration , $\epsilon = 10^6$
+Solution: 
+$$\sqrt{8} = 2.828427$$
+$$\begin{align*} \frac{8}{3} &= 2.666667 \\ \frac{3+2.6666667}{2} &= 2.8333333 \\ \frac{8}{2.83333333} &= 2.823529 \\ \frac{2.8333333+2.823529}{2} &= 2.828430 \\ \frac{8}{2.828430} &= 2.828424\end{align*}$$
+
+
+Iteration formula of the square root of a certain number 
+$$x_{k+1} = \frac{1}{2}(x_k + \frac{n}{x_k})$$
+
+2. Find the fraction representation near 0.234567 , $\epsilon = 10^{-6}$
+Solution:
+$$\frac{1+1}{5+4} = \frac{2}{9} = 0.22222 \downarrow$$
+$$\frac{1+2}{4+9}= \frac{3}{13}=.230777\downarrow$$
+$$\frac{1+3}{4+13} = \frac{4}{17} = 0.235294\uparrow$$
+$$\frac{4+3}{17+13} = \frac{7}{30} = .2333333\downarrow$$
+$$\frac{7+4}{30+17} = \frac{11}{47} = 0.234042\downarrow$$
+$$\frac{11+4}{47+17} = \frac{15}{64} = 0.234375\downarrow$$
+$$\frac{15+4}{64+17} = \frac{19}{81} = 0.234567\uparrow$$
+ 

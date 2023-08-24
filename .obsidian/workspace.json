@@ -4,28 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "d5daacbd66da88cb",
+        "id": "adf0c92571480f59",
         "type": "tabs",
         "children": [
           {
-            "id": "21f4efdf360a616e",
+            "id": "fab5a92f316a9977",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming languages.md",
-                "mode": "source",
+                "file": "Numerical Methods.md",
+                "mode": "preview",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "8369f77c44fdb475",
+        "type": "tabs",
+        "children": [
           {
-            "id": "0611c5b07e42c7a6",
+            "id": "9ce7e3299a72a1a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -97,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming languages.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming languages.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming languages.md"
+                "file": "Numerical Methods.md"
               }
             }
           }
@@ -159,30 +166,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21f4efdf360a616e",
+  "active": "9ce7e3299a72a1a2",
   "lastOpenFiles": [
+    "Pasted image 20230824151218.png",
+    "Media/Pasted image 20230824143808.png",
     "Untitled.md",
-    "Programming languages.md",
-    "Untitled 1.md",
-    "Pasted image 20230824134455.png",
-    "Ethics.md",
-    "Numerical Methods Seatworks.md",
     "Numerical Methods.md",
+    "Media/Pasted image 20230824144451.png",
+    "Media/Pasted image 20230824144422.png",
+    "Media/Pasted image 20230824144402.png",
+    "Media/Pasted image 20230824144322.png",
+    "Media/Pasted image 20230824144257.png",
+    "Media/Pasted image 20230824144222.png",
+    "Media/Pasted image 20230824144156.png",
+    "Media/Pasted image 20230824143958.png",
+    "Media/Pasted image 20230824143905.png",
+    "Programming languages.md",
+    "Numerical Methods Seatworks.md",
+    "Untitled 1.md",
+    "Ethics.md",
     "Web and mobile programming.md",
     "Software Engineering I.md",
     "Untitled.canvas",
-    "Media/Pasted image 20230819180832.png",
-    "Media/Pasted image 20230819183328.png",
-    "Media/Pasted image 20230817150138.png",
-    "Media/Pasted image 20230817145349.png",
-    "Media/Pasted image 20230817145236.png",
     "Concepts-of-Programming-Languages.pdf",
     "Data warehousing.md",
-    "Media/Pasted image 20230817135027.png",
     "Media",
-    "Media/Pasted image 20230817150611.png",
-    "Media/Pasted image 20230817150124.png",
-    "Media/Pasted image 20230817145906.png",
     "Test table.md",
     "Untitled 1.canvas",
     "2023-08-15.md",
