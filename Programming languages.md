@@ -244,11 +244,158 @@ OOP
 	- Microsoft visual Studio.NET
 		- A large, complex visual .....
 
+08-25-2023
+### Chapter 2 Evolution of the Major Programming Languages 
 
-### Chapter 2 hint 
-
-#### Computter Lnauges History
+#### Computer Languages History
 
 levenez.com
 
 The history of a programming language 
+![[Pasted image 20230824134455.png]]
+
+
+#### UMBC CMSC 331
+##### History of Programming languages 
+**History**
+- Tries to details the programming languages of history 
+- from 1940s to early 2000s 
+**Early History: First Programmers**
+- Ada Lovelace - First programmer 
+	- First lady programmer 
+- Konrad Zuse and Plankalkul 
+- 1940s: Von Neumann and Zuse 
+	- Konrad Zuse (Plankalkul)
+
+
+#### 1950
+##### First Compiling system
+- 1950-1953
+- **Grace Hopper and her team at UNIVAC**
+	- Started the name of Hex
+	- Developed a "compilijng sytem"
+	- Written in a type of psuedocode then expanded to machine code 
+
+##### Progress in Generality 
+- 1950
+
+##### Speedcode system 
+**Support for Floating point operations**
+- **John Backus**
+	- DNF 
+	- Promoters of using a convention where we can define the grammar of a language 
+
+##### First Real Compiler? 
+- **Alick E. Glennie**
+	- Mark I one of the first compilers 
+	- Manchester (Europe)
+- **Laning and Zierler**
+	- MIT 
+	- Developed an algebraic translation 
+
+##### Fortran
+- 1954
+- **IBM 704**
+	- Provide hardware for indexing and floating point instructions 
+- **John Backus and group at IBM**
+	- Provide efficiency of hand-coded programs
+	- Implementation began in 1955
+	- Released in 1957 as Fortran I 
+	- Provide the first version of the compiler and d error checking
+
+##### Artificial Intelligence 
+**Mid 50s**
+- Interest in AI emerged 
+	- Natural language processing 
+	- Human brin processes 
+	- Mechanizing certain intelligent processes such as theorem proving 
+		- Processing symbolic data in lists that could be easily manipulated
+
+#####  AI and Fortran
+- Mid 50s
+- **IBM**
+	- The forefront of microcomputers 
+	- FLPL (Fortran List Processing Language)
+		- Extension to the Fortran compiler
+			- Used to construct a theorem prover for plane geometry 
+
+##### First AI Programming Language 
+**IPL - information processing language**
+- 1956
+- **Allen Newell, J.C. Shaw, Herbert Simon**
+	- Published a description of one of the first AI Languages 
+		- IPL-1
+			- Information Processing Language 
+##### Business Domain 
+- 1957
+- FLOW-MATIC
+	- Business oriented language for the UNIVAC
+		- Mathematical programs should be written in mathematical notation, data processing programs should be written in English statements (Grace Hopper 1953)
+- **COBOL 60 (1959)**
+	- Common Business Oriented Language 
+		- Design Goals 
+			- Use English 
+			- Easy to use 
+			- Not be overly restricted by problems 
+		- Characteristics 
+			- DEFINE verb for Macros 
+			- Records 
+			- Data Division and procedure division
+
+##### Fortran Progresses 
+- 1958
+- **Fortran II compiler**
+	- Bug fixes 
+	- Independent compilation of subprograms 
+		- Made lengthier programs possible 
+
+
+##### LISP
+**List Processing**
+- 1959
+- A functional language
+- Dominated for a decade 
+- Originally interpreted 
+- Decedents 
+	- Scheme 
+	- COMMON LISP 
+- Related Language - ML (Machine Language)
+- **John McCarthy and Marvin Minsky**
+	- Produced a system for list processing 
+	- Promoted HCI and AI 
+	- John McCarthy - The father of AI 
+
+##### Expert System
+- Try to imitate the human brain 
+- Pickup points through questions and choices and finding a conclusion based on the answers given 
+- Pattern of a tree
+- When you look at the pattern itself it will have some Segway
+
+#### 1960
+
+#####  Progress of AI 
+- 1960
+- **Newwell and Tonge**
+	- IPL-V
+		- Demonstrated that list processing was feasible and useful
+		- Actually an assembly language implemented in an interpreter with list processing instructions for the Johnniac machine 
+		- Johnniac machine - Named after John Bakus 
+		- More on list processing and not on scientific
+- **ALGOL 60**
+	- New additions 
+		- Block structure concept 
+		- Pass by value and pass by name 
+		- Recursive procedures 
+		- Stack-dynamic arrays 
+	- Decedents 
+		- PL/1, SIMULA 67, Pascal, Ada, C++ and Java
+
+##### APL and SNOBOL
+- 1960
+- **APL**
+	- Kenneth Iverson at IBM
+	- Designed for describing  computer architecture 
+- **SNOBOL**
+	- Designed for text processing 
+	- collection of powerful operations for string pattern matching 
+- **Common features**
