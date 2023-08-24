@@ -269,3 +269,82 @@ Critical Morality
 - Questionable agreements
 - Application of logic 
 - Open and accepting of changes 
+
+
+08-24-2023
+
+#### Moral Intuitions as Moral Starting Points 
+
+- Moral Intuitions are not mere gut-feelings or emotions. 
+- These are not feelings of instincts 
+- Basic ethical assumptions reasonably backed up by observation, argumentation, and inquiry 
+	- Observing the world before assumption 
+	- Intellectual capacities 
+- Fundamental in that they are either logically derived or apriori true.
+	- **apriori** - Prior to the experience
+	- You don't need to experience something (bad) to know how it feels. Example is agony 
+	- Why would you inflict pain without justification? 
+- starting point governing everyday ethical decision making
+- Also known as moral principles.
+
+#### List of Moral Intuitions or principles
+**(Ogien, 2015; Sahfer-Landau, 2018)**
+- Neither the law nor tradition is immune from moral criticism
+	- There is no Perfect law/tradition
+- Everyone is morally fallible
+	- No human being is perfectly reasonable 
+	- Lets be forgiving, but if it keeps on going then we must do something about it
+- Friendship is valuable but is not the only moral good
+	- We can learn from people close to us, but it is not the prime source of moral excellence
+	- Friendship also covers close ties like family
+	- Do not get easily swayed by the voices close to you 
+- We are not obligated to do the impossible/Ought implies can
+	- Morality is based on capacities 
+	- Extreme selflessness 
+- Children bear less moral responsibility than adults
+	- Let children be mature 
+	- When ready let them decide for themselves 
+- Justice is a very important moral good 
+- Deliberately hurting other people requires justification 
+	- No pain without reason 
+- Equals ought to b treated equally/Like cases must be treated alike
+	- Whoever in your home you must be the same outside 
+	- All cases must be treated alike 
+- Self-interest is not the only ethical consideration 
+	- A problem if self-interest becomes self-indulgence 
+	- Hindi lang ikaw ang pinraprioritize yung sarili mo
+- Agony is bad 
+	- No extreme pain will be inflicted to a person
+- Might not make right
+	- People in authority are not the only ones who dictate the right and wrong 
+	- Power is not the basis of ethicality 
+- Free and informed requ4ests/consent prevent rights violations. 
+	- Seek consent 
+	- Allow people decide for themselves 
+	- If we need help from them say in research 
+
+#### Traits or Moral Principles 
+- **Prescriptivity** 
+	- They are prescriptive and normative
+	- They apply to all 
+	- Done by anyone and everyone 
+- **Universalizability**
+	- Applied to all situations and cases
+	- No one is excluded from exercising moral principles 
+	- Everyone affects everyone based on behavior 
+- **Overridingness**
+	- Contradictions 
+	- Problematic law
+		- Law in the Philippines that extinguishes rape under marriage
+		- Using marriage to get away from raping
+		- Theft is not considered when the thief is in the same blood
+		- You can be imprisoned when you stole someone's fruit even if the branch is in your boundaries
+		- Women who committed adultery has lighter punishment than men
+- **Publicity**
+	- How we compose in private then we compose them in public 
+	- Respect is for everyone 
+- **Practicability**
+	- All principles are doable and workable 
+	- Do not require extreme selflessness
+	- Capacity dictates morality 
+
