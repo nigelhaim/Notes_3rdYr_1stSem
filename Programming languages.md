@@ -295,6 +295,7 @@ The history of a programming language
 
 ##### Fortran
 - 1954
+- First ever formal programming language 
 - **IBM 704**
 	- Provide hardware for indexing and floating point instructions 
 - **John Backus and group at IBM**
@@ -399,3 +400,172 @@ The history of a programming language
 	- Designed for text processing 
 	- collection of powerful operations for string pattern matching 
 - **Common features**
+
+
+2023-08-26
+
+##### ShortCode
+- 1949
+- **John Mauchly**
+
+##### Amid the strife of war 
+- 19366-1945
+- Konrad Zuse (Tsoo-zuh)
+	- Series of complex computers form electromechanical relays
+	- Developed a language called plankalkul for expressing computations 
+
+#### Progress in AI
+- 1960
+- Newell and Tonge
+	- IPL-V
+		- Demonstrated that list processing waws feasible and useful 
+		- 
+##### ALGOL 60
+- 1960
+- **ALGOL 60**
+	- Formally described using Backus-Naur Form
+
+#####  APL and SNOBOL 
+- APL
+	- Made by IBM Kenneth Herson Designed for describing architecture 
+- SNOBOL
+	- Designed for text processing Collection of powerful operations for string pattern matching 
+	- DJ Fetcher ER Grinworld and IP Pionsky of Bell Labs 
+- Common Features 
+	- Not based on previous languages 
+	- Dynamic typing hence storage allocation 
+##### FORTRAN IV
+- 1962
+- **Fortran IV**
+	- One of the most widely used PLs
+	- Explicitly type declarations for variables 
+	- Logical if construct 
+	- Capability of passing subprogram as parameters 
+- 1966
+	- Fortran 66 - its standardized form
+
+##### BASIC
+- 1963
+- Beginners all purpose singe instruction code 
+- John Kenney and Thomas Kutz
+
+#### PL/1
+**Singe universal language**
+- 1964
+- Punch cards
+
+##### SIMULA 67
+- Simulation language 
+- Kristen Nygaard and ole-Johan Dahl
+- Constructors and class definition was introduced
+#### 1970
+- Pascal
+- C
+- Prolog
+- Scheme
+- Fortran 77
+- Ada
+
+##### Pascal
+- In honour of blaise Pascal
+- Niklaus Wirth
+- Developed based on ALGOL 60
+	- Primarily used as a teaching language
+	- Lacked essential features for many apps which led to non-standard dialects such as Turbo pascal 
+
+##### C
+- 1972
+- Dennise Ritchie (Kerning Ham and Ritchie)
+- Developed the C language 
+	- Heritage was 
+		- CPL
+		- BCPL
+- Predecessor: Pascal
+- The development of OOP
+
+##### Logic Languages (Domain)
+- 1975
+- Supporters of AI 
+- Rule based 
+- Philippe Roussel
+	- Described Prolog 
+##### Ada
+- In honor of Agusta ada 
+
+##### SCHEME
+- 1975
+- MIT
+	- scheme
+		- Small size
+		- Exclusive use of static scoping 
+
+#####  Fortran 77
+- 1978
+- Character String handling 
+- "Fortran is the lingua franca of the programming world"
+	- Alan Perlis
+
+#### 1980
+
+##### Smalltalk
+- 1980
+- Alan kay who predicted computer "desktop" windowing environment
+- Developed the first language that fully supported OOP as part of the Xerox Palo Alto Research Center group
+	- Changed with task of designing a language to support Kay's vision
+	- Objects and message passing
+
+##### MetaLanguage 
+- 1980s
+- Robin miner
+	- ML (MetaLanguage)
+
+##### LISP
+- 1984
+- Designed to combine features of a number of different dialects of LISP that were developed during the 70s and 80s 
+- Large and complex 
+- Allows both dynamic and static scoping 
+- Basis is pure lisp 
+- Linked list
+- Arguments
+
+##### Miranda
+- 1984
+- David Turner
+- Based on ML, SASL, and KRC
+- Functional, no variables, no assignment statement Haskell is based on the language 
+
+##### Short Circuit Evaluation
+```
+	If C1 and C2 or C3
+		Then A1
+		else A2
+```
+If the statement is already true/false then we do not need further evaluation since we can further continue the program (AND/OR)
+
+##### C++
+- Provide the language with classes and inheritance
+- the mature implementation of OOP 
+- Progression started in the 1980s to the middle of 1985
+
+#### 1990s
+##### Fortran 90
+- 1990
+- Records
+- Pointers
+-  Dynamic arrays
+- Multiple selection statement 
+- Modules 
+- Recursion 
+- Dropped fixed format of code requirements 
+- Fortran vs FORTRAN
+- Convertion - keywords & Identifiers in uppercase
+
+##### Java
+- Created by using C
+- Capacity to adapt applications on the net 
+
+##### Scripting language 
+- Sh (Shell) - a small collection of commands interpreter as calls to system subprogram s perform utility 
+- Awk - AL Aho, Brian Beringhan, Peter Weinberger
+- TCL- John Oustershout 
+- Perl - Larry Wall - Designed as a UNI tool processing text files. Common Gateway interface language 

@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7fe00a5fa5b67589",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming languages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a3e03974edcdae5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Programming languages.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,16 +131,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fe00a5fa5b67589",
+  "active": "a3e03974edcdae5a",
   "lastOpenFiles": [
+    "Software Engineering I.md",
+    "Numerical Methods.md",
+    "Web and mobile programming.md",
+    "Numerical Methods Seatworks.md",
+    "Programming languages.md",
     "Pasted image 20230819183328.png",
     "Pasted image 20230819180832.png",
-    "Software Engineering I.md",
-    "Programming languages.md",
-    "Numerical Methods.md",
     "Numerical Methods SW.md",
     "Data warehousing.md",
-    "Web and mobile programming.md",
     "Ethics.md"
   ]
 }

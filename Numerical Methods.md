@@ -396,4 +396,67 @@ $$\frac{4+3}{17+13} = \frac{7}{30} = .2333333\downarrow$$
 $$\frac{7+4}{30+17} = \frac{11}{47} = 0.234042\downarrow$$
 $$\frac{11+4}{47+17} = \frac{15}{64} = 0.234375\downarrow$$
 $$\frac{15+4}{64+17} = \frac{19}{81} = 0.234567\uparrow$$
- 
+
+
+2023-08-26
+
+## Solution of Equation 
+**Iteration method**
+- The simplest method
+- A machine will shiftly and accurately carry out routine calculations repeated over and over again until a sufficient answer occur 
+
+### Fixed-point Method
+if  is a continuous function on the interval [a,b] for all $x \epsilon [a,b]$, then $g(x)$ has fixed point in [a,b]. Suppose in addition, that $g'(x)$ exist on (a,b), and a positive constant $k<1$ exists with $|g'(x)|\le k <1$ for all $x\epsilon (a,b)$. Then the fixed point in [a,b] is unique.
+
+
+### Iteration method
+**Procedures**
+
+1. Choose an initial approximation $x_0$ such that $x_0 \epsilon [a,b]$ ( The numbers inside your brackets are limits)
+2. Choose a convergence parameter $ \epsilon > 0 $
+3. Compute a new approximation $z_{new}$ using iterative formula 
+4. check if $|x_{new} -x_0|<\epsilon then x_{new}$ is the desired approximation root; otherwise set $x_0=x_{new}$ and go to step 3
+
+
+### To approximate the fixed point 
+- To approximate the fixed point of a function g, we choose an initial approximation $p_0$ and generate the sequence ${p_n}^{\infty}_{n=0}$ by letting $p_n =g(p_{n-1})$ for each $n\geq1$. If the sequence converges to p and g is continuous, then 
+- $p = \lim_{n\to \infty}p_n=\lim_{n\to \infty}g(p_{n-1})=(\lim_{n\to \infty}p_{n-1}) =g(p)$
+
+
+### Graph 
+
+pic 4
+
+
+#### Example 
+$$x^2 + x-1$$
+$$\begin{align*}x^2+x&=1\\x(x+1)&=1\\x_{n+1}&=\frac{1}{x_{n}+1}\end{align*}$$
+
+Pick and miss (sir Cabero)
+
+##### 2 Roots of quadratic formula 
+**Quadratic formula**  - $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+
+The derivative of quadratic formula 
+
+$\begin{align*}x_1+x_2 &= -\frac{b+\sqrt{b^2-4ac}}{2a} + \frac{-b-\sqrt{b^2-4ac}}{2a}\\&=-\frac{2b}{2a} = -\frac{b}{a}\end{align*}$
+
+
+#### Example 
+
+The equation $x^3+4x^2-10=0$ has a unique root in [1,2]
+
+for example, 
+
+Solution: Change the equation in the form $x_{n+1} = g(x_n)$ by simple algebraic manipulation 
+| $\begin{align*}4X^2&=10-x^3\\x^3+4x^2&=10\end{align*}$ | $\begin{align*}x^2&=\frac{1}{4}(10-x^3)\\x^2(x+4)&=10\end{align*}$ | $\begin{align*}x&=\frac{1}{2}(10-x^3)^{\frac{1}{2}}\\ x&=(\frac{10}{x+4})^{\frac{1}{2}}\end{align*}$ |
+| --- | --- | --- |
+| $Let x_0=\frac{1}{2}(1+2)=1.5$ | | |
+
+pic 6
+
+
+
+
+
+

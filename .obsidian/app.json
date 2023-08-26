@@ -1,8 +1,8 @@
 {
   "readableLineLength": false,
   "mobileToolbarCommands": [
-    "editor:insert-wikilink",
     "editor:insert-embed",
+    "editor:insert-wikilink",
     "editor:insert-tag",
     "editor:attach-file",
     "editor:set-heading",
@@ -30,5 +30,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "tabSize": 3
 }
