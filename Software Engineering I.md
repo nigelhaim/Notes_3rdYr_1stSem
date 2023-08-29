@@ -85,5 +85,46 @@ Business support
 - Customer services 
 - Knowledge management system 
 
-2023-08-19
+2023-08-29
 
+## Software Project Management Plan Document (SPMP)
+
+### Contents
+- **Introduction**
+	- Project Overview
+		- The bounds 
+		- The requirements 
+	- Project Deliverables
+- **Project Organization**
+	- Process Model 
+		- Object Oriented 
+		- Chosen by the development to implement 
+		- Preparation and deployment 
+		- 
+	- Organizational Structure
+		- Composed of
+			- Internal Structure
+			- Organizational Structure
+				- Ano meron sa organization 
+				- Who are involved
+				- Names 
+				- Owner
+				- Admins 
+			- Project Responsibilities 
+				- Number of people 
+				- Roles 
+	- Project Responsibilities
+- **Managerial Process**
+	- Management Objectives and Priorities 
+	- Assumptions, Dependencies, and Constraints 
+	- Risk Management 
+	- Monitoring and Controlling Mechanisms
+- **Work Packages, Schedule, and Budge**
+	- Work Packages
+	- Dependencies 
+	- Resource Requirements 
+	- Resource allocation 
+	- Schedule
+- **Additional Components**
+	- Appendences
+## Software Requirement Specs 

@@ -453,8 +453,7 @@ Solution: Change the equation in the form $x_{n+1} = g(x_n)$ by simple algebraic
 | --- | --- | --- |
 | $Let x_0=\frac{1}{2}(1+2)=1.5$ | | |
 
-pic 6
-
+an
 
 
 

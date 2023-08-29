@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "299d972685e64b5f",
+    "id": "97fe0daffbddb3dd",
     "type": "split",
     "children": [
       {
-        "id": "b40af25eb094ee51",
+        "id": "7d04378050fa05da",
         "type": "tabs",
         "children": [
           {
-            "id": "7403b022b5efb303",
+            "id": "f58abe77bb1f39e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering I.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "13d2946de7a22433",
+    "id": "ec354e8591d09ca4",
     "type": "split",
     "children": [
       {
-        "id": "ef2527f01f7d1a24",
+        "id": "4e790a3b14384d45",
         "type": "tabs",
         "children": [
           {
-            "id": "78ef5a80065e6454",
+            "id": "78efd0cce5d37e54",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "3c50121a4b92289f",
+            "id": "df7947d1a5322d15",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "a0d87bbf2700d173",
+            "id": "58b72339a8c22307",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "0a8bb1607352329e",
+    "id": "e3ace8811e1cd2bc",
     "type": "split",
     "children": [
       {
-        "id": "80312e6c9f530fbf",
+        "id": "e6f732069621890f",
         "type": "tabs",
         "children": [
           {
-            "id": "7b7f7281461d867a",
+            "id": "bb3e5474d929065e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "ffd6cffd782e3c4d",
+            "id": "ee8f1862e8258fec",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d472b62ce6546812",
+            "id": "b38e080b09ae358c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,17 +114,14 @@
             }
           },
           {
-            "id": "830ff4f67aaada9b",
+            "id": "844cf8a7f97cc274",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Engineering I.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,38 +138,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7403b022b5efb303",
+  "active": "f58abe77bb1f39e4",
   "lastOpenFiles": [
-    "Programming languages.md",
-    "Software Engineering I.md",
-    "README.md",
-    "Numerical Methods.md",
-    "Numerical Methods Seatworks.md",
-    "Media/Pasted image 20230824151218.png",
-    "DOST/Mathematics.md",
-    "DOST/Untitled.md",
-    "DOST",
-    "Untitled",
-    "Untitled.md",
-    "Concepts-of-Programming-Languages.pdf",
-    "Media/Pasted image 20230824143905.png",
-    "Media/Pasted image 20230824143958.png",
-    "Media/Pasted image 20230824143902.png",
-    "Media/Pasted image 20230817145616.png",
-    "Media/Pasted image 20230824144156.png",
-    "Media/Pasted image 20230824144222.png",
-    "Media/Pasted image 20230824144322.png",
-    "Media/Pasted image 20230824144451.png",
-    "Media/Pasted image 20230824143808.png",
-    "Untitled 1.md",
-    "Ethics.md",
-    "Web and mobile programming.md",
-    "Untitled.canvas",
-    "Data warehousing.md",
-    "Media",
-    "Test table.md",
-    "Untitled 1.canvas",
-    "2023-08-15.md",
-    "The3rdYearWorld.canvas"
+    "Mathematics.md"
   ]
 }
