@@ -453,9 +453,56 @@ Solution: Change the equation in the form $x_{n+1} = g(x_n)$ by simple algebraic
 | --- | --- | --- |
 | $Let x_0=\frac{1}{2}(1+2)=1.5$ | | |
 
-an
 
 
 
+### Bisection method 
+- Suppose $f(x)$ is a continuous function defined on the interval [a,b] with $f(a)$ and $f(b)$ of opposite signs. Using the Intermediate Value Theorem, there exist p in [a,b] with $f(p)=0$. Although the procedure will work for the case when $f(a)$ and $f(b)$ have opposite signs and there is more than one root in the interval (a,b) we assume that the root in this interval is unique. The method calls for a repeated halving of sub-intervals of [a,b] and at each step, locating the half containing p. 
 
+#### Steps 
+- set $a_1 = a\; and \; b_1=b$ and let $p_1$ be the midpoint of [a,b] that is
+$$p = \frac{1}{2} (a+b)$$
+- If $f(p)=0$, then p as $p_1$. If not then $f(p_1)$ has the same sign as either $f(a_1)$ or $f(b_1)$. If $f(p_1)$ and $f(a_1)$ have the same sign, then $p\epsilon(p_1,b_1)$ and we set $a_2 = p_1$ and $p_2 = b_1$. If $f(p_1)$ and $f_(a_1)$ have the opposite signs then $p\epsilon(a_1, b_1)$ and set $a_2=a_1$ and $b_2=p_1$. We then reapply the process to the interval [a,b].
+#### Procedures for Bisection Method 
+1. Establish and interval $a \leq x \leq b$ such that $f(a)$ and $f(b)$ are of opposite sign; that is $f(a)*f(b) < 0$ 
+2. Choose an error tolerance $(\epsilon>0)$ value for the function 
+3. Compute a new approximation for the root
+$$c_n = \frac{(a_n+b_n)}{2}, n=1,2,3,...$$
+4. Check the tolerance. If $|f(c_n)|\leq \epsilon$, then use $c_n(n=1,2,3,...)$ for the desired root; otherwise continue.
+5. Check if $f(a_n) *f(c_n)<0$, then set $b_n=c_n$; otherwise, set $a_n=c_n$
+6. Go back to step 3 and repeat the process
+
+#### The Newton-Raphson (Newton's) Method
+
+- Suppose that $f$ is continuous on the interval [a.b]. Let $x \epsilon [a,b]$ be an approximation that $f(x) \neq 0 and [x-p]$ is small. Consider the first Taylor's polynomial for $f(x)$ expanded about $x$.
+- $f(x)=f(\bar{x})+(x-\bar{x})f'(\bar{x})+\frac{(x-\bar{x})^2}{2!}f''(\epsilon(x))$
+- where $\epsilon(x)$ lies between $\bar{x}$ and $x$. Since $f(p)=0$, this equation with $x=p$ gives 
+- $$0=f(\bar{x})+(p-\bar{x})f'(x)+\frac{(p-\bar{x})^2}{2!}f''(\epsilon(p))$$
+- Newton's method is derived by assuming that, since $|\bar{x}-p|$ is small. the term involving $(p-\bar{x})^2$ is negligible and that 
+$$0 \approx \bar{x} - \frac{f(\bar{x})}{f'(x)}$$
+- This set the stage for the Newton-Raphson method, which starts with an initial approximation $p_0$ and generates the sequence {$p_n$} defined by 
+$$p_n = p_{n-1} - \frac{f(p_n-1)}{f'(p_n-1)}$$
+-
+
+Starting with the initial approximation the approximation $p_0$, the approximation $p_1$ is the x-intercept of the tangent lint to the graph of f at $(p_0, f(p_0))$. The approximation $p_2$ is the x-intercept fo the tangent line to the graph of f at $(p_1, f(p_1))$, and so on.
+
+Example 
+
+To obtain the unique solution to $x^3+4x^2-10=0$ on the interval [1,2] by Newton's Method, generates the sequence ${p_n}^\infty_{n=0}$ by
+$p_n = p_{n-1}-\frac{p^3_{n-1}+4p^2_{n-1}-10}{3p^2_{n-1}+8p_{n-1}}$
+
+$$f(x)=x^3-4x^2-10$$
+$$f'(x) = 3x^3-8x$$
+
+
+$$p_1 = p_{0-1}-\frac{p^3_{0-1}+4p^2_{0-1}-10}{3p^2_{0-1}+8p_{0-1}}$$
+$$p_2 = p_{1-1}-\frac{p^3_{1-1}+4p^2_{1-1}-10}{3p^2_{1-1}+8p_{1-1}}$$
+
+#### Procedures of the Newton's Method 
+1. Find the initial approximation $x_0$ for the root by sketching the graph of the function 
+2. Evaluate the function $f(x)$ and the derivative $f'(x)$ at the initial approximation 
+3. Check if $f(x_0)=0$ then $x_0$ is the desired approximation to a root. But if $f'(x_0)=0$, then go back to step 1 to choose a new approximation 
+4. Establish the tolerance $(\epsilon>0)$ value for the function
+5. Compute a new approximation for hte root using iterative formula
+6. Check the tolerance. If $|f(x_n)|\leq\epsilon$, for $n\geq0$, then end; otherwise go back to step 4 and repeat the process. 
 
