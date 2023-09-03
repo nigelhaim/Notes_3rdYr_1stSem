@@ -368,5 +368,5 @@ $$\begin{align*}\frac{9}{29}\\\frac{9+11}{29+35} = &\frac
 
 5. Find a fraction that is within 0.000001 of the decimal 0.552742
 $$\frac{1}{2}$$
-$$\begin{align*}\frac{1+1}{2+3}&=\frac{3}{5}\\\frac{3+1}{5+2}&=\frac{4}{7}\\\frac{4+1}{7+2}&=\frac{5}{9}\\\frac{5+1}{9+2}&=\frac{6}{11}\\\frac{6+5}{11+9}&=\frac{11}{20}\\\frac{11+5}{20+9}&=\frac{16}{29}\\\frac{16+5}{29+9}&=\frac{21}{38}\end{align*}$$
+$$\begin{align*}\frac{1+1}{2+3}&=\frac{3}{5}\\\frac{3+1}{5+2}&=\frac{4}{7}\\\frac{4+1}{7+2}&=\frac{5}{9}\\\frac{5+1}{9+2}&=\frac{6}{11}\\\frac{6+5}{11+9}&=\frac{11}{20}\\\frac{11+5}{20+9}&=\frac{16}{29}\\\frac{16+5}{29+9}&=\frac{21}{38}\\\frac{21+5}{38+9}&=\frac{26}{47}\\\frac{26+21}{}\end{align*}$$
 

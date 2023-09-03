@@ -477,7 +477,7 @@ $$c_n = \frac{(a_n+b_n)}{2}, n=1,2,3,...$$
 - Suppose that $f$ is continuous on the interval [a.b]. Let $x \epsilon [a,b]$ be an approximation that $f(x) \neq 0 and [x-p]$ is small. Consider the first Taylor's polynomial for $f(x)$ expanded about $x$.
 - $f(x)=f(\bar{x})+(x-\bar{x})f'(\bar{x})+\frac{(x-\bar{x})^2}{2!}f''(\epsilon(x))$
 - where $\epsilon(x)$ lies between $\bar{x}$ and $x$. Since $f(p)=0$, this equation with $x=p$ gives 
-- $$0=f(\bar{x})+(p-\bar{x})f'(x)+\frac{(p-\bar{x})^2}{2!}f''(\epsilon(p))$$
+$$0=f(\bar{x})+(p-\bar{x})f'(x)+\frac{(p-\bar{x})^2}{2!}f''(\epsilon(p))$$
 - Newton's method is derived by assuming that, since $|\bar{x}-p|$ is small. the term involving $(p-\bar{x})^2$ is negligible and that 
 $$0 \approx \bar{x} - \frac{f(\bar{x})}{f'(x)}$$
 - This set the stage for the Newton-Raphson method, which starts with an initial approximation $p_0$ and generates the sequence {$p_n$} defined by 
