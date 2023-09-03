@@ -344,3 +344,29 @@ Reciprocal the following into floating point binary format given that the number
 | 10 | 001 | 00010 |
 **1000100010**
 
+## Seatwork #6 - 2023-08-24
+
+Use iterative methods to solve the following 
+
+1. $\sqrt{90}$ to 6 significant figures 
+$$\sqrt{90}-9.846833$$
+	$$\begin{align*}\frac{90}{10}&=9\\\frac{101.9}{2}&=9.5\\\frac{90}{9.5} &= 9.4736842\uparrow\\\frac{9.5+9.4736842}{2}&=9.4868239\\\frac{90}{9.486842105}&=9.4868239\downarrow\\\frac{9.486842105+9.48682139}{2}&=9.486833\end{align*}$$
+2. $\sqrt{125}$ to 6 significant figures
+$$\sqrt{125}=11.1803399$$
+$$\begin{align*}\frac{125}{11}&=11.3636364\uparrow\\\frac{11+11.3636364}{2}&=11.1818182\\\frac{125}{11.1818182}&=11.1788618\downarrow\\frac{11.1818182+.1788618}{2}&=11.18033989\end{align*}$$
+3. Use the iterative formula $x_{r+1}=\frac{1}{3}(2x_r + \frac{N}{x^2})$ to find the cube root of 29 to 5 significant figures 
+$$\sqrt[3]{29}=3.07232$$
+$$\begin{align*}\frac{29}{3.1^2}&=3.017690\downarrow\\\frac{2(3.1)+3.012690}{3}&=3.072563\\\frac{29}{3.072563^2}&=3.071825\\\frac{2(3.072563)+3.071825}{3}&=3.07232\end{align*}$$
+4. Find a fraction that is within 0.000001 of the decimal 0.31245
+
+$$\begin{align*}\frac{9}{29}\\\frac{9+11}{29+35} = &\frac
+{20}{64}=0.3125\\\frac{20+9}{64+29}=&\frac{29}{93}=0.3118\\\frac{29+20}{93+64}=&\frac{49}{157}=0.31210\\\frac{49+20}{157+64}=&\frac{69}{221}=0.312217\end{align*}$$
+
+
+ <center> The adding of $\frac{20}{64}$ is repeated until 0.31245 has been reached </center>
+ $$....\frac{389}{1245}=0.6245$$
+
+5. Find a fraction that is within 0.000001 of the decimal 0.552742
+$$\frac{1}{2}$$
+$$\begin{align*}\frac{1+1}{2+3}&=\frac{3}{5}\\\frac{3+1}{5+2}&=\frac{4}{7}\\\frac{4+1}{7+2}&=\frac{5}{9}\\\frac{5+1}{9+2}&=\frac{6}{11}\\\frac{6+5}{11+9}&=\frac{11}{20}\\\frac{11+5}{20+9}&=\frac{16}{29}\\\frac{16+5}{29+9}&=\frac{21}{38}\end{align*}$$
+

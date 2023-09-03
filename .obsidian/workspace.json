@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Numerical Methods Seatworks.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Numerical Methods Seatworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Numerical Methods Seatworks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods.md"
+                "file": "Numerical Methods Seatworks.md"
               }
             }
           }
@@ -162,9 +162,9 @@
   },
   "active": "9cde93608085d6f2",
   "lastOpenFiles": [
+    "Numerical Methods.md",
     "Numerical Methods Seatworks.md",
     "Programming languages.md",
-    "Numerical Methods.md",
     "Ethics.md",
     "Data warehousing.md",
     "Spanish.md",
