@@ -92,15 +92,16 @@ Business support
 ### Contents
 - **Introduction**
 	- Project Overview
-		- The bounds 
-		- The requirements 
+		- Summary
+		- Official statement of product requirements
 	- Project Deliverables
+		- Primary deliverables for the customer
+		- quantities required satisfying terms of the project agreement
 - **Project Organization**
 	- Process Model 
 		- Object Oriented 
 		- Chosen by the development to implement 
 		- Preparation and deployment 
-		- 
 	- Organizational Structure
 		- Composed of
 			- Internal Structure
@@ -110,21 +111,194 @@ Business support
 				- Names 
 				- Owner
 				- Admins 
-			- Project Responsibilities 
-				- Number of people 
-				- Roles 
+		- Number of people 
+		- Roles 
+		- project relates to the rest of the organization
 	- Project Responsibilities
+		- state nature of each major project function and activity
+		- individuals who are responsible for those functions and activities
 - **Managerial Process**
 	- Management Objectives and Priorities 
+		- Goals, philosophy and priorities 
 	- Assumptions, Dependencies, and Constraints 
+		- Assumptions on which the project is based, any external events the project is dependent
 	- Risk Management 
+		- Mechanisms for tracking various risk factors and implementing contingency plans
 	- Monitoring and Controlling Mechanisms
+		- Reporting mechanisms, formats, review and audit mechanisms .
+		- Occur at the level of work packages. 
+		- Include controlling and monitoring mechanisms for the project support functions. 
 - **Work Packages, Schedule, and Budge**
 	- Work Packages
+		- Activities and tasks that must be completed in order to satisfy the project agreement
+		- A diagram depicting the breakdown of project activities and task 
 	- Dependencies 
+		- Relations among work packages to account for interdependencies among them and dependencies on external events 
 	- Resource Requirements 
+		- function of time
+		- estimates of the total resources 
+		- types of personel
+		- computer time 
+		- support software 
+		- computer hardware
+		- office and lab facilities 
+		- travel
+		-  maintenance requirements 
 	- Resource allocation 
+		- Various project functions, activities and tasks 
 	- Schedule
+		- Schedule of the process
 - **Additional Components**
 	- Appendences
-## Software Requirement Specs 
+# Software Engineering Manual Notes 
+### Software Engineering 1 and 2
+**Prepared by: Asst. Prof. Mia V. Eleazar**
+
+## Introduction 
+- **Project based Learning(PBL)**
+	- teaching method in which students gain knowledge and skills by working for an extended period of time to investigate and respond to an authentic, engaging and complex question, problem, or challenge" 
+	- Course is designed using PBL 
+	- Students are able to work collaboratively, engaging to 
+		- Investigate 
+		- reflect 
+		- refine 
+	- Basis lies on the authenticity or real-life application of the research begin done. 
+	- Goa; : to create a living envbironment wherein students "learn by doing"
+
+
+## Definition
+- **System analysis**
+	- The process of identifying an organization's purpose and goal in order to create a process or system which can help the organization achieve them. 
+	- IT - Create automated systems which can help improve business productivity and achieve end-user efficiency. 
+- **Systems Analysis and Design (SAD)**
+	- Deals with the system development activities as mentioned in the Software Development Life Cycle (SDLC)
+	- ![[Pasted image 20230904160254.png]]
+- **Agile Methods, Object-Oriented Approach (OOA)**
+	- Built  incrementally and iteratively until the entire system is completed
+- **Waterfall Method**
+	- Uses a linear approach
+	- Identifying -> Analyzing -> Plan designing -> Implementing by coding -> testing -> Verification -> Deployment
+	- ##### Waterfall Model 
+		- **Requirements Gathering**
+			- The most important part
+			- Stakeholder and customer requirements
+			- Allowing every other phase to be executed based on the gathered requirements
+		- **Requirement Analysis**
+			- Gathered requirements are analyzed to check for consistency and redundancies.
+			- Initial project scope is identified. 
+			- No need to gather any other requirement  from the stakeholders and customers. 
+		- **Design**
+			- Categories
+				- Logical Design 
+					- When possible solutions are brainstormed  and theorized 
+					- Project scope, functional and non-function requirements are identified. 
+				- Physical Design
+					- requirements are made into schemas and diagrams that can help visualize the project outcome. 
+		- **Coding**
+			- programmers analyze the requirements and specifications from the previous phases and produce actual code. 
+		- **Testing**
+			- Categories
+				- Alpha testing
+					- conducted by the system developers to check for errors and bugs prior to verification of end users
+				- Beta Testing
+		- **Verification and maintenance**
+			- Also called beta testing
+			- Customer uses the system to make sure that it meets the requirements
+			- Customer uses the system during the maintenance phase, expected to discover bugs, inadequate features and other errors that may have been missed during Coding and Testing
+			- The team should apply these fixes ad necessary until the customer is satisfied. 
+		- **Software engineering**
+			- involves the design and development of a software and how it can be managed.
+			- Software design and development is implemented, including operation and maintenance. 
+		
+- **Overall**
+	1. Project team needs to understand the organization
+	2. Create a project proposal through research observation and actual interviews
+	3. Succeeding phases (SDLC and OOA)
+		- Both require extensive planning and use of diagrams for the design 
+	- The Agile and DSLC approaches are both concerned about the way data is designed and processed throughout the system.
+
+	![[Pasted image 20230904160928.png]]
+	![[Pasted image 20230904160941.png]]
+	![[Pasted image 20230904161308.png]]
+	
+
+
+The course also needs to consider the timetable for said courses. 
+
+| CHOOSE | WHEN |
+| --- | --- |
+| The Systems Development Life Cycle (SDLC) Approach | - Developed and documented using SDLC|
+|| - document each step |
+|| - upper-level management level |
+|| - adequate resources |
+|| communication how new systems work |
+| Agile Methodologies | - Project champion for agile methods |
+|| - rescue takes place incase system failed  |
+|| - customer is satisfied with incremental improvments |
+|| - agreement with principles |
+| Object-Oriented methodologies | - Modeled lend themselves to classes |
+|| - supports the UML learning |
+|| - gradually one system at the time |
+|| - reuse of written software |
+|| - acceptable to tackle the difficult problems |
+
+
+## Members 
+- **Project Manager** 
+	- planning, monitoring, and implementing a project.
+	- the point person for identified stakeholders, 
+	- do not necessarily be directly involved in the activities
+- **System analyst**
+	- Analyze, design, and implement systems
+	- In-charge of communicating between users and developers. 
+	- Must be proficient in IT
+	- Familiar in Hardware and software tools 
+	- Decides design methodology
+- **Business Analyst**
+	- understands the business model and business domain
+	- Define how technology can be integrated into the current4 business process of the company.
+	- works with system analyst 
+	- Involved in integration, testing, and implementation of the system
+- **Project Developers**
+	- familiar with the software development process
+	- research, design, coding, and testing
+	- Have more in-depth knowledge in systems development
+- **Quality Assurance officers**
+	- familiar with the software development process
+	- test for errors, and user experience, and adherence of the system to business process
+	- Good in systems checking 
+
+| Designation | Number of staff |
+| --- | --- |
+| Project Manager | 1 |
+| Systems analyst | 1 |
+| business analyst | 1 | 
+| Developer | 2 | 
+| Quality assurance officer | 2 |
+
+- **Adviser**
+	- current coordinator handling the class
+	- Communication that needs to be submitted to the client must first be approved 
+	- Includes interviews, letter of invitation for defense, etc.
+- **Panel, Members**
+	- Invited faculty members within the Institute of Information and Computing Sciences 
+	- Min of 2 Max of 3
+	- Adviser can serve as member of the Panel
+- **Client**
+	- Considered to be a decision maker in the organization 
+	- Will not grade the students
+	- Required to be present during the defense, or at least their representative, for project validation purposes
+
+## Project Document 
+- IEEE standard for Software Development process 
+### Software Engineering 1
+- **Software Project management Plan**
+	- Verify if there is an actual need for the project and also determine if the project is viable to everyone involved 
+- **Software Requirements Specification**
+	- Should include project scope, descriptions and other system features
+- **Software Design Document**
+	- design of the system including the system architecture, data design, and component design
+- **Software test plan**
+	- List of system's items that is need to be tested and the approach to be used for testing them. 
+	- Focus on identifying testing features and what criteria to use for each feature.
+

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Software Engineering I.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Software Engineering I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Software Engineering I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods.md"
+                "file": "Software Engineering I.md"
               }
             }
           }
@@ -160,17 +161,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9cde93608085d6f2",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
+    "Pasted image 20230904161308.png",
+    "Pasted image 20230904160941.png",
+    "Pasted image 20230904160928.png",
+    "Pasted image 20230904160254.png",
+    "README.md",
     "Programming languages.md",
     "Numerical Methods Seatworks.md",
-    "Software Engineering I.md",
-    "Spanish.md",
     "Numerical Methods.md",
     "Ethics.md",
+    "Software Engineering I.md",
+    "Spanish.md",
     "Data warehousing.md",
     "Web and mobile programming.md",
-    "README.md",
     "Media/Pasted image 20230824151218.png",
     "DOST/Mathematics.md",
     "DOST/Untitled.md",
@@ -183,9 +188,6 @@
     "Media/Pasted image 20230817145616.png",
     "Media/Pasted image 20230824144156.png",
     "Media/Pasted image 20230824144222.png",
-    "Media/Pasted image 20230824144322.png",
-    "Media/Pasted image 20230824144451.png",
-    "Media/Pasted image 20230824143808.png",
     "Untitled 1.md",
     "Untitled.canvas",
     "Media",
