@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spanish.md"
+                "file": "Numerical Methods.md"
               }
             }
           }
@@ -162,15 +162,15 @@
   },
   "active": "9cde93608085d6f2",
   "lastOpenFiles": [
-    "Numerical Methods.md",
-    "Numerical Methods Seatworks.md",
     "Programming languages.md",
+    "Numerical Methods Seatworks.md",
+    "Software Engineering I.md",
+    "Spanish.md",
+    "Numerical Methods.md",
     "Ethics.md",
     "Data warehousing.md",
-    "Spanish.md",
     "Web and mobile programming.md",
     "README.md",
-    "Software Engineering I.md",
     "Media/Pasted image 20230824151218.png",
     "DOST/Mathematics.md",
     "DOST/Untitled.md",

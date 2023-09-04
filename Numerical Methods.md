@@ -482,7 +482,7 @@ $$0=f(\bar{x})+(p-\bar{x})f'(x)+\frac{(p-\bar{x})^2}{2!}f''(\epsilon(p))$$
 $$0 \approx \bar{x} - \frac{f(\bar{x})}{f'(x)}$$
 - This set the stage for the Newton-Raphson method, which starts with an initial approximation $p_0$ and generates the sequence {$p_n$} defined by 
 $$p_n = p_{n-1} - \frac{f(p_n-1)}{f'(p_n-1)}$$
--
+
 
 Starting with the initial approximation the approximation $p_0$, the approximation $p_1$ is the x-intercept of the tangent lint to the graph of f at $(p_0, f(p_0))$. The approximation $p_2$ is the x-intercept fo the tangent line to the graph of f at $(p_1, f(p_1))$, and so on.
 
