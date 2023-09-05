@@ -302,3 +302,95 @@ The course also needs to consider the timetable for said courses.
 	- List of system's items that is need to be tested and the approach to be used for testing them. 
 	- Focus on identifying testing features and what criteria to use for each feature.
 
+2023-09-05
+
+## Fishbone Diagram
+- The root of the problem 
+- Branching out
+- Identifies and organizes the potential causes of a business problem 
+- Uses an easy and understandable format 
+- Identify the sources of process variation 
+- Also called Ishikawa Diagram and Cause and Effect Diagram 
+- Recognizes the potential causes of the business problem 
+- Identify the hierarchy of causes including the possible root causes
+- Attention to the primary factors affecting 
+
+**Root causes are Normally**
+- Those at the ends of chains of causes 
+- Do not have any sub-causes
+- ![[Pasted image 20230905155313.png]]
+
+Often used during **brainstorming sessions** 
+Everyone gains insight into the cause and effect 
+This makes the solution easier to find later on 
+
+#### Why are we doing this 
+- Helps to create ideas about the possible causes of a problem before it happens
+- Effective cause prevention tool
+- Helps to identify the potential factors causing an effect to prevent future problems
+- Can also be used in product design and to plan new processes 
+
+### Process variables 
+- Potential causes sometimes called the process input variables 
+- Normally grouped into categories for easier sharing and reference 
+- the 6M's
+- **Man** - anyone involeved with the process and contributes to the effect 
+- **Methods**- how the process is performed and the specific requirements for doing it, such as:
+	- Policies 
+		- The kind of data that might transform the system 
+		- Like protection, authentication, and validity of every transaction in a banking system
+	- Procedures 
+		- The process of every transaction 
+		- The step by step method 
+	- Rules 
+		- The requirements that SHOULD be reported in every transaction 
+		- Provided that there are specific requirements that needs to be attained before every transaction 
+	- Common Practices 
+		- Laging ginagawa
+**Machines**- Hardware used including the equipment and tools required to do the process 
+**Materials**- Needed to produce the product or proviede the service
+		- Raw materials
+		- Parts
+		- Papers
+		- Packing 
+		- Consumables
+**Environment** - the conditions in which the process operates
+**Measurements** - including the data that are used to evaluate the performance of the process
+
+- Typical Fishbone Diagrams of manufacturing and non manufacturing processes
+![[Pasted image 20230905161544.png]]
+
+
+### How to construct a fishbone Diagram
+- Clearly define the effect of the problem 
+- Write it down at the center right of a large piece of paper
+- Determine the major categories of causes 
+- Write them down on the branches of the diagram 
+- Use brainstorming to log all possible causes under the appropriate branches 
+- Use 5 whys to search for root causes then add them to the diagram 
+- Take time to ensure the appropriateness  the recorded information 
+- Update the art as new causes become apparent 
+- make of assign numbers near to the key causes t show their relative priority 
+- Collect data and investigate to verify the key causes are actual 
+- Plan and implement actions to address the key causes 
+#### Ways of Finding more causes 
+- Keep asking questions to encourage everyone to participate 
+- Involve other people, especially those who have experience in the process
+- Leave the chart on the wall for few days and encourage passers-by to contirbute
+- Take a break or do something to take the team's mind off the current thoughts
+
+
+
+
+![[Pasted image 20230905161947.png]]
+![[Pasted image 20230905162151.png]]
+
+### Further information 
+- Different names may be used for the same category 
+	- **Procedures** could be used instead of Methods
+	- **equipment** could be used instead of machines
+- You could also create sub categories
+- Avoid writing real names of persons
+- Beware of adding causes which are actually solutions
+- A **Cause and Effect Matrix** could be used to prioritize the causes of the problem 
+- Prioritizing and selectin the key causes will minimizes the need for more statistical evaluation of inputs that are unlikely to have an impact on the output.
