@@ -1,3 +1,4 @@
+# ETHICS
 08-16-2023
 
 ### Philosophers - After the Dark
@@ -348,3 +349,77 @@ Critical Morality
 	- Do not require extreme selflessness
 	- Capacity dictates morality 
 
+2023-06-09
+## Moral Reasoning 
+
+### What is it?
+- Involves 
+	- Set reasons
+	- Conclusions
+	- Premise -> Conclusion = Arguments 
+- Not all arguments are equal good. Not al arguments end in truthful conclusions
+	- Inductive arguments 
+		- Do not provide a certainable conclusions
+	- Deductive arguments 
+		- Gives you a certainable conclusions 
+- Two tests for good moral reasoning 
+	- We must avoid false beliefs
+	- The logic for our moral thinking must be rigorous and error-free
+
+### Unsound argument 
+- Valid; but not sound. Soundness involves both validity and the truth of the statements
+- Facts -> Therefore 
+- A fallacy is an unsound argument
+
+### Examples of fallacious moral arguments 
+
+- The error is found in the content of the argument
+- **Ad hominem (attacking the person) fallacy **
+	- Occurs when you try to undermine a position by attacking the person who is advancing it
+	- To nullify the arguments of the person because of him/her
+	- "You wouldn't understand"
+- **Appeal to irrelevant emotions fallacy**
+	- occurs when someone tries to convince you of a claim by playing on your emotions
+	- Emotional manipulation to make an argument
+		- Palusot 
+- **Appeal to inappropriate authority fallacy**
+	- involves relying on authority figures to substantiate a position outsider of their area of expertise
+	- "Parent to a child"
+	- "Governor to this people"
+- **Appeal to tradition fallacy**
+	- relying on customary beliefs and tradition even despite the illogicality of them
+	- "It has been don this way for many years.........."
+- **Strawman fallacy**
+	- directs an opponent's position in a way that makes it easy to refute, therby diverting attention from the real position being advanced
+	- Weak interpretation of the original argument 
+	- Similar to Ad Hominem but a more twist and aggressive 
+- **Appeal to ignorance fallacy**
+	- Thinking that the claim is true for lack of an evidence of it being false and vice versa
+	- Not yet able to prove but it does not mean its true
+	- The absence of the truth does not mean it is automatically false 
+- **Hasty generalization fallacy**
+	- Occurs when someone illicitly draws a general lesson from only a small handful of cases 
+	- Claiming without qualifiers of a certain conclusion
+- **Circular Argument or Begging the question**
+	- The conclusion is also the premise
+- **Fallacy of Accident or Dicto Simpliciter**
+	- Applying one rule to another
+- **False Dilemma**
+	- Entertaining one option when there are other options
+- **False Analogy**
+	- The analogy of the argument is not working 
+
+
+### The basic rule
+1. When the premises are irrelivant to draw the conclusion
+2. When the premises are not enough to support the conclusion
+3. When there is a misuse of the meaning of terms 
+**The argument is fallacious**
+
+## Thought Experiments
+- Little fictions especially devised in order to arouse moral perpelxity and show the logicality and illogiclity of examples of oral reasoning
+Involve moral reasoning and justification
+**Standard procedure**
+1. Construct a bizarre case (imagine a scenario)
+2. Hypothesize possible solutions
+3. Develop logical arguments 
