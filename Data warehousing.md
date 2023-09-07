@@ -119,3 +119,119 @@ Topics
 - Visualization and descriptive analytics 
 - Emerging technologies
 
+2023-09-07
+
+## Data models and Data Warehouse Architectures 
+
+### Data Modeling 
+- Creates a visual representation either a whole information system or parts of it to present connections between data points and structures. 
+- The importance of entities and attributes 
+Different types of data models? 
+	- **Conceptual**
+		- Defines what the system contains 
+		- Domain models
+		- Offer a big-picture view of what the system will contain and how it will be organized
+		- Usually created as parts of the process of gathering initial project requirements
+		- The high-level parts of the database without it there is no system
+		- The objective of the system
+			- A user is able to do an event 
+			- A model in the system can interact through events 
+			- What problem are you trying to solve? 
+		- Usually developed or created by Business Stakeholders or Data Architects in the organization
+	- **Logical** 
+		- This type of data model defines how the system should be implemented regardless of the **Database Management system**
+		- They are **less abstract** and provide greater detail about the concepts and relationships in the domain under consideration 
+		- **Indicates** data attributes, such as data types and their corresponding lengths, and show the relationships among entities.
+		- Typically developed and created by Data Architects and Business Analysts in the organization
+		- Information that represents the data model 
+		- Can be changed through events
+		- Get the necessary information of the model before an event happens
+		- Can be obtained through data gathering (interviews)
+	- **Physical**
+		- Defines how the system should be implemented with a specific Database Management System 
+		- Provide a schema for how the data will be physically stored within a database. As such they are the least abstract of all
+		- These data models can include database management system (DBMS) - specific properties, including performance tuning 
+		- Typically created by Database Administrators and Developers 
+		- The different syntaxes, definitions and limitations 
+		- Respect to the Hardware from implementing the software 
+		- The data is complete 
+### Data Architecture 
+- Describes how data is managed from collection through to **transformation, distribution, and consumption.** It sets the blueprint for data and the way it flows through systems. 
+- **Transformation** - Is there any transformation we are trying to do in the system? 
+
+| Dimensions | Data Model  | Data Architecture |
+| --- | --- | --- | 
+| **General Definition** | Activity within data architecture | Broader; Encomapsses data management | 
+| **Focus Area(s)** | Focus on detailed data representation | Focus on data collection, storage, governance | 
+| **Role in Data management** | Ensures precise data design and integrity | Responsible for data infrastructure setup | 
+| **Roles and Responsibilities** | Collaboration of data architects and admins | Collaborating of both data teams and stakeholders | 
+| **Abstraction** | Lower level of abstraction; more specific | Higher level of abstraction | 
+| **End Goal** | Implements data architecture effectively | Provides data strategy and framework | 
+
+### Different Datawarehouse Architecture
+- Method of defining the overall architecture of data communication processing and presentation that exist for end-clients computing within the enterprise.
+- **Inmon** Architecture (1922) 
+  **Kimball** Architecture (1996)
+  **Data Vault** (2013)
+- How to show data on the dashboard 
+#### Inmon (Corporate Information Factory )
+- "A data warehouse is a subject-oriented, integrated, time-variant and non-volatile collection of data in support of management's decision-making process"
+	- Bill Inmon
+- ##### Necessary Attributes of a Data Warehouse
+	- **Subject oriented **
+		- Data collected relates to a particular subject rather than a particular action 
+		- The warehouse has respect to the subject
+	- **Non-Volatile **
+		- Once information is saved in a Data Warehouse, it should stay there 
+		- It should be secured 
+		- We should not delete anything or at all 
+	- **Integrated**
+		- Data is standardized no matter how it stored in the source system 
+		- What is reflected in the where house is also reflected in the system 
+	- **Time-Variant**
+		- Data collected and stored  in the Data Warehouse changes with time
+		- Big data must be stored and processed in time despite of the high traffic 
+- **Inmon's Approach**
+	- Start with the corporate data model. Identify all the different sources of available to the enterprise 
+	- From the data and understanding of business needs, identify the key entities and their mutual relationships
+		- What does the business need and what are the key entities? 
+		- Information about everyone that could be included in the operation 
+	- Use the entity structure to build a detailed logical model. The is should captured in create detail all need information 
+	- Build the physical model. Use ETL (Extract Transform Load) processes. The Normalized data model (3NF) is the core 
+		- How do we use a specific language to communicate in the database and show the data 
+	- Build data marts for specific departments. The Data warehouse acts as a single source of truth
+		- **Data marts** - Smaller warehouse for the specific department not everything is shown in the database...
+
+### Recap 
+- 1NF: Each table cell should contain a single value, and each column should have a unique name 
+- 2NF: Each column should be directly related to the primary key, and not other columns 
+- **3NF: This means that each column should not be related to any other columns in the same table**
+
+| Advantages | Disadvantages |
+| --- |---|
+|**Flexibility** - It is because of the ETL process design that leads to normalized data| **Cost and Setup** - Normalized schemas exhibit greater complexity in design and maintenance | 
+| **Less Prone to Errors** - Normalization avoids data redundancy | **Skills Needed**- The approach necessitates highly skilled engineers |
+|**Completeness** - This approach covers all enterprise data so all  | **More ETL Required** - Because of separating the Data marts from Data Warehouse |
+
+#### Kimball (Dimensional Modelling)
+- The latest for data warehouses mostly used for the past few years
+- Kimball focuses on the purpose of a Data Warehouse: "a copy of transaction data specifically structured for query and analysis"
+	- Ralph Kimball
+##### The purpose of a Data Warehouse
+- **Collection**
+- **Transformation**
+- **Load**
+- **Knowledge**
+
+**Kimball's approach**
+- Understand and document the business processes, business needs, and business questions being asked. 
+- Document all data sources available throughout the enterprise 
+- Build ETL pipelines that extract, transform, and load data into a denormalized data model 
+- The dimensional model is usually built around and within dimensional data marts for specific departments 
+
+|Advantages|Disadvantages|
+|---|---|
+|**Simplicity & Speed** - The architecture is much simpler and faster to design and set up|**Data Redundancy** - Because data is loaded into a dimensional model it is not normalized |
+|**Understandable & Relevance** - Easy to understand and gears answer organization needs |**No single source of truth** - The warehouse is designed and organized around data marts|
+|**Skills needed** - Requires less number of highly skilled engineers and less technical knowledge |**Less Flexible and incomplete** - Due to "as-needed" paradigm and is specific to needs |
+

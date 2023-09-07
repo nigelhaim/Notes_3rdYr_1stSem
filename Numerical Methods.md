@@ -2,7 +2,7 @@
 ## Mathematical Analysis
 Seatwork:
 - SW #1
-- SW #2
+- SW #2 
 - SW #3
 2023-08-12
 ### Numerical systems
@@ -421,7 +421,7 @@ if  is a continuous function on the interval [a,b] for all $x \epsilon [a,b]$, t
 **Procedures**
 
 1. Choose an initial approximation $x_0$ such that $x_0 \epsilon [a,b]$ ( The numbers inside your brackets are limits)
-2. Choose a convergence parameter $ \epsilon > 0 $
+2. Choose a convergence parameter $\epsilon > 0$
 3. Compute a new approximation $z_{new}$ using iterative formula 
 4. check if $|x_{new} -x_0|<\epsilon then x_{new}$ is the desired approximation root; otherwise set $x_0=x_{new}$ and go to step 3
 
@@ -489,7 +489,7 @@ $$0=f(\bar{x})+(p-\bar{x})f'(x)+\frac{(p-\bar{x})^2}{2!}f''(\epsilon(p))$$
 - Newton's method is derived by assuming that, since $|\bar{x}-p|$ is small. the term involving $(p-\bar{x})^2$ is negligible and that 
 $$0 \approx \bar{x} - \frac{f(\bar{x})}{f'(x)}$$
 - This set the stage for the Newton-Raphson method, which starts with an initial approximation $p_0$ and generates the sequence {$p_n$} defined by 
-$$p_n = p_{n-1} - \frac{f(p_n-1)}{f'(p_n-1)}$$
+$$p_n = p_{n-1} - \frac{f(p_{n-1})}{f'(p_{n-1})}$$
 
 
 Starting with the initial approximation the approximation $p_0$, the approximation $p_1$ is the x-intercept of the tangent lint to the graph of f at $(p_0, f(p_0))$. The approximation $p_2$ is the x-intercept fo the tangent line to the graph of f at $(p_1, f(p_1))$, and so on.
@@ -503,8 +503,8 @@ $$f(x)=x^3-4x^2-10$$
 $$f'(x) = 3x^3-8x$$
 
 
-$$p_1 = p_{0-1}-\frac{p^3_{0-1}+4p^2_{0-1}-10}{3p^2_{0-1}+8p_{0-1}}$$
-$$p_2 = p_{1-1}-\frac{p^3_{1-1}+4p^2_{1-1}-10}{3p^2_{1-1}+8p_{1-1}}$$
+$$p_1 = p_{0}-\frac{p^3_{0}+4p^2_{0}-10}{3p^2_{0}+8p_{0}}$$
+$$p_2 = p_{2-1}-\frac{p^3_{2-1}+4p^2_{2-1}-10}{3p^2_{2-1}+8p_{2-1}}$$
 
 #### Procedures of the Newton's Method 
 1. Find the initial approximation $x_0$ for the root by sketching the graph of the function 
@@ -514,3 +514,9 @@ $$p_2 = p_{1-1}-\frac{p^3_{1-1}+4p^2_{1-1}-10}{3p^2_{1-1}+8p_{1-1}}$$
 5. Compute a new approximation for hte root using iterative formula
 6. Check the tolerance. If $|f(x_n)|\leq\epsilon$, for $n\geq0$, then end; otherwise go back to step 4 and repeat the process. 
 
+#### Secant Method 
+- ![[Pasted image 20230907143759.png]]
+- Starting with two initial approximations with two initial approximations $p_0$ and $p_1$, the approximation $p_2$ is the x - intercept of the line joining ($p_0,f(p_0)$) and $(p_1,f(p_1))$
+
+**Procedures of Secant method**
+![[Pasted image 20230907144012.png]]

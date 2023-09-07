@@ -569,3 +569,105 @@ If the statement is already true/false then we do not need further evaluation si
 - Awk - AL Aho, Brian Beringhan, Peter Weinberger
 - TCL- John Oustershout 
 - Perl - Larry Wall - Designed as a UNI tool processing text files. Common Gateway interface language 
+
+
+2023-09-07
+### Describing Syntax & Semantics 
+
+#### Introduction
+
+**Syntax** 
+- form or strucvture of the expressions, statements, and progrma units
+- Grammar of the language
+**Semantics**
+- Meaning of expressions statements nad program units 
+
+Syntax and semantics goes hand in hand 
+- Provide the language's definition
+- Users of a language definition
+	- - Other language design 
+	- Implementers 
+	- Designers 
+
+#### The General problem of describing syntax terminology
+Programming languages don't have the same syntax 
+**Sentence**
+- string of characters over some alphabet 
+**Language**
+- set of sentences
+**lexeme**
+- is the lowest syntactic unit of a language
+**token**
+- category of lexemes
+
+#### Formal Definition of languages
+**Recognizers**
+- Device reads inputs strings over the alphabet of the language and decides whether the input strings belong to the language 
+- Example: synatx analysis part of a compiler 
+- Infatuated to the language
+- Recognizes the data type, functionalities belong to the language 
+
+**Generators**
+- device that generates sentecne of a language 
+- One can determine if the syntax of a particular sentence 
+- Determines if it is for the program or not 
+
+#### BNF and context-free grammars 
+**Context-Free Grammars**
+- develop by Noam Chomsky in the mid-1950s
+- Language generators mean to describe the syntax of natural language 
+- Define a class of languages called context-free language 
+**Backus-Naur Form (1959)**
+- Invented by John Backus describe Algol 58
+- BNF is equivalent to context-free grammars 
+
+
+#### BNF Fundamentals 
+- represent classes to syntactic structures 
+- act like syntactic variables (also called nonterminal symbols, or just terminals)
+- Terminals are lexemes or tokens
+- Non-terminals are often enclosed in angle brackets 
+```
+
+	<ident_list>->identifier | identifier, <ident_list>
+	<if_stmt>->if<logic_expr>then<stmt>
+	<terminal>-><description>"
+```
+
+- Grammar: a finite non-empty set of rules 
+- A start symbol is a special element of the nonterminal of a grammar 
+	- Needed to be described further
+
+![[Pasted image 20230907141243.png]]
+
+
+
+#### BNF Rules
+- An abstraction (or nonterminal symbol) can have more than one RHS 
+- ```
+```
+<stmt> -> <single_stmt>
+			| begin <stmt_list> end
+```
+
+
+#### Describing Lists 
+
+- Syntactic lists are described using recursion
+```
+	<ident_list> -> ident
+						| ident, <ident_list>
+```
+- A derivation is a repeated application of rules, starting with the start symbol and ending with a sentence (all terminal symbols)
+
+#### An Example Grammar & Derivation
+
+
+![[Pasted image 20230907142114.png]]
+
+#### Derivations
+- Every string of symbols in a derivation is a *sentential form*
+- A *sentence* is a sentential form that has only terminal symbols 
+- A *leftmost derivation* is one in which the leftmost nonterminal in each sentential form is the one that is expanded
+
+### Further information is to Read Chapter 3 

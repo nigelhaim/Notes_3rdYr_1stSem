@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9cde93608085d6f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7449ea61ce31229c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Programming languages.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethics.md",
+                "file": "Programming languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethics.md",
+                "file": "Programming languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethics.md"
+                "file": "Programming languages.md"
               }
             }
           }
@@ -159,26 +147,26 @@
       "graph:Open graph view": false
     }
   },
-  "active": "9cde93608085d6f2",
+  "active": "7449ea61ce31229c",
   "lastOpenFiles": [
-    "Numerical Methods.md",
-    "Spanish.md",
     "Numerical Methods Seatworks.md",
-    "Software Engineering I.md",
-    "Media/Pasted image 20230904160254.png",
-    "Media/Pasted image 20230905162640.png",
-    "Media/Pasted image 20230905162151.png",
-    "Media/Pasted image 20230905161947.png",
-    "Media/Pasted image 20230905161941.png",
-    "Media/Pasted image 20230905161839.png",
-    "Media/Pasted image 20230905161638.png",
-    "Media/Pasted image 20230905161601.png",
-    "Media/Pasted image 20230905161544.png",
-    "Media/Pasted image 20230905155313.png",
-    "README.md",
-    "Programming languages.md",
     "Ethics.md",
+    "Spanish.md",
     "Data warehousing.md",
+    "Programming languages.md",
+    "Numerical Methods.md",
+    "Media/Pasted image 20230907143342.png",
+    "Media/Pasted image 20230907173159.png",
+    "Media/Pasted image 20230907144012.png",
+    "Media/Pasted image 20230907143759.png",
+    "Media/Pasted image 20230907140531.png",
+    "README.md",
+    "Media/Pasted image 20230907142401.png",
+    "Media/Pasted image 20230907142114.png",
+    "Media/Pasted image 20230907141602.png",
+    "Media/Pasted image 20230907141339.png",
+    "Media/Pasted image 20230907141243.png",
+    "Software Engineering I.md",
     "Web and mobile programming.md",
     "DOST/Mathematics.md",
     "DOST/Untitled.md",
