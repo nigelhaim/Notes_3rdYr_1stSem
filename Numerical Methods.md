@@ -121,11 +121,11 @@ $$\begin{align*} \sqrt {.99999} &= \sqrt{1-10^{-5}}\\ &\approx 1-\frac {1}{2}(10
 
 
 ## Alternating Series Theorem
-![[Pasted image 20230817145440.png]]
+
 $$\begin{align*} &\text{If } a_1 \geq a_2 \geq ... \geq a_n...0 \text{for all n in } \lim_{n \to n} a_n = 0,\\ &\text{then the alternating series} \end{align*}$$
 $$a_1 - a_2 + a_3 - a_4 + ...$$
 $$\text{converges, that is}$$
-$$\lim_{n \to \infty} \sum\limits_{k=1}^n (-1)^{k-1}????$$
+$$\lim_{n \to \infty} \sum\limits_{k=1}^n (-1)^{k-1}a_k=\lim_{n\rightarrow\infty}\sum^n_{k=1}(-1)^{k-1}a_k=\lim_{n\rightarrow\infty}S_n=S$$
 
 $$\text{Where S is its sum and } S_n \text{ is the nth partial sum. Moreover, for all n}$$
 $$|S-S_n| \leq a_{n+1}$$
@@ -294,7 +294,7 @@ $$e^x-1+x+\frac{x^2}{2} = \frac{x^3}{3!}+ \frac{x^4}{4!}+\frac{x^5}{5!}+...+\fra
 #### True error and Relative error
 - One of the most common error that we encountered during numerical calculation is the true error which is  just the deviation between the true or exact value and the approximate value, i.e,
 
-TrueError = TrueValue - ApproximateValue 
+$$TrueError = TrueValue - ApproximateValue $$
 
 The relative true error which is the ratio between the true error and the true value, i.e,
 
@@ -305,9 +305,9 @@ $$\begin{align*}f(x)=\sqrt{x}=x^{\frac{1}{2}}  \;\;,x=5 \end{align*}$$
 $$f'(x)=\frac {1}{2}x^{-\frac{1}{2}} = \frac{1}{2\sqrt{x}}$$
 $$f'(x) = \frac {1}{2\sqrt{5}}=$$
 $$f'(x)= \lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$$
-$$f'(x)\approx \frac{f(x+h)-f(x)}{h}, \;\; h=0.1, \;\; x=5$$
+$$f'(x)\approx \frac{f(x+h)-f(x)}{h}, \;\; h=0.01, \;\; x=5$$
 
-$$\text{The true value is}$$
+$$\text{The true error is}$$
 $$f'(5) \approx \frac{\sqrt{5.01}-\sqrt{5}}{.01}\approx$$
 
 
@@ -344,6 +344,9 @@ $$Relative \; Approx \; Error = \frac {Approx \; Error}{\frac {\sqrt{5.001}-\sqr
 ## Number Representation 
 ### Octal and Hexadecimal representation 
 - First Year and 2nd Year topics 
+
+### Binary system
+- In the binary system the base is 2, the integer coefficients may take the vlaues 0 or 1 
 ### Normalized Floating-point Representation 
 Every nonzero real number x has a floating-point representation
 $$x=\pm M x r^e, where \frac{1}{r} \leq M < 1 \; or -\frac{1}{r} \leq M < -1$$
@@ -375,7 +378,7 @@ $\frac{1}{15}  \; has \; representation \; (\frac{1}{15}*8)*2^{-3}(M=\frac{8}{15
 
 
 ### Decimal System 
-No available notes 
+- The base of the decimal system is 10. The digits 0,1,2,3,4,5,6,7,8,9. A string of represents a number according to the formula 
 
 
 2023-08-24
@@ -515,8 +518,13 @@ $$p_2 = p_{2-1}-\frac{p^3_{2-1}+4p^2_{2-1}-10}{3p^2_{2-1}+8p_{2-1}}$$
 6. Check the tolerance. If $|f(x_n)|\leq\epsilon$, for $n\geq0$, then end; otherwise go back to step 4 and repeat the process. 
 
 #### Secant Method 
-- ![[Pasted image 20230907143759.png]]
-- Starting with two initial approximations with two initial approximations $p_0$ and $p_1$, the approximation $p_2$ is the x - intercept of the line joining ($p_0,f(p_0)$) and $(p_1,f(p_1))$
+- Starting with two initial approximations with two initial approximations $p_0$ and $p_1$, the approximation $p_2$ is the x - intercept of the line joining ($p_0,f(p_0)$) and $(p_1,f(p_1))$. The approximation $p_3$ is the x-intercept of the line joining $(p_1,f(p_1))$ and $(p_2,f(p_2))$ and so on.
+- With two initial approximations $p_0$ and $p_1$ generates the sequence {$p_n$} defined by 
+$$p_n = p_{n-1} - \frac{f(p_{n-1})(p_{n-1}-p_{n-2})}{f(p_{n-1})-f(p_{n-2})}$$
 
 **Procedures of Secant method**
-![[Pasted image 20230907144012.png]]
+- Choose the two initial approximations $x_0$ and $x_1$
+- Check if $f(x_0)=f(x_1)$, go to step 1; otherwise; continue 
+- Establish the tolerance ($\epsilon>0$) value for the function
+- Compute a new approximation for the root using iterative formula 
+- Check the tolerance. If $|x_n-x_{n-1}| \leq \epsilon, \; for \;n\geq1$, then end; otherwise go back to step 4 and repeat the process  

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming languages.md",
+                "file": "Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b525b502aab9546d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numerical Methods Seatworks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming languages.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming languages.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming languages.md"
+                "file": "Numerical Methods.md"
               }
             }
           }
@@ -150,11 +162,11 @@
   "active": "7449ea61ce31229c",
   "lastOpenFiles": [
     "Numerical Methods Seatworks.md",
+    "Numerical Methods.md",
+    "Programming languages.md",
     "Ethics.md",
     "Spanish.md",
     "Data warehousing.md",
-    "Programming languages.md",
-    "Numerical Methods.md",
     "Media/Pasted image 20230907143342.png",
     "Media/Pasted image 20230907173159.png",
     "Media/Pasted image 20230907144012.png",
