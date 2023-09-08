@@ -80,3 +80,87 @@ Pass 60
 14. Install flutter extension in viusal studio code it will also install dart
 **Notes:**
 - It was instructed that in step 9 to type where flutter dart but it doenst work until lex discovered what I did in step 9
+
+2023-09-08
+
+## Flutter
+Flutter - Is a SDK that is used to build high performance, modern and beautiful apps with ease 
+- A free and open-source toolkit developed by Google
+- Used to develop applications for Android, iOS, Windows, Mac, Linux, Google Fuchsia and the web 
+- Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase 
+- Flutter uses Dart language
+
+#### History 
+- In 2015 Google unveil Flutter
+- 2019 an alpha version of it (0.0.6) was released to the public for the first time 
+- In December 2018 Flutter 1.0 was released (promote - make app creation easier) - stable version
+- At Google I/O 2019, Flutter support for desktop and web platforms 
+
+#### Why use Flutter? 
+- Natively compiled applications for mobile, web, and desktop from a single codebase 
+- Noe bridge needed 
+- Compiles to Native Code
+- Not markup language (only Dart)
+- Close related up performance 
+
+**Advantages**
+- High performance 
+- Immediate Updates
+- Custom widgets for quick UI Coding 
+- Mild learning curve
+
+**Disadvantages**
+- Large File sizes
+- Lack of third-party libraries
+- Issues with IOS 
+
+**Works for both iOS and Android**
+
+**Other Hybrid/Cross Development Frameworks**
+- IONIC
+- React Native
+- Xamarin 
+- PhoneGap
+- NativeScript
+
+![[Pasted image 20230908192659.png]]
+![[Pasted image 20230908193134.png]]
+### Flutter Architecture
+![[Pasted image 20230908193229.png]]
+
+![[Pasted image 20230908193349.png]]
+
+![[Pasted image 20230908193900.png]]
+
+### IDE SUPPORT
+- Android Studio
+- Visual Studio Code
+- DartPad 
+- IntelliJ
+
+### What kinds of apps Flutter can build?
+- Flutter is optimized mobile apps that want to run on both Android and IOS.
+- You can build full-featured apps with Flutter, including, camera, g
+![[Pasted image 20230908194101.png]]
+
+![[Pasted image 20230908194106.png]]
+
+
+### Hot Reload
+- Flutter is Engineered for high devleopment velocity apps in which **Stateful Hot Reload** allows user to change their code and see it come to life in less than a **second** without losing the state of that app,
+- Injecting **updated source code** files into the running **Dart VM**
+
+###  Flutter is unique 
+- Flutter uses neither **WebView** nor the **OEM widgets** that shipped with the device. Instead, Flutter uses its own high-performance 
+![[Pasted image 20230908194313.png]]
+
+
+
+## Dart 
+- General-purpose programming language originally developed by **Google** and later approved as a standard by **Ecma** (ECMA-408).
+- Used to build **web, server** and **mobile applications** and for **Internet of Things (IoT)** devices.
+- Dart was **unveiled** at the **GOTO conference**, **October 10-12, 2011**
+
+
+https://docs.flutter.dev/ui/layout/tutorial
+![[Pasted image 20230908194646.png]]
