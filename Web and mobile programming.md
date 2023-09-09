@@ -123,8 +123,21 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 - PhoneGap
 - NativeScript
 
-![[Pasted image 20230908192659.png]]
+
+| |React Native |Ionic|Flutter|
+| --- | --- | --- | --- |
+|Language|JavaScript & React | HTML, CSS, JavaScript (you can use with React, Vue, or Angular) | Dart Language | 
+| Nature of apps | Cross-platform | Hybrid cross-platform | Cross-platform | 
+| Founded Year (Initial Release) | March 2015 | 2013 | May 2017 | 
+| Developed by | Facebook & Community | Drifty Co. | Google & Community | 
+| Community support | Strong | Strong | Lack of community support as it's new | 
+| Open source | Yes | Yes, Paid  also | Yes |
+| Front-end support | Native components & Declarative UI | HTML, CSS, and a wide range of UI designs | Great support for attractive UIs with built in widgets | 
+| Code reusability | Learn once, write everywhere | Once codebase, any platform | Reusable widgets | 
+| Used By | Facebook, Instagram, Tesla, Uber, Walmart, Airbnb | MarketWatch, NHS, Sowrkit, Instant Pot, Untapped | Alibaba, AppTree, Google Ads, Reflectly, Tencent |
+| Performance  
 ![[Pasted image 20230908193134.png]]
+
 ### Flutter Architecture
 ![[Pasted image 20230908193229.png]]
 
@@ -147,11 +160,12 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 
 
 ### Hot Reload
-- Flutter is Engineered for high devleopment velocity apps in which **Stateful Hot Reload** allows user to change their code and see it come to life in less than a **second** without losing the state of that app,
+- Flutter is Engineered for high development velocity apps in which **Stateful Hot Reload** allows user to change their code and see it come to life in less than a **second** without losing the state of that app,
 - Injecting **updated source code** files into the running **Dart VM**
 
 ###  Flutter is unique 
-- Flutter uses neither **WebView** nor the **OEM widgets** that shipped with the device. Instead, Flutter uses its own high-performance 
+- Flutter uses neither **WebView** nor the **OEM widgets** that shipped with the device. Instead, Flutter uses its own high-performance rendering engine to draw  widgets.
+In addition, Flutter is different because it only has a thin layer of C/C++ code. Flutter implements most of its system in Dart that developers can easily approach read, change, replace, or remove 
 ![[Pasted image 20230908194313.png]]
 
 

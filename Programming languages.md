@@ -670,4 +670,27 @@ Programming languages don't have the same syntax
 - A *sentence* is a sentential form that has only terminal symbols 
 - A *leftmost derivation* is one in which the leftmost nonterminal in each sentential form is the one that is expanded
 
+
 ### Further information is to Read Chapter 3 
+
+#### Describing  the syntax(and semantics)
+##### Chomsky CGF
+##### John Backus and  Peter Naur 
+
+#### 2 ways of describing the syntax 
+**BNF**
+- Symbols/Conventions
+	- The use of angular brackets and arrows 
+	- -> - Implies that or equivalent to 
+	- <> - Non terminal 
+	- ex
+		- identifier> -> A|B|C
+	- If it is non terminal you have to describe it 
+
+#### Components
+- The components of a program you can have 
+	- Elements 
+	- Statement separators
+	- Blocks
+	- identifiers
+	- serverse
