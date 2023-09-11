@@ -163,7 +163,7 @@ Business support
 		- reflect 
 		- refine 
 	- Basis lies on the authenticity or real-life application of the research begin done. 
-	- Goa; : to create a living envbironment wherein students "learn by doing"
+	- Goa; : to create a living environment wherein students "learn by doing"
 
 
 ## Definition
