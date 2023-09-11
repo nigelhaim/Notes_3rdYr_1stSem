@@ -11,15 +11,26 @@
             "id": "b525b502aab9546d",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "A1.1.pdf"
+              }
+            }
+          },
+          {
+            "id": "76b1ce73259317e6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Spanish.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Spanish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Spanish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering I.md"
+                "file": "Spanish.md"
               }
             }
           }
@@ -147,10 +158,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b525b502aab9546d",
+  "active": "76b1ce73259317e6",
   "lastOpenFiles": [
-    "Concepts-of-Programming-Languages.pdf",
     "Software Engineering I.md",
+    "A1.1.pdf",
+    "Spanish.md",
+    "Unconfirmed 753628.crdownload",
+    "Data warehousing.md",
+    "Concepts-of-Programming-Languages.pdf",
     "Programming languages.md",
     "Media/Pasted image 20230908192659.png",
     "Web and mobile programming.md",
@@ -164,10 +179,8 @@
     "Media/Pasted image 20230908193349.png",
     "Media/Pasted image 20230908193229.png",
     "Media/Pasted image 20230908193134.png",
-    "Spanish.md",
     "Numerical Methods.md",
     "Ethics.md",
-    "Data warehousing.md",
     "README.md",
     "DOST/Mathematics.md",
     "DOST/Untitled.md",

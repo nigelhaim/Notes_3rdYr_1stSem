@@ -394,3 +394,55 @@ This makes the solution easier to find later on
 - Beware of adding causes which are actually solutions
 - A **Cause and Effect Matrix** could be used to prioritize the causes of the problem 
 - Prioritizing and selectin the key causes will minimizes the need for more statistical evaluation of inputs that are unlikely to have an impact on the output.
+
+
+
+2023-11-09
+
+## Project Methodologies
+- **What is methodology**
+	- Anyone who like to deploy products or services 
+	- Multi-step approach to systems development 
+	- Influences the quality of the Final product
+	- Comprehensive 
+		- All the components of methodology are considered as comprehensive 
+		- All was discussed 
+	- Consistent method with the organizations management style 
+
+
+##### History of Methodology 
+- Computer-based info systems begin in the 1950's
+- 1980's introduced microcomputers 
+	- CASE tools development 
+		- Computer Aided Software Engineering tools development 
+		- System developers wen from builders to integrations.
+- 1990's brought systems integration
+	- Visual programming environments
+- Present day Info Systems 
+	- Internet, Intranet, and Extranents
+
+#### Waterfall Methodology 
+- Overview
+	- Introduced by W.W. Royce in 1970
+	- It was later redesigned using a more 
+- Phases
+	- Requirements - data gathering 
+		- Collected and set in stone 
+	- Design - A blueprint is made for the programmers using the previously collected requirements 
+	- Implementation - system components are designed by coders and integrated together
+	- Testing - Integration the system is tested and bugs are removed 
+	- Installation & Maintenance - The final installation of the system is done at this phase. Users are trained and the system is maintained by the system designers 
+
+## Systems Development Life Cycle (SDLC)
+- Implementation 
+	- System and Written specs turned over to programmers 
+	- Implementation process
+		- Coding, Testing, Installation
+- Maintenance 
+	- Systems are in operation
+	- Specific problems or changes are made 
+### Rapid Application Development (RAD)
+**Overview**
+- Methodology used to decrease time in development process
+	- Efficient and Cheaper
+- 

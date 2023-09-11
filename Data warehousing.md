@@ -235,3 +235,143 @@ Different types of data models?
 |**Understandable & Relevance** - Easy to understand and gears answer organization needs |**No single source of truth** - The warehouse is designed and organized around data marts|
 |**Skills needed** - Requires less number of highly skilled engineers and less technical knowledge |**Less Flexible and incomplete** - Due to "as-needed" paradigm and is specific to needs |
 
+2023-11-09
+
+#### Dan Linstedt (Data Vault)
+
+"A **detail-oriented** , **historical tracking**, and **uniquely linked set** of normalized tables that support functional areas of the business. It is **hybrid approach** of 3NF and Star Schemas" - Dan Listedt
+
+##### The pillars of a Data Vault:
+- **Methodology** - Emphasis on Agile principles and practices. Involves incremental delivery, continuous integration and adaptability to changes.
+	- Incremental - Waterfall
+	- Continuous integration - Git is the best example. 
+	- Adaptability to changes - Do not plan the entire scenario
+- **Architecture** - Focuses on the systems and structures that handle and store data it combines **best of 3NF and start schema techniques**
+
+**Lundstedt's Approach**
+- Identify the **Core Business Concept**. Need to select a grain of abstraction that the organization is using 
+- Create a **Raw Vault** by identifying the core concepts for the architecture which are Hubs, Links, and Satellites 
+- ETL to first add Hubs for defining business IDs, followed by Links, and then additional data through satellites
+
+Encrypt Necessary IDs as dedicated from maintaining security and privacy 
+Data Marts are used as
+
+| Advantages  | Disadvantages|
+|---|---|
+|**Incremental Builds** - since the architecure adapts an Agile approach, it is more adaptable to change |**Added Overhead** - Because of the added complexity, for fewer data sources, it is not idea|
+|**Data Lineage** - through the core concepts, the vault keeps track of the historical data | **Explosion of tables** | 
+| ||
+|||
+
+
+## Kimball Lifecycle and Dimensional Modelling
+
+**Program/Project Planning**
+- Ano gusto sa life 
+**Business Requirements Definition**
+- If you do not use the right tools to solve the problem it is useless
+- Ano plano mo gawin in life
+**Top Track/**
+- Implement in life
+**Middle Track/Data Track**
+- Enough ba si python/java...?
+**Bottom Track/Bi Application Track**
+- Dashboards, admin page 
+- Ano itsura ng front end 
+**Deployment**
+- Production ready software 
+- Tested, WIdthstand mutliple request, and bugs 
+**Growth**
+- As the business gets bigger, the data too
+**Maintenance**
+- How you solve problems along the way
+
+#### Program/Project Planning and Management 
+
+**What is a lifecycle**
+- **Customer Expectations**
+- **Completion within times**
+	- Fishbone 
+	- Requirements 
+	- Why in this certain amount of time? 
+		- Too late for the competitors? 
+- **Cost estimates**
+	- The cost to make a project
+		- Devleopers, Maintenance
+
+**The DW/BI initiative begins with a series of program and project planning activities**
+- Asses Readiness
+	- Business Sponsor 
+		- A backer for the project 
+		- Makes the project worth it 
+		- Someone from the top that backs the developer
+	- Business motivation
+		- What is the return? 
+		- What is it for me? 
+		- Something compelling to gain support 
+	- Feasibility 
+		- Resources needed
+		- If data is not feasible there is no sense of data warehousing 
+- Scoping and Justification 
+	- The limitations and kung ano lang kaya gawin ng developers 
+	- Justification
+		- The cost
+		- Benefits 
+		- The time to develop 
+	- Impact
+		- The cost of life 
+- Staffing 
+	- Who are involved? 
+	- Opportunities for newly Grads 
+	- Business Roles 
+		- Business Sponsor - Form the top
+		- Business Driver - the henchmen 
+		- Business Lead - the leader of  the business
+		- Business Users - customer 
+	- IT 
+		- Business Analyst - translates busniess to technical 
+		- Data Steward 
+		- 
+- Developoment and matintaining the plan 
+	- The project manager does not makes the estimates
+	- Are we actually accomplishing something? 
+	- Scope creep - A small bump on the scope making it bigger to satisfy the business requirements
+	- Zero-sum - What should I stop doing it? Gaining control on the scope agreement
+
+#### Business requirments definition
+
+**Collaborating with business users to understand their requirments and ensure their buy-in**
+- Requirements planning 
+	- **Choose the Forum**
+		- Ask the right person on the requirements 
+	- **Identify the Req. Team**
+		- Should be accompanied with the same language 
+	- **Select, Schedule, Prep. Business representatives**
+		- Prepare for the impact for the business
+		- Make sure everyone is on the same page 
+	- Don't waste your/someone's time 
+- Collect Business Reaquirements
+	- **Launch**
+		- Someone needs to talk about the primary talking point
+		- Someone at the beginning to states the purpose
+	- **Interview flow**
+		- The flow of the conversation
+		- Flow vs time restraint
+	- **Wrap up**
+		- The final minutes of the meeting 
+		- Saying everything what has been agreed during the meeting 
+		- Success criteria 
+- Documenting Requirements
+	- Describe why needs the users 
+	- What features
+	- List down everything 
+- Prioritize requirements 
+	- Least effort more impact first 
+
+##### Technical Architecture Design
+- I need an app for this 
+
+##### Product Selection and Installation
+- Approvals
+- Buy products for organization 
+- 
