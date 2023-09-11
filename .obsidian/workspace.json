@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b525b502aab9546d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "A1.1.pdf"
-              }
-            }
-          },
-          {
             "id": "76b1ce73259317e6",
             "type": "leaf",
             "state": {
@@ -29,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,9 +149,9 @@
   },
   "active": "76b1ce73259317e6",
   "lastOpenFiles": [
-    "Software Engineering I.md",
     "A1.1.pdf",
     "Spanish.md",
+    "Software Engineering I.md",
     "Unconfirmed 753628.crdownload",
     "Data warehousing.md",
     "Concepts-of-Programming-Languages.pdf",

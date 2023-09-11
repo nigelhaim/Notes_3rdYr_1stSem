@@ -1,4 +1,4 @@
-w08-30-2023
+08-30-2023
 
 Module
 
@@ -54,6 +54,7 @@ siesta - rest
 **Soy de Filipinas** - I come from the Philippines
 **Soy de Filipinas de manila** - I come from Manila Philippines
 **Soy FIlipino** - I am a Filipino
+**Hablo [language] e [2nd language]**- I speak [language] and [2nd language]
 
 ## Frases Utiles (Useful phrases)
 - Sentences is also called "Frases"
