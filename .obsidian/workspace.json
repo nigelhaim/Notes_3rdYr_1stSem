@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76b1ce73259317e6",
+            "id": "b37335b3267f538a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spanish.md",
+                "file": "Software Engineering I.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spanish.md",
+                "file": "Software Engineering I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spanish.md",
+                "file": "Software Engineering I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spanish.md"
+                "file": "Software Engineering I.md"
+              }
+            }
+          },
+          {
+            "id": "b9b0729c8b506c1e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -147,37 +157,43 @@
       "graph:Open graph view": false
     }
   },
-  "active": "76b1ce73259317e6",
+  "active": "b37335b3267f538a",
   "lastOpenFiles": [
-    "A1.1.pdf",
-    "Spanish.md",
-    "Software Engineering I.md",
-    "Unconfirmed 753628.crdownload",
+    "Media/ps1BF0.tmp",
+    "Media/commontypes.png",
+    "Media/ps67C2.tmp",
+    "Media/typesofinfomraion.jpg",
+    "Media/ps9E47.tmp",
+    "Media/pyramid model.png",
+    "Media/ps8FA5.tmp",
     "Data warehousing.md",
-    "Concepts-of-Programming-Languages.pdf",
+    "Ethics.md",
+    "Numerical Methods Seatworks.md",
+    "Software Engineering I.md",
+    "Media/ps70E.tmp",
+    "Media/psC1F6.tmp",
+    "Media/Untitled-2.png",
+    "Media/psBC4.tmp",
+    "!Untitled-1.png.md",
+    "Media/Untitled-1.png",
+    "Media/ps20AF.tmp",
+    "psB168.tmp",
+    "ps411E.tmp",
+    "Pasted image 20230912142358.png",
+    "Web and mobile programming.md",
+    "Media/Pasted image 20230908193900.png",
+    "Media/ps27F.tmp",
+    "Media/Pasted image 20230908193349.png",
+    "Numerical Methods.md",
+    "Spanish.md",
     "Programming languages.md",
     "Media/Pasted image 20230908192659.png",
-    "Web and mobile programming.md",
-    "Numerical Methods Seatworks.md",
     "Media/Pasted image 20230908194646.png",
-    "Media/Pasted image 20230908194340.png",
-    "Media/Pasted image 20230908194313.png",
-    "Media/Pasted image 20230908194106.png",
-    "Media/Pasted image 20230908194101.png",
-    "Media/Pasted image 20230908193900.png",
-    "Media/Pasted image 20230908193349.png",
-    "Media/Pasted image 20230908193229.png",
-    "Media/Pasted image 20230908193134.png",
-    "Numerical Methods.md",
-    "Ethics.md",
     "README.md",
     "DOST/Mathematics.md",
     "DOST/Untitled.md",
-    "DOST",
-    "Untitled",
     "Untitled 1.md",
     "Untitled.canvas",
-    "Media",
     "Test table.md",
     "Untitled 1.canvas",
     "2023-08-15.md",

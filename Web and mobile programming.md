@@ -135,13 +135,24 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 | Front-end support | Native components & Declarative UI | HTML, CSS, and a wide range of UI designs | Great support for attractive UIs with built in widgets | 
 | Code reusability | Learn once, write everywhere | Once codebase, any platform | Reusable widgets | 
 | Used By | Facebook, Instagram, Tesla, Uber, Walmart, Airbnb | MarketWatch, NHS, Sowrkit, Instant Pot, Untapped | Alibaba, AppTree, Google Ads, Reflectly, Tencent |
-| Performance  
-![[Pasted image 20230908193134.png]]
-
+| Performance | Faster and native like experience | Interactive and faster apps | High-performing and graphically enhance app |
 ### Flutter Architecture
+#### You Can customize everything in green
+
 ![[Pasted image 20230908193229.png]]
 
 ![[Pasted image 20230908193349.png]]
+
+| Stateful Widget | Stateless Widget | 
+| --- | --- | 
+| can build in many different BuildContexts | creates a new State object for each BuildContext | 
+| when Widget changes its value, that's stateful. e.g. Checkbox, Radio button, Textfield| No change in widget value, that's stateless eg. Text, Icon, Icon buttom, Raised button|
+| Override the CreateState and return State. | Override the build() and return Widget |
+|Use when user want to change UI dynamically. | Use when UI remains constant during runtime |
+|When Widget's state changes, the State object calls setState(), telling framework to redraw widget | |
+
+
+#### Everything is a Widget 
 
 ![[Pasted image 20230908193900.png]]
 
@@ -153,11 +164,7 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 
 ### What kinds of apps Flutter can build?
 - Flutter is optimized mobile apps that want to run on both Android and IOS.
-- You can build full-featured apps with Flutter, including, camera, g
-![[Pasted image 20230908194101.png]]
-
-![[Pasted image 20230908194106.png]]
-
+- You can build full-featured apps with Flutter, including, camera, geolocation, network, storage, 3rd-party SDKs, and more .
 
 ### Hot Reload
 - Flutter is Engineered for high development velocity apps in which **Stateful Hot Reload** allows user to change their code and see it come to life in less than a **second** without losing the state of that app,
@@ -165,9 +172,7 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 
 ###  Flutter is unique 
 - Flutter uses neither **WebView** nor the **OEM widgets** that shipped with the device. Instead, Flutter uses its own high-performance rendering engine to draw  widgets.
-In addition, Flutter is different because it only has a thin layer of C/C++ code. Flutter implements most of its system in Dart that developers can easily approach read, change, replace, or remove 
-![[Pasted image 20230908194313.png]]
-
+- In addition, Flutter is different because it only has a thin layer of C/C++ code. Flutter implements most of its system in Dart that developers can easily approach read, change, replace, or remove.
 
 
 ## Dart 
@@ -175,6 +180,3 @@ In addition, Flutter is different because it only has a thin layer of C/C++ code
 - Used to build **web, server** and **mobile applications** and for **Internet of Things (IoT)** devices.
 - Dart was **unveiled** at the **GOTO conference**, **October 10-12, 2011**
 
-
-https://docs.flutter.dev/ui/layout/tutorial
-![[Pasted image 20230908194646.png]]

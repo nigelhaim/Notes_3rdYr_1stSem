@@ -423,3 +423,7 @@ Involve moral reasoning and justification
 1. Construct a bizarre case (imagine a scenario)
 2. Hypothesize possible solutions
 3. Develop logical arguments 
+
+2023 - 09 - 11
+
+If youre alone in the world can you be non-ethical? 

@@ -445,4 +445,127 @@ This makes the solution easier to find later on
 **Overview**
 - Methodology used to decrease time in development process
 	- Efficient and Cheaper
-- 
+
+
+
+****
+
+****
+
+
+# Lectures 
+
+## Different kinds of information systems 
+
+### The pyramid model 
+
+![[pyramid model.png]]
+### Types of Information Processed at different levels
+
+![[typesofinfomraion.jpg]]
+
+### Common types of Information system in an organization
+![[commontypes.png]]
+
+
+1. ***Transaction Processing Systems***
+	- operational-level systems at the bottom of the pyramid 
+	- usually operated directly by the shop floor workers or front line staff, which provide the key data required to support the management of operations 
+	- data is usually obtained through the automated or semi-automated tracking of low-level activities and basic transactions 
+	- TPS are ultimatly little more than simple data a processing systems 
+##### Functions of a TPS in terms of data processing 
+| Inputs | Processing | Outputs|
+|---|---|---|
+|Transactions events | Validation, Sorting, Listing, Merging, Updating, Calculation | Lists, Detail reports, Action reports, Summary reports | 
+
+##### Common types of Information System in an organization (contn)
+**Some examples of TPS**
+- Payroll systems
+- Order processing systems
+- Reservation systems
+- Stock control systems
+- Systems for payments and funds transfers 
+**The role of TPS**
+- Produce information for other systems 
+- Cross boundaries (internal and external)
+- Used by operational personnel + supervisory levels
+- Efficiency oriented
+
+
+
+2. ***Management Information systems***
+	- For historical reasons, many of the different types of Information Systems found in commercial organizations are referred to as "Managment information systems
+	- Management-level systems that are used by middle managers to help ensure the smooth running of the organization in the short to medium term 
+	- The highly structured information provided by these systems allows managers to evaluate an organization's performance by comparing current with previous outputs 
+	- MIS are built on the data provided by the TPS
+
+##### Functions of a MIS in terms of data processing requirements 
+| Inputs  | Processing  | Outputs | 
+|---|---|---|
+|Internal Transactions, Internal File's, Structured data | Sorting, Merging, Summarizing | Summary reports, Action reports, Detailed reports |
+
+**Some examples of TPS**
+- Payroll systems  
+- Order processing systems  
+- Reservation systems  
+- Stock control systems  
+- Systems for payments and funds transfers
+
+**Role of TPS**
+- Produce information for other systems  
+- Cross boundaries (internal and external)  
+- Used by operational personnel + supervisory levels  
+- Efficiency oriented
+
+3. ***Decision support systems***
+- can be seen as a knowledge based system, used by senior managers, which facilitates the creation of knowledge and allow its integration into the organization
+- These systems are often used to analyze existing structured information and allow managers to project the potential effects of their decisions into the future
+- usually interactive and are used to solve ill structured problems
+- offer access to databases, analytical tools, allow "what if" simulations, and may support the exchange of information within the organization.
+
+##### Functions of a DSS
+DSS manipulate and build upon the information from a MIS and/or TPS ato generate insithgts and new information 
+
+|Inputs| Processing  | Outputs |
+|---|---|---|
+|Internal Transactions, Internal Files, External Information | Modelling, Simulation, Analysis, Summarizing | Summary reports, Forecasts, Graphs/Plots | 
+
+**Some examples of DSS**  
+- Group Decision Support Systems (GDSS)  
+- Computer Supported Co-operative work (CSCW)  
+- Logistics systems  
+- Financial Planning systems  
+- Spreadsheet Models?  
+**The role of DSS**  
+- Support ill- structured or semi-structured decisions  
+- Have analytical and/or modelling capacity  
+- Used by more senior managerial levels  
+- Are concerned with predicting the future  
+- Are effectiveness oriented?
+
+5. ***Management Information systems***
+- are strategic-level information systems that are found at the top of the Pyramid  
+- help executives and senior managers analyze the environment in which the organization operates, to identify long-term trends, and to plan appropriate courses of action  
+- information in such systems is often weakly structured and comes from both internal and external sources 
+- Executive Information System are designed to be operated directly by executives without the need for intermediaries and easily tailored to the preferences of the individual using them
+
+**Functions of an EIS**
+EIS organizes and presents data and information from both external data  
+sources and internal MIS or TPS in order to support and extend the inherent  
+capabilities of senior executives.
+
+|Inputs| Processing  | Outputs |
+|---|---|---|
+|External Data, Internal Files, Pre-defined models | Summarizing, Simulation, "Drilling Down" | Summary reports, Forecasts, Graphs/plots |\
+
+**Some examples of EIS**
+Executive Information Systems tend to be highly individualized and are often custom made for a particular client group; however, a number of off-the-shelf EIS packages do exist and many enterprise level systems offer a customizable EIS module.
+
+**The role of EIS**
+- Are concerned with ease of use  
+- Are concerned with predicting the future  
+- Are effectiveness oriented  
+- Are highly flexible  
+- Support unstructured decisions  
+- Use internal and external data sources  
+- Used only at the most senior management levels
