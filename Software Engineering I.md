@@ -433,20 +433,87 @@ This makes the solution easier to find later on
 	- Testing - Integration the system is tested and bugs are removed 
 	- Installation & Maintenance - The final installation of the system is done at this phase. Users are trained and the system is maintained by the system designers 
 
+| Pros | Cons | 
+|---|---|
+|HME speant early in production can save a company hundreds of thousands of dollars | Impossible to know exactly what is needed on each phase of the software process before some time is spent in the phase following it|
+|More emphasis is placed on documentation than any other methods| Requirements are locked in too early leaving no room for user feedback and modification |
+|| too much emphasis on deadlines rather than user requirements |
+
+
+
 ## Systems Development Life Cycle (SDLC)
-- Implementation 
-	- System and Written specs turned over to programmers 
-	- Implementation process
-		- Coding, Testing, Installation
-- Maintenance 
-	- Systems are in operation
+- #### Overview 
+	- **Traditional Methology**
+		- Used to Develop, maintain, and replace info systems
+		- common method for systems development 
+	- **Contains several phases**
+		- Planning, annalysis, design, implementation, maintenance
+#### Phases
+- **Planning**
+	- Identification phase 
+	- Needs are examined as a whole 
+- **Analysis**
+	- Studies current procedures and into systems
+	- Sub phase requirement determination design
+- **Design**
+	- Convert alternative solutions 
+	- Inputs and Outputs 
+		- Reports, Databases, computer processes
+- **Implmentation**
+	- System and Written specs turned over to programmers
+	-  Implementation process
+		- Coding, testing, installation
+- **Maintenance**
+	- Systems are in operation 
 	- Specific problems or changes are made 
+
 ### Rapid Application Development (RAD)
 **Overview**
 - Methodology used to decrease time in development process
 	- Efficient and Cheaper
+- Allows systems developers and end users work together from the beginning 
+- Becoming a more legitimate way of developing Web based systems 
+	- F-business application 
+		- VisualAge Generator, Java, WebSphere Studio etc 
+#### Phases
+- **RAD phases are simlar to SDLC**
+	- Shortened and Combined simplifies the development process 
+- **Systems are analyzed in isolation to other systems** 
+	- Eliminates time consuming activities 
+		- Coordinating with existing standards and systems during the Design and Development phases
+-  **RAD focuses on prototyping similar to RAD**
+	- Prototyping becomes the basis for the new system 
 
+### eXtreme Programming (XP)
+**Overview**
+- An agile Methodology invented about 8 years ago by Kent Beck 
+- Successful because it stresses customer satisfaction and software creation on demand 
+- Responsive to changing customer requirements even late in the life cycle 
+- Improves software projects in four essential ways; communication, simplicity, feedback,  and courage.
+  
+#### Phases  
+- **Planning:** User stories are collected from the customer. Feedback is given to the customer to help better understand the requirements.  
+- **Designing:** Primary focus is on keeping the design simple. Constant communication with the customer is used to design and redesign over and over again until they have reached and acceptable solution.
+- **Coding:** Very iterative process usually done with teams of 2 programmers at a time. Customer feedback is constantly used during the coding process.  
+- **Testing**: Consistently done after each portion of code is created. If bugs are found the code is reworked and retested.  
+- **Releases:** These are usually done in small portions. Final product is then thoroughly tested upon release.
 
+| Pros | Cons |
+|---|---|
+| Code will be developed, tested, and implemented into the system within a few hours after it has been written. | Really there are no cons to XP besides the fact that it may not be applicable to every project. | 
+| XP is governed by very simple rules and practices. | |
+| Pair programming used in XP produces more and better communication among developers, higher levels of productivity, higher quality code, and reinforcement of the other practices in XP, such as the code-and-test discipline.| |
+
+### Rational Unified Process (RUP)
+- **Construction:** The software is actually coded, tested, and documented. At the end of this phase a beta version of the project is released that should have operational capabilities.
+- **Transition:** The system is deployed, problems are corrected, and the users are trained and supported. Once acceptable criteria are met the product can then be scheduled for final release
+
+| Pros | Cons |
+|---|---|
+|Establishes a better understanding and communication channel between business engineering and software engineering|If the users of RUP do not understand that RUP is a process framework, they may perceive it as a weighty and expensive process.|
+|Provides pre-configured process templates for small, medium and large projects, which can be used for easier adoption | Requires an RUP process expert |
+| Allows for constant feedback from the business as well as the stakeholders. | May not be applicable to all situations |
+|Encourages the use of reusable assets such as software pattern, 4GL or Framework which in turn prevents software engineers from having to custom make software. Rational Unified Process (RUP) | |
 
 ****
 
@@ -569,3 +636,132 @@ Executive Information Systems tend to be highly individualized and are often cus
 - Support unstructured decisions  
 - Use internal and external data sources  
 - Used only at the most senior management levels
+
+
+### The Feasibility Study Phase 
+- The objectives of a feasibility study are to find out if an information system project can be done (...is it possible?...is it justified?) and to suggest possible alternative solutions.
+- A feasibility study should provide management with enough information to decide:
+	- Whether the project can be done 
+	- Whether the final product will benefit its intended users 
+	- What are the alternatives among which a solution will be chosen (during subsequent phases)
+	- is there a preferred alternative 
+- After a feasibility study, management makes a go/no go decision 
+
+**The feasibility study is a managmeent-oriented activity**
+
+
+
+### What to Study? ...What to Conclude? 
+- Things to be studied during the feasibility study phase:  
+	- the present organizational system, including users, policies, functions, objectives,...  
+	- problems with the present system (inconsistencies, inadequacies in functionality, performance,...,  
+	- objectives and other requirements for the new system (what needs to change?)  
+	- constraints, including nonfunctional requirements on the system (preliminary pass)  
+	- possible alternatives (the current system is always one of those)  
+	- advantages and disadvantages of the alternatives  
+- Things to conclude: Feasibility of the project and the preferred alternative.
+
+
+### Types of Feasibility 
+- **Operational** - Define the urgency of the problem and the acceptability of any solution; If the system is developed, will it be used? Includes people-oriented and social issues: internal issues, such as manpower problems, labour objections, manager resistance, organizational conflicts and policies; also external issues, including legal aspects and government regulations, also social acceptability of the new system.
+- **Technical** - Is the project feasibility within the limits of current technology? Does the technology exist at all? Is it available within given resource constraints (i.e., budget, schedule,...)?
+- **Economic (Cost/Benefits Analysis)** - Is the project possible, given resource constraints? Are the benefits that will accrue from the new system worth the costs? What are the savings that will result from the system, including tangible and intangible ones? What are the development and operational costs?
+- **Schedule** - Constraints on the project schedule and whether they could  be reasonably met  
+
+**Constraints may be hard or soft**
+
+### Operational Feasibility: The PIECES Framework 
+The PIECES framework can help in identifying problems to be solved,  
+and their urgency:
+- **Performance** - Does current mode of operation provide adequate throughput and response time?
+- **Information** - Does current mode provide end users and managers with timely, pertinent, accurate and usefully formatted information?
+- **Economy** - Does current mode of operation provide cost-effective information services to the business? Could there be a reduction in costs and/or an increase in benefits?
+- **Control** - Does current mode of operation offer effective controls to protect against fraud and to guarantee accuracy and security of data and information?
+- **Efficiency** - Does current mode of operation make maximum use of available resources, including people, time, flow of forms,...?
+- **Services** - Does current mode of operation provide reliable service? Is it flexible and expandable?
+
+### More on Operational Feasibility: Acceptability of Potential Solutions
+- How do end-users and managers feel about the problem (solution)?  
+- It's not only important to evaluate whether a system can work but also evaluate whether a system will work.  
+- A workable solution might fail because of end-user or management resistance.
+	- Does management support the project?  
+	- How do the end-users feel about their role in the new system?
+	- What end-users or managers may resist or not use the system? 
+	   People tend to resist change. Can this problem be overcome? 
+	   If so, how?  
+	- How will the working environment of the end-users change? 
+	- Can or will end-users and management adapt to the change?
+
+### Technical Feasibility 
+- Is the proposed technology or solution practical?  
+- Do we currently possess the necessary technology?  
+- Do we possess the necessary technical expertise, and is the schedule reasonable?  
+- The technology for any defined solution is usually available; however, the question is whether that technology is mature enough to be easily applied to our problem.  
+- Some firms like to use state-of-the-art technology, but most firms prefer to use mature and proven technology.  
+- A mature technology has a larger customer base for obtaining advice concerning problems and improvements.  
+- Assuming that required technology is practical, is it available in the information systems shop? If the technology is available, does it have the capacity to handle the solution.  
+- If the technology is not available, can it be acquired?
+
+### Schedule Feasibility 
+- We may have the technology, but that doesn't mean we have the skills required to properly apply that technology; True, all information systems professionals can learn new technologies; However, that learning curve will impact the technical feasibility of the project;  specifically, it will impact the schedule.  
+- Given our technical expertise, are the project deadlines reasonable? Some projects are initiated with specific deadlines; You need to  determine whether the deadlines are mandatory or desirable. If the deadlines are desirable rather than mandatory, the analyst can  propose alternative schedules.  
+- It is preferable (unless the deadline is absolutely mandatory) to deliver a properly functioning information system two months late than to deliver an error-prone, useless information system on time! Missed schedules are bad, but inadequate systems are worse!
+
+### Economic Feasibility 
+- The bottom line in many projects is economic feasibility.  
+- During the early phases of the project, economic feasibility analysis amounts to little more than judging whether the possible benefits of solving the problem are worthwhile.  
+- As soon as specific requirements and solutions have been identified, the analyst can weigh the costs and benefits of each alternative.
+- This is called a **cost-benefit analysis**.
+
+### Cost/Benefit Analysis
+- The purpose of a cost/benefit analysis is to answer questions such as:  
+	- Is the project justified (because benefits outweigh costs)?  
+	- Can the project be done, within given cost constraints?  
+	- What is the minimal cost to attain a certain system?  
+	- What is the preferred alternative, among candidate solutions?  
+- Examples of things to consider:  
+	- hardware/software selection  
+	- how to convince management to develop the new system  
+	- selection among alternative financing arrangements (rent/lease/purchase)  
+- Difficulties - discovering and assessing benefits and costs; they can both be intangible, hidden and/or hard to estimate, it's also hard to rank multi-criteria alternatives
+
+### Types of Benefits 
+- Examples of particular benefits: cost reductions, error reductions, increased throughput, increased flexibility of operation, improved  operation, better (e.g., more accurate) and more timely information  
+- Benefits may be classified into one of the following categories:  
+	- **Monetary**- when $-values can be calculated  
+	- **Tangible** (Quantified) - when benefits can be quantified, but $- values can't be calculated  
+	- **Intangible**- when neither of the above applies  
+- How to identify benefits? By organizational level (operational, lower/middle/higher management) or by department (production, purchasing, sales,...)
+### Types of Costs
+
+- Project-related costs  
+	- Development and purchasing costs: who builds the system (internally or contracted out)? software used (buy or build)? hardware (what to buy, buy/lease)? facilities (site, communications, power,...)  
+	- Installation and conversion costs: installing the system, training of personnel, file conversion,....  
+- Operational costs (on-going)  
+	- Maintenance: hardware (maintenance, lease, materials,...), software (maintenance fees and contracts), facilities  
+	- Personnel: operation, maintenance  
+- For a small business that wants to introduce a PC-based information system, these cost categories translate to the following:  
+	- Project costs: purchasing (hardware, software, office furniture), customizing software, training, system installation and file  conversion  
+	- On-going costs: operating the system (data entry, backups, helping users, vendors etc.), maintenance (software) and user  support, hardware and software maintenance, supplies
+
+### Accounting Methods 
+- Assuming that both benefits and costs can be identified and evaluated, how do we compare them to determine project feasibility? Typical cases include comparing costs of alternatives (assuming equal benefits) or comparing various payment options:  
+- Payback Analysis:Payback Analysis: how long will it take (usually, in years) to pay back the project, and accrued costs:
+$$Total \; costs \; (initial+incremental) - Yearly \; return \; (or \; savings)$$
+- Return on Investment Analysis: compares the lifetime profitability of alternative solutions
+$$\frac{Lifetime \; benefits - Lifetime \; costs}{Lifetime costs}$$
+- Net Present Value Analysis: determines the profitability of the new project in terms of today's dollar values. Will tell you that if you invest in the proposed project, after n years you will have $XXX profit/loss on your investment
+
+
+### Discount Rates 
+- A dollar today is worth more than a dollar tomorrow...  
+- The dollar values used in this type of analysis should be normalized to refer to current year dollar values.  
+- For this, we need a number, the discount ratediscount rate, which measures the opportunity cost of investing money in other projects, rather than the information system development one. This number is company- and industry-specific.  
+- To calculate the present value,present value, i.e., the real dollar value given the discount rate i, n years from now, we use the formula
+
+$$Present \; Value (n) = \frac{1}{(1+i)^n}$$
+### How to Compute Exactly the Payback Period  
+- Need to determine the time period when lifetime benefits will overtake the lifetime costs; This is the break-even point.  
+- Determining the fraction of a year when a payback actually occurs:
+
+$$$$

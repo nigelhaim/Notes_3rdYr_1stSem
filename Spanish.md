@@ -33,9 +33,9 @@ siesta - rest
 
 ## Saludos
 **iHola!** - Hello
-**iBuenos Dias!** - Good morning
-**iBuenos tardes!** - Good afternoon
-**iBuenos Noches!** - Good evening
+**iBuenos Dias!** - Good morning (6:00 to 13:59)
+**iBuenos tardes!** - Good afternoon (14:00 to 19:59)
+**iBuenos Noches!** - Good evening (20:00 t )
 **iMuy mal!** - very bad 
 **iQue tal!** - Como estas?
 **iAdios!** = iHasta Luego!
@@ -61,9 +61,10 @@ siesta - rest
 **No Entiendo Puedes repetir por favor?** - I didn't understand can you please repeat it? 
 **Como se dice [word] en espanol?** - How do you say [word] in spanish
 **que significa = que esta es = que [word] de espanol** - What is the meaning of this
-**[word in spanish] significa** - [spanish word] is in spanish
+**[english word] se Dice [spanish word] en espanol**- [English word] in spanish is [spanish word]
 **Mas depacio, por favor** - Please speak slowly 
 **Como se escribe?**- How do you write 
+**se a y griyega [pronounce spelling]**- you write it in greek with [pronounce spelling]
 **Esta bien asi?** - is this correct? 
 **Esta mal** - it is wrong
 **Esta bien** - It is correct
@@ -93,3 +94,25 @@ siesta - rest
 
 
 
+A: ¡Hola!  
+B: ¡Hola!  
+A: Buenos días.  
+B: Buenos días.  
+A: ¿De dónde eres?  
+B:Soy filipino/a de ___________. ¿Y tú, de dónde eres?  
+A: Soy filipino de palawan ____________.  
+B: Encantado.  
+A. Mucho gusto.  
+B: ¿Cómo te llamas?  
+A: Me llamo __________________. Nigel ¿Y tú, cómo te llamas?  
+B: Me llamo Dani ___________________.  
+A:¿A qué te dedicas?  
+B: Soy estudiante. ¿Y tú, en qué trabajas?  
+A: Soy camarero.  
+B: ¿Por qué estudias español?  
+A: Estudio español porque es necesario para mi estudios. ¿Y tú, por qué estudias español?  
+B: Estudio español porque voy a viajar a España.  
+A: Gracias.  
+B: De nada.  
+A: Adios.  
+B: Hasta luego

@@ -427,3 +427,65 @@ Involve moral reasoning and justification
 2023 - 09 - 11
 
 If youre alone in the world can you be non-ethical? 
+
+2023 -09 - 13
+
+## Asynch on moral reasoning 
+### What is moral reasoning? 
+
+"a form of practical reasoning. It is directed to us what to do"
+	- Maxwell J Smith
+
+What should we do morally speaking
+**We want o make those premises is moral**
+- Right or wrong 
+- Examples
+	- Regulation of mountain climbing because of injuries
+- John Stuart Mill's harm principle 
+
+Requires us to engage those ethical values and those principles and have an ability to talk to one another about those principles. 
+
+Fallacies of moral reasoning are logically incorrect ways of reasoning that attempt to persuade emotionally or psychologically.  During classroom discussions and in issue-related essays, we will labor to identifying and exposing such fallacies, in the positions articulated in our readings, in-class during our discussions, as well as in our written work.
+
+#### Fallacies 
+I.          **Ambiguity**: When we use a word or phrase in such a way that it is not clear, or can be taken in more than one way.
+
+II.        **Genetic** **Fallacies**: These are called "abusive" because they attack the something about the source "or genesis” of the argument, instead of dealing with the merits of the argument itself.  E.g.: saying a proposal "smacks of socialism" is not dealing with the proposal itself. It is always fallacious to attack an argument because of its source.
+
+III.       **_Ad_** _**hominem**_ (is Latin for "to the man"):  This attacks the person instead of the person's argument.  E.g.: In response to somebody saying they didn't feel right about participating in a demonstration against discrimination, some one responded, "You're a fascist without any moral sense, you just want to perpetuate racism."  Or if an energy consultant accused opponents of a nuclear power plant of being "wild-eyed fanatics."  Or is it is said that anyone who opposes administration policy is a "communist dupe."
+			A.        Such tactics are often successful in drawing attention away from reasoned arguments. 
+
+IV.       **Invincible ignorance:**  Insists on the legitimacy of an idea despite contradictory facts.  The phrase "I don't care what you say" is a dead giveaway.  E.g., "It doesn't matter what anybody thinks, abortion is wrong."
+
+V.        **Questionable Claim**: is a statement that cannot stand up to scrutiny, because it is too broad a claim.  Superlatives (phrases including adjectives or adverbs like always, never, best, worst) are often indicators of questionable claims. 
+			A.        E.g., Every time someone is executed, violent crime decreases, therefore, capital punishment works.  (Or even): Executions reduce crime is an empirically questionable claim.
+
+VI.       **Straw Man**: Changing another person’s position/argument into a form that is easier to attack.  (The metaphor is about setting up a "straw man" argument and then knocking it down.)
+
+VII.      **Is / Ought:** Trying to derive a moral statement from a factual statement.  Assuming because something is, it ought to be.
+
+VIII.    **Inconsistency**: Contradicting one’s own argument. 
+
+IX.       **Begging the question:**  answering the question with a question or a variation of the same question; or just assuming that a statement what must be proved is true, in such a way as to make it seem more plausible. 
+			A.        Circular arguments: e.g. How do you know God exists?  Because the Bible says so.  How do you know the Bible speaks truth?  Because it is inspired by God.
+
+X.        **Argument from ignorance**: Insists a argument is true unless it is proved false, or false until proved true.  "Since there is no clear evidence that [someone] knew about the bribe, he must be innocent."
+
+XI.       **Appeal to authority:**  
+			A.        80% of Americans polled are against abortion, so it clearly is wrong.
+			B.        The President has more information than we do, so he must have good reason for his decision.
+
+  
+
+XII.     **Provincialism:** Sees things exclusively through the eyes of one's own group, organization, nation, etc.  (Most moral arguments that emphasize the protection of one's own preferred group fall into this fallacy.)
+
+XIII.    **Hasty conclusion:** Moral conclusions based on insufficient evidence:
+			A.        E.g., conclusions based on anecdotal instead of thoroughly researched views of the facts.  Often includes a failure to consider pertinent and available science.
+
+XIV.    **Two wrongs make a right:** Everybody is doing it.  The statement to the cop: Why don't you chase and ticket that other vehicle – it was going faster than I was.
+
+XV.     **Fallacies of Faulty Causation:**
+			A.        **Causal oversimplification:**  Correlation does not = causation.  Association does not mean that something has a causal impact.
+			B.        **Slippery slope:** if one particular undesirable thing happens, it will inevitably lead to an even worse consequence, will lead to yet another worse consequence, and so on, on a “slippery slope” to some horror. It is the inevitability of the assumption that is fallacious; these are also forms of the questionable claim fallacy.
+
+1.         E.g.: If you take that first drink you will become a destitute drunk.
