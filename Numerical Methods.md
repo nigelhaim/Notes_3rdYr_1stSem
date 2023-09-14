@@ -528,3 +528,123 @@ $$p_n = p_{n-1} - \frac{f(p_{n-1})(p_{n-1}-p_{n-2})}{f(p_{n-1})-f(p_{n-2})}$$
 - Establish the tolerance ($\epsilon>0$) value for the function
 - Compute a new approximation for the root using iterative formula 
 - Check the tolerance. If $|x_n-x_{n-1}| \leq \epsilon, \; for \;n\geq1$, then end; otherwise go back to step 4 and repeat the process  
+
+
+
+2023 - 09 - 14
+
+# LT #1. CS 26110 
+1. Find all number c that satisfy the conclusion of Rolle's Theorem/Mean Value theorem on the following functions:
+1.1 $f(x)=\frac{x}{x+4},\;[0.4]$
+	Ans. $f(0) -0,f(4)=\frac{1}{2}$
+
+$$f'(x)=\frac{(x+4)(1)-x(1)}{(x+4)^2}=\frac{4}{(x+4)^2}$$
+$$f'(c)=\frac{4}{(c+4)^2}=\frac{\frac{1}{2}-0}{4-0}=\frac{1}{8}$$
+$$\frac{1}{(c+4)^2}=\frac{1}{32}$$
+$$c=\sqrt{32}-4$$
+
+1.2 $f(x)=x\sqrt{x+4},\;[-4,0]$
+Ans. $f(-4)=0,\;f(0)=0$
+$$f'(x)=(1)\sqrt{x+4}+x(\frac{1}{2})(x+4)^{\frac{1}{2}}$$
+$$f'(c)=\sqrt{c+4}+(\frac{c}{2\sqrt{c+4}})=0$$
+$$\frac{2(c+4)+c}{2\sqrt{c+4}a}=0$$
+$$3c=-4$$
+$$c=-\frac{4}{3}$$
+
+2. Find the Fifth degree Taylor polynomial $P_5(x) use it to approximate \epsilon = 10^{-8}$
+2.1 $\sqrt{1.002}$
+Ans.
+$$\begin{align*}f(x)&=x^{\frac{1}{2}}\\f'(x)&=\frac{1}{2}x^{-\frac{1}{2}}\\f''(x)&=-\frac{1}{4}x^{-\frac{3}{2}}\\f'''(x)&=\frac{3}{8}x^{-\frac{5}{2}}\\f^{(IV)}(x)&=-\frac{15}{16}x^{-\frac{5}{2}}\\\end{align*}$$
+$$x=1,\;h=.002$$
+$$\begin{align*}f(x)&=x^{\frac{1}{2}}\\f'(x)&=\frac{1}{2}x^{-\frac{1}{2}}\\f''^{(1)}&=-\frac{1}{4}\\f'''(1)&=\frac{3}{8}\\f^{(IV)}(1)&=-\frac{15}{16}\end{align*}$$
+$$\sqrt{1.002}\approx1+(\frac{1}{2})(.002)-(\frac{1}{4})(.002)^2+(\frac{3}{8}(.002)^3-(\frac{15}{16})(.002)^4$$
+$$\approx 1.00099950$$
+3. Convert the following 
+3.1 Convert $(0.1100011)_2$ to decimal form in fraction form 
+- **Ans. 99/128**
+3.2 The first five binary digits of $(0.1)_{10}$
+- **Ans. $(.00011)_2$**
+3.3 The decimal floating point form of $\frac{2}{125}$
+- **Ans. $0.16*10^{-1}$**
+4. Solve the root of $f(x)=e^x-2-x$ on the interval [-2.4, -1.6] accurate to $10^{-4}$ using the bisection method 
+- **Ans -1.8414**
+5. Solve the equation $e^{-x}-x=0$ using the secant method, starting at $x_0=0$ and $x_1=1$, accurate to $10^{-4}$
+- **Ans 0.6571**
+
+## Calculus of Finite Differences 
+**Finite difference operators**
+
+The calcualus of infinite difference is important in the theory of interpolation and numerical differentiation and integration. Some of elementary procedures of the calculus of finite difference will be considered. It is desirable to have fmailiarity with them, since finite differences also occurs in curve fitting, smoothing of data and solving differential equations by approximate numerical methods.
+
+#### Fundamental Operators of the Calculus of Finite Difference 
+
+The calculus of finite differences is facilitated by the use of certain operators. An operator may be defined as symbol placed before a function to indicate the application of some process to the function to produce a new function. 
+
+| Operator | | |
+|---|---|---|
+|Shifting operator | $Ef(x)=f(x+h)$ | (3.1)|
+|Forward or Advancing Difference operator | $\Delta f(x)=f(x+h)-f(x)$ | (3.2) |
+|Bakcward or Regressing Difference Operator | $\nabla f(x)=f(x+\frac{1}{2}h)-f(x-\frac{1}{2}h)$|(3.3)|
+|Central Difference Operator  | $\delta f(x)=f(x+\frac{1}{2}h)-f(x-\frac{1}{2}h)$|(3.4)|
+|Averaging Operator | $\mu f(x)=\frac{1}{2}[f(x+\frac{h}{2})+f(x-\frac{h}{2})]$|(3.5)|
+|Derivative Operator | $Df(x)=\frac{d}{dx}f(x)=f'(x)$| (3.6)|
+|Anti-Derivative Operator | $D^{-1}=\int f(x)dx+C$|(3.7)|
+|Constant Operator | $kf(x)=kf(x)$|(3.8)|
+|Summation Operator | $\sum f(x)=\Delta^{-1}f(x)$|(3.9)|
+|Anti-Difference Operator |$\Delta^{-1}f(x)=\frac{1}{\Delta}f(x)$|(3.10)|
+where h is the interval
+
+The shifting operator $E$ when applied to a function means that that function to be replaced by its value h units to the right, $D$ indicates differentiation, and the constatn operator k merely multiples the function by a given constant 
+
+If an operator is applied to a function and a second operator is applied to a resting function, these operators are written as a product. for Example 
+
+$$\Delta f(x)=\Delta f'(x)=f'(x+h)-f'(x)=D\Delta f(x)$$
+Product of powers of operators combine according to the law of exponents, that is 
+$$\Delta ^3\Delta^2f(x)=\Delta^5f(x)$$
+We restrict the powers of D and $\Delta$ to be integral and nonnegative numbers. However, all real number power of E may be allowed.
+$$E^n f(x)=f(x+nh)$$
+Also 
+$$E^mE^nf(x)=E^{m+n}f(x)=f(x+mh+nh)$$
+The sum or difference of two operators applied to a function is defined to be the sum or difference of the functions resulting form the application of each operator; that is 
+$$E\pm\Delta)f(x)\pm\Delta f(x)$$
+These operators may be combined as if they are algebraic quantities procided they conform to the following Laws of Algebra 
+
+$$\begin{align*}A+B&=B+A\\A+(B+C)&=(A+B)+C\\AB&=BA\\A(BC)&=(AB)C\\A(B+C)&=AB+AC\end{align*}$$
+For example
+1. $E^mDf(x)=DE^mf(x)$
+$$E^mDf(x)=E^mf'^{(x)}=f'(x+mh)$$
+2. $(D^{\frac{1}{2}}\Delta-D)(E^{1}{2}\Delta+D)=E\Delta^2-D^2$
+3. $(D-E)^2=D^2-2DE+E^2$
+Two operators with the property that when they are applied to the same function they yield the same result are said to be operationally equivalent. Now from the definition of $\Delta f(x)$, we have 
+
+| | | |
+|---|---|---|
+||$\Delta f(x)=f(x+h)-f(x)=Ef(x)-f(x)$|(3.11)|
+||or $\Delta f(x)=(E-1)f(x)$|(3.12)|
+
+So we have the operational equivalences 
+
+| | | |
+|---|---|---|
+||$\Delta = E - 1$|(3.13)|
+| | $E=1+\Delta$ | (3.14)|
+||$1=E=\Delta$|(3.15)|
+||$\Delta f(x)=\delta f(x+\frac{h}{2})=\delta E^{\frac{1}{2}}f(x)$|(3.16)|
+||$\Delta = \delta E^{\frac{1}{2}}$|(3.17)|
+| |$\delta = \Delta E^{-\frac{1}{2}}$|(3.18)|
+||$\delta = E^{\frac{1}{2}}-E^{-\frac{1}{2}}$|(3.19)|
+
+## Factorial Polynomial 
+- The Factorial polynomial is defined by: 
+$$(x)^{(n)}=x(x-1)(x-2)...(x-n+1)$$
+
+$$and$$
+$$(x)^{-(n)}= \frac{1}{(x+1)(x+2)...(x+n)}$$
+
+#### Exmples 
+1. $x^{(4)}=x(x-1))(x-2)(x-3)$
+2. $x^{(-4)}=\frac{1}{(x+1)(x+2)(x+3)(x+4)}$
+3. $(x- 5)^{(-3)}=(x+5)(x+4)(x+3)$
+4. $(x-5)^{(-3)} = \frac{1}{(x-4)(x-3)(x-2)}$
+5. $\begin{align*}(x+6)(x+7)(x+8)(x+11)&=(x+6)(x+7)(x+8)(x+9+2)\\&=(x+6)(x+7)(x+8)(x+9)+2(x+6)(x+7)(x+8)\\&=(x+9)^{(4)}+2(x+8)^{(3)}\end{align*}$
+6. $\begin{align*}\frac{x+8}{(x-3)(x-4)(x-5)}=\frac{x-3+11}{(x-3)(x-4)(x-5)}&=\frac{x-3}{(x-3)(x-4)(x-5)}+\frac{11}{(x-3)(x-4)(x-5)}\\&=\frac{1}{(x-4)(x-5)}+\frac{11}{(x-3)(x-4)(x-5)}\\&=(x-6)^{(-2)}+11(x-6)^{(-3)}\end{align*}$
