@@ -180,3 +180,52 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 - Used to build **web, server** and **mobile applications** and for **Internet of Things (IoT)** devices.
 - Dart was **unveiled** at the **GOTO conference**, **October 10-12, 2011**
 
+2023 - 15 - 09
+
+## Widgets 
+
+- The central purpose is to build the app out of widgets. It describes how your app view should look like with their current configuration and state. 
+- When you made any alteration in the code, the widget rebuilds its description by calculating the difference of previous and current widget to determine the minimal changes for rendering in UI of the app 
+- These can be nested with each other to build the app. It means taht the root of the app itself a widget, and all the way down is a widget also.
+- For example, a widget can display something, can define design, can handle interaction, etc. 
+
+
+
+![[Pasted image 20230915184122.png]]
+
+
+![[Pasted image 20230915184220.png]]
+
+### Widget Creation 
+```
+	Class ImageWidget
+```
+
+### Stateful and Stateless
+- Checkbox, Radio, Slider, InkWell, form and TextField are exmpales of stateful widget
+
+![[Pasted image 20230915184246.png]]
+
+
+![[Pasted image 20230915184430.png]]
+
+![[Pasted image 20230915184511.png]]
+
+![[Pasted image 20230915184615.png]]
+
+![[Pasted image 20230915184653.png]]
+
+![[Pasted image 20230915184905.png]]
+
+![[Pasted image 20230915185115.png]]
+![[Pasted image 20230915185311.png]]
+
+![[Pasted image 20230915185428.png]]
+
+![[Pasted image 20230915185551.png]]
+![[Pasted image 20230915185827.png]]	![[Pasted image 20230915185934.png]]
+
+
+![[Pasted image 20230915190225.png]]
+![[Pasted image 20230915190324.png]]
+![[Pasted image 20230915190635.png]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Media/Pasted image 20230914145526.png"
+                "file": "Media/Pasted image 20230915183948.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20230914145526.png",
+                "file": "Media/Pasted image 20230915183948.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20230914145526.png",
+                "file": "Media/Pasted image 20230915183948.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20230914145526.png"
+                "file": "Media/Pasted image 20230915183948.png"
               }
             }
           },
@@ -155,59 +155,12 @@
       "graph:Open graph view": false
     }
   },
-  "floating": {
-    "id": "eba3011c4eaa2613",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9aef258b2be26f34",
-        "type": "window",
-        "children": [
-          {
-            "id": "45e2668f1c3863e3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f886d9cdc6d2dda",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Numerical Methods.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "50da5e2fdc3b9bf6",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "Media/Pasted image 20230914151134.png"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1262,
-        "y": 7,
-        "width": 1921,
-        "height": 1009,
-        "maximize": true,
-        "zoom": -0.5
-      }
-    ]
-  },
   "active": "78ef5a80065e6454",
   "lastOpenFiles": [
+    "Media/Pasted image 20230914145526.png",
     "Numerical Methods.md",
     "Media/Pasted image 20230914151134.png",
     "Media/Pasted image 20230914150922.png",
-    "Media/Pasted image 20230914145526.png",
     "Media/Pasted image 20230914151527.png",
     "Numerical Methods Seatworks.md",
     "Media/Pasted image 20230914143655.png",

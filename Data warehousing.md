@@ -271,7 +271,7 @@ Different types of data models?
 	- Continuous integration - Git is the best example. 
 	- Adaptability to changes - Do not plan the entire scenario
 - **Architecture** - Focuses on the systems and structures that handle and store data it combines **best of 3NF and start schema techniques**
-- **Modelling**- Emphasized on the represetnation of data. Enusres that the data remains **consistent**, **resilient**, and **accessible**, even in complex environment 
+- **Modelling**- Emphasized on the representation of data. Ensures that the data remains **consistent**, **resilient**, and **accessible**, even in complex environment 
 **Lundstedt's Approach**
 - Identify the **Core Business Concept**. Need to select a grain of abstraction that the organization is using 
 - Create a **Raw Vault** by identifying the core concepts for the architecture which are Hubs, Links, and Satellites 
