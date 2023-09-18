@@ -11,13 +11,28 @@
             "id": "33573530f139ee11",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Pasted image 20230915183948.png"
+                "file": "Software Engineering I.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91bdc7bce3859505",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spanish.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20230915183948.png",
+                "file": "Spanish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20230915183948.png",
+                "file": "Spanish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20230915183948.png"
+                "file": "Spanish.md"
               }
             }
           },
@@ -155,21 +170,21 @@
       "graph:Open graph view": false
     }
   },
-  "active": "78ef5a80065e6454",
+  "active": "91bdc7bce3859505",
   "lastOpenFiles": [
-    "Media/Pasted image 20230914145526.png",
+    "Programming languages.md",
+    "Numerical Methods Seatworks.md",
     "Numerical Methods.md",
+    "Media/Pasted image 20230915183948.png",
+    "Media/Pasted image 20230914145526.png",
     "Media/Pasted image 20230914151134.png",
     "Media/Pasted image 20230914150922.png",
     "Media/Pasted image 20230914151527.png",
-    "Numerical Methods Seatworks.md",
     "Media/Pasted image 20230914143655.png",
     "Media/Pasted image 20230914145430.png",
     "Media/Pasted image 20230914145418.png",
     "Media/Pasted image 20230914145408.png",
     "Media/Pasted image 20230914145334.png",
-    "Media/Pasted image 20230914145249.png",
-    "Programming languages.md",
     "Software Engineering I.md",
     "Ethics.md",
     "Spanish.md",

@@ -73,6 +73,28 @@ siesta - rest
 **Bale** - Ok
 **Gracias y adios** - Thank you and goodbye
 
+2023-18-09
+#### Masculino 
+
+**un, el** - sinular 
+
+**unos, los** - Plural 
+
+#### Feminismo 
+**una, la** - singular 
+**unas, las**- plural
+
+##### IF ending in - start the word with 
+**en** - 
+**z** - la (De **la** paz)
+**D,A,Z, ION** - la
+
+**fa, ma** - el
+##### Plural 
+**Vowels**- s
+**Consonant** - es
+
+## Ejercicios
 
 
 ## Numbers
