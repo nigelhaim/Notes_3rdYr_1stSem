@@ -188,44 +188,124 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 - When you made any alteration in the code, the widget rebuilds its description by calculating the difference of previous and current widget to determine the minimal changes for rendering in UI of the app 
 - These can be nested with each other to build the app. It means taht the root of the app itself a widget, and all the way down is a widget also.
 - For example, a widget can display something, can define design, can handle interaction, etc. 
-
-
-
-![[Pasted image 20230915184122.png]]
-
-
-![[Pasted image 20230915184220.png]]
-
+### Widget Tree
+![[WidgetTree.png]]
 ### Widget Creation 
+
 ```
-	Class ImageWidget
+	Class ImageWidget extends StatelessWidget{
+		//Class stuff
+	}
 ```
 
 ### Stateful and Stateless
-- Checkbox, Radio, Slider, InkWell, form and TextField are exmpales of stateful widget
+- A widget is either stateful or stateless. If a widget can change-when a user interacts with it 
+- A stateless widget never changes. Icon, IconButton, and Text are examples of stateless widgets. Stateless widgets subclass StatelessWidget
+- A stateful widget is dynamic: for examples, it can change its appearance in response to events triggered by user interactions or when it receives data. 
+- Checkbox, Radio, Slider, InkWell, form and TextField are examples of stateful widget
 
-![[Pasted image 20230915184246.png]]
+### Widget-Types
+- We can split the Flutter widget into two categories: 
+	- Visible (output and input)
+	- Invisible (Layout and Control)
 
+### Visible Widget
+- The visible widgets are related to the user input and output data. Some of the important  types of this widgets are: 
+	- **Text**
+		- This holds some text to display on the screen 
+		- Using textAlign property, and style property allow the customization of Text that includes font, font weight, font style, letter spacing, color, and many more. 
 
-![[Pasted image 20230915184430.png]]
+```
+	new Text(
+		'Hello, Everyone!',
+		texdtAlgin: TextAlign.center,
+		style: new TextStyle(fontWeight: FontWeight.bold),
+	)
+```
 
-![[Pasted image 20230915184511.png]]
+```
+	//FlatButton Example
+	new RaisedButton(
+		child:Text("Click here"),
+		elevation: 5.0,
+		onPressed(){
+			//Do something here 
+		},
+	),
+```
 
-![[Pasted image 20230915184615.png]]
+### Image
+- This widget holds the image which can fetch it from multiple sources like form the asset folder or directly from the URL. It provides many constructors for loading image, which are the following:
+	- **Image**: It is a generic image loader, which is used by ImageProvider 
+	- **asset**: It load image from your project asset folder
+	- **file**: It loads images from the system folder 
+	- **memory**: It loads the image from the memory
+	- **network**: It loads images from the network 
 
-![[Pasted image 20230915184653.png]]
+### Icon 
+- This widget acts as a container for storing the Icon in the Flutter 
+```
+	new Icon(
+		Icons.add,
+		size:34.0,
+	)
+```
 
-![[Pasted image 20230915184905.png]]
+### Invisible Widget
+- The invisible widgets are related to the layout and control of widgets. It provides controlling how the widgets actually behave and how they will look onto the screen. Some of the important types of these widgets are: 
+	- **Column**
+		- It is a type of widget that arranges all its children's widgets in a vertical alignment.
+		- It provides spacing between the widgets by using the mainAxisAlignment and crossAxisAlignmnet properties 
+		- In these properties, the main axis is the vertical axis, and the cross axis is the horizontal axis 
 
-![[Pasted image 20230915185115.png]]
-![[Pasted image 20230915185311.png]]
+- The below code snippets construct two widget elements vertically
+```
+	new Column(
+		mainAxisAlignment: MainAxisAlignment.center, 
+		children:<Widget>[
+			new Text("VegElement",
+			),
+			new Text("Non-vegElement"),
+		],
+	),
+```
 
-![[Pasted image 20230915185428.png]]
+- The row widget is similar to the column widget, but it constructs a widget horizontally rather than vertically 
+- Here, the main axis is the horizontal axis, and the cross axis is the vertical axis 
+```
+	new Row(
+		mainAxisAlignmen: MainAxisAlignment.spaceEvenly,
+		children:<Widget>[
+			new Text("VegElement",
+			),
+			
+			new Text("Non-vegElement"),
+		],
+	),
+```
+- This widget wraps other widgets to give them padding in specified directions. You can also provide padding in all directions
 
-![[Pasted image 20230915185551.png]]
-![[Pasted image 20230915185827.png]]	![[Pasted image 20230915185934.png]]
+```
+	Padding(
+		padding:const EdgeInsets.all(6.0),
+		child:new Text(
+			"Element 1",
+		)
+	)
+```
 
+- Scaffold
+	- this widget provides a framework that allows you to add common material design elements like AppBar, Floating Action Buttons, Drawers, etc 
+- Stack
+	- It is an essential widget, which is mainly used for overlapping a widget, such as a button on a background gradient. 
 
-![[Pasted image 20230915190225.png]]
-![[Pasted image 20230915190324.png]]
-![[Pasted image 20230915190635.png]]
+- A StatefulWidget has state information
+- Two Classes: State object and widget 
+- It is dynamic because it can change the inner data during the widget lifetime. 
+- This widget does not have a build() method 
+- It has createState() method, which returns a class that extends the Flutters State class
+- Examples: Checkbox, Radio, Slider, InkWell, Form and TextField
+### Flutter Engine
+- It is portable runtime for high-quality mobile apps and primarily based on the c++ language
+- It implements Flutter core libraries taht include animation, and grpahics, fiole and network I/O, plugin architecture, accessibility support, and a dart runtime for developing, compiling and running Flutter applications
+- IT takes Googel's open-source graphics library, Skia to render low-level graphics

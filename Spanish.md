@@ -94,6 +94,16 @@ siesta - rest
 **Vowels**- s
 **Consonant** - es
 
+1. **Endings:** While there are many exceptions, there are some common endings that often indicate the gender of a noun:
+    
+    - **Masculine Endings:** Nouns ending in -o, -e, -ma, and most consonants are typically masculine.
+        
+        - **Examples:** El perro (the dog), el coche (the car), el tema (the topic).
+    - **Feminine Endings:** Nouns ending in -a, -ión, -dad, -tad, -tud, -umbre, and -ie are often feminine.
+        
+        - **Examples:** La casa (the house), la nación (the nation), la ciudad (the city), la gratitud (gratitude), la juventud (youth), la costumbre (custom).
+2. **Exceptions:** Be aware that there are numerous exceptions to these rules. Some masculine nouns end in -a, and some feminine nouns end in -o. The best way to learn these exceptions is through exposure and practice.
+
 ## Ejercicios
 
 
@@ -138,3 +148,68 @@ A: Gracias.
 B: De nada.  
 A: Adios.  
 B: Hasta luego
+
+# ACTIVITIES 
+![[Pasted image 20230919181921.png]]
+
+## Tema 1
+
+#### Colnque primero el articulo en singular. Luego forme el plural del articulo y del nombre.
+
+Ej. 
+1. La mesa {f.} Las Mesas 
+2.  coche Los 
+3. habitacioin
+4. profesor 
+5. niña  Liñas
+6. medico 
+7. libro
+8. hombre 
+9. cuaderno 
+10. mano 
+11. mujer
+12. hotel 
+13. turista 
+14. foto 
+15. autobus 
+16. tren 
+17. radio 
+
+| EL/LA | Word (Singular) | LOS/LAS | Word (Plural) | 
+|---|---|---|---|
+| **El** | coche | **Los** | coches |
+| **La** | habitacion | **Las** | habitationes | 
+| **El** | profesor | **Los** | profesores | 
+| **La** | niña | **Las** | niñas | 
+| **El** | medico | **Los** | Medicos |
+| **El** | libro | **Los** | Libros |
+| **El** | hombre | **Los** | Hombres | 
+| **El** | cuaderno | **Los** | cuadernos | 
+| **La** | Mano | **Las** | manos | 
+| **La** | Mujer | **Las** | mujeres |
+| **El** | Hotel | **Los** | Hotels | 
+| **La???** | turista | **Las???** | turistas | 
+| **La** | foto | **Las** | fotos|
+| **El** | autobus | **Los** | autobus | 
+| **El** | tren | **Los** | trens | 
+| **La** | radio | **Las** | radios | 
+
+
+#### Complete el cuadro 
+![[Pasted image 20230919205731.png]]
+
+| Pais | Nacionalidad | 
+|---|--- | --- |
+| | Masculino | Feminino |
+| **Grecia** | griego | griega |
+| **Portugal** | Portugues | portuguesa | 
+| **Corea** | Coreano | Coreana |
+| **Marruecos** | Marroqui | Marroquisa | 
+| **Francia** | Fances | Francesa | 
+| **Italia** | Italiano | Italiana | 
+| **China** | chino | China | 
+| **Noruega** | Noruego | Noruega | 
+| **Alemania** | aleman | alemana | 
+| **Estado Unidos** | esadounindense | estadounindensa | 
+|**Japon** | Japones | Japonesa |
+
