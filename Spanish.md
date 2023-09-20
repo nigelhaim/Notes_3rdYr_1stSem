@@ -188,7 +188,7 @@ Ej.
 | **La** | Mano | **Las** | manos | 
 | **La** | Mujer | **Las** | mujeres |
 | **El** | Hotel | **Los** | Hotels | 
-| **La???** | turista | **Las???** | turistas | 
+| **El** | turista | **Los** | turistas | 
 | **La** | foto | **Las** | fotos|
 | **El** | autobus | **Los** | autobus | 
 | **El** | tren | **Los** | trens | 
@@ -204,12 +204,17 @@ Ej.
 | **Grecia** | griego | griega |
 | **Portugal** | Portugues | portuguesa | 
 | **Corea** | Coreano | Coreana |
-| **Marruecos** | Marroqui | Marroquisa | 
+| **Marruecos** | Marroqui | Marroqui | 
 | **Francia** | Fances | Francesa | 
 | **Italia** | Italiano | Italiana | 
 | **China** | chino | China | 
 | **Noruega** | Noruego | Noruega | 
 | **Alemania** | aleman | alemana | 
-| **Estado Unidos** | esadounindense | estadounindensa | 
+| **Estado Unidos** | esadounindense | estadounindense | 
 |**Japon** | Japones | Japonesa |
 
+
+Los autobuses son mas baratos
+Los taxis son mas caros 
+Las ninas son inteligentes 
+	Los profesores son argentino

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e27e1e24a1ec117",
+            "id": "653f9bbc76b0f3c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spanish.md",
+                "file": "Data warehousing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spanish.md",
+                "file": "Data warehousing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spanish.md",
+                "file": "Data warehousing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spanish.md"
+                "file": "Data warehousing.md"
               }
             }
           },
@@ -139,8 +139,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,86 +156,39 @@
       "graph:Open graph view": false
     }
   },
-  "floating": {
-    "id": "301b73202488fcb8",
-    "type": "floating",
-    "children": [
-      {
-        "id": "2a57e563189c344c",
-        "type": "window",
-        "children": [
-          {
-            "id": "5ae1770fdf94e229",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6274f27970a7a299",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Spanish.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "72b456b8585454eb",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Books and modules/A1.1.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -456,
-        "y": 27,
-        "width": 456,
-        "height": 672,
-        "maximize": false,
-        "zoom": -1.5
-      }
-    ]
-  },
-  "active": "0e27e1e24a1ec117",
+  "active": "653f9bbc76b0f3c8",
   "lastOpenFiles": [
-    "Pasted image 20230919205731.png",
-    "Books and modules/A1.1.pdf",
+    "Media/ProductDimension.png",
+    "Media/psD146.tmp",
+    "Media/ProductDimension.psd",
+    "Media/Date1.png",
+    "Media/psA1D2.tmp",
+    "Media/ps1945.tmp",
+    "Media/Schema.png",
+    "Media/psC2D7.tmp",
+    "Media/Chart.png",
+    "Media/ps917A.tmp",
+    "Pasted image 20230920212624.png",
+    "Media/ps773F.tmp",
+    "Media/RetailSalesFact.png",
+    "Media/ps2579.tmp",
+    "Numerical Methods Seatworks.md",
+    "Ethics.md",
+    "Numerical Methods.md",
+    "Media/Pasted image 20230919181921.png",
+    "Programming languages.md",
+    "Media/Pasted image 20230919205731.png",
     "Spanish.md",
-    "Pasted image 20230919181921.png",
+    "Books and modules/A1.1.pdf",
     "Web and mobile programming.md",
     "Media/Pasted image 20230919134043.png",
     "Media/Pasted image 20230919134037.png",
     "Media/Pasted image 20230919133406.png",
-    "Media/WidgetTree.png",
     "Media/ps8463.tmp",
-    "Ethics.md",
     "Bunker.md",
-    "Media/Pasted image 20230918184427.png",
-    "Media/Pasted image 20230918184422.png",
     "Data warehousing.md",
-    "Programming languages.md",
-    "Numerical Methods Seatworks.md",
-    "Numerical Methods.md",
-    "Media/Pasted image 20230915183948.png",
-    "Media/Pasted image 20230914145526.png",
-    "Media/Pasted image 20230914151134.png",
     "Software Engineering I.md",
-    "Media/ps1BF0.tmp",
-    "Media/ps67C2.tmp",
-    "Media/ps9E47.tmp",
-    "Media/ps8FA5.tmp",
-    "Media/ps70E.tmp",
-    "Media/psC1F6.tmp",
-    "Media/psBC4.tmp",
     "!Untitled-1.png.md",
-    "Media/ps20AF.tmp",
     "README.md",
     "DOST/Mathematics.md",
     "DOST/Untitled.md",

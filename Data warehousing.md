@@ -482,3 +482,69 @@ revisited to account for the inevitable changes to the model since the specifica
 #### Star Schema 
 - Each business process is represented by a dimensional model that consists of a fact table surrounded by a halo of dimension tables. This star-like structure is often called a star join.
 - The first thing to notice about the dimensional schema is its simplicity and symmetry. Obviously, business users benefit from the simplicity because the data is easier to understand and navigate. Database optimizers process these simple schemas with fewer joins more efficiently. The predictable framework of a dimensional model withstands unexpected changes in user behavior.
+
+## Retail Case Study
+**What is a Lifecycle?**
+- The SDLC aims to produce a **high-quality software that meets or exceeds customer expectations** reaches completion within times and cost estimates
+- **What are the parts of a Kimball Lifecycle?**
+	- Program/Project Planning, Business Requirments Definition. Technology Track. Data Track. BI Application Track. Deployment. Growth and Maintenance
+- **What is Dimensional Modelling?**
+	- Dimensional data modeling is an **analytical approach used in databases and data warehouses for organizing and categorizing facts into dimension tables**
+- **What are the key concepts in Dimensional Modelling?**
+	- Fact Table, Dimension Table, Star Schema 
+
+### Four-Step Dimensional Design Process
+1. **Select the Business Process**
+	- A business process is a **low-level activity performed by an organization**, such as taking orders, invoicing, receiving payments, handling service calls, registering students, performing a medical procedure, or processing claims. 
+2. **Declare the Grain**
+	- Declaring the grain means **specifying exactly what an individual fact table row represents**. The grain conveys the level of detail associated with the fact table. It provides the answer to, "How do you describe a single row in the fact table"? 
+3. **Identify the Dimensions**
+	- Dimensions fall out of the question, "**How do business people describe the data resulting form the business process measurements events?**" You need to decorate fact tables with a robust set of dimensions representing all possible descriptions
+4. **Identifying the Facts 
+	- Declaring the grain means **specifying exactly what an individual fact table row represents**. The grain conveys the level of detail associated with the fact table. It provides the answer to "How do you describe a single row in the fact table?"
+
+### Retail Case Study
+1. **Select the Business Process**
+	- In our retail case study, **management wants to better understand customer purchases as captured by the POS system**. Thus the business process you're modelling is **POS retail sales transactions.** This data enables the business users to analyze which products are selling in which stores on which days under what promotional conditions in which transactions. 
+2. **Declare the grain**
+	- In our case study the **most granular data is an individual product on a POS transaction**, assuming the POS system rolls up all sales for a given product within a shopping cart into a single line item. Although users probably are not interested in analyzing single items associated with a specific POS transactions, you can't predict all the ways they'll want to cull through that data.
+3. **Identify the Dimensions**
+	- The following **descriptive dimensions apply to the case: date, product, promotion, cashier, and all method of payment**. In addition, the POST transaction ticket number is included a s a special dimension, as described in the section "Degenerate Dimensions for Transaction Numbers" later.
+4. **Identifying the Facts**
+	- The facts collected by the POS system include the **sales quantity, per unit regular, discount, and net paid prices, and extended discount and sales dollar amounts.** The extended sales dollar amount equals to the sales quantity multiplied by the net unit price. Likewise, the extended discount dollar amount is the sales quantity multiplied by the unit discount amount. 
+
+![[RetailSalesFact.png]]
+##### What are the Derived Facts? 
+- You can compute the gross profit by the subtracting the extended cost dollar amount from the extended sales dollar amount, or revenue. **Although computed, gross profit is also perfectly additive across all the dimensions:** you can calculate the gross profit of any combination of products sold in any set of stores on any set of days. Dimensional modelers sometimes question whether a calculated derived fact should be stored in the database. **We generally recommend it be stored physically.**
+##### What are Non-Additive Facts? 
+- **Percentages and ratios, such as gross margin, are non-additive**. The numerator and denominator should be stored in the fact table. The ratio can then be calculated in a BI tool for any slice of the fact table by remembering to calculate the ratio of the sums, not the sum of the ratios.
+
+##### What are transaction Fact Tables? 
+- **Transaction fact tables tend to be highly dimensional**. Even though transaction fact tables are unpredictably and sparsely populated, they can be truly enormous. Most billion and trillion row tables in a data warehouse are transaction fact tables. 
+
+### Dimension table details 
+Now that we've walked through the four-step process, let's return to the dimension tables and focus on populating them with robust attributes.
+#### Date Dimension
+![[Chart.png]]
+![[Schema.png]]
+**Dimensional models always need an explicit date dimension table**. There are many **date attributes not supported by the SQL date function**, including week numbers, fiscal periods, seasons, holidays, and weekends. rather than attempting to determine these nonstandard calendar calculations in a query, you should look them up in a date dimension table. 
+
+##### Flags and Indicators as Textual Attributes
+- Like many operational flags and indicators, the date dimension's holiday indicator is a simple indicator with two potential values. Because dimension table attributes serve as report labels and values in pull-down query filter lists
+![[Date1.png]]
+##### Current and Relative Date Attributes 
+- Most date dimension attributes are not subject to update. June 1, 2013 will always roll up to June, Calendar Q2, and 2013. However, there are attributes you can add to the basic date dimension that will change over time, including IsCurrentDay, IsCurrentMonth, IsPrior60Days, and so on. IsCurrentDay obviously must be updated each day; the attribute is useful for generating reports that always run for today. A nuance to consider is the day that IsCurrentDay refers to. 
+
+#### Product Dimension 
+![[ProductDimension.png]]
+**Flatten Many-to-One Indices**
+- Keeping the repeated low cardinality values in the primary dimension table is a fundamental dimensional modeling technique. Normalizing these values into separate tables defeats the primary goals of simplicity and performance
+
+**Attributes with Embedded Meaning**
+- Often operational product codes, identified in the dimension table by the NK notation for natural key, have embedded meaning with different parts of the code representing significant characteristics of the product
+
+**Numeric Values as Attributes or Facts**
+- If the numeric value is used primarily for calculation purposes, it likely belongs in the fact table. Because standard price is non-additive, you might multiply it by the quantity for an extended amount which would be additive.
+
+
+![[Pasted image 20230920224043.png]]
