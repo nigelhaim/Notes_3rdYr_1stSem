@@ -11,15 +11,24 @@
             "id": "653f9bbc76b0f3c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Data warehousing.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20230920212624.png"
+              }
+            }
+          },
+          {
+            "id": "1c9bf6f60d8121f0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20230920224043.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Media/Pasted image 20230920224043.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Media/Pasted image 20230920224043.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data warehousing.md"
+                "file": "Media/Pasted image 20230920224043.png"
               }
             }
           },
@@ -156,37 +165,37 @@
       "graph:Open graph view": false
     }
   },
-  "active": "653f9bbc76b0f3c8",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
+    "Media/Pasted image 20230920212624.png",
+    "Data warehousing.md",
+    "Media/Centipede.png",
+    "Media/ps11BF.tmp",
+    "Media/Outriggers.png",
+    "Media/psDF97.tmp",
+    "Media/Resist.png",
+    "Media/ps81EA.tmp",
+    "Media/Factless.png",
+    "Media/psCDF2.tmp",
+    "Media/sidebside.png",
+    "Media/ps4D6.tmp",
+    "Media/reciept.png",
+    "Media/psD164.tmp",
+    "Media/ProductDimensionTable.png",
+    "Media/ps9B24.tmp",
     "Media/ProductDimension.png",
     "Media/psD146.tmp",
     "Media/ProductDimension.psd",
     "Media/Date1.png",
     "Media/psA1D2.tmp",
-    "Media/ps1945.tmp",
     "Media/Schema.png",
-    "Media/psC2D7.tmp",
-    "Media/Chart.png",
-    "Media/ps917A.tmp",
-    "Pasted image 20230920212624.png",
-    "Media/ps773F.tmp",
-    "Media/RetailSalesFact.png",
-    "Media/ps2579.tmp",
     "Numerical Methods Seatworks.md",
     "Ethics.md",
     "Numerical Methods.md",
-    "Media/Pasted image 20230919181921.png",
     "Programming languages.md",
-    "Media/Pasted image 20230919205731.png",
     "Spanish.md",
-    "Books and modules/A1.1.pdf",
     "Web and mobile programming.md",
-    "Media/Pasted image 20230919134043.png",
-    "Media/Pasted image 20230919134037.png",
-    "Media/Pasted image 20230919133406.png",
-    "Media/ps8463.tmp",
     "Bunker.md",
-    "Data warehousing.md",
     "Software Engineering I.md",
     "!Untitled-1.png.md",
     "README.md",

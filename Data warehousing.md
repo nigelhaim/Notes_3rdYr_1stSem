@@ -547,4 +547,79 @@ Now that we've walked through the four-step process, let's return to the dimensi
 - If the numeric value is used primarily for calculation purposes, it likely belongs in the fact table. Because standard price is non-additive, you might multiply it by the quantity for an extended amount which would be additive.
 
 
-![[Pasted image 20230920224043.png]]
+![[ProductDimensionTable.png]]
+
+**Drilling Down on Dimension Attributes**
+- A reasonable product dimension table can have 50 or more descriptive attributes. Each attribute is a rich source for constraining and constructing row header labels. Drilling down is nothing more than asking for a row header from a dimension that provides more information
+- Drilling down in a dimensional model is nothing more than ading row header attirubtes from the dimension tables. Drilling up is removing row headers. You can drill down or up on attributres from more than one explicit heirarchy and with attributes that are part of no hierarchy. 
+
+![[reciept.png]]
+
+#### Store Dimension 
+**Multiple Hierarchies in Dimension Tables**
+- The store dimension is the case study's primary geographic dimension. Each store can be thought of as a location. You can roll stores up to any geographic attribute, such as ZIP code , county, and state in the United States. Contrary to popular belief, cities and states withing the United States are not a hierarchy. Since many states have identically named cities, you'll want to include a City-State attribute in the store dimension. 
+- Stores likely also roll up an internal organization hierarchy consisting of store districts and regions. These two diffrent store hierarchies are both easily represented in the dimension because both the geographic and organizational hierarchies are well defined for a single store row. 
+- The column describing selling square footage is numeric and theoretically additive across stores. You might be tempted to place it in the fact table. However it is clearly a constant attribute of a store and is used as a constraint or label more often that it used as an additive element in a summation. For these reasons, selling square footage belongs in the store dimension table. 
+
+#### Dimension Table Details 
+**Degenerate Dimensions**
+- Operational transaction control number such as order numbers, invoice numbers, and bill-of-lading numbers usually give rise to empty dimensions and are represented as dimensions in transaction fact tables. The degenerate dimension is a dimension key without a corresponding dimension table. 
+
+**Other Retail Dimensions**
+- The decision whether a dimension should be associated with a fact table should be a binary yes/no on the fact table's declared grain. For example, there's probably a cashier identified for each transaction. The corresponding cashier dimension would likely contain a small subset of non-private employee attributes. Like the promotion dimension, the cashier dimension will likely have a No Cashier row for transactions that are processed through self-service registers. 
+- A trickier situation unfolds for the payment method. Perhaps the store has rigid rules and only accepts one payment method per transaction. This would make your life as a dimensional modeler easier because you'd attach a simple payment method dimension to the sales schema that would likely include a payment method description, along with perhaps a grouping of payment methods into either cash equivalent or credit payment types. 
+
+
+### Retail Schema in Action 
+
+![[sidebside.png]]
+
+
+### Retail Schema Extensibility 
+
+Let's turn our attention to extending the initial dimensional design. Several years after the rollout of the retail sales schema, the retailer implements a frequent shopper program. 
+
+Our original schema gracefully extends to accommodate this new dimension largely because the POS transaction data was initially modeled at its most granular level. The addition of dimensions applicable at that granularity did not alter the existing dimension keys or facts; all existing BI applications continue to run without any changes. 
+
+The predictable symmetry of dimensional models enable them to absorb some rather significant changes in source data and/or modelling assumptions without invalidating existing BI applications, including: 
+
+**New dimension attributes** - If you discover new textual descriptors of a dimension, you can add these attributes as a new columns/
+
+**New dimensions** - as we just discussed, you can add a dimension to an existing fact table by adding a new foreign key column and populating it correctly with values of the primary key from the new dimension
+
+**New measured facts** - If new measured facts become available, you can add them gracefully to the fact table. 
+
+### Factless Fact Tables 
+
+There is one important question that cannot be answered by the previous retail sales schema: What products were on  promotion but did not sell? The sales fact table records only the SKU actually sold. There are not fact table rows with zero facts or SKUs that didn't sell because doing so would enlarge the fact table enormously. This fact table enables you to see the relationship between the keys as defined by a promotion, independent of other events, such as actual product sales. We refer to it as a factless fact table because it has no measurement metrics.  
+
+![[Factless.png]]
+
+### Dimension and Fact Table Keys 
+
+Now that the schemas have been designed, we’ll focus on the dimension and fact tables’ primary keys, along with other row  
+identifiers.
+
+
+**Dimension Table Surrogate Keys**
+- The unique primary key of a dimension table should be a surrogate key rather than relying on the operational system identifier, known as the natural key. Surrogate keys go by many other aliases: meaningless keys, integer keys, non-natural keys, artificial keys, and synthetic keys. Surrogate keys are simply integers that are assigned sequentially as needed to populate a dimension
+**Dimension natural and Durable**
+- If the dimension’s natural keys are not absolutely protected and preserved over time, the ETL system needs to assign permanent durable identifiers, also known as supernatural keys. A persistent durable supernatural key is controlled by the DW/ BI system and remains immutable for the life of the system.
+
+**Fact Table Surrogate keys**
+- Although we’re adamant about using surrogate keys for dimension tables, we’re less demanding about a surrogate key for fact tables. Fact table surrogate keys typically only make sense for back room ETL processing.
+
+
+### Resisting Normalization Urges 
+**Snowflake Schema with Normalized Dimensions**
+- Dimension table normalization is referred to as snowflaking. Redundant attributes are removed from the flat, denormalized  dimension table and placed in separate normalized dimension tables
+![[Resist.png]]
+**Outriggers**
+
+Although we generally do not recommend snowflaking, there are situations in which it is permissible to build an outrigger  
+dimension that attaches to a dimension within the fact table’s immediate halo. The outrigger date attributes are descriptively and uniquely labeled to distinguish them from the other dates associated with the business process. It only makes sense to outrigger a primary dimension table’s date attribute if the business wants to filter and group this date by nonstandard calendar attributes, such as the fiscal period, business day indicator, or holiday period. 
+
+![[Outriggers.png]]
+**Centipede Fact Tables with Too Many Dimensions**
+
+![[Centipede.png]]
