@@ -218,3 +218,60 @@ Los autobuses son mas baratos
 Los taxis son mas caros 
 Las ninas son inteligentes 
 	Los profesores son argentino
+
+**Ordene las frases siguientes**
+![[Pasted image 20230924204846.png]]
+1. clase / es / la / pequena 
+	La Clase es pequenqa 
+
+2. espanoles / no / nosotros / somos 
+3. mexicanos / mis / son / abuelos 
+4. azul / es / habitacion / mi
+5. cubano / y / Violketa / Ruben / chilena 
+6. no / jovenes / ellos / son
+7. estudiante / mi / es / hermana 
+8. eres / Angel  / tu / donde / de? 
+9. todas / son / verduras / las / buenas
+10. muy / tio / es / guapo / tu
+
+![[Pasted image 20230924205242.png]]
+Complete con la persona correcta del verbo estar 
+
+1. Yo estoy 
+2. Ustedes - 
+3. Usted y yo - 
+4. Ella - 
+5. Vosotros 
+6. Nosotros 
+7. El 
+8. Tu
+9. Ricardo y yo 
+10. Usted 
+11. Tu hermana y tu 
+12. Ellos y yo 
+13. Mi madre y Loli 
+14. El y nosotros 
+
+![[Pasted image 20230924204906.png]]
+Complete con el verbo estar (lugar)
+1. Oye, donde esta mi abrigo? 
+2. Los domingos, normalmente [yo] ___ en casa
+3. Ana donde ___ mis Ilaves? 
+4. ___ Juan en casa? 
+5. Los ninos __ en la habitaction 
+6. Usted __ siempre aqui 
+7. El gato ___ detras de la puerta 
+8. Julio! Donde [tu] ___ ?  Ven qui, por favor! 
+9. Tus pantalones negreos no ___ en al armario 
+
+Complete con el vervo estar [estado]
+1. Esta [tu] contento con tu trabajo? 
+2. ___ muy cansada, no puedo mas 
+3. Los ninos __ muy delgados, no comen nada
+4. La nevera __ vacia 
+5. Ana ___ preocupada prque su padre ___ enferno 
+6. Vosotros ___ bien? 
+7. Ya [nosotros] __ hartos de esperar 
+8. Esa mesa __ Ilena de papeles 
+9. [Tu] ___ seguro? 
+10. 

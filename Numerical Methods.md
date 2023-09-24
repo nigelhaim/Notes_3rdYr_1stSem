@@ -670,3 +670,40 @@ $$(x)^{-(n)}= \frac{1}{(x+1)(x+2)...(x+n)}$$
 4. $(x-5)^{(-3)} = \frac{1}{(x-4)(x-3)(x-2)}$
 5. $\begin{align*}(x+6)(x+7)(x+8)(x+11)&=(x+6)(x+7)(x+8)(x+9+2)\\&=(x+6)(x+7)(x+8)(x+9)+2(x+6)(x+7)(x+8)\\&=(x+9)^{(4)}+2(x+8)^{(3)}\end{align*}$
 6. $\begin{align*}\frac{x+8}{(x-3)(x-4)(x-5)}=\frac{x-3+11}{(x-3)(x-4)(x-5)}&=\frac{x-3}{(x-3)(x-4)(x-5)}+\frac{11}{(x-3)(x-4)(x-5)}\\&=\frac{1}{(x-4)(x-5)}+\frac{11}{(x-3)(x-4)(x-5)}\\&=(x-6)^{(-2)}+11(x-6)^{(-3)}\end{align*}$
+
+## Shifting Operator 
+**First Shifting operator**
+
+$$\begin{align*}Ef(x)&=f(x+h)\\E^2f(x)&=f(x+2h)\\E^3f(x)&=f(x+3h)  \end{align*}$$
+
+
+The general power of E is defined by the equation $E^nf(x)=f(x+nh)$
+
+## Divided Difference 
+- Properties 
+- Any divided difference of the sum (or difference) of two functions is equal to the sum (or difference) of the divided difference of  the individual function 
+- Any divided difference of a constant times a function is equal to the constant times the difference of the function.
+- Note: A divided difference of any order is defined as the difference between two divided differences of the next lower order, overlapping in all but one of their arguments, divided by the difference between the extreme or non -overlapping arguments appearing in these differences. 
+- If $f(x_i)$ and $f(x_i)$ are any two values of $f(x)$, then the first divided difference of $f(x)$ are defined by the formula
+- $f(x_i,x_j)=\frac{f(x_i),f(x_j)}{x_i-x_j}$
+- **The Second Divided Difference** 
+	- Similarly, if $f(x_i,x_j)$ and $f(x_j,x_k)$ are two first divided difference of $f(x)$ having one argument in common, then the second divided difference are defined by the formula 
+	- $f(x_i,x_j,x_k)=\frac{f(x_i,x_j)-f(x_j,x_k)}{x_i-x_k}$
+- **The Third Divided Difference**
+	- The third divided difference is defined by the formula 
+	- $f(x_i,x_j,x_k,x_i)=\frac{f(x_i,x_j,x_k)-f(x_j,x_k,x_l)}{x_i-x_l}$
+
+## Forward or advancing difference 
+**The First Forward or Advancing Difference**
+- The first forward or advancing difference is defined by $\Delta f(x)=f(x+h)-f(x)$, where h is the interval. 
+- If h=1 and x=n, n is any real number $\Delta f(x)=f(x+1)-f(x)=f_{n+1}-f_n$
+- The first forward difference in terms of the shifting operator E, $\Delta f(x)=Ef(x)-f(x)=(E-1)f(x)$
+**The Second Forward or Advancing Difference**
+- The second forward or advancing difference is defined by $\Delta ^2 f(x)=f(x+2h)-2f(x+h)+f(x)$
+**The Third Forward or advancing Difference**
+- The third forward or advancing difference is defined by $\Delta ^3 f(x)=f(x+3h)-3f(x+2h)+3f(x+h)-f(x)$
+- Nth Forward Difference 
+	- The nth Forward or Advancing Difference 
+	- The nth forward or advancing difference is defined by the formula $\Delta ^nf(X)=\Delta [\Delta^{n-1}f(x)]$ or $\Delta ^n f(x)=(E-1)^nf(x)$ using the binomial expansion $\Delta ^n f(x)=(E-1)^nf(x)$ 
+- **Properties of Forward or Advancing Difference** 
+- 

@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f56ba8072713359a",
+        "id": "9b1211854ca12013",
         "type": "tabs",
         "children": [
           {
-            "id": "653f9bbc76b0f3c8",
+            "id": "f383cee9255c8d63",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Pasted image 20230920212624.png"
-              }
-            }
-          },
-          {
-            "id": "1c9bf6f60d8121f0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Pasted image 20230920224043.png"
+                "file": "Spanish.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20230920224043.png",
+                "file": "Spanish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20230920224043.png",
+                "file": "Spanish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20230920224043.png"
+                "file": "Spanish.md"
               }
             }
           },
@@ -165,10 +156,19 @@
       "graph:Open graph view": false
     }
   },
-  "active": "78ef5a80065e6454",
+  "active": "f383cee9255c8d63",
   "lastOpenFiles": [
-    "Media/Pasted image 20230920212624.png",
+    "Pasted image 20230924205242.png",
+    "Pasted image 20230924204906.png",
+    "Pasted image 20230924204846.png",
+    "Numerical Methods.md",
+    "Web and mobile programming.md",
     "Data warehousing.md",
+    "Numerical Methods Seatworks.md",
+    "Programming languages.md",
+    "Books and modules/Concepts-of-Programming-Languages.pdf",
+    "Books and modules/Book 2 (Cottingham. 1996. Western Philosophy_ Anthology)Book 2 (Cottingham. 1996. Western Philosophy_ Anthology) .pdf",
+    "Media/Pasted image 20230920212624.png",
     "Media/Centipede.png",
     "Media/ps11BF.tmp",
     "Media/Outriggers.png",
@@ -183,18 +183,9 @@
     "Media/psD164.tmp",
     "Media/ProductDimensionTable.png",
     "Media/ps9B24.tmp",
-    "Media/ProductDimension.png",
     "Media/psD146.tmp",
-    "Media/ProductDimension.psd",
-    "Media/Date1.png",
-    "Media/psA1D2.tmp",
-    "Media/Schema.png",
-    "Numerical Methods Seatworks.md",
     "Ethics.md",
-    "Numerical Methods.md",
-    "Programming languages.md",
     "Spanish.md",
-    "Web and mobile programming.md",
     "Bunker.md",
     "Software Engineering I.md",
     "!Untitled-1.png.md",
