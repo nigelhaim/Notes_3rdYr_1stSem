@@ -489,3 +489,33 @@ XV.     **Fallacies of Faulty Causation:**
 			B.        **Slippery slope:** if one particular undesirable thing happens, it will inevitably lead to an even worse consequence, will lead to yet another worse consequence, and so on, on a “slippery slope” to some horror. It is the inevitability of the assumption that is fallacious; these are also forms of the questionable claim fallacy.
 
 1.         E.g.: If you take that first drink you will become a destitute drunk.
+
+## Ethics, and moral reasoning 
+
+### Logical Reasoning 
+- It is the study of truths and inferences
+- Inferences - made between facts and statements 
+	- Generate true information
+	- Derived from premises
+
+### Reasoning 
+- the capability of the brain to take inputs from all the 5 senses and actually make sense out of it
+"What are the standards any reasoning must follow if it is to be good reasoning?"
+	- Aristotle
+
+#### Inference Rules
+
+"A well-reasoned argument is one that preserves the truth"
+
+X Fallacies (Both in form and content) x barriers to logically 
+
+Affirming the consequent 
+
+
+![[Pasted image 20230925185400.png]]
+
+### Three Laws of Thought (Aristotle)
+1. An object is what it is. (Law of identity)
+2. A cannot be both A and B. (Law of contradiction or no proposition can be both true and not true)
+3. Every stablemen is either true or false; there is nothing in between. (Law of excluded middle)
+

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9b1211854ca12013",
+        "id": "b48907a17941098d",
         "type": "tabs",
         "children": [
           {
-            "id": "f383cee9255c8d63",
+            "id": "755449cf6bdd157e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spanish.md",
+                "file": "Ethics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spanish.md",
+                "file": "Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spanish.md",
+                "file": "Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spanish.md"
+                "file": "Ethics.md"
               }
             }
           },
@@ -156,14 +156,19 @@
       "graph:Open graph view": false
     }
   },
-  "active": "f383cee9255c8d63",
+  "active": "755449cf6bdd157e",
   "lastOpenFiles": [
-    "Pasted image 20230924205242.png",
-    "Pasted image 20230924204906.png",
-    "Pasted image 20230924204846.png",
+    "Pasted image 20230925185400.png",
+    "Spanish.md",
+    "SQL/CreateTable1.sql",
+    "SQL",
+    "Software Engineering I.md",
+    "Data warehousing.md",
+    "Media/Pasted image 20230924204846.png",
+    "Media/Pasted image 20230924205242.png",
+    "Media/Pasted image 20230924204906.png",
     "Numerical Methods.md",
     "Web and mobile programming.md",
-    "Data warehousing.md",
     "Numerical Methods Seatworks.md",
     "Programming languages.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
@@ -181,13 +186,8 @@
     "Media/ps4D6.tmp",
     "Media/reciept.png",
     "Media/psD164.tmp",
-    "Media/ProductDimensionTable.png",
-    "Media/ps9B24.tmp",
-    "Media/psD146.tmp",
     "Ethics.md",
-    "Spanish.md",
     "Bunker.md",
-    "Software Engineering I.md",
     "!Untitled-1.png.md",
     "README.md",
     "DOST/Mathematics.md",
