@@ -622,4 +622,20 @@ dimension that attaches to a dimension within the fact table’s immediate halo.
 ![[Outriggers.png]]
 **Centipede Fact Tables with Too Many Dimensions**
 
-![[Centipede.png]]
+## Physical Design 
+#### Four-step Dimensional process
+### Logical design -> Physical design 
+- Pen and paper -> SQL statements
+
+### What is Physical design in DWH? 
+- During the physical design process, a developer converts the data gathered during the logical design phase into a description of the physical database structure. 
+**Indexes**
+- Speed up queries 
+**Entities**- linked together using relationships
+**Attributes**- used to describe the entities
+**Unique identifiers**- distinguis between instances 
+
+
+#### Tablespaces 
+- the files of the database 
+- 

@@ -256,7 +256,7 @@ The course also needs to consider the timetable for said courses.
 	- Decides design methodology
 - **Business Analyst**
 	- understands the business model and business domain
-	- Define how technology can be integrated into the current4 business process of the company.
+	- Define how technology can be integrated into the current business process of the company.
 	- works with system analyst 
 	- Involved in integration, testing, and implementation of the system
 - **Project Developers**
@@ -764,4 +764,17 @@ $$Present \; Value (n) = \frac{1}{(1+i)^n}$$
 - Need to determine the time period when lifetime benefits will overtake the lifetime costs; This is the break-even point.  
 - Determining the fraction of a year when a payback actually occurs:
 
-$$$$
+## Using Validation board for Lean Startup 
+**Our prelim exam**
+- Used during startup when launching 
+
+### Context 
+**Guesses**
+- Assumptions believed it is true 
+##### How do we change "guesses" into facts 
+- Validate information 
+
+Customers on an enrollment system 
+- Students 
+- Teachers 
+- Stakeholders
