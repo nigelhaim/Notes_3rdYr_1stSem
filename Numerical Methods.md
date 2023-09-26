@@ -702,8 +702,68 @@ The general power of E is defined by the equation $E^nf(x)=f(x+nh)$
 - The second forward or advancing difference is defined by $\Delta ^2 f(x)=f(x+2h)-2f(x+h)+f(x)$
 **The Third Forward or advancing Difference**
 - The third forward or advancing difference is defined by $\Delta ^3 f(x)=f(x+3h)-3f(x+2h)+3f(x+h)-f(x)$
-- Nth Forward Difference 
-	- The nth Forward or Advancing Difference 
-	- The nth forward or advancing difference is defined by the formula $\Delta ^nf(X)=\Delta [\Delta^{n-1}f(x)]$ or $\Delta ^n f(x)=(E-1)^nf(x)$ using the binomial expansion $\Delta ^n f(x)=(E-1)^nf(x)$ 
+
+#### Nth Forward Difference 
+- The nth Forward or Advancing Difference 
+- The nth forward or advancing difference is defined by the formula $\Delta ^nf(X)=\Delta [\Delta^{n-1}f(x)]$ or $\Delta ^n f(x)=(E-1)^nf(x)$ using the binomial expansion $\Delta ^n f(x)=(E-1)^nf(x)$ using the binomial expansion $\Delta^n f(x) = [ E^n-\binom{n}{1}E^{n-1}+\binom{n}{2}E^{n-2}+...+(-1)^{n-1}\binom{n}{n-1}E+(1)^n\binom{n}{n}]$
+
 - **Properties of Forward or Advancing Difference** 
-- 
+1. $\Delta[f(x)\pm g(x)]=\Delta f(x) \pm \Delta g(x)$
+2. $\Delta cf(x)=c\Delta (x)$
+3. $\Delta f(x)g(x)=g(x) \Delta f(x)+f(x+h) \Delta g(x)$
+4. $\Delta \frac{f(x)}{g(x)} = \frac{g(x)\Delta f(x)-f(x)\Delta g(x)}{g(x)g(x+h)}$
+5. $\Delta c^x = c^x(c^h-1)$
+6. $\Delta x^{(m)} = mx^{(m-1)}$
+
+## Backward or Regressing Difference
+**The First Backgward or Regressing Difference
+- The  first backward or regressing difference is defined by $\nabla f(x)=f(x)-f(x-h)$
+- If h=1 and x=n, n is any real number
+- $\nabla f(x)=f(x)-f(x-1)=f_n-f_{n-1}$
+- The first backward difference in terms of the shifting operator E, $\nabla f(x) =f(x)-E^{-1}f(x)=(1-E^{-1})f(x)$
+**The Second Backward or Regressing Difference**
+- The second backward or regressing difference is defined by $\nabla^2 f(x)=f(x)-2f(x-h)+f(x-2h)$
+**The Third Backward or Regressing Difference**
+- The third backward or regressing difference is defined by $\nabla^3f(x)=f(x)-3f(x-h)+3f(x-2h)-f(x-3h)$
+
+#### Nth Backward Difference 
+- The nth backward or Regressing Difference 
+	- The nth backward or regressing difference is defined by 
+- $\nabla^n f(x)=\nabla[\nabla^{n-1}f(x)]$ or $\nabla ^nf(x)=(1-E^{-1})^nf(x)$ using the binomial expansion $\nabla^n f(x)=(1-E^{-1})^nf(x)$
+- $\nabla^n f(x) =[1-\binom{n}{1}E^{-1}+\binom{n}{2}E^{-2}+...(-1)^{n-1}\binom{n}{n-1}E^{-(n-1)}+E^{-n}\binom{n}{n}]f(x)$
+**Properties of Forward or Advancing Difference** 
+1. $\nabla[f(x)\pm g(x)] =\nabla f(x)\pm \nabla g(x)$
+2. $\nabla cf(x)=c\nabla(x)$
+3. $\nabla f(x)g(x)=g(x)\nabla f(x)+f(x-h)\nabla g(x)$
+4. $\nabla \frac{f(x)}{g(x)}=\frac{g(x)\nabla f(x)-f(x)\nabla g(x)}{g(x)g(x-h)}$
+5. $\nabla c^x=c^x(1-c^{-h})$
+6. $\nabla x^{(m)}=m(x-1)^{(m-1)}$
+
+## Central Difference
+**First Central Difference**
+- The first central difference is defined by $\delta f(x)=f(x+\frac{h}{2})$ or $\delta f(x)=E^{1/2}f(x)-E^{-1/2}f(x)$
+**Second Central Difference**
+- The second central difference is defined by $\delta ^2 f(x)=f(x+h)-2f(x)+f(x-h)$
+**The third central Difference**
+- The third central difference is defined by $\delta^3f(x)=f(x+\frac{3h}{2})-3f(x+\frac{h}{2})+3f(x-\frac{h}{2})-f(x-\frac{3h}{2})$
+
+#### nth central difference 
+- The nth central difference is defined by $\delta^nf(x)=\delta[\delta^{n-1}f(x)]$ or $\delta^nf(x)=(E^{1/2}-E^{-1/2})^nf(x)$ using the binomial expansions $\delta^nf(x)=(E^{1/2}-E{-1/2})^nf(x)$
+- $\delta^nf(x)=[E^{n/2}-\binom{n}{1}E^{n/2-1} + \binom{n}{2}E^{n/2-2}+...+(-1)^{n-1}\binom{n}{n-1}E^{-\frac{n}{2}+1}+E^{-n/2}\binom{n}{n}]f(x)$
+
+**Properties of Central difference**
+- $\delta[f(x)\pm g(x)]=\delta f(x) \pm \delta g(x)$
+- $\delta cf(x)=c\delta(x)$
+- $\delta f(x)g(x)=\mu g(x)\delta f(x) + f(x) \delta g(x)$
+- $\delta \frac{f(x)}{g(x)} = \frac{\mu g(x)\delta f(x) -\mu f(x) \delta g(x)}{g(x-\frac{h}{2})g(x+\frac{h}{2})}$
+
+## Anti-Difference 
+- Consider the difference of F(x)
+- $\Delta F(x)=f(x)$
+- $F(x)=\frac{f(x)}{\Delta}$
+- The anti-difference of f(x) is defined by 
+- $F(x)=\Delta ^{-1}f(x)$
+
+## Theorem 
+- If $F(i)$ is any anti-difference of $F(i)$, then the sum from $i=1$ to $i=n$ of the series whose general form is $f(i) \; is \; F(n+1)-F(1)$.
+

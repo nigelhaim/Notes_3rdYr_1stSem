@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spanish.md"
+                "file": "Numerical Methods.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "f383cee9255c8d63",
   "lastOpenFiles": [
+    "Spanish.md",
     "Pasted image 20230924205242.png",
     "Pasted image 20230924204906.png",
     "Pasted image 20230924204846.png",
@@ -181,11 +182,9 @@
     "Media/ps4D6.tmp",
     "Media/reciept.png",
     "Media/psD164.tmp",
-    "Media/ProductDimensionTable.png",
     "Media/ps9B24.tmp",
     "Media/psD146.tmp",
     "Ethics.md",
-    "Spanish.md",
     "Bunker.md",
     "Software Engineering I.md",
     "!Untitled-1.png.md",
