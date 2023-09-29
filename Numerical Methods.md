@@ -685,13 +685,16 @@ The general power of E is defined by the equation $E^nf(x)=f(x+nh)$
 - Any divided difference of a constant times a function is equal to the constant times the difference of the function.
 - Note: A divided difference of any order is defined as the difference between two divided differences of the next lower order, overlapping in all but one of their arguments, divided by the difference between the extreme or non -overlapping arguments appearing in these differences. 
 - If $f(x_i)$ and $f(x_i)$ are any two values of $f(x)$, then the first divided difference of $f(x)$ are defined by the formula
-- $f(x_i,x_j)=\frac{f(x_i),f(x_j)}{x_i-x_j}$
+- $f(x_i,x_j)=\frac{f(x_i)-f(x_j)}{x_i-x_j}$
 - **The Second Divided Difference** 
 	- Similarly, if $f(x_i,x_j)$ and $f(x_j,x_k)$ are two first divided difference of $f(x)$ having one argument in common, then the second divided difference are defined by the formula 
 	- $f(x_i,x_j,x_k)=\frac{f(x_i,x_j)-f(x_j,x_k)}{x_i-x_k}$
 - **The Third Divided Difference**
 	- The third divided difference is defined by the formula 
 	- $f(x_i,x_j,x_k,x_i)=\frac{f(x_i,x_j,x_k)-f(x_j,x_k,x_l)}{x_i-x_l}$
+
+
+https://youtu.be/C4JjFL65p0I?si=gWCm3Q0Nnf0sClDg
 
 ## Forward or advancing difference 
 **The First Forward or Advancing Difference**
@@ -714,6 +717,10 @@ The general power of E is defined by the equation $E^nf(x)=f(x+nh)$
 4. $\Delta \frac{f(x)}{g(x)} = \frac{g(x)\Delta f(x)-f(x)\Delta g(x)}{g(x)g(x+h)}$
 5. $\Delta c^x = c^x(c^h-1)$
 6. $\Delta x^{(m)} = mx^{(m-1)}$
+
+
+https://youtu.be/TIWRyzzFUYQ?si=egQpoLLv8IeX3Aa-
+
 
 ## Backward or Regressing Difference
 **The First Backgward or Regressing Difference
@@ -767,3 +774,4 @@ The general power of E is defined by the equation $E^nf(x)=f(x+nh)$
 ## Theorem 
 - If $F(i)$ is any anti-difference of $F(i)$, then the sum from $i=1$ to $i=n$ of the series whose general form is $f(i) \; is \; F(n+1)-F(1)$.
 
+https://youtu.be/to82dv2SX28?si=ULrZUPvU5sjUwTpd

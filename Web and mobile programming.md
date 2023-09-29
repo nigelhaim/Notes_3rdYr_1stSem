@@ -309,3 +309,18 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 - It is portable runtime for high-quality mobile apps and primarily based on the c++ language
 - It implements Flutter core libraries taht include animation, and grpahics, fiole and network I/O, plugin architecture, accessibility support, and a dart runtime for developing, compiling and running Flutter applications
 - IT takes Googel's open-source graphics library, Skia to render low-level graphics
+
+
+### How to run a flutter app on windows and android
+
+1. Enable Developer mode (phone)
+2. Enable USB Debugging (phone)
+3. Connect Your Phone with USB
+4. Trust Your Computer if Prompted (Phone)
+5. Run App From Android Studio 
+**Android Studio**
+1. You should see your phone on the top right (HTC One Physical Device)
+2. Click play on the main.dart 
+3. Done 
+
+
