@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
-                "mode": "preview",
+                "file": "Spanish.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Spanish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Spanish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods.md"
+                "file": "Spanish.md"
               }
             }
           },
@@ -158,33 +158,34 @@
   },
   "active": "f383cee9255c8d63",
   "lastOpenFiles": [
+    "Pasted image 20231001231124.png",
+    "Pasted image 20231001230819.png",
+    "Pasted image 20231001224004.png",
+    "Pasted image 20231001223959.png",
+    "Pasted image 20231001223915.png",
+    "Pasted image 20231001223359.png",
+    "Pasted image 20231001222050.png",
+    "Pasted image 20231001221610.png",
+    "Pasted image 20231001215924.png",
+    "Pasted image 20231001215143.png",
+    "Pasted image 20231001214314.png",
+    "Ethics.md",
+    "Numerical Methods.md",
     "Spanish.md",
     "FromOthers/CS_26111.md",
     "Programming languages.md",
     "Numerical Methods Seatworks.md",
-    "Ethics.md",
     "Data warehousing.md",
-    "Numerical Methods.md",
     "Software Engineering I.md",
     "README.md",
     "Media/Pasted image 20230921140002.png.md",
-    "Media/Pasted image 20230925185400.png",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Concepts of Programming Languages (10th Edition) (Sebesta, Robert W.).pdf.md",
     "Books and modules/Book 2 (Cottingham. 1996. Western Philosophy_ Anthology)Book 2 (Cottingham. 1996. Western Philosophy_ Anthology) .pdf",
     "Web and mobile programming.md",
     "FromOthers",
     "New folder",
-    "Media/Pasted image 20230924205242.png",
-    "Media/Pasted image 20230924204906.png",
-    "Media/Pasted image 20230924204846.png",
-    "Pasted image 20230924205242.png",
-    "Pasted image 20230924204906.png",
-    "Pasted image 20230924204846.png",
-    "Media/Pasted image 20230920212624.png",
-    "Media/Centipede.png",
     "Media/ps11BF.tmp",
-    "Media/Outriggers.png",
     "Media/psDF97.tmp",
     "Media/ps81EA.tmp",
     "Media/psCDF2.tmp",
