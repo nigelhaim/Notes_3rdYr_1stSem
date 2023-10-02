@@ -122,9 +122,12 @@ siesta - rest
 |9|nueve|noo-eh-veh|
 |10|diez|dee-ehs|
 
+0915 997 9909
+
+Cero noventa y uno cincuenta y nueve noventa y siete noventa y nueve cero nueve 
 
 
-
+![[Pasted image 20231002172646.png]]
 
 A: ¡Hola!  
 B: ¡Hola!  
@@ -550,3 +553,18 @@ Las ninas son inteligentes
 8. **La mía** es más bonita que **la tuya**.
 
 # Continue tema 5 
+
+
+**Nombre:** Me Ilamo Nigel Haim N. Sebastian 
+**Profesion:** soy estudyante
+**Nationalidad:** soy filipino
+**Edad:** soy bente anyos 
+**Idiomas:** Hablo Filipino, Ingles y poco de Espanol 
+**Direccion:** Vibo en la calle Halcon dos, numero trenta y ocho, barangay santa teresita, syudad de quezon
+**Correo Electronico:**  mi correo electronico es nigelhaim punto sebastian punto se i se ese arebo un este te punto edu punto pe ache 
+**Telefono:** no tengo telefono en casa 
+**Telefono Movil:** Mi numero de telefono movil es el Cero noventa y uno cincuenta y nueve noventa y siete noventa y nueve cero nueve 
+**Esado Civil:** Estoy soltero
+**Lugar de Estudio/Trabajo:** No trabaho pero Estudio en el colegio de informatica, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila 
+
+Eso Estodo 

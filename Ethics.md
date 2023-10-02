@@ -519,3 +519,138 @@ Affirming the consequent
 2. A cannot be both A and B. (Law of contradiction or no proposition can be both true and not true)
 3. Every stablemen is either true or false; there is nothing in between. (Law of excluded middle)
 
+## Barriers to Logicality 
+- bias 
+- rejudice 
+- egocentrism
+- sociocentrism 
+- narrowmindedness 
+- unwarranted assumption 
+- wishful thinking 
+- emotionality 
+
+#### Biases 
+- Playing favorites 
+#### Prejudice 
+- Pre-judgement of cases
+
+#### Egocentrism 
+- Found on people that they are the central source 
+- He/she is the only truth 
+#### Sociocentrism
+- The group believes they are the central source 
+- a bigger form of ego centrism 
+- So committed and invested on the group 
+
+#### Narrowmindedness
+- Narrowpit thinking 
+- Entertaining only the information encountered 
+- Picking of information 
+
+#### Unwarranted assumption
+- Gut feeling 
+- Knowing something without evidence 
+
+
+#### Wishful thinking 
+- Placebo effect 
+- Cannot change the truth or falsity just by believing the claim
+
+#### Emotionality 
+- Inappropriate emotions
+- Pitiness
+- Emotional manipulation
+
+
+## Intellectual standards for logic 
+
+#### Clarity 
+- gateway standard 
+- Do you know what you're talking about? 
+- Ambiguity or vagueness? 
+- If you don't know what you're talking about then your information wont be precise, accurate, relevant, consistent, logical correct, complete, fairness
+
+
+#### Precision 
+- The right amount of details 
+- Youre at the right EXACT location but your friend is late 
+
+#### Accurate information 
+- Free from flaws/error/mistakes 
+- No falsity 
+- Truthful 
+- Youre at the right EXACT location and time?????
+
+
+**Accurate information can be precise but precise information cannot be accurate**
+
+
+#### Relevance 
+- Your premises should be connected to your conclusion
+- Be strict and firm on its logical standards
+- Ano ba ang connection niya? 
+
+#### Consistency 
+- Are you not contradicting yourself 
+- Are you consistent
+
+#### Logical correctness
+- Are your arguments structured?
+- Pattern of standard and good reasoning 
+- The rules of inferences applied
+- Test of validity 
+- IF your premises is true and valid then it CANNOT be false 
+
+#### Completeness
+- To justify conclusions
+- Find a way to look for all possible information to support your thought/claim 
+- Kung alam mo may false belief ka then allow yourself to correct it
+- Looking at all the sides of the problem 
+- NEVER STOP LOOKING FOR INFORMATION 
+
+#### Fairness
+- WALAA AKO NA KUHA KAY MAM 
+- Assess it generously 
+#### Charity 
+- Corner principle of logic
+- Never interpret the argument 
+- Don't use it to your advantage 
+- Collection of statements that expose truth 
+- Opinions
+- Be fair in picking the source 
+- Be open to others 
+
+### The truth Test 
+- Sound/good arguments are structurally and **substantially** accurate.
+1. Do your premises have evidentiary support? 
+2. Do they correspond to facts? 
+
+
+
+Generalized P -> Specific C = Composition
+
+Specific P -> Generalized C = Division 
+
+
+### The validity test
+- Sound/Good arguments are **Structurally** and substantially accurate
+1. Identify all of an argument's premises
+2. Imagine that all of them are true.
+3. Then, ask yourself this question: Supposing that all of the premises were true, could the conclusion be false? If yes, the argument is invalid 
+
+
+
+## Logic, Thus, Is Truth Preservation 
+
+### Deductive reasoning 
+Test of basic truth derivation in logic: 
+Tell what conclusion may be derived from the following premises:
+
+1. If A, then B. A, therefore, **B**.
+2. If A, then B. Not B, therefore, **Not A**.
+3. If A, then B. If B, then C. Therefore, **A -> C**.
+4. Either A or B. Not A. Therefore **B**.
+5. If Tarragona is in Europe, then Tarragona is not in China. Tarragona is in Europe. Therefore, **Tarragona is not in China**. 
+6. Most Filipinos are fun-loving. Linda is a Filipino. Therefore, **Linda is probably fun-loving**. 
+7. Roughly 90% of the Filipino population is literate. Juan, a Filipino, is **highly likely literate**. 
+8. 78% of Filipinos are already vaccinated. Thus, everyone in class **could be vaccinated**.

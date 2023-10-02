@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spanish.md",
+                "file": "Ethics.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spanish.md",
+                "file": "Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spanish.md",
+                "file": "Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spanish.md"
+                "file": "Ethics.md"
               }
             }
           },
@@ -158,26 +159,25 @@
   },
   "active": "f383cee9255c8d63",
   "lastOpenFiles": [
-    "Pasted image 20231001231124.png",
-    "Pasted image 20231001230819.png",
-    "Pasted image 20231001224004.png",
-    "Pasted image 20231001223959.png",
-    "Pasted image 20231001223915.png",
-    "Pasted image 20231001223359.png",
-    "Pasted image 20231001222050.png",
-    "Pasted image 20231001221610.png",
-    "Pasted image 20231001215924.png",
-    "Pasted image 20231001215143.png",
-    "Pasted image 20231001214314.png",
-    "Ethics.md",
-    "Numerical Methods.md",
     "Spanish.md",
-    "FromOthers/CS_26111.md",
+    "Media/Pasted image 20231002172646.png",
+    "Software Engineering I.md",
+    "Numerical Methods.md",
     "Programming languages.md",
+    "README.md",
+    "Media/Pasted image 20231001205826.png",
+    "Media/Pasted image 20231001231124.png",
+    "Media/Pasted image 20231001230819.png",
+    "Media/Pasted image 20231001224004.png",
+    "Media/Pasted image 20231001223959.png",
+    "Media/Pasted image 20231001223915.png",
+    "Media/Pasted image 20231001223359.png",
+    "Media/Pasted image 20231001222050.png",
+    "Media/Pasted image 20231001221610.png",
+    "Ethics.md",
+    "FromOthers/CS_26111.md",
     "Numerical Methods Seatworks.md",
     "Data warehousing.md",
-    "Software Engineering I.md",
-    "README.md",
     "Media/Pasted image 20230921140002.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Concepts of Programming Languages (10th Edition) (Sebesta, Robert W.).pdf.md",
