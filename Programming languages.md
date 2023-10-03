@@ -1,3 +1,5 @@
+[[flashcards]]
+
 Concepts of programming languages 
 Robert Sebesta 
 

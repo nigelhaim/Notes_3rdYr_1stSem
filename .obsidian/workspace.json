@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethics.md",
+                "file": "Flashcards/flashcards.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "tag:#programminglanguages",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethics.md",
+                "file": "Flashcards/flashcards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethics.md",
+                "file": "Flashcards/flashcards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethics.md"
+                "file": "Flashcards/flashcards.md"
               }
             }
           },
@@ -139,13 +139,20 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "c50c976f25156ce4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,16 +161,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "f383cee9255c8d63",
   "lastOpenFiles": [
+    "Programming languages.md",
+    "Flashcards/flashcards.md",
+    "Books and modules/Concepts-of-Programming-Languages.pdf",
+    "ProgrammingLangFlashcards.md",
+    "Software Engineering I.md",
+    "Flashcards",
+    "Untitled.md",
+    "Numerical Methods Seatworks.md",
+    "Numerical Methods.md",
+    "Data warehousing.md",
+    "Ethics.md",
     "Spanish.md",
     "Media/Pasted image 20231002172646.png",
-    "Software Engineering I.md",
-    "Numerical Methods.md",
-    "Programming languages.md",
     "README.md",
     "Media/Pasted image 20231001205826.png",
     "Media/Pasted image 20231001231124.png",
@@ -174,12 +190,8 @@
     "Media/Pasted image 20231001223359.png",
     "Media/Pasted image 20231001222050.png",
     "Media/Pasted image 20231001221610.png",
-    "Ethics.md",
     "FromOthers/CS_26111.md",
-    "Numerical Methods Seatworks.md",
-    "Data warehousing.md",
     "Media/Pasted image 20230921140002.png.md",
-    "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Concepts of Programming Languages (10th Edition) (Sebesta, Robert W.).pdf.md",
     "Books and modules/Book 2 (Cottingham. 1996. Western Philosophy_ Anthology)Book 2 (Cottingham. 1996. Western Philosophy_ Anthology) .pdf",
     "Web and mobile programming.md",
@@ -190,7 +202,6 @@
     "Media/ps81EA.tmp",
     "Media/psCDF2.tmp",
     "Media/ps4D6.tmp",
-    "Media/psD164.tmp",
     "Bunker.md",
     "!Untitled-1.png.md",
     "DOST/Mathematics.md",
