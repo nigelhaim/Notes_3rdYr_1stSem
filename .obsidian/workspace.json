@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9b1211854ca12013",
+        "id": "e067106f671b941d",
         "type": "tabs",
         "children": [
           {
-            "id": "f383cee9255c8d63",
+            "id": "e7f5cc16bd84a0b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flashcards/flashcards.md",
+                "file": "Ethics.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flashcards/flashcards.md",
+                "file": "Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flashcards/flashcards.md",
+                "file": "Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flashcards/flashcards.md"
+                "file": "Ethics.md"
               }
             }
           },
@@ -152,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,10 +165,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f383cee9255c8d63",
+  "active": "e7f5cc16bd84a0b8",
   "lastOpenFiles": [
-    "Programming languages.md",
+    "Notes/Courses/Ethics/ETCS.md",
+    "Ethics.md",
+    "Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
+    "Notes/Courses/Ethics/Thought Experiment 1.md",
+    "Notes/Courses/Ethics/Web of Whys.md",
+    "Data warehousing.md",
+    "Books and modules/Bunker.md",
+    "Notes/000.md",
     "Flashcards/flashcards.md",
+    "Programming languages.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "ProgrammingLangFlashcards.md",
     "Software Engineering I.md",
@@ -176,8 +184,6 @@
     "Untitled.md",
     "Numerical Methods Seatworks.md",
     "Numerical Methods.md",
-    "Data warehousing.md",
-    "Ethics.md",
     "Spanish.md",
     "Media/Pasted image 20231002172646.png",
     "README.md",
@@ -202,7 +208,6 @@
     "Media/ps81EA.tmp",
     "Media/psCDF2.tmp",
     "Media/ps4D6.tmp",
-    "Bunker.md",
     "!Untitled-1.png.md",
     "DOST/Mathematics.md",
     "DOST/Untitled.md",
@@ -210,7 +215,6 @@
     "Untitled.canvas",
     "Test table.md",
     "Untitled 1.canvas",
-    "2023-08-15.md",
     "The3rdYearWorld.canvas"
   ]
 }

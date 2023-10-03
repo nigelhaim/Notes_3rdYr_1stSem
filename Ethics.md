@@ -531,8 +531,11 @@ Affirming the consequent
 
 #### Biases 
 - Playing favorites 
+-  being biased towards **OR** against specific sources of information
+- gets in the way of the truth
 #### Prejudice 
 - Pre-judgement of cases
+- compared to bias, prejudice entertains preconceived notions about something, someone, etc.
 
 #### Egocentrism 
 - Found on people that they are the central source 
