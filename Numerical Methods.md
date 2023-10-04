@@ -13,7 +13,7 @@ Asst. Prof. Jonathan B. Cabero M,S
 
 ## Intermediate value theorem for continuous functions 
 - Theorem Intermediate - value theorem for continuous functions 
-- Let f(x) be continuous function on the interval [a,b]. If f(x) <= a <= f(x) for some number a and some x is an element [a,b]m then a = f(e) for some e element [a,b] 
+- Let f(x) be continuous function on the interval $[a,b]$. If f(x) <= a <= f(x) for some number a and some x is an element $[a,b]$ m then a = f(e) for some e element $[a,b]$
 
 
 Problem 1 
@@ -190,23 +190,7 @@ The (r+1)th term is $\binom{n}{r}a^{n-r}b^r$
 $$\begin{align*}(x+y)^4 &= \binom{4}{0}x^4y^0 + \binom{4}{1}x^3y^1+\binom{4}{2}x^2y^2 + \binom{4}{3}x^1y^3+\binom{4}{4}x^0y^4 \\&=x^4+4x^3y+6x^2y^2+4xy^3+y^4\end{align*}$$
 - **The triangle below the equation is the pascal triangle**
 
-$$
-\documentclass[preview,border=12pt]{standalone}
 
-\usepackage{array}
-\begin{document}
-\begin{tabular}{>{$n=}l<{$\hspace{12pt}}*{13}{c}}
-0 &&&&&&&1&&&&&&\\
-1 &&&&&&1&&1&&&&&\\
-2 &&&&&1&&2&&1&&&&\\
-3 &&&&1&&3&&3&&1&&&\\
-4 &&&1&&4&&6&&4&&1&&\\
-5 &&1&&5&&10&&10&&5&&1&\\
-6 &1&&6&&15&&20&&15&&6&&1
-\end{tabular}
-\end{document}
-
-$$
 
 2023-08-19
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e067106f671b941d",
+        "id": "c1f644a81a3fb251",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f5cc16bd84a0b8",
+            "id": "9c2dbb28a59dcbc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethics.md",
+                "file": "Web and mobile programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethics.md",
+                "file": "Web and mobile programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethics.md",
+                "file": "Web and mobile programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethics.md"
+                "file": "Web and mobile programming.md"
               }
             }
           },
@@ -165,42 +165,43 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e7f5cc16bd84a0b8",
+  "active": "9c2dbb28a59dcbc7",
   "lastOpenFiles": [
-    "Notes/Courses/Ethics/ETCS.md",
+    "Media/Pasted image 20231004092142.png",
+    "Web and mobile programming.md",
+    "Media/Pasted image 20231004095026.png",
+    "Media/Pasted image 20231004094723.png",
+    "Media/Pasted image 20231004094719.png",
+    "Media/Pasted image 20231004094523.png",
+    "Media/Pasted image 20231004094229.png",
+    "Media/Pasted image 20231004094146.png",
+    "Media/Pasted image 20231004093751.png",
+    "Media/Pasted image 20231004093648.png",
+    "Media/Pasted image 20231004093242.png",
+    "Media/Pasted image 20231004093213.png",
+    "Programming languages.md",
+    "Data warehousing.md",
+    "Software Engineering I.md",
+    "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
+    "Books and modules/Concepts-of-Programming-Languages.pdf",
+    "Numerical Methods.md",
+    "Spanish.md",
     "Ethics.md",
-    "Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
+    "Notes/Courses/Ethics/ETCS.md",
     "Notes/Courses/Ethics/Thought Experiment 1.md",
     "Notes/Courses/Ethics/Web of Whys.md",
-    "Data warehousing.md",
     "Books and modules/Bunker.md",
     "Notes/000.md",
     "Flashcards/flashcards.md",
-    "Programming languages.md",
-    "Books and modules/Concepts-of-Programming-Languages.pdf",
     "ProgrammingLangFlashcards.md",
-    "Software Engineering I.md",
     "Flashcards",
     "Untitled.md",
     "Numerical Methods Seatworks.md",
-    "Numerical Methods.md",
-    "Spanish.md",
-    "Media/Pasted image 20231002172646.png",
     "README.md",
-    "Media/Pasted image 20231001205826.png",
-    "Media/Pasted image 20231001231124.png",
-    "Media/Pasted image 20231001230819.png",
-    "Media/Pasted image 20231001224004.png",
-    "Media/Pasted image 20231001223959.png",
-    "Media/Pasted image 20231001223915.png",
-    "Media/Pasted image 20231001223359.png",
-    "Media/Pasted image 20231001222050.png",
-    "Media/Pasted image 20231001221610.png",
     "FromOthers/CS_26111.md",
     "Media/Pasted image 20230921140002.png.md",
     "Concepts of Programming Languages (10th Edition) (Sebesta, Robert W.).pdf.md",
     "Books and modules/Book 2 (Cottingham. 1996. Western Philosophy_ Anthology)Book 2 (Cottingham. 1996. Western Philosophy_ Anthology) .pdf",
-    "Web and mobile programming.md",
     "FromOthers",
     "New folder",
     "Media/ps11BF.tmp",
@@ -213,7 +214,6 @@
     "DOST/Untitled.md",
     "Untitled 1.md",
     "Untitled.canvas",
-    "Test table.md",
     "Untitled 1.canvas",
     "The3rdYearWorld.canvas"
   ]

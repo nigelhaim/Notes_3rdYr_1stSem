@@ -5,7 +5,7 @@
 
 Self studied prof on mobile programming 
 
-**More on android programming but also teaches swift back at Roque Ruano. Not a fan of macs so it transitioned to React.**
+**More on android programming but also teaches swift back at Roque Ruano. Not a fan of macs so it transitioned to React.** 
 - "I will do my best to teach you flutter and Dart"
 	- Discussed with sir Decamora 
 
@@ -324,3 +324,226 @@ Flutter - Is a SDK that is used to build high performance, modern and beautiful 
 3. Done 
 
 
+# Starter codes 
+
+https://drive.google.com/drive/u/2/folders/163pvMpKtnrGZz5K1w2zAdmzcccjybW_b
+
+
+
+
+2023-10-4
+
+## Prelim Exam
+- 75 items good for 90 mins
+- Not allowed to take the exam on their own devices
+
+**Flexibility options allows the app to resize based on the screen device**
+
+IntentionAtactions Gestures Functions Variable declaration Datatypes
+
+## Dicee app
+
+Clone a repository 
+
+https://github.com/londonappbrewery/dicee-flutter.git
+
+#### The user interface 
+![[Pasted image 20231004081354.png]]
+
+
+>[!note]- The scaffold is already made 
+!>[[Pasted image 20231004081529.png]]
+
+- The dice image does not fit the screen that causes the overflow 
+
+
+## Expanded child 
+- A child of a row or column 
+- Expands to fill the available space in the main axis 
+> [!Note]- Insert the image
+> ![[Pasted image 20231004081901.png]]
+
+>[!Note]- Changing it to column
+>![[Pasted image 20231004081919.png]]
+
+
+>[!Note]- Duplicating the images 
+>![[Pasted image 20231004082003.png]]
+
+---
+### Side note 
+>[!Note]- If you want an image takes up the space twice than on the right
+>![[Pasted image 20231004082054.png]]
+
+--- 
+
+# As programmers we may not have a lot of friends but documentation is our friend 
+
+
+>[!Note]- Importing images in a shorter way 
+>Less nesting 
+>Less potential error 
+>[[Pasted image 20231004082418.png]]
+
+>[!Note]- Move row to the center of the screen 
+>![[Pasted image 20231004082826.png]]
+
+Move row to the center of the screen a much easier way 
+>[!Note]- The new user interface tree
+>![[Pasted image 20231004082908.png]]
+
+>[!Note]- Click the line or the row and click the button 
+>![[Pasted image 20231004082947.png]]
+
+>[!Note]- Automatically adds the center widget 
+>![[Pasted image 20231004083014.png]]
+
+---
+
+>[!Note]- Further exploration 
+![[Pasted image 20231004083114.png]]
+
+>[!Note]- You can also click the lightbulb at the left of the code for further actions(Alt+Enter)
+>[[Pasted image 20231004083311.png]]
+
+---
+
+>[!Notes]- Change the row to Center 
+>![[Pasted image 20231004083341.png]]
+>![[Pasted image 20231004083421.png]]
+
+
+
+>[!Notes]- Putting a space between the dices 
+>![[Pasted image 20231004083543.png]]
+
+
+### Documentation 
+
+User Interface -> Widget Catalog 
+
+
+>[!Notes]- Changing the user interface to 
+>![[Pasted image 20231004083654.png]]
+
+>[!Notes]- Adding the button and the image as its child 
+>![[Pasted image 20231004083744.png]]
+
+
+Noticing the button is smaller 
+
+>[!Note]- Remove the padding of the button 
+>![[Pasted image 20231004083917.png]]
+
+
+>[!Note]- Notice the changes based on the wireframe 
+![[Pasted image 20231004084010.png]]
+
+>[!Note]- Apply changes on the right side 
+![[Pasted image 20231004084120.png]]
+
+
+
+Make the button do something 
+
+When you see yellow lines it means there is a warning 
+When you see red lines it is an error/fail 
+
+>[!Note]- using onPressed 
+![[Pasted image 20231004084312.png]]
+
+> [!note]- Test onPressed using print 
+>![[Pasted image 20231004084548.png]]
+
+
+> [!note]- applying it to the right dice 
+>![[Pasted image 20231004084730.png]]
+
+--- 
+Functions 
+- Gives the program some functionality 
+- Package bits of code together as a block 
+- So you wont need to make the code type it again and again 
+
+### Creating the function 
+```
+	void getMilk() { //doSomething }
+```
+
+### Calling the function 
+```
+	getMilk()
+```
+### Anonymous function 
+```
+	(){ //doSomething }
+```
+
+
+> [!note]- onPressed requires an anonymous function 
+> ```
+> onPressed: () { //doSomething }
+> ```
+```
+```
+
+
+---
+
+Applying the concept of functions to update the image which button was pressed 
+
+
+> [!note]- Create a variable that refers the number of the die and change the variable on the string of the Image.asset
+> ![[Pasted image 20231004085821.png]]
+
+**String interpolation** - Adding variables on a string 
+
+--- 
+### Variables
+- A data container 
+---
+Updating the variable creates a warning of a StateLessWidget 
+
+>[!note]- Initiating the variable outside the build method
+>![[Pasted image 20231004092142.png]]
+
+We need to use the StateFullWidget 
+
+shortcut on android studio 
+```
+stful [Enter]
+```
+
+> [!note]- Creating the StatefulWidget
+> ![[Pasted image 20231004092552.png]]
+
+>[!note]- copy everytthing
+>![[Pasted image 20231004092641.png]]
+
+> [!note]- Updating the state on press with setState()
+> **Watch the change**
+> ![[Pasted image 20231004092907.png]]
+> ![[Pasted image 20231004092918.png]]
+
+### setState()
+- marks the state as dirty 
+- calls the build then updates the dirty state 
+- In contrast it **redraws everything**
+- ![[Pasted image 20231004093213.png]]
+- ![[Pasted image 20231004093242.png]]
+
+### Continuation
+
+> [!note]- using math random 
+> **import 'dart.math';**
+> ![[Pasted image 20231004093751.png]]
+> ![[Pasted image 20231004094229.png]]
+
+>[!note]- applying it to the right die 
+>![[Pasted image 20231004094523.png]]
+
+>[!note]- both dice will change if one die is clicked 
+>![[Pasted image 20231004094723.png]]
+
+> [!note]- applying the concept of functions
+> ![[Pasted image 20231004095026.png]]
