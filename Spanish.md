@@ -555,16 +555,16 @@ Las ninas son inteligentes
 # Continue tema 5 
 
 
-**Nombre:** Me Ilamo Nigel Haim N. Sebastian 
+**Nombre:** Me Ilamo Nigel Haim Sebastian 
 **Profesion:** soy estudyante
 **Nationalidad:** soy filipino
-**Edad:** soy bente anyos 
-**Idiomas:** Hablo Filipino, Ingles y poco de Espanol 
+**Edad:** tengo viente anyos 
+**Idiomas:** Hablo Filipino, Ingles y un poco de Espanol 
 **Direccion:** Vibo en la calle Halcon dos, numero trenta y ocho, barangay santa teresita, syudad de quezon
-**Correo Electronico:**  mi correo electronico es nigelhaim punto sebastian punto se i se ese arebo un este te punto edu punto pe ache 
+**Correo Electronico:**  mi correo electronico es nigelhaim punto sebastian punto se i se ese aroba u ese te punto edu punto pe ache 
 **Telefono:** no tengo telefono en casa 
 **Telefono Movil:** Mi numero de telefono movil es el Cero noventa y uno cincuenta y nueve noventa y siete noventa y nueve cero nueve 
 **Esado Civil:** Estoy soltero
-**Lugar de Estudio/Trabajo:** No trabaho pero Estudio en el colegio de informatica, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila 
+**Lugar de Estudio/Trabajo:** Esoy Estudio en el colegio de informatica, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila, No trabaho 
 
 Eso Estodo 

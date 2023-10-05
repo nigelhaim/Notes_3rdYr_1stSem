@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c1f644a81a3fb251",
+        "id": "6ed9f951338b7b02",
         "type": "tabs",
         "children": [
           {
-            "id": "9c2dbb28a59dcbc7",
+            "id": "4a78d50680d5aa03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Web and mobile programming.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20231005111333.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Media/Pasted image 20231005111333.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Media/Pasted image 20231005111333.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web and mobile programming.md"
+                "file": "Media/Pasted image 20231005111333.png"
               }
             }
           },
@@ -165,28 +163,27 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "9c2dbb28a59dcbc7",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Media/Pasted image 20231004092142.png",
-    "Web and mobile programming.md",
-    "Media/Pasted image 20231004095026.png",
-    "Media/Pasted image 20231004094723.png",
-    "Media/Pasted image 20231004094719.png",
-    "Media/Pasted image 20231004094523.png",
-    "Media/Pasted image 20231004094229.png",
-    "Media/Pasted image 20231004094146.png",
-    "Media/Pasted image 20231004093751.png",
-    "Media/Pasted image 20231004093648.png",
-    "Media/Pasted image 20231004093242.png",
-    "Media/Pasted image 20231004093213.png",
-    "Programming languages.md",
     "Data warehousing.md",
+    "Media/Pasted image 20231005111333.png",
+    "Media/Pasted image 20231005111232.png",
+    "Media/Pasted image 20231005111120.png",
+    "Media/Pasted image 20231005111106.png",
+    "Media/Pasted image 20231005110819.png",
+    "Media/Pasted image 20231005110054.png",
+    "Media/Pasted image 20231005105937.png",
+    "Media/Pasted image 20231005105728.png",
+    "Media/Pasted image 20231005105041.png",
+    "Media/Pasted image 20231005104958.png",
+    "Ethics.md",
+    "Spanish.md",
+    "Web and mobile programming.md",
+    "Programming languages.md",
     "Software Engineering I.md",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Numerical Methods.md",
-    "Spanish.md",
-    "Ethics.md",
     "Notes/Courses/Ethics/ETCS.md",
     "Notes/Courses/Ethics/Thought Experiment 1.md",
     "Notes/Courses/Ethics/Web of Whys.md",

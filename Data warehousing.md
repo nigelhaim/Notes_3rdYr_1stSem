@@ -292,7 +292,7 @@ Data Marts are used as
 ![[Untitled-1.png]]
 
 **Program/Project Planning**
-- Assesses the organization's readiness for a DW/BI initiative, establishes the preliminary scope and jsutification, obtains resources and launches the program/project
+- Assesses the organization's readiness for a DW/BI initiative, establishes the preliminary scope and justification, obtains resources and launches the program/project
 - Ano gusto sa life 
 **Business Requirements Definition**
 - Aligning the DW/BI initiative with business requirements is absolutely crucial. Best of breed technologies won't salvage a DW/BI environment that fails to focus on the business. 
@@ -536,7 +536,9 @@ Now that we've walked through the four-step process, let's return to the dimensi
 - Most date dimension attributes are not subject to update. June 1, 2013 will always roll up to June, Calendar Q2, and 2013. However, there are attributes you can add to the basic date dimension that will change over time, including IsCurrentDay, IsCurrentMonth, IsPrior60Days, and so on. IsCurrentDay obviously must be updated each day; the attribute is useful for generating reports that always run for today. A nuance to consider is the day that IsCurrentDay refers to. 
 
 #### Product Dimension 
-![[ProductDimension.png]]
+>[!Note]- Product Dimension
+>![[ProductDimension.png]]
+
 **Flatten Many-to-One Indices**
 - Keeping the repeated low cardinality values in the primary dimension table is a fundamental dimensional modeling technique. Normalizing these values into separate tables defeats the primary goals of simplicity and performance
 
@@ -545,20 +547,20 @@ Now that we've walked through the four-step process, let's return to the dimensi
 
 **Numeric Values as Attributes or Facts**
 - If the numeric value is used primarily for calculation purposes, it likely belongs in the fact table. Because standard price is non-additive, you might multiply it by the quantity for an extended amount which would be additive.
-
-
-![[ProductDimensionTable.png]]
+>[!Note]- Numeric Values as Attributes or Facts
+>![[ProductDimensionTable.png]]
 
 **Drilling Down on Dimension Attributes**
 - A reasonable product dimension table can have 50 or more descriptive attributes. Each attribute is a rich source for constraining and constructing row header labels. Drilling down is nothing more than asking for a row header from a dimension that provides more information
-- Drilling down in a dimensional model is nothing more than ading row header attirubtes from the dimension tables. Drilling up is removing row headers. You can drill down or up on attributres from more than one explicit heirarchy and with attributes that are part of no hierarchy. 
+- Drilling down in a dimensional model is nothing more than adding row header attributes from the dimension tables. Drilling up is removing row headers. You can drill down or up on attributes from more than one explicit hierarchy and with attributes that are part of no hierarchy. 
 
-![[reciept.png]]
+>[!Note]- Dirlling Down on Dimension Attributes 
+>![[reciept.png]]
 
 #### Store Dimension 
 **Multiple Hierarchies in Dimension Tables**
 - The store dimension is the case study's primary geographic dimension. Each store can be thought of as a location. You can roll stores up to any geographic attribute, such as ZIP code , county, and state in the United States. Contrary to popular belief, cities and states withing the United States are not a hierarchy. Since many states have identically named cities, you'll want to include a City-State attribute in the store dimension. 
-- Stores likely also roll up an internal organization hierarchy consisting of store districts and regions. These two diffrent store hierarchies are both easily represented in the dimension because both the geographic and organizational hierarchies are well defined for a single store row. 
+- Stores likely also roll up an internal organization hierarchy consisting of store districts and regions. These two different store hierarchies are both easily represented in the dimension because both the geographic and organizational hierarchies are well defined for a single store row. 
 - The column describing selling square footage is numeric and theoretically additive across stores. You might be tempted to place it in the fact table. However it is clearly a constant attribute of a store and is used as a constraint or label more often that it used as an additive element in a summation. For these reasons, selling square footage belongs in the store dimension table. 
 
 #### Dimension Table Details 
@@ -571,8 +573,8 @@ Now that we've walked through the four-step process, let's return to the dimensi
 
 
 ### Retail Schema in Action 
-
-![[sidebside.png]]
+>[!Note]- Retail schema in action
+>![[sidebside.png]]
 
 
 ### Retail Schema Extensibility 
@@ -592,8 +594,8 @@ The predictable symmetry of dimensional models enable them to absorb some rather
 ### Factless Fact Tables 
 
 There is one important question that cannot be answered by the previous retail sales schema: What products were on  promotion but did not sell? The sales fact table records only the SKU actually sold. There are not fact table rows with zero facts or SKUs that didn't sell because doing so would enlarge the fact table enormously. This fact table enables you to see the relationship between the keys as defined by a promotion, independent of other events, such as actual product sales. We refer to it as a factless fact table because it has no measurement metrics.  
-
-![[Factless.png]]
+>[!Note]- Factless Fact tables
+>![[Factless.png]]
 
 ### Dimension and Fact Table Keys 
 
@@ -613,16 +615,22 @@ identifiers.
 ### Resisting Normalization Urges 
 **Snowflake Schema with Normalized Dimensions**
 - Dimension table normalization is referred to as snowflaking. Redundant attributes are removed from the flat, denormalized  dimension table and placed in separate normalized dimension tables
-![[Resist.png]]
+
+>[!Note]- Snowflake Schema with Normalized Dimensions
+>![[Resist.png]]
+
 **Outriggers**
 
 Although we generally do not recommend snowflaking, there are situations in which it is permissible to build an outrigger  
 dimension that attaches to a dimension within the fact table’s immediate halo. The outrigger date attributes are descriptively and uniquely labeled to distinguish them from the other dates associated with the business process. It only makes sense to outrigger a primary dimension table’s date attribute if the business wants to filter and group this date by nonstandard calendar attributes, such as the fiscal period, business day indicator, or holiday period. 
 
-![[Outriggers.png]]
+>[!Note]- Outriggers
+>![[Outriggers.png]]
+
 **Centipede Fact Tables with Too Many Dimensions**
 
 ## Physical Design 
+- This module discusses key concepts on how to effectively translate the expected schemas (logical design) into actual database structures (physical design)/
 #### Four-step Dimensional process
 ### Logical design -> Physical design 
 - Pen and paper -> SQL statements
@@ -631,11 +639,272 @@ dimension that attaches to a dimension within the fact table’s immediate halo.
 - During the physical design process, a developer converts the data gathered during the logical design phase into a description of the physical database structure. 
 **Indexes**
 - Speed up queries 
+#### Logical Design
 **Entities**- linked together using relationships
 **Attributes**- used to describe the entities
 **Unique identifiers**- distinguis between instances 
 
+#### Physical Design 
+- **Entities** -> **Tables**
+- **Relationships** -> **Foreign keys**
+- **Attributes** -> columns
+- **Unique identifiers** -> **Unique Constraints**
+
+
+> [!Note]- Once you have converted your logical design to a physcial one, you must create some or all of the following structures
+> ![[Pasted image 20231005085440.png]]
+
 
 #### Tablespaces 
-- the files of the database 
-- 
+- consists of one or more datafiles, which are physical structures withing the operating system you are using
+- **Design perspective** - containers for physcial design structures 
+- need to be separated by differences. Tables should be separated from indexes, small should be separated from large. 
+- represent logical business units if possible 
+
+#### Tables or Partitioned Tables
+- **Tables**
+	- basic unit of data storage
+	- container for the expected amount of raw data 
+- **Partitioned tables**
+	- nonpartitioned ones addresses the key problem of support ting very large data volumes 
+	- allowing to divide them into smaller and more manageable pieces 
+- Data is stored in physical blocks, holds one partition of data, Each partitioned table maintains various metadata about the sort properties across all operations that modify it. 
+
+>[!Note]- Tables and Partitioned Tables
+>![[Pasted image 20231005085930.png]]
+
+#### Indexes and Partitioned Indexes 
+- **Indexing**
+	- Improves database performance by minimizing the number of disc visits required to fulfill a query. 
+	- Data structure technique used to locate and quickly access data in databases. 
+- The Main key / Candidate key is duplicated in the first column, which is the Search key. The second column is the Data Reference or Pointer which contains a set of pointers holding the address of the disk block where that particular key value can be found. 
+> [!Note]- Structure of an index
+> ![[Pasted image 20231005090228.png]]
+
+
+#### Indexes and Partitioned Indexes
+**Bitmap indexes**
+- Very common in data warehousing environments. 
+- improve the performance of read-only queries that involve large datasets
+- data structure that represents the presence or absence of data values in a table or column.
+
+>[!Note]- Bitmap Index
+>![[Pasted image 20231005090904.png]]
+>![[Pasted image 20231005090923.png]]
+
+
+##### Features of a Bitmap index
+- **Space efficiency** - Bitmap indexes are highly space-efficient because they use a compact binary representation to store the occurrence of each value or combination of values in each attribute.
+- **Fast query processing** - bitmap indexes can be used to quickly answer complex queries involving multiple attributes using set-based operations such as AND, OR, and NOT.
+- **Low maintenance overhead** - Bitmap indexes require relatively low maintenance overhead because they can be updated incrementally as data changes. 
+- **Reduced I/O overhead** - Bitmap indexes can be used to avoid expensive I/O operations by using a compressed representation of the data.
+
+#### Index and Partitioned Indexes
+**Partitioned index** - decomposed into smaller and more manageable pieces 
+**Global Indexes** - partitioned independently of the table on which they are created 
+**Local Indexes** - automatically linked to the partitioning method for a table
+
+>[!Note]- Indexes and Partitioned Indexes\
+>![[Pasted image 20231005091731.png]]
+
+## Views
+- Tailed representation of the data contained in one or more tables or other views. 
+- takes the output of a query and treats it as a table. 
+- do not require any space in the database
+- Provide an additional level of table security by restricting access to a predetermined set of rows or columns of a table 
+- Hide data complexity 
+- Present the data in  a different perspective from that of the base table 
+- Isolate applications from changes in definitions of base tables
+#### Base tables 
+- view derives its data from the  tables
+- All operations performed on a view actually affect the base tables
+
+>[!Note]- Views
+>![[Pasted image 20231005092747.png]]
+
+### Materialized views
+- query results that have been stored in advance so long-running calculations are not necessary
+- resemble tables or partitioned tables and behave like indexes in that they are used transparently and improve performance
+
+>[!Note]- Materialized view
+>![[Pasted image 20231005095042.png]]
+
+## Hardware and I/O Considerations in Data Warehouses 
+
+#### Why Hardware and I/O are important? 
+- I/O performance should always be a key consideration for DWH designers and administrators; it should be designed to meet heavy I/O-intensive requirements
+
+**I/O performance should always be a key consideration for data warehouse designers and administrators. The typical workload in a data warehouse is especially I/O intensive**
+#### Integrity Constraints 
+- enforce business rules associated with your database 
+- prevent having invalid information in the tables. 
+- constraints are only used for query rewrite
+
+#### Guidelines
+
+**Configure I/O for Bandwidth not Capacity** - Storage configurations for a data warehouse should be choses based on the I/O bandwidth that they can provide, and not necessarily on their overall storage capacity.
+
+**Stripe Far and Wide** - The guiding principle in configuring an I/O system for a data warehouse is to maximize I/O bandwidth by having multiple disks and channels access each database object.
+
+**Use Redundancy** - Because data warehouses are often the largest database systems in a company, they have the most disks and thus are also the most susceptible to the failure of a single disk. Therefore, disk redundancy is a requirement for data warehouses to protect against a hardware failure. 
+
+**Test the I/O System before building the database** - The most important time to examine and tune the I/O system is before the database is even created. Once the database files are created, it is more difficult to reconfigure the files.
+
+**Plan for Growth** - A data warehouse designer should plan for future growth of a data warehouse. There are many approaches to handling the growth in a system, and the key consideration is to be able to grow the I/O system without compromising the I/O bandwidth. 
+
+#### How is DWH partitioning helpful? 
+- Partitioning offers support for very large tables and indexes by letting you decompose them into smaller and more manageable pieces called partitions. 
+
+#### Parallel execution 
+- Capability that addresses the challenge of finding and presenting the right information in a timely fashion in the vast quantity of data stored in any databases 
+
+#### Why integrity constraints are helpful in DWH? 
+- provides a mechanism for ensuring that data conforms to guidelines specified by the database administrator. Constraints can be used for data cleanliness and query optimization. 
+
+
+# Inventory Case Study
+
+Most organizations have an underlying value chain of key business processes. The value chain identifies the natural, logical flow of an organization’s primary activities. For example, a retailer issues purchase orders to product manufacturers. The products are delivered to the retailer’s warehouse, where they are held in inventory. A delivery is then made to an individual store, where again the products sit in inventory until a consumer makes a purchase.
+
+Operational source systems typically produce transactions or snapshots at each step of the value chain. The primary objective of most analytic DW/BI systems is to monitor the performance results of these key processes. Because each process produces unique metrics at unique time intervals with unique granularity and dimensionality, each process typically spawns one or more fact tables. To this end, the value chain provides high-level insight into the overall data architecture for an enterprise DW/BI environment
+
+>[!Note]- Waterfall
+>![[Pasted image 20231005103027.png]]
+
+### Inventory Models
+#### Model #1: Inventory Periodic Snapshot 
+Making sure the right product is in the right store at the right time minimizes out-of-stocks (where the product isn’t available on the shelf to be sold) and reduces overall inventory carrying costs. The retailer wants to analyze daily quantity-on-hand inventory levels by product and store.
+
+| Business Process | Grain | Dimensions | Fact | 
+|---|---|---|---|
+|Inventory Management | Date, Product, Store | Daily Inventory of products | Quanitity at Hand | 
+
+>[!Note]- Inventory Periodic Snapshot
+>![[Pasted image 20231005103239.png]]
+>Is Quanitity Addititive? 
+
+
+**Semi-Additive Facts**: In the inventory snapshot schema, the quantity on hand can be summarized across products or   stores and result in a valid total. Inventory levels, however, are not additive across dates because they represent snapshots of a level or balance at one point in time. Because inventory levels (and all forms of financial account balances) are additive across some dimensions but not all, we refer to them as semi-additive facts.  
+
+**Enhanced Inventory Period Snapshot**: The simplistic view in the periodic inventory snapshot fact table enables you to see a time series of inventory levels. For most inventory analysis, quantity on hand isn’t enough. Quantity on hand needs to be used in conjunction with additional facts to measure the velocity of inventory movement and develop other interesting metrics such as the number of turns and number of days’ supply. Notice that quantity on hand is semi-additive, but the other measures in the enhanced periodic snapshot are all fully additive. The quantity sold amount has been rolled up to the snapshot’s daily granularity.
+
+#### Model #2: Inventory Transactions 
+
+Even though the transaction fact table is simple, it contains detailed information that mirrors individual inventory manipulations. The transaction fact table is useful for measuring the frequency and timing of specific transaction types to answer questions that couldn’t be answered by the less granular periodic snapshot.  
+
+Even so, it is impractical to use the transaction fact table as the sole basis for analyzing inventory performance. Although it is theoretically possible to reconstruct the exact inventory position at any moment in time by rolling all possible transactions forward from a known inventory position, it is too cumbersome and impractical for broad analytic questions that span dates, products, warehouses, or vendors.
+
+>[!Note]- Model#2
+>![[Pasted image 20231005104958.png]]
+
+>[!Note]- Model#3
+>![[Pasted image 20231005105041.png]]
+
+### Types of fact Tables 
+| | Transaction | Periodic Snapshot | Accumulating Snapshot |
+|--|--|--|--|
+|Periodicity| Discrete transaction point in time | Recurring snapshots at regular, predictable intervals | Interdeterminate time span for evolving pipeline/workflow |
+|Grain | 1 row per transaction or transaction line | 1 row per snapshot period plus other dimensions | 1 row per pipeline occurence | 
+|Data dimension | Transaction date | Snapshot date | Multiple dates for pipeline's key milestones |
+| Facts | Transaction performance | Cumulative performance for time interval | Performance for pipeline occurrence | 
+| Fact table sparsity | Sparse or dense, depending on activity | Predictably dense | Sparse or dense, depending on pipeline occurrence | 
+|Fact table updates | No updates, unless error correction | No updates, error correction | Updated whenever pipeline activity occurs |
+
+Periodic snapshots are needed to see the cumulative performance of the business at regular, predictable time intervals. Unlike the transaction fact table where a row is loaded for each event occurrence, with the periodic snapshot, you take a picture (hence the snapshot terminology) of the activity at the end of a day, week, or month, then another picture at the end of the next period, and so on. The periodic snapshots are stacked consecutively into the fact table. The periodic snapshot fact table often is the only place to easily retrieve a regular, predictable view of longitudinal performance trends.
+
+
+Although perhaps not as common as the other two fact table types, accumulating snapshots can be very insightful. Accumulating snapshots represent processes that have a definite beginning and definite end together with a standard set of intermediate process steps. Accumulating snapshots are most appropriate when business users want to perform workflow or pipeline analysis.
+
+#### Lags Between milestones and milestone counts
+Because accumulating snapshots often represent the efficiency and elapsed time of a workflow or pipeline, the fact table typically contains metrics representing the durations or lags between key milestones. Sometimes the lag metrics are simply the raw difference between the milestone dates or date/time stamps
+
+### Value Chain Integration
+Both business and IT organizations are typically interested in value chain integration. Business management needs to look across the business’s processes to better evaluate performance. Obviously, this requires the ability to consistently look at customer information across processes, such as quotes, orders, invoicing, payments, and customer service. Similarly, organizations want to analyze their products across processes, or their employees, students, vendors, and so on.
+
+>[!Note]- Value Chain Integration 
+>![[Pasted image 20231005105728.png]]
+
+
+## Enterprise Data Warehouse bus architecture 
+
+A bus is a common structure to which everything connects and from which everything derives power. The bus in a computer is a standard interface specification that enables you to plug in a disk drive, DVD, or any number of other specialized cards or devices.  
+
+The enterprise data warehouse bus architecture provides a rational approach to decomposing the enterprise DW/BI planning task. The master suite of standardized dimensions and facts has a uniform interpretation across the enterprise.  
+
+The bus architecture enables DW/BI managers to get the best of both worlds. They have an architectural framework guiding the overall design, but the problem has been divided into bite-sized business process chunks that can be implemented in realistic time frames.  
+
+The bus architecture is independent of technology and database platforms. All flavors of relational and OLAP-based dimensional models can be full participants in the enterprise data warehouse bus if they are designed around conformed dimensions and facts.
+
+>[!Note]- bus architecture 
+>![[Pasted image 20231005105937.png]]
+
+#### Enterprise Data Warehouse Bus Matrix 
+Working in a tabular fashion, the organization’s business processes are represented as matrix rows. It is important to remember you are identifying business processes, not the organization’s business departments. The matrix rows translate into dimensional models representing the organization’s primary activities and events, which are often recognizable by their operational source.  
+
+The columns of the bus matrix represent the common dimensions used across the enterprise. It is often helpful to create a list of core dimensions before filling in the matrix to assess whether a given dimension should be associated with a business process.
+
+>[!Note]- Bus Matrix Enterprise
+>![[Pasted image 20231005110054.png]]
+
+The matrix’s columns address the demands of master  
+data management and data integration head-on.  
+
+Each business process-centric implementation project incrementally builds out the overall architecture. Multiple development teams can work on components of the matrix independently and asynchronously, with confidence they’ll fit together.  
+
+The matrix enables you to communicate effectively within and across data governance and DW/BI teams. Even more important, you can use the matrix to communicate upward and outward throughout the organization.
+
+
+
+#### Common bus matrix Mistakes 
+
+**Departmental or overly encompassing rows** - The matrix rows shouldn’t correspond to the boxes on a corporate organization chart representing functional groups. Some departments may be responsible or acutely interested in a single business process, but the matrix rows shouldn’t look like a list of the CEO’s direct reports.
+
+**Report-centric or too narrowly defined rows** - At the opposite extreme, the bus matrix shouldn’t resemble a laundry list of requested reports. A single business process supports numerous analyses; the matrix row should reference the business process, not the derivative reports or analytics.
+
+**Overly generalized columns** - A “person” column on the bus matrix may refer to a wide variety of people, from internal employees to external suppliers and customer contacts. Because there’s virtually zero overlap between these populations, it adds confusion to lump them into a single, generic dimension.
+
+**Separate columns for each level of a hierarchy** - The columns of the bus matrix should refer to dimensions at their most granular level. Some business process rows may require an aggregated version of the detailed dimension, such as inventory snapshot metrics at the weekly level.
+
+
+#### Conformed dimensions
+- should be built once in the ETL system and then replicated either logically or physically throughout the enterprise DW/BI environment.
+>[!Note]- Benefits: Drilling Across Fact Tables
+>![[Pasted image 20231005110819.png]]
+
+#### Types 
+
+**Identical Conformed Dimensions**
+- At the most basic level, conformed dimensions mean the same thing with every possible fact table to which they are joined. The date dimension table connected to the sales facts is identical to the date dimension table connected to the inventory facts. Identical conformed dimensions have consistent dimension keys, attribute column names, attribute definitions, and attribute values (which translate into consistent report labels and groupings). Dimension attributes don’t conform if they’re called Month in one dimension and Month Name in another; likewise, they don’t conform if the attribute value is “July” in one dimension and “JULY” in another. Identical conformed dimensions in two dimensional models may be the same physical table within the database.  
+- Most conformed dimensions are defined naturally at the most granular level possible. The product dimension’s grain will be the individual product; the date dimension’s grain will be the individual day.
+
+**Shrunken Rollup Conformed Dimension with Attribute Subset**
+- Dimensions also conform when they contain a subset of attributes from a more granular dimension. Shrunken rollup dimensions are required when a fact table captures performance metrics at a higher level of granularity than the atomic base dimension. This would be the case if you had a weekly inventory snapshot in addition to the daily snapshot.
+
+>[!Note]- Shrunken Rollup Conformed Dimension with Attribute Subset
+>![[Pasted image 20231005111120.png]]
+
+**Shrunken Conformed Dimension with Row Subset**
+- Another case of conformed dimension subsetting occurs when two dimensions are at the same level of detail, but one represents only a subset of rows. For example, a corporate product dimension contains rows for the full portfolio of products across multiple disparate lines of business
+>[!Note]- Shrunken Conformed Dimension with Row Subset
+>![[Pasted image 20231005111232.png]]
+
+**Shrunken Conformed Dimensions on the Bus Matrix**
+ - The bus matrix identifies the reuse of common dimensions across business processes. Typically, the shaded cells of the matrix indicate that the atomic dimension is associated with a given process. When shrunken rollup or subset dimensions are involved, you want to reinforce their conformance with the atomic dimensions.
+>[!Note]- Shrunken Conformed dimensions on the bus matrix
+>![[Pasted image 20231005111333.png]]
+
+
+#### Issues 
+**Conformed Dimensions in Agile Movement** - Conformed dimensions allow a dimension table to be built and maintained once rather than re-creating slightly different  
+versions during each development cycle. Reusing conformed dimensions across projects is where you get the  
+leverage for more agile DW/BI development.
+**Conformed Dimensions in Agile Movement** 
+- Conformed dimensions allow a dimension table to be built and maintained once rather than re-creating slightly different versions during each development cycle. 
+- Reusing conformed dimensions across projects is where you get the leverage for more agile DW/BI development. If you fail to focus on conformed dimensions because you’re under pressure to deliver something yesterday the departmental analytic data silos will likely have inconsistent categorizations and labels.
+
+
+Revenue, profit, standard prices and costs, measures of quality and customer satisfaction, and other key  
+performance indicators (KPIs) are facts that must also conform. If facts live in more than one dimensional model, the underlying definitions and equations for these facts must be the same if they are to be called the same thing.
+
+
+If they are labeled identically, they need to be defined in the same dimensional context and with the same units of measure from dimensional model to dimensional model. For example, if several business processes report revenue, then these separate revenue metrics can be added and compared only if they have the same financial definitions.
