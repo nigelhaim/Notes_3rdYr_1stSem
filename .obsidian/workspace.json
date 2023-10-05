@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6ed9f951338b7b02",
+        "id": "dc422c3d5eaa18ae",
         "type": "tabs",
         "children": [
           {
-            "id": "4a78d50680d5aa03",
+            "id": "5719bd8474f68206",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Pasted image 20231005111333.png"
+                "file": "Data warehousing.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20231005111333.png",
+                "file": "Data warehousing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20231005111333.png",
+                "file": "Data warehousing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20231005111333.png"
+                "file": "Data warehousing.md"
               }
             }
           },
@@ -165,17 +167,18 @@
   },
   "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Data warehousing.md",
+    "Numerical Methods.md",
+    "Pasted image 20231005151724.png",
+    "Pasted image 20231005150026.png",
+    "Pasted image 20231005145411.png",
     "Media/Pasted image 20231005111333.png",
+    "Data warehousing.md",
     "Media/Pasted image 20231005111232.png",
     "Media/Pasted image 20231005111120.png",
     "Media/Pasted image 20231005111106.png",
     "Media/Pasted image 20231005110819.png",
     "Media/Pasted image 20231005110054.png",
     "Media/Pasted image 20231005105937.png",
-    "Media/Pasted image 20231005105728.png",
-    "Media/Pasted image 20231005105041.png",
-    "Media/Pasted image 20231005104958.png",
     "Ethics.md",
     "Spanish.md",
     "Web and mobile programming.md",
@@ -183,7 +186,6 @@
     "Software Engineering I.md",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
-    "Numerical Methods.md",
     "Notes/Courses/Ethics/ETCS.md",
     "Notes/Courses/Ethics/Thought Experiment 1.md",
     "Notes/Courses/Ethics/Web of Whys.md",

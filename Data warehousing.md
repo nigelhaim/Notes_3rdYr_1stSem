@@ -345,7 +345,7 @@ The SDLC aims to produce a high-quality software that meets or exceeds customer 
 	- Feasibility 
 		- Resources needed
 		- If data is not feasible there is no sense of data warehousing 
-- Scoping and Justification 
+- **Scoping and Justification** 
 	- Scoping requires the joint input of the IT organization and business management. The scope of a DW/BI project should be both meaningful to the business organization and manageable for the IT organization.  
 	- Justification requires an estimation of the benefits and costs associated with the DW/BI initiative.  Hopefully, the anticipated benefits grossly outweigh the costs. IT usually is responsible for deriving the expenses.  
 	- Delivering “a single version of the truth” or “flexible access to information” isn’t sufficient financial  justification. You need to peel back the layers to determine the quantifiable impact of improved decision making made possible by these sound bites.
@@ -356,7 +356,7 @@ The SDLC aims to produce a high-quality software that meets or exceeds customer 
 		- The time to develop 
 	- Impact
 		- The cost of life 
-- Staffing
+- **Staffing**
 	- DW/BI projects require the integration of a cross-functional team with resources from both the business and IT communities. It is common for the same person to fill multiple roles on the team
 	- Who are involved? 
 	- Opportunities for newly Grads 
@@ -371,7 +371,7 @@ The SDLC aims to produce a high-quality software that meets or exceeds customer 
 
 #### Business requirements definition
 
-**Collaborating with business users to understand their requirments and ensure their buy-in**
+**Collaborating with business users to understand their requirements and ensure their buy-in**
 - Requirements planning 
 	- **Choose the Forum**
 		- Business user requirements sessions are typically interwoven with source system expert data discovery sessions. However, you don’t ask business representatives about the granularity or dimensionality of their critical data

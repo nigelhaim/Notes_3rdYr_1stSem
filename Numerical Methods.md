@@ -759,3 +759,50 @@ https://youtu.be/TIWRyzzFUYQ?si=egQpoLLv8IeX3Aa-
 - If $F(i)$ is any anti-difference of $F(i)$, then the sum from $i=1$ to $i=n$ of the series whose general form is $f(i) \; is \; F(n+1)-F(1)$.
 
 https://youtu.be/to82dv2SX28?si=ULrZUPvU5sjUwTpd
+
+
+
+# Long Test  2 answers
+
+
+1.
+
+| x | 0 | 1| 3 | 4| 6| 7|
+|---|---|---|--|---|---|---|
+|f(x) | 0|-3|15|48|192|315|
+Find f(134)
+$$\begin{align*} f(1,3) &= \frac{f(1)-f(3)}{1-3} &= \frac{-3-15}{-2} &= 9 \\ f(3,4) &= \frac{f(3)-f(4)}{3-4} &=\frac{15-48}{-1}&=33\\ f(1,3,4) &= \frac{f(1,3)-f(3,4)}{1-4} &= \frac{9-33}{-3}&=8\end{align*}$$
+
+$$\Delta f(3) = f(4)-f(3)= 58.5 -23=35.5$$
+
+2. 
+   
+|x|2|4|6|8|10|
+|--|--|-|-|-|-|
+|f(x)|4|36|148|388|804|
+
+Find $\nabla f(6), let x_{0}=10$
+
+$$\nabla f(6)=f(6)-f(4)=148-367=112$$
+3.
+
+|x|0|1|2|3|4|5|
+|-|-|-|-|-|-|-|
+|f(x)|4|3|4|31|132|379|
+
+Find $\delta^{3} f\left(x_{-\frac{1}{2}}\right) if x_0=2$
+
+|x|f(x)|$\delta f(x)$|$\delta^2f(x)$|$\delta^2f(x)$|
+|-|-|-|-|-|
+|0|4||||
+|||-1|||
+|1|3||2||
+|||1||24|
+|2|4||26||
+|||27||48|
+|3|31||74||
+|||101||72|
+|4|132||146||
+|||247|||
+|5|379||||
+
