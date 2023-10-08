@@ -57,7 +57,7 @@ siesta - rest
 **Hablo [language] e [2nd language]**- I speak [language] and [2nd language]
 
 ## Frases Utiles (Useful phrases)
-- Sentences is also called "Frases"
+Sentences is also called "Frases"
 **No Entiendo Puedes repetir por favor?** - I didn't understand can you please repeat it? 
 **Como se dice [word] en espanol?** - How do you say [word] in spanish
 **que significa = que esta es = que [word] de espanol** - What is the meaning of this
@@ -153,6 +153,8 @@ A: Adios.
 B: Hasta luego
 
 # ACTIVITIES 
+
+>[!Note]- Actividades 1
 ![[Pasted image 20230919181921.png]]
 
 ## Tema 1
@@ -542,6 +544,7 @@ Las ninas son inteligentes
 9. Nuestro problema principal es el dinero; ganamos poco.
 
 #### Subraye la forma adecuada 
+>[!Note]- Actividades 7
 ![[Pasted image 20231001231124.png]]
 1. **Donde están mis gafas?**
 2. Este es **mi** padre.
@@ -555,10 +558,10 @@ Las ninas son inteligentes
 # Continue tema 5 
 
 
-**Nombre:** Me Ilamo Nigel Haim Sebastian 
+**Nombre:** Mi Ilamo Nigel Haim Sebastian 
 **Profesion:** soy estudyante
 **Nationalidad:** soy filipino
-**Edad:** tengo viente anyos 
+**Edad:** tengo vienti anyos 
 **Idiomas:** Hablo Filipino, Ingles y un poco de Espanol 
 **Direccion:** Vibo en la calle Halcon dos, numero trenta y ocho, barangay santa teresita, syudad de quezon
 **Correo Electronico:**  mi correo electronico es nigelhaim punto sebastian punto se i se ese aroba u ese te punto edu punto pe ache 

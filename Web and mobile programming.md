@@ -547,3 +547,21 @@ stful [Enter]
 
 > [!note]- applying the concept of functions
 > ![[Pasted image 20231004095026.png]]
+
+
+# Machine languages and requirements 
+
+- 50% prelim grade + 50% Final Period grade 
+
+**Final period grade**
+- 30% MP/Act 
+- 30% Quizzes
+- 40% Final project
+
+## Machine Problem 
+- Xylophone app but different instrument 
+- 1 Full octave 
+
+## Quizzes 
+- Dicee app 
+-

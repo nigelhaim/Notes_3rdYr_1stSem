@@ -700,3 +700,31 @@ Programming languages don't have the same syntax
 
 
 Up until Chapter 5
+
+
+FFir
+
+1 x=1 && y=2
+x == 3
+boolean g = truel
+if(g){
+}
+
+if(!g){
+ 
+}
+
+
+
+b == 3+23
+
+### Limitations
+- Do not include:
+	- Symbol checking 
+	- digit 
+	- 1 liners
+	- No curly braces in oneline block statement
+	- Data type 
+	- Objects 
+- Numbers are only limited to INTEGERS 
+- 

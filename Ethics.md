@@ -127,11 +127,11 @@ Engaging in deep reflections
 	- Experiment in thoughts and ideas 
 	- Deal with dilemmas and contradictions
 ##### What are the methods of Philosophy? 
---------------------------------------
+
 **Annuluses** - Greek 
 - Seeing each fiber of the thread 
 - Understanding each concept 
----------------------------------
+
 - **Inquisitive thinking**
 	- Thinking in question
 - **Logical reasoning or rational argumentation**

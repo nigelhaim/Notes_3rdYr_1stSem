@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data warehousing.md"
+                "file": "Numerical Methods.md"
               }
             }
           },
@@ -165,25 +166,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "78ef5a80065e6454",
+  "active": "5719bd8474f68206",
   "lastOpenFiles": [
-    "Numerical Methods.md",
-    "Pasted image 20231005151724.png",
-    "Pasted image 20231005150026.png",
-    "Pasted image 20231005145411.png",
-    "Media/Pasted image 20231005111333.png",
+    "Ethics.md",
     "Data warehousing.md",
+    "Web and mobile programming.md",
+    "Numerical Methods.md",
+    "Media/Pasted image 20231005145411.png",
+    "Programming languages.md",
+    "Software Engineering I.md",
+    "Spanish.md",
+    "Media/Pasted image 20231005151724.png",
+    "Media/Pasted image 20231005150026.png",
+    "Media/Pasted image 20231005111333.png",
     "Media/Pasted image 20231005111232.png",
     "Media/Pasted image 20231005111120.png",
     "Media/Pasted image 20231005111106.png",
     "Media/Pasted image 20231005110819.png",
     "Media/Pasted image 20231005110054.png",
     "Media/Pasted image 20231005105937.png",
-    "Ethics.md",
-    "Spanish.md",
-    "Web and mobile programming.md",
-    "Programming languages.md",
-    "Software Engineering I.md",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Notes/Courses/Ethics/ETCS.md",
