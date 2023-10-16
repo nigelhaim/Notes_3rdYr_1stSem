@@ -4,26 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5f510d8bb514b13e",
+        "id": "9afdd56d081a6c05",
         "type": "tabs",
         "children": [
           {
-            "id": "1b6d3eccda5e5a9a",
+            "id": "63336ddd198264bd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Pasted image 20231016151653.png"
-              }
-            }
-          },
-          {
-            "id": "1df4680e7aa27983",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Pasted image 20231016152357.png"
+                "file": "Ethics.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -93,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20231016151653.png",
+                "file": "Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20231016151653.png",
+                "file": "Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20231016151653.png"
+                "file": "Ethics.md"
               }
             }
           },
@@ -175,6 +167,11 @@
   },
   "active": "78ef5a80065e6454",
   "lastOpenFiles": [
+    "Media/Pasted image 20231016162106.png",
+    "Ethics.md",
+    "Media/Pasted image 20231016162213.png",
+    "Media/Pasted image 20231016162211.png",
+    "Media/Pasted image 20231016151653.png",
     "Software Engineering I.md",
     "Media/Pasted image 20231016152505.png",
     "Media/Pasted image 20231016152420.png",
@@ -182,16 +179,11 @@
     "Media/Pasted image 20231016152000.png",
     "Media/Pasted image 20231016151927.png",
     "Media/Pasted image 20231016151818.png",
-    "Media/Pasted image 20231016151749.png",
-    "Media/Pasted image 20231016151653.png",
     "Spanish.md",
     "Numerical Methods Seatworks.md",
-    "Media/Pasted image 20231016141925.png",
-    "Media/Pasted image 20231016150311.png",
     "Data warehousing.md",
     "Web and mobile programming.md",
     "Programming languages.md",
-    "Ethics.md",
     "Numerical Methods.md",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",

@@ -657,3 +657,176 @@ Tell what conclusion may be derived from the following premises:
 6. Most Filipinos are fun-loving. Linda is a Filipino. Therefore, **Linda is probably fun-loving**. 
 7. Roughly 90% of the Filipino population is literate. Juan, a Filipino, is **highly likely literate**. 
 8. 78% of Filipinos are already vaccinated. Thus, everyone in class **could be vaccinated**.
+
+
+
+## Moral Relativism 
+- Broad ethical theory that encompasses different idea 
+- There is no absolute or objective morality 
+- Morality is relative to the particular standpoint 
+- Complete opposites to moral objectivism
+
+X is Good 
+
+Descriptive relativism 
+- Empirical awareness on disagreements 
+- Morality changes on every group/culture 
+
+Cultural Relativism 
+- Emphasizes that culture is the defining factor of moral judgements 
+- Everything we do is moral depending on how we adapt on culture 
+- Ex 
+	- On one culture Monogamy is moral and polygamy is immoral and on another culture its the vice versa 
+	- Contraception -> Responsible or Sin 
+
+"The truth or falsity of moral judgements are sole based on the culture there are no grounds"
+
+"No universal truth therefore there is no objectively right or wrong. It is only relative to the particular culture"
+
+
+#### Strengths
+1. Explains why moral disagreements exists
+	- Huge issue of ethicists 
+	- Why do cultures disagree so much 
+	- Why there are so many moral clashes 
+	- There is no moral truth there is no moral objectivity 
+2. Existence of cultural diversity 
+	- Cultural diversity has no one moral code
+	- We can learn to respect and learn from one to another 
+
+#### Problems 
+1. We can still have absolute moral truths but we still haven't discovered 
+	- It is a mistake that humanity should have discovered the absolute truth
+	- Even there are moral dis agreemetns doesnt mean there is no absolute moral truth
+2. Moral Relativists exaggerate just how much cultures differ in terms of morality 
+	- There are more moral similarities than differences 
+	- Ex
+		- Murder is evil 
+		- Theft is evil 
+3. Would a moral relativist form the old age agree on the standards of the new moral relativists of this age?
+	- Ex
+		- Slaves are good in the old age but right now it is not 
+
+### Ethical Subjectivism 
+- The truth or falsitiy of moral judgements depends solely on the attitude of a person 
+- Moral relativism refined on the individual 
+
+
+### Moral Skepticism 
+- If two people look at the same act and at the same time and they contradicted to each other ethical subjectivism says they are right but one should only be right 
+- Ex
+	- It is raining the one says it is raining the other says it is not 
+
+>[!Note]- Rain example
+>![[Pasted image 20231016162106.png]]
+
+### Can be morality be relative and objective? 
+- Morality is a blend is a blend of relative and objectivism
+
+>[!Note]- Fundamental of moral objective moral truths
+>The projection of happy and moral life and the elimination of pain and suffering 
+>![[Pasted image 20231016162213.png]]
+
+We can promote life freedom and happiness because of our differences in cultures for example different cultures eliminates pain and suffering through agreeing that murder is evil, but Monogamous and polygamous makes different couples happy depending on the cultures and beliefs
+
+
+## Objective relativism 
+- Learning is a process of getting my perceptions to match with reality 
+- Moral feelings -> Are those feelings connected to anything that is real? 
+	- Yes -> Moral Objectivist 
+	- No -> Moral Relativist 
+
+### Moral Fact
+- The concept of morality is the same concept of health 
+- It is hard to define in a precise manner it is nonetheless intelligible concept that allows us to determine between two obvious things 
+
+### Needs Distinctions
+#### Diversity Thesis (Cultural Relativism) 
+- Contrary views of different cultures 
+- Different cultures have different values 
+
+|Culture A | Culture B | 
+|-|-|
+|It is a moral duty to benefit an elderly person by taking her life when she gets old | It is morally forbidden to take the life of an elderly person. |
+| It is morally permissible to promote racism and segregation | Racism is morally wrong, no matter the motivation and cause. | 
+
+#### Dependency Thesis 
+- Morality is the set of common rules, habits, and customs that have won social approval overtime, so that they seem part of the nature of things, as facts. There is nothing mysterious or transcendent about these codes of behavior. They are the outcomes of our social history. 
+
+**Combining these thesis many argue that this is the foundation for ethical relativism**
+
+If different cultures have different moral values then there is no univeral oral principles that are valid for all cultures and all times.
+
+
+#### Subjective ethical Relativism (Ernest Hemingway)
+- "Morality is the eye of the beholder"
+- "No person can judge another person's moral views"
+- "Just as different societies have different moral values, so do different individuals"
+- IF this is true then:
+	- Is Hitler as moral as Gandhi? 
+	- Is judging another person just as good as not judging another person? 
+
+
+The only plausible form of ethical relativism would be one that grounds morality in a group or culture 
+
+## Conventionalism 
+### What makes this view attractive? 
+
+#### Undermines 
+- **Intolerance and enthocentricism**
+	- It feels wrong to judge another culture's moral practices by comparing those practices to the moral sensibilities of our own culture 
+	- Who says our culture is right? 
+	- Couldn't they judge our moral practices by comparing them to the moral sensibilities of their culture? 
+	- "If conventional relativism is accepted, then racism, genocide of unpopular minorities, oppression of the poor, slavery, and even the advocacy of war for its own sake are as equally moral as their opposites. "
+
+#### Flaw in conventional relativism 
+1. We observe that different cultures have different moral rules 
+2. We conclude that no culture's set of rules are better than any other culture's set of rules. 
+
+|Description | Prescription |
+| - | - |
+|Different cultures have different moral values | Different cultures ought to have different moral values. | 
+| Different students provide different answers to the same math equation | Different students ought to provide different answers to the same math equation. |
+
+- Ethical diversity does not imply ethical relativism 
+- Maybe some moral systems are simply wrong. 
+
+>[!Quote]- "There are valid rules of actions that should generally be adhered to, but that may be overridden b6y another moral principle in cases of moral conflict. "
+> - Pojman, "Ethical relativism Versus Ethical Objectivism"
+
+#### Ethical Objectivism 
+
+**Utilitarianism** - promotes collective happiness
+**Liberaltarianism** - promotes individual rights 
+**Deontological**  - promotes categorical rules, regardless of consequences
+**Egalitarianism** - promotes a principle of equality behind the veil of ignorance 
+**Virtue Ethics** - promotes an instrumentalist view of ethics
+
+
+## Subjectivism, Relativism, and Emotivism 
+
+### Four Perspectives on Moral Judgements
+#### Objectivism 
+- The theory that moral truths exist and that they do so independently of what individuals or societies think of them 
+- Learning is a process of getting my perceptions to match with reality. 
+- Broader than just a moral theory 
+- Basic common sense of learning - The process of learning through perceptions of what actually reality is (5 senses)
+
+Perceptions                 Reality 
+Moral Perceptions -> Serving in a Food Kitchen 
+Moral Perceptions -> Building a house 
+
+- That moral assessment that you made is good 
+- Morality its not just on thoughts but on the physical world too 
+
+**Is it really possible to judge one act as being morally superior to another act?**
+
+
+>[!Quote]- If you reject moral objectivism 
+>"Then racism, genocide of unpopular minorities, opression of the poor, slavery, and even the advocacy of war on its own sake are as equally moral as their opposites"
+
+- You cannot reject moral objectivism, and rationally argue for your moral ideals 
+
+Implications: 
+- Moral disagreements can be resolved using reasoning 
+- Moral Judgements and actions can be evaluated according to universal standards. 
