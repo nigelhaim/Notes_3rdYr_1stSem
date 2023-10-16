@@ -779,6 +779,164 @@ Customers on an enrollment system
 	- Teachers 
 - Stakeholders
 
+2023-10-16
+## System Requirements Specification
 
-## System Requirements Specification sheet 
+### Introduction 
+- Concerns of the manuscript
+- Where the project begins 
+- **Project Purpose**
+	- What is expected to define why there is a need for the project 
+	- Needs to be clear 
+	- Introduce the individuals whom the group interviewed 
+	- Include the Fishbone analysis and the SWOT analysis
+- **Project Scope**
+	- Only describes what the project can do 
+	- Specify the delimitations
+	- Identify the goals and objectives 
+
+### Overall Description
+- Documents what the project can do
+- Ano yung rinequire ni user
+- **Project Perspective**
+	- Model of the system 
+	- Identify who are the users of the system 
+	- Primary functions and capabilities 
+	- Use case diagram 
+		- Primary and secondary actors 
+		- Actor - Entity that performs a row in one given system 
+			- Generates by itself 
+			- Anything that does action in the system 
+			- Simple ATM machine 
+>[!Note]- Simple ATM
+>![[Pasted image 20231016142012.png]]
+
+### User accounts and characteristics 
+
+>[!Note]- User accounts and characteristics 
+>![[Pasted image 20231016142605.png]]
+
+>[!Note]- User Accounts table 
+>![[Pasted image 20231016142653.png]]
+
+>[!Note]- Usecase
+>![[Pasted image 20231016142748.png]]
+
+
+
+### Project Functions 
+>[!Note]- Project Functions
+>![[Pasted image 20231016142944.png]]
+
+- The way you will figure out the presentation
+
+
+### Operating environment 
+>[!Note]- Operating environment 
+>![[Pasted image 20231016143832.png]]
+
+
+>[!Note]- Non-Functional Requirements 
+>![[Pasted image 20231016144039.png]]
+
+
+### Design and implementation constraints 
+- About dependency like in SPMP 
+- Description off possible risks 
+- **Risk assessment**
+
+>[!Note]- Risk Assessment 
+>	![[Pasted image 20231016144234.png]]
+
+- **Assumptions and dependencies**
+	- Implement the solutions 
+
+>[!Note]- Assumptions and dependencies 
+>![[Pasted image 20231016144433.png]]
+
+
+ang bilis ni mam ayoko na makikinig nalng ako 
+
+## SWOT Analysis 
+- Learning Objectvies 
+
+>[!Note]- SWOT
+>![[Pasted image 20231016150311.png]]
+
+### Internal environment 
+- Strength 
+- Weaknesses
+### External Environment 
+- Opportunities 
+- Threats 
+
+### Strengths 
+- Advantages of the company over the other 
+- Positive tangible and intangible attributes 
+- Beneficial aspects 
+- Factors of the strength of the company in the industry 
+
+### Weaknesses 
+- Be transparent 
+- Disadvantages relative to others 
+- Factors which do not meet the standards 
+- Minimized or eliminated 
+- Limited financial resources 
+- Weak spending 
+- Higher cost 
+- Anything negative 
+
+### Opportunities 
+- The growth in the market 
+- The changing customers needs 
+
+### Threats 
+- Elements in the environment that causes trouble for the business 
+- Vulnerability of an organization 
+- Increasing jobs 
+
+#### Why SWOT is important 
+- We need to decide 
+- Compare ideas 
+- Bring the common purpose of success 
+- Give rise to the system 
+- Clearer point of view 
+- Success and failure 
+- Allowing complex ideas to be presented 
+
+#### Who needs the SWOT analysis
+
+>[!Note]- SWOT 
+>![[Pasted image 20231016151653.png]]
+
+>[!Note]- How to conduct the swot analysis 
+>![[Pasted image 20231016151749.png]]
+
+1. Anaylze Internal and external analysis
+>[!Note]- 1 Analyze Internal & external anaylsis 
+>![[Pasted image 20231016151818.png]]
+
+2. Perfrom SWOT analysis and document 
+>[!Note]- Perform SWOT 
+>![[Pasted image 20231016152000.png]]
+
+3. Prepare action plan 
+
+
+### Pitfalls of SWOT analysis 
+>[!Note]- piffalls
+>![[Pasted image 20231016152357.png]]
+
+
+#### Tips 
+- Focus on your system
+- Streamline what is only related
+- To be organized 
+- 
+>[!Note]- Do
+>![[Pasted image 20231016152420.png]]
+
+>[!Note]- Dont's 
+>![[Pasted image 20231016152505.png]]
+
 

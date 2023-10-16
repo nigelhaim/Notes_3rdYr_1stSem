@@ -378,7 +378,7 @@ Solution:
 $$\sqrt{8} = 2.828427$$
 $$\begin{align*} \frac{8}{3} &= 2.666667 \\ \frac{3+2.6666667}{2} &= 2.8333333 \\ \frac{8}{2.83333333} &= 2.823529 \\ \frac{2.8333333+2.823529}{2} &= 2.828430 \\ \frac{8}{2.828430} &= 2.828424\end{align*}$$
 
-
+	 
 Iteration formula of the square root of a certain number 
 $$x_{k+1} = \frac{1}{2}(x_k + \frac{n}{x_k})$$
 
@@ -467,11 +467,11 @@ $$c_n = \frac{(a_n+b_n)}{2}, n=1,2,3,...$$
 5. Check if $f(a_n) *f(c_n)<0$, then set $b_n=c_n$; otherwise, set $a_n=c_n$
 6. Go back to step 3 and repeat the process
 
-#### The Newton-Raphson (Newton's) Methggod
+#### The Newton-Raphson (Newton's) Method
 
 - Suppose that $f$ is continuous on the interval [a.b]. Let $x \epsilon [a,b]$ be an approximation that $f(x) \neq 0 and [x-p]$ is small. Consider the first Taylor's polynomial for $f(x)$ expanded about $x$.
 - $f(x)=f(\bar{x})+(x-\bar{x})f'(\bar{x})+\frac{(x-\bar{x})^2}{2!}f''(\epsilon(x))$
-- where $\epsilon(x)$ lies between $\bar{x}$ and $x$. Since $f(p)=0$, this equation with $x=p$ gives 
+- where $\epsilon(x)$ lies between $\bar{x}$ and $x$. Since $f(p)=0$, this equation with $x=p$ gives d
 $$0=f(\bar{x})+(p-\bar{x})f'(x)+\frac{(p-\bar{x})^2}{2!}f''(\epsilon(p))$$
 - Newton's method is derived by assuming that, since $|\bar{x}-p|$ is small. the term involving $(p-\bar{x})^2$ is negligible and that 
 $$0 \approx \bar{x} - \frac{f(\bar{x})}{f'(x)}$$
@@ -540,7 +540,6 @@ $$c=-\frac{4}{3}$$
 Ans.
 $$\begin{align*}f(x)&=x^{\frac{1}{2}}\\f'(x)&=\frac{1}{2}x^{-\frac{1}{2}}\\f''(x)&=-\frac{1}{4}x^{-\frac{3}{2}}\\f'''(x)&=\frac{3}{8}x^{-\frac{5}{2}}\\f^{(IV)}(x)&=-\frac{15}{16}x^{-\frac{5}{2}}\\\end{align*}$$
 $$x=1,\;h=.002$$
-$$\begin{align*}f(x)&=x^{\frac{1}{2}}\\f'(x)&=\frac{1}{2}x^{-\frac{1}{2}}\\f''^{(1)}&=-\frac{1}{4}\\f'''(1)&=\frac{3}{8}\\f^{(IV)}(1)&=-\frac{15}{16}\end{align*}$$
 $$\sqrt{1.002}\approx1+(\frac{1}{2})(.002)-(\frac{1}{4})(.002)^2+(\frac{3}{8}(.002)^3-(\frac{15}{16})(.002)^4$$
 $$\approx 1.00099950$$
 3. Convert the following 
@@ -846,4 +845,4 @@ $$\begin{align*}&=4*3*2(x-3)^{(1)}+6*3*2*1+0+0+0\\&=24x-72+36\\&=24x-36\\&=12(2x
 
 
 10. $\delta^{3} (4^{2x+1})$
-$$\begin{align*}&\delta^{3} (4^{2x+1})\\&f(x+\frac{3h}{2})-3f(x+\frac{h}{2})+3f(x-\frac{h}{2})-f(x-\frac{3h}{2})\\ &=(4^{2(x+\frac{3}{2})}-3(4^{2(x+\frac{1}{2} )})+3(4^{2(x-\frac{1}{2})} - 4^{2(x-\frac{3}{2})})4^{1}\\&=4(4^{(2x+3)}-3(4^{2x+1})+3(4^{(2x-1)})-4^{2x-3})\\ &= 4^{1}(4^{2x}))(4^{3}-3(4)+3(4^{-1})-4^{-3})\\ &= 4^{2x+1}(\frac{3375}{64}) \end{align*}$$
+$$\begin{align*}&\delta^{3} (4^{2x+1})\\&f(x+\frac{3h}{2})-3f(x+\frac{h}{2})+3f(x-\frac{h}{2})-f(x-\frac{3h}{2})\\ &=(4^{2(x+\frac{3}{2})}-3(4^{2(x+\frac{1}{2} )})+3(4^{2(x-\frac{1}{2})}) - 4^{2(x-\frac{3}{2})})4^{1}\\&=4(4^{(2x+3)}-3(4^{2x+1})+3(4^{(2x-1)})-4^{2x-3})\\ &= 4^{1}(4^{2x}))(4^{3}-3(4)+3(4^{-1})-4^{-3})\\ &= 4^{2x+1}(\frac{3375}{64}) \end{align*}$$

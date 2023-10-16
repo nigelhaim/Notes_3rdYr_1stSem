@@ -568,6 +568,15 @@ Las ninas son inteligentes
 **Telefono:** no tengo telefono en casa 
 **Telefono Movil:** Mi numero de telefono movil es el Cero noventa y uno cincuenta y nueve noventa y siete noventa y nueve cero nueve 
 **Esado Civil:** Estoy soltero
-**Lugar de Estudio/Trabajo:** Esoy Estudio en el colegio de informatica, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila, No trabaho 
+**Lugar de Estudio/Trabajo:** Esoy Estudio en el colegio de informatica y Ciencias de la Computación, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila, No trabaho 
 
 Eso Estodo 
+
+
+Donde vibo 
+Nosotros en mos gwapoos ; SIIIIII Nosotros eres guwapos 
+Vosotros? ; Nosotros 
+Nosotros? ; Vosotros 
+
+
+
