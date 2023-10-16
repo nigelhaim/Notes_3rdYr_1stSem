@@ -11,11 +11,9 @@
             "id": "1b6d3eccda5e5a9a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Software Engineering I.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20231016151653.png"
               }
             }
           },
@@ -25,7 +23,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Pasted image 20231016152357.png"
+                "file": "Media/Pasted image 20231016152357.png"
               }
             }
           }
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Media/Pasted image 20231016151653.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Media/Pasted image 20231016151653.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering I.md"
+                "file": "Media/Pasted image 20231016151653.png"
               }
             }
           },
@@ -175,22 +173,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1b6d3eccda5e5a9a",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Pasted image 20231016152505.png",
-    "Pasted image 20231016152420.png",
-    "Pasted image 20231016152357.png",
     "Software Engineering I.md",
-    "Pasted image 20231016152000.png",
-    "Pasted image 20231016151927.png",
-    "Pasted image 20231016151818.png",
-    "Pasted image 20231016151749.png",
-    "Pasted image 20231016151653.png",
+    "Media/Pasted image 20231016152505.png",
+    "Media/Pasted image 20231016152420.png",
+    "Media/Pasted image 20231016152357.png",
+    "Media/Pasted image 20231016152000.png",
+    "Media/Pasted image 20231016151927.png",
+    "Media/Pasted image 20231016151818.png",
+    "Media/Pasted image 20231016151749.png",
+    "Media/Pasted image 20231016151653.png",
     "Spanish.md",
     "Numerical Methods Seatworks.md",
     "Media/Pasted image 20231016141925.png",
     "Media/Pasted image 20231016150311.png",
-    "Media/Pasted image 20231016144433.png",
     "Data warehousing.md",
     "Web and mobile programming.md",
     "Programming languages.md",
