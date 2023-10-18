@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9afdd56d081a6c05",
+        "id": "b0409dc980dd4b18",
         "type": "tabs",
         "children": [
           {
-            "id": "63336ddd198264bd",
+            "id": "a7789c6c1903fdbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethics.md",
+                "file": "Web and mobile programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethics.md",
+                "file": "Web and mobile programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethics.md",
+                "file": "Web and mobile programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethics.md"
+                "file": "Web and mobile programming.md"
               }
             }
           },
@@ -167,23 +167,24 @@
   },
   "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Media/Pasted image 20231016162106.png",
+    "Media/Pasted image 20231018081440.png",
+    "Web and mobile programming.md",
+    "Media/Pasted image 20231018093435.png",
+    "Media/Pasted image 20231018093353.png",
+    "Media/Pasted image 20231018093026.png",
+    "Media/Pasted image 20231018093021.png",
+    "Media/Pasted image 20231018092902.png",
+    "Media/Pasted image 20231018090431.png",
+    "Media/Pasted image 20231018090344.png",
+    "Media/Pasted image 20231018090328.png",
+    "Media/Pasted image 20231018090139.png",
+    "Media/Pasted image 20231018090130.png",
     "Ethics.md",
-    "Media/Pasted image 20231016162213.png",
-    "Media/Pasted image 20231016162211.png",
-    "Media/Pasted image 20231016151653.png",
+    "Programming languages.md",
     "Software Engineering I.md",
-    "Media/Pasted image 20231016152505.png",
-    "Media/Pasted image 20231016152420.png",
-    "Media/Pasted image 20231016152357.png",
-    "Media/Pasted image 20231016152000.png",
-    "Media/Pasted image 20231016151927.png",
-    "Media/Pasted image 20231016151818.png",
     "Spanish.md",
     "Numerical Methods Seatworks.md",
     "Data warehousing.md",
-    "Web and mobile programming.md",
-    "Programming languages.md",
     "Numerical Methods.md",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",

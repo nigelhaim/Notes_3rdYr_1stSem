@@ -564,4 +564,175 @@ stful [Enter]
 
 ## Quizzes 
 - Dicee app 
--
+
+
+
+## Flutter packages 
+
+### Xylophone app 
+
+Clone a git repository 
+
+Open the project (Main.dart)
+
+>[!Image]- Upon Opening
+>![[Pasted image 20231018081440.png]]
+
+>[!Note]- Pubspec.yaml
+>![[Pasted image 20231018081504.png]]
+
+When you add image and sound files it is done the same way
+- assets/msc.mov
+
+>[!Note]- What are flutter packages 
+>open source libraries of code that other people created which anyone can incorporate in their projects 
+
+**Search for generattes words** 
+
+>[!Note]- Generates words 
+>Look for the score on the right (Blue circle with a number)
+>![[Pasted image 20231018081737.png]]
+
+>[!Note]- english_words
+>![[Pasted image 20231018081938.png]]
+
+### Link
+https://pub.dev/packages/english_words
+
+>[!Note]- add english_words on the pubspec.yaml 
+>![[Pasted image 20231018082106.png]]
+- This tells flutter to grab the package with any of its version 
+
+>[!Note]- To specify the  version of the package 
+>![[Pasted image 20231018082212.png]]
+
+**Install the package**
+
+>[!Note]- click packages get
+> You can also run it on the terminal
+>![[Pasted image 20231018082404.png]]
+>![[Pasted image 20231018082419.png]]
+
+**Import the package**
+
+>[!Note]- Get an English adjective and show it on screen
+>![[Pasted image 20231018082609.png]]
+>Using last the word on the list 
+>![[Pasted image 20231018082638.png]]
+
+- We can only use adjectives, nouns, and all 
+>[!Note]- Find the list of words on the package 
+>![[Pasted image 20231018082728.png]]
+
+
+**Think of packages as Lego**
+- Everything was already premade just be creative how to implement it 
+
+**Search for play audio file**
+
+>[!Note]- audioplayers 0.10.0
+>![[Pasted image 20231018083116.png]]
+
+**Add pubspec.yaml and run Packages get**
+
+>[!Note]- adding the package 
+>![[Pasted image 20231018083229.png]]
+
+>[!Note]- Import the package
+>![[Pasted image 20231018083409.png]]
+
+**Add a flat button to play a specific audio**
+>[!Note]- Flatbutton
+>![[Pasted image 20231018083532.png]]
+>Adding the specific audio what to play 
+>![[Pasted image 20231018083602.png]]
+
+- You don't need to use assets/filename since the package already assumes all your files are in the assets folder
+
+**When working with audio players always do cold restart**
+- When running the app for first time just accept the permissions 
+
+**Organize the buttons**
+>[!Note]- Add the buttons 
+>Copy paste the code the how many buttons needed 
+>Change the colors
+>Change the audio files 
+>![[Pasted image 20231018084107.png]]
+
+#### Input arguments 
+**Add a function**
+>[!Note]- PlaySound() function 
+>![[Pasted image 20231018084655.png]]
+>![[Pasted image 20231018084718.png]]
+
+
+### Dart Functions - Part 1
+
+>[!Note]- Creating and calling a function 
+>![[Pasted image 20231018085317.png]]
+>![[Pasted image 20231018085604.png]]
+>
+
+>[!Note]- Multiple input parameters
+>![[Pasted image 20231018085859.png]]
+
+
+**Fixing the button sizes**
+
+>[!Note]- Change the background 
+>![[Pasted image 20231018090139.png]]
+
+>[!Note]- Expand widget
+>![[Pasted image 20231018090344.png]]
+>CrossAxisAlignmnet
+>![[Pasted image 20231018090431.png]]
+
+buildKey() - type of void that cannot be used 
+
+
+**Use buildKey()**
+>[!Note]- BuildKey()
+>![[Pasted image 20231018092902.png]]
+>![[Pasted image 20231018093021.png]]
+>![[Pasted image 20231018093026.png]]
+
+
+### "=>" function
+
+>[!Note]- Arrow
+>![[Pasted image 20231018093353.png]]
+> is equal to 
+> ![[Pasted image 20231018093435.png]]
+
+- Runs a specific function 
+Another example 
+
+```
+	int add(){
+		return 5+2;
+	}
+
+	int add() => 5 + 2;
+```
+
+```
+	int add(int n1, int n2){
+		return n1 + n2;
+	}
+
+	int add(int n1, int n2) => n1 + n2;
+```
+
+
+
+# Requirement 
+
+## Machine problem
+- Create a musical instrument 
+- Runs in the mobile device 
+
+| Xylophone app | MP |
+|-|-|
+|7 notes | 1 full octave |
+
+

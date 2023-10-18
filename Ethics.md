@@ -697,7 +697,7 @@ Cultural Relativism
 #### Problems 
 1. We can still have absolute moral truths but we still haven't discovered 
 	- It is a mistake that humanity should have discovered the absolute truth
-	- Even there are moral dis agreemetns doesnt mean there is no absolute moral truth
+	- Even there are moral disagreements doesn't mean there is no absolute moral truth
 2. Moral Relativists exaggerate just how much cultures differ in terms of morality 
 	- There are more moral similarities than differences 
 	- Ex
@@ -708,7 +708,7 @@ Cultural Relativism
 		- Slaves are good in the old age but right now it is not 
 
 ### Ethical Subjectivism 
-- The truth or falsitiy of moral judgements depends solely on the attitude of a person 
+- The truth or falsity of moral judgements depends solely on the attitude of a person 
 - Moral relativism refined on the individual 
 
 
