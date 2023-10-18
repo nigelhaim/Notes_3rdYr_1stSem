@@ -830,3 +830,98 @@ Moral Perceptions -> Building a house
 Implications: 
 - Moral disagreements can be resolved using reasoning 
 - Moral Judgements and actions can be evaluated according to universal standards. 
+
+
+
+18-10 -2023
+
+## Moral Objectivism and Relativism 
+
+| Descriptive Relativism | Meaethical Relativism | Normative Relativism | 
+|-|-|-|
+|One can observe different moral norms | There are no universal or extra-cultural moral truth | We have to "live and let live" | 
+
+**Descriptive relativism -> Metaethical Relativism -> Normative Relativism** 
+
+### Why people think morality is relative?
+- It is considered relative because people love **tolerance**
+- There are a lot of  moral disagreements 
+	- Each place has their own practices and beliefs 
+	- When there are agreements there is also contradiction
+	- It depends on where you are coming from 
+- To each his own 
+	- Your life, your rules 
+	- If you want to do this against your body? So be it
+- Self-governance 
+	- govern yourself sometimes irrationally
+
+**Tolerance** - the basic structure of building communities 
+
+### Relativism 
+- Moral rightness and wrongness of action varies from society to society (Cultural Relativism or Conventionalism), from person to person (Subjective).
+	- Cultural or conventionalism - Applies to groups 
+	- Subjectivism - Personal (Deciding for yourself)
+- There are no absolute universal moral standards binding on all men at all times
+	- Applies to everyone 
+
+
+#### Pros and Cons of Moral Relativism 
+**Pros**
+1. Promotes tolerance, acceptance, and respect for cultural diversity
+	- Accept people of who they are and what they do
+2. Validates emotions and personal preference
+	- Respect on diversity 
+	- People have different emotions 
+	- Any moral statement is translatable of feelings and emotions 
+	- Its morethan emotions and feelings 
+**Cons**
+1. Ethnocentric and conventionalist
+	- What I see is right, it is right
+	- I only tolerate you but I still think mine is still true
+	- Ethnocentrism - Belief of ones culture is superior than others 
+	- Conventionalism
+		- Appealing to tradition 
+		- Your position cannot be criticized 
+	- Epistemological relativism
+		- Respect each others opinions
+		- That is the truth for them 
+2. Eradicates the idea of good 
+	- Gusto lang nila 
+	- Trip lang nila 
+3. Pretentious of moral infallibility
+	- They can decide for themselves 
+	- Somebody who never makes mistakes 
+	- You don't behave without affecting others 
+4. Anarchistic and Individualistic 
+	- This is my territory 
+	- There is no act that there is no consequences 
+5. Contradictory basic claim 
+	- There is no absolute truth 
+	- There is no one standard 
+	- Being objective
+
+## Objectivism 
+**There is absolute truth the opposite of relativism**
+- There are universal and objective moral principles valid for all people and social events 
+
+### Main arguments for Moral Objectivism 
+1. It asserts that moral laws can be discovered through reason. (The Natural Law theory)
+2. . It Emphasizes that there are common basic objective moral principles and virtue
+	- Examples 
+		- Respect for the sanctity of life 
+			- We only have one life 
+			- 1 life -> Precious, rare, and unique
+		- Respect for freedom and autonomy 
+			- Life comes with possessions 
+			- Everyone has the capacity to reason
+			- Basic principles 
+		- Equals must be treated equally
+			- Equals are equal 
+			- Whatever you do the first one should also be treated the other one in the same way
+		- Justice, temperance, prudence, compassion, honesty, integrity, etc. ]
+			- These ideas must be valued across cultures 
+
+**There may be more than one way 4of interpreting how these principles are applied in different contexts, but the same principles undergird them all.** 
+- Everything may be present across cultures but we view them in different ways 
+- Interpreting Justice, temperance, prudence, compassion, honesty, integrity, etc. in different ways
+

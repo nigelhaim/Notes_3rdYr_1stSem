@@ -1,4 +1,4 @@
-08-30-2023
+	08-30-2023
 
 Module
 
@@ -578,5 +578,31 @@ Nosotros en mos gwapoos ; SIIIIII Nosotros eres guwapos
 Vosotros? ; Nosotros 
 Nosotros? ; Vosotros 
 
+1. ¿Cómo te llamas? 
+2. ¿Donde eres? 
+3. ¿Cuántos años tienes? 
+4. ¿Qué idiomas hablas?
+	- **Yo hablo tagalog, Ingles**
+5. ¿Donde vives? 
+6. ¿Donde estudias? 
+7. Estoy Sultero
+	- **Si, Estoy sultero**
+8. Yo Trabaho? 
+	- **No trabajas**
+9. Qual es tu correo Electronico
+	- Tu  correo electronico es [Recievers Firstname] punto [Recievers Lastname] punto se i se ese aroba u ese te punto edu punto pe ache 
+10. De donde soy? 
+	- Yo soy de manila 
+11. Quantos anyos tengo? 
+	- Tienes [Age ng kausap (number)] anyos 
 
 
+# Always be aware of Yo (About yourself) and Tu (About your kausap)
+1. What's your name?
+2. Where are you from?
+3. How old are you?
+4. What languages do you speak?
+5. Where do you live?
+6. Where do you study?
+Are you single? 
+Do you work?

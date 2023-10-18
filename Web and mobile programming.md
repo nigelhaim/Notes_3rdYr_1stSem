@@ -352,7 +352,7 @@ https://github.com/londonappbrewery/dicee-flutter.git
 
 
 >[!note]- The scaffold is already made 
-!>[[Pasted image 20231004081529.png]]
+>![[Pasted image 20231004081529.png]]
 
 - The dice image does not fit the screen that causes the overflow 
 
@@ -383,7 +383,7 @@ https://github.com/londonappbrewery/dicee-flutter.git
 >[!Note]- Importing images in a shorter way 
 >Less nesting 
 >Less potential error 
->[[Pasted image 20231004082418.png]]
+>![[Pasted image 20231004082418.png]]
 
 >[!Note]- Move row to the center of the screen 
 >![[Pasted image 20231004082826.png]]
@@ -404,7 +404,7 @@ Move row to the center of the screen a much easier way
 ![[Pasted image 20231004083114.png]]
 
 >[!Note]- You can also click the lightbulb at the left of the code for further actions(Alt+Enter)
->[[Pasted image 20231004083311.png]]
+>![[Pasted image 20231004083311.png]]
 
 ---
 
