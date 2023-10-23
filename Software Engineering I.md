@@ -940,3 +940,126 @@ ang bilis ni mam ayoko na makikinig nalng ako
 >![[Pasted image 20231016152505.png]]
 
 
+## Software Design Document (SDD)
+- Technical document 
+- not for all
+### Systems Overview
+- The audience having the idea of the SDD is all about 
+- Say something about the design 
+- Equivalent to the introduction 
+- Functionality and background
+- Sub-modules 
+
+### Swimlane diagram 
+
+
+
+
+db diagram 
+```
+Table USER_TABLE{
+
+user_id int [pk]
+
+username varchar
+
+password varchar
+
+role varchar
+
+}
+
+Table INVENTORY {
+
+product_id int [pk]
+
+product_name varchar
+
+product_brand varchar
+
+product_class varchar
+
+product_category varchar
+
+product_quantity int
+
+date_aquisition datetime
+
+aquisition_cost int
+
+}
+
+  
+
+Table TRANSACTIONS{
+
+transaction_id int [pk]
+
+transaction_quantity int
+
+transaction_price int
+
+transaction_date datetime
+
+transaction_status varchar
+
+product_id int
+
+user_id int
+
+payment_method varchar
+
+payment_type varchar
+
+remarks varchar
+
+  
+
+}
+
+  
+
+Table SUPPLIER{
+
+supplier_id int [pk]
+
+supplier_address varchar
+
+product_id int
+
+}
+
+  
+
+Table supplier_part{
+
+supplier_id int
+
+product_id int
+
+}
+
+  
+
+Table transactions_part{
+
+product_id int
+
+transaction_id int
+
+}
+
+  
+
+Ref: USER_TABLE.user_id < TRANSACTIONS.user_id
+
+Ref:supplier_part.supplier_id > SUPPLIER.supplier_id
+
+Ref: INVENTORY.product_id < supplier_part.product_id
+
+Ref: TRANSACTIONS.transaction_id > transactions_part.transaction_id
+
+Ref: INVENTORY.product_id > transactions_part.product_id
+
+  
+```
