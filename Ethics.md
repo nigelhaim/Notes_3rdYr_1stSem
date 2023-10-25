@@ -925,3 +925,4 @@ Implications:
 - Everything may be present across cultures but we view them in different ways 
 - Interpreting Justice, temperance, prudence, compassion, honesty, integrity, etc. in different ways
 
+10 - 23 - 2023

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Ethics.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering I.md"
+                "file": "Ethics.md"
               }
             }
           },
@@ -177,12 +177,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a7789c6c1903fdbb",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
+    "Spanish.md",
+    "Software Engineering I.md",
     "Programming languages.md",
     "Numerical Methods.md",
     "Ethics.md",
-    "Spanish.md",
     "Web and mobile programming.md",
     "Media/Pasted image 20231004081529.png",
     "Media/Pasted image 20231018081440.png",
@@ -194,7 +195,6 @@
     "Media/Pasted image 20231018090431.png",
     "Media/Pasted image 20231018090344.png",
     "Media/Pasted image 20231018090328.png",
-    "Software Engineering I.md",
     "Numerical Methods Seatworks.md",
     "Data warehousing.md",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",

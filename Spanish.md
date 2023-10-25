@@ -568,7 +568,7 @@ Las ninas son inteligentes
 **Telefono:** no tengo telefono en casa 
 **Telefono Movil:** Mi numero de telefono movil es el Cero noventa y uno cincuenta y nueve noventa y siete noventa y nueve cero nueve 
 **Esado Civil:** Estoy soltero
-**Lugar de Estudio/Trabajo:** Esoy Estudio en el colegio de informatica y Ciencias de la Computación, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila, No trabaho 
+**Lugar de Estudio/Trabajo:** Estudio en el colegio de informatica y Ciencias de la Computación, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila, No trabaho 
 
 Eso Estodo 
 
@@ -581,20 +581,20 @@ Nosotros? ; Vosotros
 1. ¿Cómo te llamas? 
 2. ¿Donde eres? 
 3. ¿Cuántos años tienes? 
-4. ¿Qué idiomas hablas?
-	- **Yo hablo tagalog, Ingles**
+4. ¿Qué idiomas hablo?
+	- **tu hablas tagalog, Ingles y poco de espanol**
 5. ¿Donde vives? 
 6. ¿Donde estudias? 
-7. Estoy Sultero
+7. Estas Sultero
 	- **Si, Estoy sultero**
 8. Yo Trabaho? 
 	- **No trabajas**
 9. Qual es tu correo Electronico
-	- Tu  correo electronico es [Recievers Firstname] punto [Recievers Lastname] punto se i se ese aroba u ese te punto edu punto pe ache 
+	- **Tu  correo electronico es [Recievers Firstname] punto [Recievers Lastname] punto se i se ese aroba u ese te punto edu punto pe ache** 
 10. De donde soy? 
-	- Yo soy de manila 
+	- **Yo soy de manila** 
 11. Quantos anyos tengo? 
-	- Tienes [Age ng kausap (number)] anyos 
+	- **Tienes [Age ng kausap (number)] anyos** 
 
 
 # Always be aware of Yo (About yourself) and Tu (About your kausap)
