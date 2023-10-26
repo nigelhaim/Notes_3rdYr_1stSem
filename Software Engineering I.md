@@ -1063,3 +1063,33 @@ Ref: INVENTORY.product_id > transactions_part.product_id
 
   
 ```
+
+
+### Notes 
+
+#### Low supply
+- Pwede rin 
+
+#### Filtering and categorization
+- Pwede pwede 
+
+#### Returning 
+- Yung item is mali tapos paalitan 
+- Bumili tapos ang na ibigay is reject 
+- Return and swap 
+
+#### Warranty
+- Depending on the parts 
+- Electrical - No waranty
+- Battery - 1 week 
+- Wheel no waranty 
+- Kadalasan no warranty 
+
+#### Exporting of sales 
+- Export feature per day, month, year 
+
+#### Transactions history 
+- 
+
+#### Website 
+- Login log out

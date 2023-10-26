@@ -846,3 +846,42 @@ $$\begin{align*}&=4*3*2(x-3)^{(1)}+6*3*2*1+0+0+0\\&=24x-72+36\\&=24x-36\\&=12(2x
 
 10. $\delta^{3} (4^{2x+1})$
 $$\begin{align*}&\delta^{3} (4^{2x+1})\\&f(x+\frac{3h}{2})-3f(x+\frac{h}{2})+3f(x-\frac{h}{2})-f(x-\frac{3h}{2})\\ &=(4^{2(x+\frac{3}{2})}-3(4^{2(x+\frac{1}{2} )})+3(4^{2(x-\frac{1}{2})}) - 4^{2(x-\frac{3}{2})})4^{1}\\&=4(4^{(2x+3)}-3(4^{2x+1})+3(4^{(2x-1)})-4^{2x-3})\\ &= 4^{1}(4^{2x}))(4^{3}-3(4)+3(4^{-1})-4^{-3})\\ &= 4^{2x+1}(\frac{3375}{64}) \end{align*}$$
+
+## Interpolation 
+
+### Linear Interpolation 
+- Interpolation means the determination of $f(x)$ for a value of x between two tabular values 
+- From analytic geometry, we defined that two distincty points $P_0(x_0,y_0)$ and $P_1(x_1,y_1)$ determined a straight line. The equation of the line can be written as 
+
+$$p(x)=\frac{x-x_1}{x_0-x_{1}}*y_0\frac{x-x_{1}}{x_{0}-x_{1}}*y_{1}$$
+It is easily verified that $p(x_{0})=y_0$ and $p(x_1)=y_1$. The polynomial p(x) whose degree n is equal to one, and is used for **linear interpolation**. 
+
+
+$$p(x)=y_0+\frac{y_{1}-y_0}{x_{1}-x_0}*(x-x_0)$$
+
+### Taylor's Polynomial 
+- For greater accuracy it is necessary to use higher degree interpolation formulas 
+- Polynomial interpolation provides mathematical tools that can be used in developing methods of approximation theory, numerical differentiation and numerical integration and numerical solutions of ordinary differential equations 
+- The Taylor's polynomial is a truncated Taylor's series expansion 
+$$f(x)=f(x_0)+f'(x_0)(x-x_0)+f''(x_0)\frac{(x-x_0)^2}{2!}+f'''(x_0)\frac{(x-x_0)^3}{3!}+...+f^{(n)}(x_0)\frac{(x-x_0)^n}{n!}+R_{n+1}(x)$$
+- with the remainder term 
+
+$$R_{n+1}(x)= \frac{1}{n!}\int^x_{c}(x-s)^{n}f^{(n+1)}(s)ds$$
+
+### Examples 
+1. Find the Taylor polynomial of degree three for $f(x)=e^{2x} \; sin \;x$ expanded about  $x_0$. 
+2. Use the polynommial in (a) to approximate the function $f(0.1)$, measure the absolute error at $\epsilon = 10^{-8}$ 
+3. Use the polynomial in (a) to approximate the function $f(0.01)$, measure the approximate error at $\epsilon = 10^{-8}$
+
+### Interpolation by the Shifting operator 
+- Interpolation using the shifting operator 
+- Given a sequence $S_1,S_2,...,S_k,...,S_n$
+- Use $(E-1)^{n-1}f(x)=0$
+
+### Polynomial Interpolation 
+- Polynomial interpolation provides mathematical tools that can be used in developing methods of approximation theory, numerical differentiation and numerical integration and numerical solutions of ordinary differential equations. 
+- **Taylor's Polynomial**
+	- The Taylor's polynomial is a truncated Taylor's series expansion
+
+$$f(x)=f(x_0)+f'(x_0)(x-x_0)+f''(x_0)\frac{(x-x_0)^2}{2!}+f'''(x_0)\frac{(x-x_0)^3}{3!}+...+f^{(n)}(x_0)\frac{(x-x_0)^n}{n!}+R_{n+1}(x)$$
+

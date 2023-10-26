@@ -606,3 +606,13 @@ Nosotros? ; Vosotros
 6. Where do you study?
 Are you single? 
 Do you work?
+
+
+
+## En Familia 
+
+![[Pasted image 20231025174357.png]]
+
+
+
+
