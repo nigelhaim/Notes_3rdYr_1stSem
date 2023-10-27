@@ -849,6 +849,14 @@ $$\begin{align*}&\delta^{3} (4^{2x+1})\\&f(x+\frac{3h}{2})-3f(x+\frac{h}{2})+3f(
 
 ## Interpolation 
 
+### Interpolation polynomial 
+
+#### Examples 
+$$f(2.5)=3.117 \;and\; f(2.6)=4.056. \; Find \; f(2.54)$$
+$$p(x)=y_0+\frac{y_1-y_0}{x_1-x_0}*(x-x_0)$$
+$$f(2.54)=f(2.5)+\frac{f(2.6)-f(2.5)}{2.6-2.5}(2.54-2.5)$$
+$$f(2.54)=3.117+\frac{4.056-3.117}{0.1}(0.4)=3.493$$
+
 ### Linear Interpolation 
 - Interpolation means the determination of $f(x)$ for a value of x between two tabular values 
 - From analytic geometry, we defined that two distincty points $P_0(x_0,y_0)$ and $P_1(x_1,y_1)$ determined a straight line. The equation of the line can be written as 
@@ -873,11 +881,36 @@ $$R_{n+1}(x)= \frac{1}{n!}\int^x_{c}(x-s)^{n}f^{(n+1)}(s)ds$$
 2. Use the polynommial in (a) to approximate the function $f(0.1)$, measure the absolute error at $\epsilon = 10^{-8}$ 
 3. Use the polynomial in (a) to approximate the function $f(0.01)$, measure the approximate error at $\epsilon = 10^{-8}$
 
+$$f(x)=e^{2x}sin \; x$$
+$$\begin{align*}f'(x)&=2e^{2x}sinx+e^{2x}cosx\\f''(x)&=4e^{2x}sinx+2e^{2x}cosx+2e^{2x}cosx-e^{2x}sinx\\&=3e^{2x}sinx +4e^{2x}cosx\\f'''(x)&=6e^{2x}sinx+3e^{2x}cosx+8e^{2x}cosx-4e^{2x}sinx\\&=2e^{2x}sinx+11e^{2x}cosx\end{align*}$$
+$$\begin{align*}f(0)&=0\\f'(0)&=1\\f''(0)&=4\\f'''(0)&=11\end{align*}$$
+
+$$P_3(x)=0+x+\frac{4}{2!}x^2+\frac{11}{3!}x^3=x+\frac{4}{2!}x^2+\frac{11}{6}x^3$$
+$$P_3(x)=x+2x^2+\frac{11}{6}x^3$$
+Now taking x = 0.1, we get the estimate value $P_3(0.1)=0.12183333$ 
+The actual value is 
+
+$$f(0.1)=e^{2(0.1)}sin(0.1)=0.12193681$$
+
+
+
+
 ### Interpolation by the Shifting operator 
 - Interpolation using the shifting operator 
 - Given a sequence $S_1,S_2,...,S_k,...,S_n$
 - Use $(E-1)^{n-1}f(x)=0$
 
+#### Example 
+
+|x|2.1|2.2|2.3|2.4|2.5|
+|-|-|-|-|-|-|
+|f(x)|5.671|6.832|7.115|?|8.934|
+
+h=0.1
+
+$$\begin{align*}E^nf(x)&=f(x+nh)\\(E-1)^4&f(2.1)=0\\(E^4-4&E^3+6E^{2}-4E+1)f(2.1)=0\\f(2.5)-4f&(2.4)+6f(2.3)-4f(2.2)+f(2.1)=0\\f(2.5)+&6f(2.3)-4f(2.2)+f(2.1)=4f(2.4)\end{align*}$$
+$$f(2.4)=\frac{f(2.5)+6f(2.3)-4f(2.2)+f(2.1)}{4}$$
+$$f(2.4)=\frac{8.934+6(7.115)-4(6.832)+5.671}{4}=7.492$$
 ### Polynomial Interpolation 
 - Polynomial interpolation provides mathematical tools that can be used in developing methods of approximation theory, numerical differentiation and numerical integration and numerical solutions of ordinary differential equations. 
 - **Taylor's Polynomial**
@@ -885,3 +918,59 @@ $$R_{n+1}(x)= \frac{1}{n!}\int^x_{c}(x-s)^{n}f^{(n+1)}(s)ds$$
 
 $$f(x)=f(x_0)+f'(x_0)(x-x_0)+f''(x_0)\frac{(x-x_0)^2}{2!}+f'''(x_0)\frac{(x-x_0)^3}{3!}+...+f^{(n)}(x_0)\frac{(x-x_0)^n}{n!}+R_{n+1}(x)$$
 
+### Interpolation for Unequal Intervals 
+When the data points in a given sequance function are not equally spaced 
+
+|$x$|$x_0$|$x_1$|...|$x_n$|
+|-|-|-|-|-|
+|$f(x)$|$f(x_0)$|$f(x_1)$|...|$f(x_n)$|
+
+that is 
+$x_1-x_0 \neq x_{2}-x_{1}\neq...\neq x_{n}-x_{n-1}$
+
+
+### Lagrange Interpolation Formula 
+- The Lagrange interpolation method provide a direct approach for determining  
+interpolated values regardless of data points spacing, that is, it can be fitted to unequally spaced  
+or equally spaced data.
+
+Suppose the values of a function $p(x)$ is known at n + 1 nodes $x_0,x_1,...,x_n$ say, given two pints $(x_0,f(x_{0))} \; and \; (x_1,f(x_1))$ 
+
+$$p_{1(x)}= \frac{x-x_1}{x_0-x_{1}}f(x_{0)}+ \frac{x-x_0}{x_1-x_0}f(x_1)$$
+For three points, $(x_0,f(x_0)),(x_1,f(x_1)),...,(x_2,f(x_2))$
+
+$$p_2(x)=\frac{(x-x_1)(x-x_2)}{(x_0-x_1)(x_0-x_2)}f(x_0)+\frac{(x-x_0)(x-x_2)}{(x_1-x_0)(x_1-x_2)}f(x_1)+\frac{(x-x_0)(x-x_1)}{(x_2-x_0)(x_2-x_1)}$$
+
+For n points, $(x_0,f(x_0)),(x_1,f(x_1)),...,(x_n,f(x_n))$
+
+$$p_n(x)=\frac{(x-x_1)(x-x_2)...(x-x_n)}{(x_0-x_1)(x_0-x_2)...(x_0-x_n)}f(x_0)+\frac{(x-x_0)(x-x_2)...(x-x_n)}{(x_1-x_0)(x_1-x_2)...(x_1-x_n)}f(x_1)+...+\frac{(x-x_0)(x-x_1)...(x-x_{n-1})}{(x_n-x_0)(x_n-x_1)...(x_n-x_{n-1})}f(x_n)$$
+
+#### Examples 
+1. Consider the following table: 
+
+|x| 0|2|5|
+|-|-|-|-|
+|f(x)|-1|9|39|
+a. Construct the interpolation polynomial to approximate the function using the suitable Lagrange interpolation formula
+b. Use the polynomial in (a) to interpolate $f(x)$ at x=10 
+
+Solution 
+A quadratic polynomial can be determined so that is passes through the three points 
+
+$$p_2(x)=L_0(x)f(x_0)+L_1(x)f(x_1)+L_2(x)f(x_2)$$
+<center>or</center>
+$$p_2(x)=(-1)L_0(x)+9L_1(x)+39L_2(x)$$
+The Lagrange coefficients can be calculated: 
+
+
+$$L_0(x)=\frac{(x-x_1)(x-x_2)}{(x_0-x_1)(x_0-x_2)}=\frac{(x-2)(x-5)}{(0-2)(0-5)}=\frac{1}{10}(x^2-7x+10)$$
+$$L_{1}(x)=\frac{(x-x_0)(x-x_2)}{(x_1-x_0)(x_1-x_{2})}=\frac{(x-0)(x-5)}{(2-0)(2-5)}=-\frac{1}{6}(x^2-5x)$$
+$$L_2(x)=\frac{(x-x_0)(x-x_1)}{(x_2-x_0)(x_2-x_1)}=\frac{(x-0)(x-2)}{(5-0)(5-2)}=\frac{1}{15}(x^2-2x)$$
+
+Putting these values together 
+
+$$p_2(x)=-\frac{1}{10}(x^2-7x+10)-\frac{3}{2}(x^2-5x)+\frac{39}{15}(x^2-2x)$$
+$$=x^2+3x-1$$
+$$p_2(10)=12$$
+
+ 
