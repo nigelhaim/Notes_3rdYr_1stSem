@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Spanish.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Spanish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Spanish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods.md"
+                "file": "Spanish.md"
               }
             }
           },
@@ -168,8 +168,8 @@
   },
   "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Media/Pasted image 20231019144947.png",
     "Numerical Methods.md",
+    "Media/Pasted image 20231019144947.png",
     "Media/Pasted image 20231026182811.png",
     "Media/Pasted image 20231026164905.png",
     "Numerical Methods Seatworks.md",

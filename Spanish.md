@@ -615,4 +615,18 @@ Do you work?
 
 
 
+## Mi Famila 
 
+Mi familia es grande. Somos cinco en la familia. Mi padre se Ilama Nicanor. Es medico. Tiene 59 anos. Es gardo, bajo, guapo y simpatico. Mi madre se Ilama Nimfa. Es ama de casa. Tiene 57 anos. Creo que es guapa, delgada, alta pero antipatica. Tiene 28 anos. Es enfermera. Trabaja en Makati Medical Center, Creo que es alta, delgada, sexi y guapa como mi madre. Javier es el menor de la familia. Es estudiante. Estudia en la Universidad de Santo Tomas. Es bajo, guapo, inteliegente y simpatico como mi padre. Mi nombre es Federico Soy ingeniero. Trabajo en IBM, Ciudad de Quezon. Creo que soy inteliegente, amable, trabajador, paciente y atractivo, Esa es mi famila. 
+
+**Translation:**
+
+My family is big. We are five in the family. My father's name is Nicanor. He is a doctor. He is 59 years old. He is tall, short, handsome, and friendly. My mother's name is Nimfa. She is a homemaker. She is 57 years old. I think she is pretty, slim, tall, but unfriendly. She is 28 years old. She is a nurse. She works at Makati Medical Center. I think she is tall, slim, sexy, and pretty, like my mother. Javier is the youngest in the family. He is a student. He studies at the University of Santo Tomas. He is short, handsome, intelligent, and friendly like my father. My name is Federico. I am an engineer. I work at IBM in Quezon City. I think I am intelligent, kind, hardworking, patient, and attractive. That's my family.
+
+___
+
+Mi famila es pequeña. Somos quatro en la familia. Mi padre se Ilama Nicanor. Es trabajador autonomo. Tiene 54 anos. Es gardo, guapo y sencillo. Mi madre se Ilama Nimfa. Es una directora. Tiene 54 anyos. Creo qu es guapa, trabajadora y baja. Nirel es el menor de la familia. Es estudiante. Estudia en la Escuela Nacional de Ciencias de Puerto Princesa. Es g, guapo, inteliegente como mi madre. Mi nombre es Nigel Soy estudiante. Estudio en el colegio de informatica y Ciencias de la Computación, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila. Creo que soy amable, trabajador y atractivo, Esa es mi Familia 
+
+**Translation:**
+
+My family is small. There are four of us in the family. My father's name is Nicanor. He is self-employed. He is 54 years old. He is tall, handsome, and simple. My mother's name is Nimfa. She is a manager. She is 54 years old. I think she is pretty, hardworking, and short. Nigel is the youngest in the family. He is a student. He studies at the National Science School in Puerto Princesa. He is tall, handsome, and intelligent like my mother. My name is Nigel. I am a student. I study at the College of Informatics and Computer Science, University of Santo Tomas, España Avenue, City of Manila. I think I am kind, hardworking, and attractive. That is my family.
