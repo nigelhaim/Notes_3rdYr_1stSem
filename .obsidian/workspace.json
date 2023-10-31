@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spanish.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spanish.md"
+                "file": "Numerical Methods.md"
               }
             }
           },
@@ -166,8 +165,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "78ef5a80065e6454",
+  "active": "3fba71050b45dad1",
   "lastOpenFiles": [
+    "Spanish.md",
     "Numerical Methods.md",
     "Media/Pasted image 20231019144947.png",
     "Media/Pasted image 20231026182811.png",
@@ -183,7 +183,6 @@
     "Ethics.md",
     "Media/Pasted image 20231019144952.png",
     "Media/Pasted image 20231019145128.png",
-    "Spanish.md",
     "Media/Pasted image 20231025174357.png",
     "Media/Pasted image 20231004081529.png",
     "Media/Pasted image 20231018081440.png",

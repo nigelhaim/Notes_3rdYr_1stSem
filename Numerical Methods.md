@@ -911,6 +911,9 @@ h=0.1
 $$\begin{align*}E^nf(x)&=f(x+nh)\\(E-1)^4&f(2.1)=0\\(E^4-4&E^3+6E^{2}-4E+1)f(2.1)=0\\f(2.5)-4f&(2.4)+6f(2.3)-4f(2.2)+f(2.1)=0\\f(2.5)+&6f(2.3)-4f(2.2)+f(2.1)=4f(2.4)\end{align*}$$
 $$f(2.4)=\frac{f(2.5)+6f(2.3)-4f(2.2)+f(2.1)}{4}$$
 $$f(2.4)=\frac{8.934+6(7.115)-4(6.832)+5.671}{4}=7.492$$
+
+
+
 ### Polynomial Interpolation 
 - Polynomial interpolation provides mathematical tools that can be used in developing methods of approximation theory, numerical differentiation and numerical integration and numerical solutions of ordinary differential equations. 
 - **Taylor's Polynomial**
@@ -918,7 +921,34 @@ $$f(2.4)=\frac{8.934+6(7.115)-4(6.832)+5.671}{4}=7.492$$
 
 $$f(x)=f(x_0)+f'(x_0)(x-x_0)+f''(x_0)\frac{(x-x_0)^2}{2!}+f'''(x_0)\frac{(x-x_0)^3}{3!}+...+f^{(n)}(x_0)\frac{(x-x_0)^n}{n!}+R_{n+1}(x)$$
 
-### Interpolation for Unequal Intervals 
+#### Example 
+
+a. Find the Taylor polynomial degree three for $f(x) = e^{2x} sin \; x$ expanded about $x_0=0$. b. Use the polynomial in (a) to approximate the function $f(0.1)$ 
+
+Solution. The third degree Taylor polynomial expanded about $x_0$ is 
+
+$$f(x)= f(x_{0)}+ f'(x_0)(x-x_0)+f''(x_0)\frac{(x-x_0)^2}{2!}+f'''(x_0)\frac{(x-x_0)^3}{3!}$$
+
+with the remainder 
+
+$$R_4(x)=f^{(IV)}(x_0)\frac{(x-x_0)^4}{4!}$$
+Calculating the derivatives 
+
+$$\begin{align*}f(x)&=e^{2x}sinx\\f'(x)&=2e3^{2x}sinx+e^{2x}cosx\\f''(x)&=3e^{2x}sinx+4e^{2x}cosx\\f'''(x)&=2e^{2x}sinx+11e^2xcosx\end{align*}$$
+Setting $x_0=0$
+
+$$\begin{align*}f(0)&=0\\f'(0)&=1\\f''(0)&=4\\f'''(0)&=11\end{align*}$$
+
+Putting all this values gives 
+
+$$P_3(x)=x+2x^2+\frac{11}{6}x^3$$
+Now taking x=0.1, we estimate value $P_3(0.1)=0.121833333$
+The actual value 
+
+$$f(0.10)=e^{2(0.1)} sin(0.1)=0.12193681$$
+
+
+### Interpolation for Unequal Intervals
 When the data points in a given sequance function are not equally spaced 
 
 |$x$|$x_0$|$x_1$|...|$x_n$|
@@ -973,5 +1003,3 @@ $$p_2(x)=-\frac{1}{10}(x^2-7x+10)-\frac{3}{2}(x^2-5x)+\frac{39}{15}(x^2-2x)$$
 $$=x^2+3x-1$$
 $$p_2(10)=12$$
 
-
-continue 
