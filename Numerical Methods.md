@@ -1003,3 +1003,16 @@ $$p_2(x)=-\frac{1}{10}(x^2-7x+10)-\frac{3}{2}(x^2-5x)+\frac{39}{15}(x^2-2x)$$
 $$=x^2+3x-1$$
 $$p_2(10)=12$$
 
+2. Find the interpolating polynomial of degree less than or equal to 3 of the points (-1,3), (0,2), (2,0) and (4,-1). 
+
+Evaluate p(1)
+
+
+Solution. Using Lagrange Formula 
+
+$$\begin{align*}p(x)&=\frac{(x)(x-2)(x-4)}{(-1)(-1-2)(-1-4)}*3 +\frac{(x+1)(x-2)(x-4)}{(0+1)(0-2)(0-4)}*(2)+\frac{(x+1)(x)(x-4)}{(2+1)(2)(2-4)}*0+\frac{(x+1)(x)(x-2)}{(4+1)(4)(4-2)}*(-1)\\p(x)&=-\frac{1}{5}(x^3-6x^2+8x)+\frac{1}{4}(x^3-5x^2+2x+8)+0(x^3-x^2-2x)\\p(x)&=\frac{1}{40}x^3-\frac{1}{40}x^2-\frac{21}{20}x+2\end{align*}$$
+Now
+
+$$p(1)=\frac{1}{40}(1)^3-\frac{1}{40}(1)^2-\frac{21}{20}(1)+2$$
+$$p(1)=\frac{12}{20}$$
+
