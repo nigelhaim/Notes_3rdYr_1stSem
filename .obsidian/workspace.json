@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -165,7 +166,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3fba71050b45dad1",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
     "Numerical Methods.md",
     "Software Engineering I.md",
