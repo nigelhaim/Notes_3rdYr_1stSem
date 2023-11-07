@@ -651,3 +651,14 @@ $$f(24)-6f(22)+20f(18)+15f(16)-6f(14)+f(12)=15f(20)$$
 $$6.342-6(5.708)-20(3.542)+15(2.116)-6(1.23411)+1.335$$
 $$-73.07566=15f(20)$$
 $$-4.86667=f(20)$$
+
+
+
+## Seatwork #2.F
+
+Find the interpolating polynomial of the following points and functions using Langrange interpolation process 
+
+1. $(-2,3),(2,0)\;and\;(3,-2)$
+
+$$P_2(x)=\frac{(x-x_1)(x-x_2)}{(x_0-x_1)(x_0-x_2)}f(x_0)+\frac{(x-x_0)(x-x_2)}{(x_1-x_0)(x_1-x_2)}f(x_1)+\frac{(x-x_0)(x-x-1)}{(x_2-x_0)(x_2-x_1)}f(x_2)$$
+

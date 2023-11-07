@@ -11,11 +11,9 @@
             "id": "3fba71050b45dad1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20231107161216.png"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Media/Pasted image 20231107161216.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Media/Pasted image 20231107161216.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods Seatworks.md"
+                "file": "Media/Pasted image 20231107161216.png"
               }
             }
           },
@@ -168,25 +165,25 @@
   },
   "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Numerical Methods.md",
     "Software Engineering I.md",
-    "Programming languages.md",
+    "Media/Pasted image 20231107162415.png",
+    "Media/Pasted image 20231107162300.png",
+    "Media/Pasted image 20231107162234.png",
+    "Media/Pasted image 20231107162121.png",
+    "Media/Pasted image 20231107162050.png",
+    "Media/Pasted image 20231107162005.png",
+    "Media/Pasted image 20231107162000.png",
+    "Media/Pasted image 20231107161855.png",
+    "Media/Pasted image 20231107161828.png",
+    "Media/Pasted image 20231107161735.png",
+    "Data warehousing.md",
     "Numerical Methods Seatworks.md",
+    "Numerical Methods.md",
+    "Ethics.md",
+    "Programming languages.md",
     "Spanish.md",
-    "Media/Pasted image 20231019144947.png",
-    "Media/Pasted image 20231026182811.png",
-    "Media/Pasted image 20231026164905.png",
     "README.md",
     "Web and mobile programming.md",
-    "Data warehousing.md",
-    "Media/Pasted image 20231026144440.png",
-    "Media/Pasted image 20231026143524.png",
-    "Ethics.md",
-    "Media/Pasted image 20231019144952.png",
-    "Media/Pasted image 20231019145128.png",
-    "Media/Pasted image 20231025174357.png",
-    "Media/Pasted image 20231004081529.png",
-    "Media/Pasted image 20231018081440.png",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Notes/Courses/Ethics/ETCS.md",
