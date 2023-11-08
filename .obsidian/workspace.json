@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Numerical Methods Seatworks.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Numerical Methods Seatworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering I.md",
+                "file": "Numerical Methods Seatworks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering I.md"
+                "file": "Numerical Methods Seatworks.md"
               }
             }
           },
@@ -165,15 +166,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ad4ae5c4a929d72c",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Spanish.md",
+    "Media/Pasted image 20231108071929.png",
     "Web and mobile programming.md",
+    "Media/Pasted image 20231108072203.png",
+    "Media/Pasted image 20231108071948.png",
     "Software Engineering I.md",
-    "README.md",
-    "Numerical Methods Seatworks.md",
-    "Numerical Methods.md",
     "Programming languages.md",
+    "Numerical Methods.md",
+    "Numerical Methods Seatworks.md",
+    "Spanish.md",
+    "README.md",
+    "Ethics.md",
     "Data warehousing.md",
     "Media/Pasted image 20231107161216.png",
     "Media/Pasted image 20231107162415.png",
@@ -182,10 +187,6 @@
     "Media/Pasted image 20231107162121.png",
     "Media/Pasted image 20231107162050.png",
     "Media/Pasted image 20231107162005.png",
-    "Media/Pasted image 20231107162000.png",
-    "Media/Pasted image 20231107161855.png",
-    "Media/Pasted image 20231107161828.png",
-    "Ethics.md",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Notes/Courses/Ethics/ETCS.md",

@@ -736,3 +736,23 @@ Another example
 |7 notes | 1 full octave |
 
 
+## Quizler 
+
+### Why Do We Need Classes?
+**Understand how computer actually work**
+- 01100101- Machine code 
+**4 Pillars of OOP**
+
+>[!Note]- Make a new file 
+>![[Pasted image 20231108071929.png]]
+>![[Pasted image 20231108071948.png]]
+
+
+>[!Note]- Make new object
+
+
+
+>[!Note]- Import quiz brain 
+>![[Pasted image 20231108072203.png]]
+
+
