@@ -847,6 +847,9 @@ $$\begin{align*}&=4*3*2(x-3)^{(1)}+6*3*2*1+0+0+0\\&=24x-72+36\\&=24x-36\\&=12(2x
 10. $\delta^{3} (4^{2x+1})$
 $$\begin{align*}&\delta^{3} (4^{2x+1})\\&f(x+\frac{3h}{2})-3f(x+\frac{h}{2})+3f(x-\frac{h}{2})-f(x-\frac{3h}{2})\\ &=(4^{2(x+\frac{3}{2})}-3(4^{2(x+\frac{1}{2} )})+3(4^{2(x-\frac{1}{2})}) - 4^{2(x-\frac{3}{2})})4^{1}\\&=4(4^{(2x+3)}-3(4^{2x+1})+3(4^{(2x-1)})-4^{2x-3})\\ &= 4^{1}(4^{2x}))(4^{3}-3(4)+3(4^{-1})-4^{-3})\\ &= 4^{2x+1}(\frac{3375}{64}) \end{align*}$$
 
+---
+
+# FINALS
 ## Interpolation 
 
 ### Interpolation polynomial 
@@ -1016,3 +1019,27 @@ Now
 $$p(1)=\frac{1}{40}(1)^3-\frac{1}{40}(1)^2-\frac{21}{20}(1)+2$$
 $$p(1)=\frac{12}{20}$$
 
+### Interpolation for Unequal Intervals 
+![[Pasted image 20231109143656.png]]
+- When the data points in a given sequence function are not equally spaced, 
+
+
+
+![[Pasted image 20231109143743.png]]
+
+
+![[Pasted image 20231109143810.png]]
+![[Pasted image 20231109143840.png]]
+
+![[Pasted image 20231109143914.png]]
+
+![[Pasted image 20231109144103.png]]
+- The first difference is the circled part 
+
+![[Pasted image 20231109144307.png]]
+
+- Using hte newtons interpolatuion formula 
+![[Pasted image 20231109145022.png]]
+
+
+![[Pasted image 20231109150839.png]]
