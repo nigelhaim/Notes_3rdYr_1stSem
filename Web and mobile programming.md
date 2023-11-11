@@ -756,3 +756,22 @@ Another example
 >![[Pasted image 20231108072203.png]]
 
 
+### Video context 
+- **Statistics**
+
+
+
+## Phase 1 November 18, 2023:
+- Come up with a really good design 
+- Color Hunt 
+- Flat UI Colors 
+- User Flow Diagram 
+
+## Phase 2 November 25, 2023: 
+- Wireframes 
+- Mockups 
+- POP and UXPIN
+- 
+## Phase 3 December 2, 2023: 
+
+## Phase 4 December 9, 2023: 

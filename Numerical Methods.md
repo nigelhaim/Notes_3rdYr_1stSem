@@ -1,4 +1,4 @@
-
+	
 ## Mathematical Analysis
 Seatwork:
 - SW #1
@@ -1020,19 +1020,44 @@ $$p(1)=\frac{1}{40}(1)^3-\frac{1}{40}(1)^2-\frac{21}{20}(1)+2$$
 $$p(1)=\frac{12}{20}$$
 
 ### Interpolation for Unequal Intervals 
-![[Pasted image 20231109143656.png]]
+
 - When the data points in a given sequence function are not equally spaced, 
 
+|$x$|$x_{0}$|$x_1$|$...$|$x_n$|
+|-|-|-|-|-|
+|$f(x)$|$f(x_0)$|$f(x_1)$|$...$|$f(x_n)$|
+
+that is, 
+
+$$x_1-x_{0}\neq x_{2}- x_{1}\neq ...\neq x_{n}-x_{n-1}$$
+#### Lagrange formula
+- Let 
+
+$$L_0(x)=\frac{(x-x_{1})(x-x_2)...(x-x_n)}{(x_0-x_1)(x_0-x_2)...(x_0-x_n)}$$
+$$L_1(x)=\frac{(x-x_0)(x-x_2)...(x-x_n)}{(x_1-x_0)(x_1-x_2)...(x_1-x_n)}$$
+$$....$$
+$$L_n(x)=\frac{(x-x_0)(x-x_1)...(x-x_{n-1})}{(x_n-x_0)(x_n-x_1)...(x_n-x_{n-1})}$$
+
+<center>
+Rewriting the formula
+</center>
+
+$$p(x)=L_0(x)f(x_0)+L_1(x)f(x_1)+...+L_n(x)f(x_n)$$
 
 
-![[Pasted image 20231109143743.png]]
+### Theorem. (Existence and Uniqueness of Polynomial Interpolation)
 
+**Theorem (Existence and Uniqueness of Polynomial Interpolation)**. If points $x_0,x_1,...,x_n$ are distinct, then for any arbitrary real values $y_0,y_1,...,y_n$, there is a unique polynomial $p(x)$ of degree at most n such that $p(x_i)=y_i$ for $0\leq i \leq n$. 
 
-![[Pasted image 20231109143810.png]]
-![[Pasted image 20231109143840.png]]
+**Proof**. The Lagrange Polynomial construction gives exstence of such a polynomial $p(x)$ of degree at most n.
 
-![[Pasted image 20231109143914.png]]
+Suppose there exists two polynomials $p(x)$ and $q(x)$ whose degree are both at most n are both interpolating the data. Let $r(x)=p(x)-q(x)$ which can have a degree of at most $n$ also, it has roots at $x_0,x_1,...,x_n$. The only polynomial of degree at most n has n+1 distinct roots is the zero polynomial. Therefore, it only implies that p(x) and q(x) are equal everywhere. 
+### The Newton's Divided Difference interpolation formula 
+- Given the points $(x_{0,}f(x_{0)),}(x_1,f(x_1)),...,(x_n,f(x_n))$
+- Construct the divided difference table 
+- Solve for the divided differences $f(x_0,x_1),f(x_0,x_1,x_2),f(x_0,x_1,x_2,x_3),...$
 
+$$f_x=f_0+(x-x_0)f(x_0,x_1)+(x-x_0)(x-x_1)f(x_0,x_1,x_2)+(x-x_0)(x-x_1)(x-x_2)f(x_0,x_1,x_2,x_3)+(x-x_0)(x-x_1)(x-x_2)(x-x_3)(x-x_4)+...$$
 ![[Pasted image 20231109144103.png]]
 - The first difference is the circled part 
 
@@ -1043,3 +1068,24 @@ $$p(1)=\frac{12}{20}$$
 
 
 ![[Pasted image 20231109150839.png]]
+
+
+
+### Interpolation for Even Intervals 
+- The study of interpolation to equally spaced data is important in evaluating tabulated functions. The Newton's interpolation formulas are derived from the Newton's divided difference formula 
+
+**The Gregory-Newton Interpolation fromula**
+- Suppose the numerical values of f(x) are given for values where the argument x increase by equal interval h. 
+- $f_1-f_0=\Delta f_0$
+- $f_1=f_0+\Delta $
+
+### Gregory-Newton Interpolation Formulas
+- contiuing in this manner $f_n$ may be expressed in the form 
+- $f_{n}= (1+\Delta)^nf_{n}$
+- Using the binomial theorem to expand this gives the Gregory-Newton formula of interpolation 
+- $f_n=f_{0}r\Delta $
+
+### Gregory-Newton Forward Difference Interpolation Formulas
+- Here n is a positive integer but the result still hods for fractional and negative values. Thus if we require $f_{r}$ where r is a fraction of the interval h we have 
+
+
