@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web and mobile programming.md"
+                "file": "Numerical Methods.md"
               }
             }
           },
@@ -167,12 +167,14 @@
   },
   "active": "e113f9706565eb32",
   "lastOpenFiles": [
+    "Web and mobile programming.md",
+    "Media/Pasted image 20231109145022.png",
+    "Media/Pasted image 20231109150839.png",
     "Numerical Methods.md",
     "Numerical Methods Seatworks.md",
     "Programming languages.md",
     "Spanish.md",
     "Media/Pasted image 20231108071929.png",
-    "Web and mobile programming.md",
     "Media/Pasted image 20231108072203.png",
     "Media/Pasted image 20231108071948.png",
     "Software Engineering I.md",
@@ -184,8 +186,6 @@
     "Media/Pasted image 20231107162300.png",
     "Media/Pasted image 20231107162234.png",
     "Media/Pasted image 20231107162121.png",
-    "Media/Pasted image 20231107162050.png",
-    "Media/Pasted image 20231107162005.png",
     "Media/Opera Snapshot_2023-09-11_174104_www.messenger.com.png.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Notes/Courses/Ethics/ETCS.md",

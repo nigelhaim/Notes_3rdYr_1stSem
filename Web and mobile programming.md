@@ -775,3 +775,19 @@ Another example
 ## Phase 3 December 2, 2023: 
 
 ## Phase 4 December 9, 2023: 
+
+
+
+You're task:  
+Create an FAP idea for your group. Identify the market void / niche you're addressing. 
+
+  
+Phase 1:   
+Design your User-Flow Diagram, save it on your google drive and a video presentation your UFD next week to allow me to have an idea of the app that you'll be creating for your FAP. Due on Nov 18.
+
+Phase 2:   
+After the UDF, create a Wire-Frame and Mock ups, link them together using POP and UXPIN. You can either create a recorded video or present this in class on Nov 25.
+
+Phase 3: Your actual app. Due date Dec 2 (will be revisited and may be adjusted).
+
+Phase 4: Get 30 users to try out your app, prepare a google form with at least 15 questions (the more, the better) that will evaluate the UI, functionality and use of your app. Collect the data and share the ss of the responses. Due date: Dec 9  (will be revisited and may be adjusted).

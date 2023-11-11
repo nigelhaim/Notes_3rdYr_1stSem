@@ -1058,13 +1058,52 @@ Suppose there exists two polynomials $p(x)$ and $q(x)$ whose degree are both at 
 - Solve for the divided differences $f(x_0,x_1),f(x_0,x_1,x_2),f(x_0,x_1,x_2,x_3),...$
 
 $$f_x=f_0+(x-x_0)f(x_0,x_1)+(x-x_0)(x-x_1)f(x_0,x_1,x_2)+(x-x_0)(x-x_1)(x-x_2)f(x_0,x_1,x_2,x_3)+(x-x_0)(x-x_1)(x-x_2)(x-x_3)(x-x_4)+...$$
-![[Pasted image 20231109144103.png]]
-- The first difference is the circled part 
 
-![[Pasted image 20231109144307.png]]
+|$x$|$f(x)$|$f(x_0,x_1)$|$f(x_0,x_1,x_2)$|$f(x_0,x_1,x_2,x_3)$|$f(x_0,x_1,x_2,x_3,x_4)$|
+|-|-|-|-|-|-|
+|1|1|
+|||31|
+|5|125||6
+|||25||1|
+|0|0||12||0|
+|||49||1|
+|7|343||9||0|
+|||67||1|
+|2|8||15||0|
+|||52||1|
+|6|216||17|
+|||171|
+|9|729|
+
+- The first difference is the highlighted part 
+
+|$x$|$f(x)$|$f(x_0,x_1)$|$f(x_0,x_1,x_2)$|$f(x_0,x_1,x_2,x_3)$|$f(x_0,x_1,x_2,x_3,x_4)$|
+|-|-|-|-|-|-|
+|1|**1**|
+|||**31**|
+|5|125||**6**
+|||25||**1**|
+|0|0||12||**0**|
+|||49||1|
+|7|343||9||0|
+|||67||1|
+|2|8||15||0|
+|||52||1|
+|6|216||17|
+|||171|
+|9|729|
 
 - Using hte newtons interpolatuion formula 
-![[Pasted image 20231109145022.png]]
+
+$$f_x=f_0+(x-x_0)f(x_0,x_1)+(x-x_0)(x-x_1)f(x_0,x_1,x_2)+(x-x_0)(x-x_1)(x-x_2)f(x_0,x_1,x_2,x_3)$$
+$$x_0=1$$
+$$f_x=1+(x-1)(31)+(x-1)(x-5)(6)+(x-1)(x-5)+(x-1)(x-5)(x-0)(1)$$
+$$f_x=1+31x-31+6x^2-36x+30+x^3-6x_2+5x=x^3$$
+$$x_0=0$$
+$$f_x=0+(x-0)(49)+(x-0)(x-7)(9)+(x-0)(x-7)(9)+(x-0)(x-7)(x-2)(1)$$
+$$f_x=0+49x-31+6x^2-36x+30+x^3-6x^2+5x=x^3$$
+
+
 
 
 ![[Pasted image 20231109150839.png]]
@@ -1077,15 +1116,39 @@ $$f_x=f_0+(x-x_0)f(x_0,x_1)+(x-x_0)(x-x_1)f(x_0,x_1,x_2)+(x-x_0)(x-x_1)(x-x_2)f(
 **The Gregory-Newton Interpolation fromula**
 - Suppose the numerical values of f(x) are given for values where the argument x increase by equal interval h. 
 - $f_1-f_0=\Delta f_0$
-- $f_1=f_0+\Delta $
+- $f_1=f_{0}+\Delta f_0$
+- $f_{2}-f_{1} = \Delta f_1$
 
+$$\begin{align*}f_2&=f_{1}+ \Delta f_{1}=f_{0}+\Delta f_{0}+\Delta f_{0}+ \Delta ^{2}f_{0}\\&=f_{0}+2\Delta f_{0}+\Delta ^{2}f_{0}\\&=(1+\Delta)^2f_0\end{align*}$$
+
+which may be written 
 ### Gregory-Newton Interpolation Formulas
 - contiuing in this manner $f_n$ may be expressed in the form 
 - $f_{n}= (1+\Delta)^nf_{n}$
 - Using the binomial theorem to expand this gives the Gregory-Newton formula of interpolation 
-- $f_n=f_{0}r\Delta $
+- $f_n=f_{0}n\Delta f_{0}+\frac{n(n-1)}{2!}\Delta ^{2}f_{0}+ \frac{n(n-1)(n-2)}{3!} \Delta ^{3}f_{0}+ \frac{n(n-1)(n-2)(n-3)}{4!}\Delta ^{4}f_{0}+ ...$
+or 
+
+$f_{n}= f_{0}+(n)^{(1)} \Delta f_{0}+\frac{(n)^{(2)}}{2!}\Delta ^{2}f_0+\frac{(n)^{(3)}}{3!}\Delta ^{3}f_{0}+ \frac{(n)^{(4)}}{4!}\Delta ^{4}f_{0}+...$
 
 ### Gregory-Newton Forward Difference Interpolation Formulas
 - Here n is a positive integer but the result still hods for fractional and negative values. Thus if we require $f_{r}$ where r is a fraction of the interval h we have 
 
+$f_r=f_{0}+r \Delta f_{0}+ \frac{r(r-1)}{2!}\Delta ^{2}f_{0}+\frac{r(r-1)(r-2)}{3!}\Delta ^{3}f_{0}+ \frac{r(r-1)(r-2)(r-3)}{4!} \Delta ^{4}f_{0}+ ...$
+
+or 
+
+$f_{r}= f_{0}+r^{(1)}\Delta f_{0}+ \frac{(r)^{(2)}}{2!}\Delta ^{2}f_{0}+\frac{(r)^{(3)}}{3!}\Delta ^{3}f_{0}+\frac{(r)^{(4)}}\Delta ^{4}f_0+...$
+
+To find $P_x$
+
+$P_{x}= f_{0}+x \Delta f_{0} + \frac{x(x-1)}{2!} \Delta ^{2} f_{0} + \frac{x(x-1)(x-2)}{3!} \Delta ^{3}f_{0} + \frac{x(x-1)(x-2)(x-3)}{4!}\Delta ^{4} f_{0}+ ...$
+
+or
+
+$P_{x}= f_{0}+x(x)^{(1)}\Delta f_{0}+ \frac{(x)^{(2)}}{2!} \Delta ^{2}f_{0} + \frac{(x)^{(3)}} \Delta ^{3}f_{0}+\frac{(x)^{(4)}}{4!} \Delta ^{4}f_{0}+...$
+
+To find $P_{x}$ if $h \neq 1$
+
+$P_{x}=f_{0}+ \frac{(x-x_0)}{1!h}\Delta f_{0}+\frac{(x-x_0)(x-x_1)}{2!h^{2}}\Delta ^{2} f_{0}+\frac{(x-x_{0})(x-x_{1})(x-x_{2})}{3!h^{3}}\Delta ^{3}f_{0}+ \frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^{4}}\Delta^4f_0+....$
 
