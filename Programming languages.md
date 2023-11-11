@@ -718,6 +718,7 @@ if(!g){
 
 b == 3+23
 
+
 ### Limitations
 - Do not include:
 	- Symbol checking 
@@ -727,4 +728,62 @@ b == 3+23
 	- Data type 
 	- Objects 
 - Numbers are only limited to INTEGERS 
+
+# Finals
+
+code -> bldg blocks
+
+### Basic construct 
+- Assign 
+- cond
+	- If 
+	- nested
+	- s/c
+- loops
+### Advanced construct 
+- Coding the sub programs 
+	- functions -> Must return a value 
+	- procedures -> "side effect" 
+
+### Actual/Former Parameter Correspondence 
+**Positi**onal
+- The binding of actual parameters to forma
+### Fundamentals of subprograms
+- Each subprogram has a single entry point 
+- the calling program is suspended during execution of the called subprogram
+- control always returns to the caller when the called subprogram's execution terminates
+
+
+### Basic definitions (continued) 
+- FUnction declarations in C and C++ are often called prototypes 
 - 
+# Flashcards 
+
+#### Two fundamental abstraction facilities 
+
+
+emphasized from early days ;; process abstraction
+
+emphasized in the 1980s ;; Data Abstraction 
+
+obstruct from the things we know ;; obstruction
+
+describes the interface to and the actions of the subprogram abstruction ;; subprogram definition
+
+explicit request that the subprogram be executed ;; subprogram call 
+
+the first part of the definition, including the name, the kind of subprogram, and the formal parameters ;; subprogram header 
+
+number, order, and types of its paramters ;; parameter profile (aka signature) of a subprogram
+
+subprogram's parameter profile and, if it is a function, its return type ;; protocol 
+
+A ==subprogram== declaration provides the protocol, but not the body of the subprogram 
+
+dummy variable listed in the subprogram header and used in the subprogram ;; formal parameter
+
+represents a value or address used in the subprogram call statement ;; actual parameter 
+
+prototypes ;; Function declarations in C and C++ are often called
+
+

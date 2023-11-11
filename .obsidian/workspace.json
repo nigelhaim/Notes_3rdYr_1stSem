@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Programming languages.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Programming languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Programming languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods Seatworks.md"
+                "file": "Programming languages.md"
               }
             }
           },
@@ -165,47 +165,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "floating": {
-    "id": "b5c5d7d046604263",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d4a44622df6d4817",
-        "type": "window",
-        "children": [
-          {
-            "id": "75ea68f80b8b389d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ad4ae5c4a929d72c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Numerical Methods.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -20,
-        "y": 54,
-        "width": 900,
-        "height": 901,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
   "active": "e113f9706565eb32",
   "lastOpenFiles": [
-    "Numerical Methods.md",
     "Numerical Methods Seatworks.md",
+    "Numerical Methods.md",
     "Programming languages.md",
     "Spanish.md",
     "Media/Pasted image 20231108071929.png",
