@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -165,13 +166,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e113f9706565eb32",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
+    "Numerical Methods Seatworks.md",
+    "Numerical Methods.md",
     "Web and mobile programming.md",
     "Media/Pasted image 20231109145022.png",
     "Media/Pasted image 20231109150839.png",
-    "Numerical Methods.md",
-    "Numerical Methods Seatworks.md",
     "Programming languages.md",
     "Spanish.md",
     "Media/Pasted image 20231108071929.png",

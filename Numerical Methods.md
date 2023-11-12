@@ -1106,10 +1106,6 @@ $$f_x=0+49x-31+6x^2-36x+30+x^3-6x^2+5x=x^3$$
 
 
 
-![[Pasted image 20231109150839.png]]
-
-
-
 ### Interpolation for Even Intervals 
 - The study of interpolation to equally spaced data is important in evaluating tabulated functions. The Newton's interpolation formulas are derived from the Newton's divided difference formula 
 
@@ -1152,3 +1148,48 @@ To find $P_{x}$ if $h \neq 1$
 
 $P_{x}=f_{0}+ \frac{(x-x_0)}{1!h}\Delta f_{0}+\frac{(x-x_0)(x-x_1)}{2!h^{2}}\Delta ^{2} f_{0}+\frac{(x-x_{0})(x-x_{1})(x-x_{2})}{3!h^{3}}\Delta ^{3}f_{0}+ \frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^{4}}\Delta^4f_0+....$
 
+
+### Newton Backward Difference Interpolation Formula 
+
+$$P_{x}= f_{0}+ \frac{(x-x_{0})}{1!h_{0}}\Delta f_{0}+ \frac{(x-x_0)(x-x_{1)}}{2!h^{2}\Delta}^{2}f_{0}+\frac{(x-x_0)(x-x_1)(x-x_2)}{3!h^3}\Delta^{3}f_{0+}\frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^{4}} \Delta^{4}f_0+...$$
+
+
+$$f_r=f_{0}+r\Delta f_{0}+\frac{r(r+1)}{2!}\Delta ^{2}f_{0}+\frac{r(r+1)(r+2)}{3!}\Delta^3f_{0}+\frac{r(r+1)(r+2)(r+3)}{4!}\Delta^4f_0+...$$
+
+1. For the following values of $f(x)$ from x = 0 to x = 5, tabulate the finite difference of $f(x)$ to the fourth order. 
+
+	Find 
+		a. $f(10)$
+		b. $f(\frac{1}{2})$
+		c. $f(x)$
+
+|x|0|1|2|3|4|5|
+|-|-|-|-|-|-|-|
+|f(x)|-3|-6|-11|-12|-3|22
+
+Solution 
+
+|$x$ | $f(x)$|$\Delta f(x)$ | $\Delta ^{2}f(x)$| $\Delta ^{3}f(x)$ | $\Delta ^{4}f(x)$|
+|-|-|-|-|-|-|
+|0|-3|
+|||-3|
+|1|-6||-2|
+|||5||6||
+|2|-11||4||0|
+|||-1||6
+|3|-12||10||0
+|||9||6
+|4|-3||16
+|||25|
+|5|22|
+
+$$f_{n}= f_{0}+n\Delta f_{0}+ \frac{n(n-1)}{2!}\Delta ^{2}f_{0}+ \frac{n(n-1)(n-2)}$$
+tO BE CONTINUED 
+
+https://ust.instructure.com/courses/9676/files?preview=848160
+
+### The Gauss Central Difference Interpolation Formulas
+
+#### The Gauss Forward Central Difference Formula 
+
+$$f_{x}= f_{x_{0}}+\frac{x-x_0}{h}$$
