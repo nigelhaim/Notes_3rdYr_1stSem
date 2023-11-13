@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Ethics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data warehousing.md",
+                "file": "Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data warehousing.md"
+                "file": "Ethics.md"
               }
             }
           },
@@ -167,8 +167,10 @@
   },
   "active": "e113f9706565eb32",
   "lastOpenFiles": [
-    "Spanish.md",
     "Numerical Methods.md",
+    "Spanish.md",
+    "Software Engineering I.md",
+    "Data warehousing.md",
     "Numerical Methods Seatworks.md",
     "Web and mobile programming.md",
     "Media/Pasted image 20231109145022.png",
@@ -177,10 +179,8 @@
     "Media/Pasted image 20231108071929.png",
     "Media/Pasted image 20231108072203.png",
     "Media/Pasted image 20231108071948.png",
-    "Software Engineering I.md",
     "README.md",
     "Ethics.md",
-    "Data warehousing.md",
     "Media/Pasted image 20231107161216.png",
     "Media/Pasted image 20231107162415.png",
     "Media/Pasted image 20231107162300.png",

@@ -926,3 +926,30 @@ Implications:
 - Interpreting Justice, temperance, prudence, compassion, honesty, integrity, etc. in different ways
 
 10 - 23 - 2023
+
+### What are the common codes/laws
+**Respect**
+- For persons individuality, life (human and nonhumans) autonomy and freedom
+
+**Self-Preservation**
+- Protection of Life protection of the Disadvantaged
+
+**Justice**
+- equity, equality, fairness
+
+**Integrity**
+- Honesty 
+- Responsibility
+
+### Three Camps 
+
+#### Objectivism
+- There is an objective moral truth 
+#### Relativism 
+- There is no universally acceptible and objective moral code 
+#### Pluralism 
+- There are a number of objective moral codes
+
+
+### Main arguments for Moral objetivism 
+

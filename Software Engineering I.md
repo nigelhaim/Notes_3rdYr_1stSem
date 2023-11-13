@@ -1153,3 +1153,75 @@ Ref: INVENTORY.product_id > transactions_part.product_id
 
 >[!Note]- Dependencies 
 >![[Pasted image 20231107162415.png]]
+
+
+### Software engineering propposal defense reminders
+
+```
+<Project Title>
+
+for 
+
+<Client's Company Name>
+**SE Project Proposal Presentation**
+
+Group Name - Section
+Group Members 
+```
+
+
+
+### Project Introdution (Business Analyst)
+- **Project introduction**
+	- Client introduction 
+	- State Problem
+	- State reason why project was thought of 
+- **Project Purpose**
+- Refer to SPMP
+Note: Keep this short, 2 slides at most 
+
+### Project Scope
+- See SRS 
+
+### Use case diagram 
+- Include here Extended Use Case Diagram 
+	- Show subfunctions
+	- refer to SDD
+
+### System user accounts
+ - List here user accounts 
+
+### Activity Diagram 
+- Include here swimlane diagram 
+	- Show interaction of each user account to each other and to the system 
+	- Refer to SRS/SDD
+### Class Diagram 
+- Include here final class diagram 
+	- Refer SDD
+
+### Database Diagram 
+- Include here ER/Database diagram
+
+### Project requirements 
+- List of functional requirements
+- List of non-functional requirements
+- Refer to SRS 
+
+### Test Methodology 
+- Discuss test methodology 
+	- Refer to stp 
+
+
+
+
+
+
+
+
+
+
+
+## Chapter 6
+
+spscifies software's operational characteristics 
+indicates software's interface with other system elements 
