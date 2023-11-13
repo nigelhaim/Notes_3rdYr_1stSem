@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Data warehousing.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Data warehousing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Data warehousing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods.md"
+                "file": "Data warehousing.md"
               }
             }
           },
@@ -166,15 +165,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "78ef5a80065e6454",
+  "active": "e113f9706565eb32",
   "lastOpenFiles": [
-    "Numerical Methods Seatworks.md",
+    "Spanish.md",
     "Numerical Methods.md",
+    "Numerical Methods Seatworks.md",
     "Web and mobile programming.md",
     "Media/Pasted image 20231109145022.png",
     "Media/Pasted image 20231109150839.png",
     "Programming languages.md",
-    "Spanish.md",
     "Media/Pasted image 20231108071929.png",
     "Media/Pasted image 20231108072203.png",
     "Media/Pasted image 20231108071948.png",

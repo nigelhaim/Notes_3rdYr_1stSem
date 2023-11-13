@@ -908,3 +908,70 @@ performance indicators (KPIs) are facts that must also conform. If facts live in
 
 
 If they are labeled identically, they need to be defined in the same dimensional context and with the same units of measure from dimensional model to dimensional model. For example, if several business processes report revenue, then these separate revenue metrics can be added and compared only if they have the same financial definitions.
+
+
+---
+# Finals 
+
+## Data pipelines 
+- Sources -> **Processing** -> Data Mart 
+
+### What are Data Pipelines? 
+- A data pipeline is a means of moving data from one place to a destination. Along the way, data is transformed and optimized so that it can be analyzed for business insights. 
+
+**Characteristics of a data pipeline**
+
+- THis is incluseive of data transformations, such as filtering, masking, and aggregations 
+- Organizing the data 
+- The bytes of every data type 
+- Includes data transformations
+- **Filtering**
+	- Sometimes there is data that will be left out 
+- **Masking**
+	- Snapshots 
+
+### Types of data pipelines 
+#### Batch pipelines 
+- Set time interval 
+	- OMTP
+	- OLAP
+- Batch processing 
+	- Only need to call once 
+- **Examples**
+	- Inventory 
+#### Streaming Data
+- Continous calling 
+- **Examples**
+	- Real-time transactions 
+
+
+### Core steps in Data pipeline 
+#### Data ingestion 
+- Import of data 
+- Load of files 
+#### Data Transformation 
+- Making everything standard 
+- Use Case Diagram 
+- Step by step process on how to trransform the data 
+#### Data Storage 
+
+
+
+
+
+### ETL
+
+#### WHat is ETL 
+- In computing Extract, Transform, Load is a three-phase proces where data is extracted, transformed and loaded into an output data container 
+
+#### How to create an ETL system 
+
+1. Gather 
+	- What you need 
+2. Identify 
+	- I need the report
+3. Transforming 
+	- 
+
+
+
