@@ -1151,7 +1151,7 @@ $P_{x}=f_{0}+ \frac{(x-x_0)}{1!h}\Delta f_{0}+\frac{(x-x_0)(x-x_1)}{2!h^{2}}\Del
 
 ### Newton Backward Difference Interpolation Formula 
 
-$$P_{x}= f_{0}+ \frac{(x-x_{0})}{1!h_{0}}\Delta f_{0}+ \frac{(x-x_0)(x-x_{1)}}{2!h^{2}\Delta}^{2}f_{0}+\frac{(x-x_0)(x-x_1)(x-x_2)}{3!h^3}\Delta^{3}f_{0+}\frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^{4}} \Delta^{4}f_0+...$$
+$$P_{x}= f_{0}+ \frac{(x-x_{0})}{1!h_{0}}\Delta f_{0}+ \frac{(x-x_0)(x-x_{1)}}{2!h^{2}}\Delta^{2}f_{0}+\frac{(x-x_0)(x-x_1)(x-x_2)}{3!h^3}\Delta^{3}f_{0+}\frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^{4}} \Delta^{4}f_0+...$$
 
 
 $$f_r=f_{0}+r\Delta f_{0}+\frac{r(r+1)}{2!}\Delta ^{2}f_{0}+\frac{r(r+1)(r+2)}{3!}\Delta^3f_{0}+\frac{r(r+1)(r+2)(r+3)}{4!}\Delta^4f_0+...$$

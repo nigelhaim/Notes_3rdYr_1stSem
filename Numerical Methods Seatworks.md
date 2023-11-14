@@ -691,8 +691,55 @@ $$\frac{(x-3)(x-5)(x-7)}{(5-3)(5-4)(5-7)}(-2)=-\frac{x^3-14x^2+61x-84}{4}(-2)=\f
 $$\frac{(x-3)(x-4)(x-5)}{(7-3)(7-4)(7-5)}(0)=\frac{x^3-12x^2+47x-60}{24}(0)=0$$
 
 
-$$(\frac{4}{4})\frac{x^3-16x^2+83x-140}{8}+\frac{2x^3-28x^2+122x-168}{4}(\frac{8}{8})$$
+$$(\frac{4}{4})-\frac{x^3-16x^2+83x-140}{8}+\frac{2x^3-28x^2+122x-168}{4}(\frac{8}{8})$$
 
-$$\frac{4x^3-64x^2+332x-560}{32}+\frac{16x^3-224x^2+976x-1344}{32}$$
+$$-\frac{4x^3-64x^2+332x-560}{32}+\frac{16x^3-224x^2+976x-1344}{32}$$
 
-$$\frac{x^3+40x^2-327x-828}{8}$$
+$$\frac{3x^3-40x^{2}161x-196}{8}$$
+
+## Seatwork #3 F
+Construct the divided difference table. Find the interpolating polynomial of the following points and functions using Newton's Divided Difference interpolation process. 
+
+
+1. (3,1), (4,0), (5,-2), and (7,0)
+
+|$x$|$f(x)$|$f(x_0,x_1)$|$f(x_0,x_1,x_2)$|$f(x_0,x_1,x_2,x_3)$|
+|-|-|-|-|-|
+|3|1|
+|||-1|
+|4|0||$-\frac{1}{2}$|
+|||-2||$\frac{3}{8}$
+|5|-2||1|
+|||1|
+|7|0
+
+$f_x=f_{0}+(x-x_{0})f(x_0,x_1)+(x-x_0)(x-x_1)f(x_0,X_1,X_2)+(x-x_0)(x-x_1)(x-x_2)f(x_0,x_1,x_2,x_3)$
+$\begin{align*}f_{x}&= 1+(x-3)(-1)+(x-3)(x-4)(-\frac{1}{2})+(x-3)(x-4)(x-5)(\frac{3}{8})\\&=1+-x+3-\frac{x^2}{2}+\frac{7x}{2}-6+\frac{3x^{3}}{8}-\frac{9x^2}{2}+\frac{141x}{8}-\frac{45}{2}\\&=\frac{161x}{8}-5x^2+\frac{3x^2}{8}-\frac{49}{2}\end{align*}$
+
+## Seatwork #4 F 
+
+Construct the forward difference table from the given data and find the polynomial function 
+
+1.
+
+|x|0|1|2|3|4|
+|-|-|-|-|-|-|
+|$f(x)$|1|-2|9|70|241
+
+|$x$|$f(x)$|$\Delta f(x)$|$\Delta ^2f(x)$|$\Delta ^{3}f(x)$|$\Delta ^{4}f(x)$|
+|-|-|-|-|-|-|
+|0|**1**
+|||**-3**|
+|1|-2||**14**|
+|||11||**36**|
+|2|9||50||**24**|
+|||61||60|
+|3|70||110|
+|||171|
+|4|241|
+
+$$\begin{align*}P_x=f_0+\frac{(x-x_0)}{1!h}\Delta f_0+\frac{(x-x_0)(x-x_1)}{2!h^{2}}\Delta^2f_0+\frac{(x-x_0)(x-x_1)(x-x_2)}{3!h^3}\Delta^3f_0+\frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^4}\Delta^4f_0+....\end{align*}$$
+
+continue 
+
+
