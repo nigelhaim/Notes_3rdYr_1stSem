@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethics.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethics.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethics.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethics.md"
+                "file": "Numerical Methods.md"
               }
             }
           },
@@ -167,7 +168,9 @@
   },
   "active": "e113f9706565eb32",
   "lastOpenFiles": [
+    "Untitled.md",
     "Numerical Methods.md",
+    "Ethics.md",
     "Spanish.md",
     "Software Engineering I.md",
     "Data warehousing.md",
@@ -180,7 +183,6 @@
     "Media/Pasted image 20231108072203.png",
     "Media/Pasted image 20231108071948.png",
     "README.md",
-    "Ethics.md",
     "Media/Pasted image 20231107161216.png",
     "Media/Pasted image 20231107162415.png",
     "Media/Pasted image 20231107162300.png",
@@ -196,7 +198,6 @@
     "Flashcards/flashcards.md",
     "ProgrammingLangFlashcards.md",
     "Flashcards",
-    "Untitled.md",
     "FromOthers/CS_26111.md",
     "Media/Pasted image 20230921140002.png.md",
     "Concepts of Programming Languages (10th Edition) (Sebesta, Robert W.).pdf.md",
