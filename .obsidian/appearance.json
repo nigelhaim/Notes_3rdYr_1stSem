@@ -1,7 +1,7 @@
 {
   "accentColor": "#ff7300",
   "cssTheme": "Tokyo Night",
-  "baseFontSize": 15,
+  "baseFontSize": 21,
   "translucency": false,
   "nativeMenus": false,
   "showViewHeader": true,

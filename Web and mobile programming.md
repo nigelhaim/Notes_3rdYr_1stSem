@@ -791,3 +791,107 @@ After the UDF, create a Wire-Frame and Mock ups, link them together using POP an
 Phase 3: Your actual app. Due date Dec 2 (will be revisited and may be adjusted).
 
 Phase 4: Get 30 users to try out your app, prepare a google form with at least 15 questions (the more, the better) that will evaluate the UI, functionality and use of your app. Collect the data and share the ss of the responses. Due date: Dec 9  (will be revisited and may be adjusted).
+
+
+
+2023-11-15
+
+
+## BMI app
+
+>[!Note]- Pulled from Github
+>![[Pasted image 20231115080946.png]]
+
+### Flutter themes
+- Custom color palette
+
+>[!Note]- No styling 
+>![[Pasted image 20231115081331.png]]
+
+>[!Note]- Adding a theme
+>Adding the dark theme
+>![[Pasted image 20231115081445.png]]
+>![[Pasted image 20231115081524.png]]
+
+#### Creating your own theme data widget 
+
+>[!Note]- Changing the primary color
+>Mostly it is the background color
+>The theme defaults to the light theme
+>![[Pasted image 20231115081701.png]]
+>![[Pasted image 20231115081809.png]]
+
+>[!Note]- ColorZilla
+>Online color picker
+>Requires installation
+>![[Pasted image 20231115081913.png]]
+
+>[!Note]- Cusom Color (Hex codes)
+>![[Pasted image 20231115082318.png]]
+
+
+>[!Note]- Changing the background color 
+>![[Pasted image 20231115082502.png]]
+
+>[!Note]- Text Theme 
+>![[Pasted image 20231115082643.png]]
+
+>[!Note]- Interchangable theme
+>![[Pasted image 20231115082811.png]]
+
+>[!Note]- Changing other widgets 
+>![[Pasted image 20231115083001.png]]
+
+>[!Note]- Redoing everything 
+>![[Pasted image 20231115083257.png]]
+
+>[!Note]- Page 2
+>![[Pasted image 20231115083324.png]]
+
+>[!Note]- Building the second page 
+>![[Pasted image 20231115083604.png]]
+>
+
+>[!Note]- Border Radius
+>![[Pasted image 20231115083826.png]]
+
+>[!Note]- Expanded widgets 
+>![[Pasted image 20231115084029.png]]
+>![[Pasted image 20231115084058.png]]
+>![[Pasted image 20231115084128.png]]
+>Add the code earlier onthe expanded widgets
+>![[Pasted image 20231115084148.png]]
+
+>[!Note]- Reusable card 
+>![[Pasted image 20231115084335.png]]
+>![[Pasted image 20231115084330.png]]
+>You can sue the reusable card on any part 
+
+>[!Note]- Changable color on the reusable card 
+>![[Pasted image 20231115084921.png]]
+>![[Pasted image 20231115084906.png]]
+>![[Pasted image 20231115085225.png]]
+
+>[!Note]- Bottom bar 
+>![[Pasted image 20231115090727.png]]
+
+>[!Note]- Custom fonts and icons
+>![[Pasted image 20231115091532.png]]
+>![[Pasted image 20231115091556.png]]
+>![[Pasted image 20231115091657.png]]
+>![[Pasted image 20231115091758.png]]
+>![[Pasted image 20231115091910.png]]
+
+
+>[!Note]- Icon Data 
+>![[Pasted image 20231115092502.png]]
+>![[Pasted image 20231115092601.png]]
+
+>[!Note]- icon_content.dart
+>![[Pasted image 20231115092753.png]]
+
+>[!Note]- Inactive card color 
+>![[Pasted image 20231115093549.png]]
+>On Tap
+>![[Pasted image 20231115093632.png]]
+>![[Pasted image 20231115093916.png]]
