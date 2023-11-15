@@ -640,8 +640,8 @@ $(E-1)^6f(12)=0$
 $$(E^6-6E^5+15E^4-20E^3+15E^2-6E-1)+f(12)=0$$
 $$E^6f(12)-6E^5f(12)+15E^4f(12)-20f(12)+15f(12)-6f(12)+1=0$$
 $$\begin{align*}f(24)-&6f(22)+15f(20)-20f(18)+15f(16)-6f(14)+f(12)=0\\&3f(22)-3(5)f(20)+(3)(10)f(18)-(3)(10)f(16)+(3)(5)f(14)-3f(12)=0\end{align*}$$
-$$f(24)-3f(22)+10f(18)-15f(16)+9f(14)-3f(12)=0$$
-$$6.342-3(5.708)+10(3.542)-15(2.116)+9f(14)-3(1.335)=0$$
+$$f(24)-3f(22)+10f(18)-15f(16)+9f(14)-2f(12)=0$$
+$$6.342-3(5.708)+10(3.542)-15(2.116)+9f(14)-2(1.335)=0$$
 $$6.342-17.124+35.42-31.74-4.005=-9f(14)$$
 $$-11.107=-9f(14)$$
 $$1.23411=f(14)$$
@@ -695,7 +695,7 @@ $$(\frac{4}{4})-\frac{x^3-16x^2+83x-140}{8}+\frac{2x^3-28x^2+122x-168}{4}(\frac{
 
 $$-\frac{4x^3-64x^2+332x-560}{32}+\frac{16x^3-224x^2+976x-1344}{32}$$
 
-$$\frac{3x^3-40x^{2}161x-196}{8}$$
+$$\frac{3x^3-40x^{2}+161x-196}{8}$$
 
 ## Seatwork #3 F
 Construct the divided difference table. Find the interpolating polynomial of the following points and functions using Newton's Divided Difference interpolation process. 
@@ -720,8 +720,7 @@ $\begin{align*}f_{x}&= 1+(x-3)(-1)+(x-3)(x-4)(-\frac{1}{2})+(x-3)(x-4)(x-5)(\fra
 
 Construct the forward difference table from the given data and find the polynomial function 
 
-1.
-
+	1. 
 |x|0|1|2|3|4|
 |-|-|-|-|-|-|
 |$f(x)$|1|-2|9|70|241

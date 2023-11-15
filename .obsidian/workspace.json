@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods Seatworks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods Seatworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Numerical Methods Seatworks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web and mobile programming.md"
+                "file": "Numerical Methods Seatworks.md"
               }
             }
           },
@@ -165,24 +165,23 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "933a513dc43f7782",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Pasted image 20231115093916.png",
-    "Pasted image 20231115093632.png",
-    "Pasted image 20231115093549.png",
-    "Pasted image 20231115092753.png",
-    "Pasted image 20231115092601.png",
-    "Pasted image 20231115092550.png",
-    "Pasted image 20231115092502.png",
-    "Pasted image 20231115091910.png",
-    "Pasted image 20231115091758.png",
-    "Pasted image 20231115091657.png",
-    "Pasted image 20231115091556.png",
+    "Numerical Methods.md",
+    "Media/Pasted image 20231115091532.png",
+    "Web and mobile programming.md",
+    "Media/Pasted image 20231115093916.png",
+    "Media/Pasted image 20231115093632.png",
+    "Media/Pasted image 20231115093549.png",
+    "Media/Pasted image 20231115092753.png",
+    "Media/Pasted image 20231115092601.png",
+    "Media/Pasted image 20231115092550.png",
+    "Media/Pasted image 20231115092502.png",
+    "Media/Pasted image 20231115091910.png",
+    "Media/Pasted image 20231115091758.png",
     "Untitled.md",
     "Software Engineering I.md",
-    "Web and mobile programming.md",
     "Numerical Methods Seatworks.md",
-    "Numerical Methods.md",
     "Ethics.md",
     "Spanish.md",
     "Data warehousing.md",
