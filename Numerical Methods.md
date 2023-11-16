@@ -1244,3 +1244,20 @@ or
 
 
 $$f_x=f(x_0+rh) = f_0+r\delta f_{-1/2}+\frac{(r+1)(r)}{2!}\delta^2f_0+ \frac{(r+1)(r)(r-1)}{3!}\delta^3f_{-1/2}+\frac{r(r+1)(r+2)(r+3)}{4!}\Delta ^4f_0+.....$$
+
+
+### Other Interpolation Formula 
+
+#### The Stirling's Formula 
+
+$f_x=f(x_0+rh) = f_0 + r * \frac{\delta f_{1/2} + \delta f_{-1/2}}{2}+\frac{r^2}{2!} \delta ^2 f_0+\frac{(r)(r^2-1)}{3!}*\frac{\delta ^3 f_{1/2}+\delta ^3f_{-1/2}}{2}+\frac{(r^2)(r^2-1)}{2}+\frac{(r^2)(r^2-1)}{4!}\delta^4f_0+...$
+
+#### Bessel's Formula 
+
+$f_x=f(x_0+rh)=\frac{f_0+f_1}{2}+(r-\frac{1}{2})*\delta f_{1/2}+\frac{(r)(r-1)}{2!}*\frac{\delta^2f_0+\delta^2f_1}{2}+\frac{(r-\frac{1}{2})(r)(r-1)}{3!}*\delta^3f_{1/2}+\frac{(r)(r^2-1)(r-2)}{4!}*\frac{\delta^4f_0+\delta^4f_1}{2}+....$
+
+#### Everett's formula 
+
+$f_x=f(x_0+rh) =sf_0+\frac{(s)(s^2-1)}{3!}\delta ^2 f_0 + \frac{(s)(s^2-1)(s^2-4)}{5!}\delta^4f_0+...+rf_1++\frac{(r)(r^2-1)}{3!}*\delta^3f_{1}+\frac++\frac{(r)(r^2-1)(r^2-4)}{5!}\delta^4f_1+...$
+Where 
+s=1-r
