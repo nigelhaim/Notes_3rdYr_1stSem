@@ -720,7 +720,8 @@ $\begin{align*}f_{x}&= 1+(x-3)(-1)+(x-3)(x-4)(-\frac{1}{2})+(x-3)(x-4)(x-5)(\fra
 
 Construct the forward difference table from the given data and find the polynomial function 
 
-	1. 
+1.
+	
 |x|0|1|2|3|4|
 |-|-|-|-|-|-|
 |$f(x)$|1|-2|9|70|241

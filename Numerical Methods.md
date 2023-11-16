@@ -1151,10 +1151,10 @@ $P_{x}=f_{0}+ \frac{(x-x_0)}{1!h}\Delta f_{0}+\frac{(x-x_0)(x-x_1)}{2!h^{2}}\Del
 
 ### Newton Backward Difference Interpolation Formula 
 
-$$P_{x}= f_{0}+ \frac{(x-x_{0})}{1!h_{0}}\Delta f_{0}+ \frac{(x-x_0)(x-x_{1)}}{2!h^{2}}\Delta^{2}f_{0}+\frac{(x-x_0)(x-x_1)(x-x_2)}{3!h^3}\Delta^{3}f_{0+}\frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^{4}} \Delta^{4}f_0+...$$
+$$P_{x}= f_{0}+ \frac{(x-x_{0})}{1!h_{0}}\nabla f_{0}+ \frac{(x-x_0)(x-x_{1)}}{2!h^{2}}\nabla^{2}f_{0}+\frac{(x-x_0)(x-x_1)(x-x_2)}{3!h^3}\nabla^{3}f_{0+}\frac{(x-x_0)(x-x_1)(x-x_2)(x-x_3)}{4!h^{4}} \nabla^{4}f_0+...$$
 
 
-$$f_r=f_{0}+r\Delta f_{0}+\frac{r(r+1)}{2!}\Delta ^{2}f_{0}+\frac{r(r+1)(r+2)}{3!}\Delta^3f_{0}+\frac{r(r+1)(r+2)(r+3)}{4!}\Delta^4f_0+...$$
+$$f_r=f_{0}+r\nabla f_{0}+\frac{r(r+1)}{2!}\nabla ^{2}f_{0}+\frac{r(r+1)(r+2)}{3!}\nabla^3f_{0}+\frac{r(r+1)(r+2)(r+3)}{4!}\nabla^4f_0+...$$
 
 1. For the following values of $f(x)$ from x = 0 to x = 5, tabulate the finite difference of $f(x)$ to the fourth order. 
 
@@ -1232,4 +1232,15 @@ $$P_{x}= 1.250 + \frac{(x-2)}{1!(0.5)}(2.125)+\frac{(x-2)(x-2.5)}{2!(0.5)^2}(2.7
 
 #### The Gauss Forward Central Difference Formula 
 
-$$f_{x}= f_{x_{0}}+\frac{x-x_0}{h}$$
+$$f_{x}= f_{x_{0}}+\frac{x-x_0}{h}\delta f_{1/2}+\frac{(x-x_{0})(x-x_{1})}{2!h^{2}}\delta^2f_0+\frac{(x-x_{-1})}{3!h^{3}}\delta ^{3} f_{1/2}+\frac{(x-x_{-1})(x-x_0)(x-x_1)(x-x_2)}{4!h^4}\delta^4f_0+...$$
+
+$$\text{or}$$
+$$f_{x}=f(x_{0}+rh)= f_{0}+r\delta f_{1/2}+\frac{(r)(r-1)}{2!}\delta^0 f_0 + \frac{(r+1)(r)(r-1)}{3!}\delta^3f_{1/2}+\frac{(r+1)(r)(r-1)(r-2)}{4!}\delta^4f_0+.....$$
+
+#### The Gauss Backward Central Difference Formula 
+$$f_x=f_{x_0}+\frac{x-x_0}{h}\delta f_{-1/2}+\frac{(x-x_1)(x-x_0)}{2!h^2}\delta^2f_0+\frac{(x-x_1)(x-x_0)(x-x_1)}{3!h^3}\delta ^3 f_{1/2}+\frac{(x-x_{-2})(x-x_{-1})(x-x_0)(x-x_1)}{4!h^4}\delta^4 f_0+ ...$$
+
+or 
+
+
+$$f_x=f(x_0+rh) = f_0+r\delta f_{-1/2}+\frac{(r+1)(r)}{2!}\delta^2f_0+ \frac{(r+1)(r)(r-1)}{3!}\delta^3f_{-1/2}+\frac{r(r+1)(r+2)(r+3)}{4!}\Delta ^4f_0+.....$$

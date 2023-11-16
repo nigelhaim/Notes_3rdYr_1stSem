@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2661eeabb4c5679b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0a8bb1607352329e",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numerical Methods Seatworks.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numerical Methods Seatworks.md"
+                "file": "Numerical Methods.md"
               }
             }
           },
@@ -165,8 +179,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "78ef5a80065e6454",
+  "active": "2661eeabb4c5679b",
   "lastOpenFiles": [
+    "Numerical Methods Seatworks.md",
+    "Ethics.md",
     "Numerical Methods.md",
     "Media/Pasted image 20231115091532.png",
     "Web and mobile programming.md",
@@ -181,8 +197,6 @@
     "Media/Pasted image 20231115091758.png",
     "Untitled.md",
     "Software Engineering I.md",
-    "Numerical Methods Seatworks.md",
-    "Ethics.md",
     "Spanish.md",
     "Data warehousing.md",
     "Programming languages.md",
