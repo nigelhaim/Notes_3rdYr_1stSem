@@ -930,6 +930,19 @@ If they are labeled identically, they need to be defined in the same dimensional
 - **Masking**
 	- Snapshots 
 
+## Characteristics of a Data Pipeline
+
+- **Data Transformations:**
+  - Inclusive of data transformations, such as filtering, masking, and aggregations.
+  - Ensure appropriate data integration and standardization.
+
+- **Data Processing:**
+  - The type of data processing that a data pipeline requires is usually determined through a mix of exploratory data analysis and defined business requirements.
+
+- **Foundation for Data Projects:**
+  - Well-organized data pipelines provide the foundation for a range of data projects.
+  - This can include exploratory data analyses, data visualizations, and machine learning tasks.
+
 ### Types of data pipelines 
 #### Batch pipelines 
 - Set time interval 
@@ -937,6 +950,20 @@ If they are labeled identically, they need to be defined in the same dimensional
 	- OLAP
 - Batch processing 
 	- Only need to call once 
+>[!Note]- Batch Pipelines
+>![[Pasted image 20231120144609.png]]
+
+- **Definition:**
+  - As the name implies, batch processing loads "batches" of data into a repository during set time intervals, typically scheduled during off-peak business hours.
+
+- **Optimal Use Case:**
+  - Batch processing is usually the optimal data pipeline when there isn't an immediate need to analyze a specific dataset.
+
+- **Workflow:**
+  - It forms a workflow of sequenced commands, where the output of one command becomes the input of the next command.
+  - This series of commands will continue until the data is completely transformed and loaded into the data repository.
+
+
 - **Examples**
 	- Inventory 
 #### Streaming Data
@@ -944,34 +971,305 @@ If they are labeled identically, they need to be defined in the same dimensional
 - **Examples**
 	- Real-time transactions 
 
+>[!Note]- Streaming Data
+>![[Pasted image 20231120144739.png]]
+
+- **Definition:**
+  - Unlike batching processing, streaming data is leveraged when it is required for data to be continuously updated. For example, apps or point of sale systems need real-time data to update inventory and sales history of their products.
+
+- **Event and Topic:**
+  - A single action, like a product sale, is considered an "event," and related events, such as adding an item to checkout, are typically grouped together as a "topic" or "stream."
+
+- **Latency and Reliability:**
+  - Since data events are processed shortly after occurring, streaming processing systems have lower latency than batch systems.
+  - However, they aren't considered as reliable as batch processing systems.
+
 
 ### Core steps in Data pipeline 
 #### Data ingestion 
 - Import of data 
 - Load of files 
+>[!Note]- Data Ingestion 
+>![[Pasted image 20231120144935.png]]
+- **Definition:**
+  - Unlike batching processing, streaming data is leveraged when it is required for data to be continuously updated. For example, apps or point of sale systems need real-time data to update inventory and sales history of their products.
+
+- **Best Practice:**
+  - While businesses can choose to extract data only when they are ready to process it, it's a better practice to land the raw data within a cloud data warehouse provider first.
+
 #### Data Transformation 
 - Making everything standard 
 - Use Case Diagram 
 - Step by step process on how to trransform the data 
 #### Data Storage 
+- The transformed data is then stored within a data repository, where it can be exposed to various stakeholders. Within streaming data, this transformed data are typically known as consumers, subscribers, or recipients.
+>[!Note]- Data Storage
+>![[Pasted image 20231120151717.png]]
 
+### Use Cases of Data pipeline 
 
+#### Exploratory Data Analysis
 
+Exploratory Data Analysis is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods. It helps determine how best to manipulate data sources to get the answers you need.
 
+#### Data Visualization
+
+Data Visualization represents data via common graphics, such as charts, plots, infographics, and even animations. These visual displays of information communicate complex data relationships and data-driven insights in a way that is easy to understand.
+
+#### Machine Learning
+
+Machine Learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
 
 ### ETL
 
-#### WHat is ETL 
+#### What is ETL 
 - In computing Extract, Transform, Load is a three-phase proces where data is extracted, transformed and loaded into an output data container 
 
+You may find that some terms, such as data pipeline and ETL pipeline, are used interchangeably in conversation.  
+However, you should think about an ETL pipeline as a subcategory of data pipelines
+
+
+#### Data Pipelines vs. ETL 
+
+- ETL pipelines follow a specific sequence. As the abbreviation implies, they extract, transform, and then load  
+the data. All data pipelines do not need to follow this sequence. In fact, ELT pipelines have become more  
+popular with the advent of cloud-native tools.  
+
+- ETL pipelines also tend to imply the use of batch processing, but the scope of data pipelines is broader.  
+They can also be inclusive of stream processing.  
+
+- Data pipelines as a whole do not necessarily need to undergo data transformations, like ETL pipelines.  
+It’s just rare to see a data pipeline that doesn’t utilize transformations to facilitate data analysis.
 #### How to create an ETL system 
+1. Gather and identify the necessary requirements
+2. Identify how to build components for extracting data
+3. Identify how to build components for transforming data
+4. Identify how to build components for loading and delivering the data
+5. Identify how to build components for managing the ETL environment in production
 
-1. Gather 
-	- What you need 
-2. Identify 
-	- I need the report
-3. Transforming 
-	- 
+#### Requirements you need to focus on 
+- **Business Needs:**
+  - Maintain a list of key performance indicators (KPIs) uncovered during the business requirements definition.
+  - Include drill-down and drill-across targets for investigating changes in KPIs.
+
+- **Compliance:**
+  - Consult with legal and compliance officers to list data and final reports subject to compliance restrictions.
+  - Specify data requiring proof of security for copies under your control.
+
+- **Data Quality:**
+  - List data elements with known unacceptable quality.
+  - Note agreements with source systems for correcting data before extraction.
+  - Include data elements discovered during profiling, to be continuously monitored and flagged in the ETL process.
+- **Security:**
+  - Expand the compliance checklist to cover known security and privacy requirements.
+
+- **Data Integration:**
+  - Use the bus matrix of business processes to generate a priority list for conforming dimensions.
+  - Annotate each row of the bus matrix with the executive demand for business processes to participate in the integration process.
+  - Confirm agreement from the ETL team responsible for each business process.
+
+- **Data Latency:**
+  - List all legitimate business demands for data based on timing requirements (daily, many times per day, within seconds, instantaneously, etc.).
+
+- **Archiving and Lineage:**
+  - List data sources and intermediate data steps to be archived.
+  - Specify retention policies, compliance, security, and privacy constraints.
+
+- **BI Delivery Interfaces:**
+  - List all fact and dimension tables directly exposed to BI tools, derived from the dimensional model specification.
+  - Enumerate OLAP cubes and special database structures required by BI tools.
+  - Specify known indexes and aggregations agreed upon to support BI performance.
+
+- **Available Skills:**
+  - Inventory department skills, including operating system, ETL tool, scripting language, programming language, SQL, DBMS, and OLAP.
+  - Identify skills required for current and future systems.
+
+- **Legacy Licenses:**
+  - List legacy operating system, ETL tool, scripting language, programming language, SQL, DBMS, and OLAP licenses.
+  - Specify whether exclusive use is mandated or recommended.
+### Some Subsystems for Extracting Data
+
+#### Subsystem #1: Data Profiling
+Data profiling involves the technical analysis of data to describe its content, consistency, and structure. It is akin to performing a SELECT DISTINCT investigative query on a database field.
+
+- **Purpose:**
+  - Assess the suitability of a candidate data source for inclusion in the data warehouse.
+  - Provide early go/no-go decisions.
+  - Offer guidance on the extent
+
+11-20-2023
+
+## Data Visualization and Analytics (Guest Lecture)
+
+### Introduction to Analytics 
+#### About the guest
+##### My journey in Data
+- **Truths**
+	- 4 years of working
+	- non-technical background and started tech career in a business strategy team 
+
+- **Lie**
+	- passionate about coding (self-learned and passed coding)
+- **More about me:**
+	- Currently Handle MayaBank's growth data science team
+	- Used to work in non-profit project design and program delivery before pivoting into tech role at Grab 
+	- Customer-obsessed, problem-obsessed, and I am a very curious person. 
+		- Asking the right questions > The mathematical aspect
+
+#### What is Data Science? 
+- **Science**
+	- Focused on empirical evidence 
+	- Reproducibility 
+		- A way to reproduce the results 
+	- Extensive use of mathematical concepts to properly tune different models and to optimize results 
+	- Methodologies are based on mathemat6ical theories and frameworks. 
+		- Many ways to produce a preidction modelts and in the end all are based on the mathematical concepts 
+- **Art**
+	- Relies on a exploratory workflow and a clear hypothesis 
+		- Art -> Science = Data science 
+	- Does not follow a strict procedure 
+		- No one really tells you what is the perfect model
+		- It all depends on the person that handles the data 
+	- Model performance is greatly dependent on the features is greatly dependent on the features 
+		- How do they represent this concept in the real world? 
+	- Many data science deicsions are left to hte person who holds the project 
+
+#### What is analytics?
+
+##### "I have no plans of working in any data role. How is analytics thinking useful for me?"
+
+##### As a software engineer: 
+- Analytical thinking can give you more structure on ho you debug your code. 
+- It can also help you to cost/size certain opportunities to help communicate your agenda to senior management.
+
+##### As a product manager: 
+- Defining opportunities on how you grow your product. 
+- Uncover insights to develop new products. 
+
+##### 6 Types of analytics questions 
+**Descriptive**
+- Summarize a characteristic of a set of data
+	- Describing the situation 
+- Examples include: 
+	- determining the propportion of males
+	- mean number of servings of fresh fruits and vegetables per day,
+	- freque4ncy of viral illnesses in a set of data collected from a group of individuals 
+	- there is no interpretation of the result itself as the result is a fact
+- **Exploratory**
+	- Analyze the data to see if there are patterns, trends, or relationships between variables 
+		- You don't know what you'll get but it gives you a better understanding
+	- These types of analyses are also called "hypothesis-generating" analysis because rather that testing a hypothesis, you are looking for patterns that would support proposing a hypothesis
+	- Eg. Exploring the relationship of diet and viral illness
+- **Inferential**
+	- Coming form your exploratory analysis, you test your hypothesis to see if it is true
+	- For example, there could be a relationship between viral illness and diet, but is this true for the whole of the Philippine? Or only within a certain region? 
+	- The type of people/data given 
+- **Predictive**
+	- Analyze the data to see if there are patterns, trends, or relationships between variables 
+	- For example, this type of study does not care about what type of people will eat fruits and vegetables. It cares moer about knowing if a person will eat fruits and vegetables next week.
+- **Causal**
+	- A causal question asks about whether changing one factor will change another factor, will change another factor, on average, in a population. Sometimes the underlying design of the data collection, by default, allows for the question that you ask to be casual. 
+	- E.g We know that people who eat vegetables have fewer viral illnesses, but does eating vegetables lead to a reduciton of viral cases? 
+- **Mechanistic**
+	- Focuses on the how
+	- How does eating fruits and vegetables lead to fewer viral illnesses? 
+
+### Analytics planning 
+
+#### What is an analytics plan? 
+Analytics can get very messy if you're not focused on where to look. This is where a plan comes in handy!
+- Narrows down the scope of the problem to what is essential 
+- Helps you decide on what you actually want to know to come up with an answer of a project. 
+
+#### What is an analytics plan?
+Analytics can get very messy if you're not focused on where to look. This is where a plan comes in handy!
+- Narrows down the scope of the problem to what is essential 
+- Helps you decide on what you actually want to know to come up with an answer or a project. 
+
+
+#### What needs to be clarified even before we start analytics planning? 
+- The context and problem 
+- The main objectives and key questions 
+- The scope and limitations 
+
+#### Why do we need to do analytics planning? 
+- Ensure that valuable analysis is done 
+	- Make sure to look at the things that actually matter 
+- Correct metrics are being looked at 
+- Insights are actionable 
+	- What good is it for you to give suggestions? 
+- Time is used efficiently 
+	- Pace yourself to uncover things simply
+- Sufficient view of the issue is employed 
+	- Narrow it down, but if its too narrow then it could be insufficient
+- Accurate numbers are presented 
+- Correct conclusions are made
+
+#### Essential parts of an analytics framework: 
+#### Identify the problem: 
+- What is the problem? Is it worth solving? 
+#### Define the constraints:
+- What is the realm of possibility? What are the things we can control? 
+#### Structure analysis: 
+- What metrics are involved? What key questions do we need to answer? 
+#### Design methodology: 
+- What calculations or algorithms are appropriate to answer key questions?
+#### Creating insights and conclusions 
+- A way to communicate whatever you found in the analytics plan
+
+## Exercise 
+- Imagine that you work as an elf in the analytics division of Santa Claus' toy factory
+Santa Claus' factory's distribution channels work like a ride-hailing app 
+- All the demand is on Christmas eve midnight. 
+- There are many children that have toys under their name 
+- But a limited number of reindeer to meet the demand 
+- Available reindeers recieve unfulfilled jobs if they are within a good child's radius
+
+This is why only the top X% good children receive toys. 
+
+This year, many reindeers are sick with COVID-19. That means many children might not be matched to any reindeers to deliver their gifts. I have some budget for reindeer rewards, but im not sure if that will move the needle. What is the best way to deliver gifts this Christmas season? 
+
+
+An analytics problem is: 
+- Measurable - so we know the north star metric. 
+- Related to a key objective that we want to achieve
+
+| Not problems | Problems | 
+|-|-|
+|Reduce reindeer service area | Reindeers are waisting too much time delievering gifts in very far-flung areas|
+|increase the number of reindeers matched to children | The number of reindeers are being matched to children is 20% below Santa's target | 
+|Implement productivity rewareds for reindeers who deliever more gifts | spend on reindeer rewards is too high| 
+
+
+Sizing the problem 
+Is the problem worth solving? 
+Sometimes,  there are some problems where the most efficient course of action is to do nothing. 
+
+Defining the constraints:
+- What are the limitations and assumptions in your analysis? 
+- Constraints restrictions our solutions and analysis plan to only the components that are possible relevant. Thies also serve as guardrils when creating solutions
+
+Examples 
+
+![[Pasted image 20231120123531.png]]
 
 
 
+Structuring the anaylsis 
+- What do we want to know? 
+	- Describe: 
+		- What are out levers to better match reindeer and children? 
+		- Reindeer rewards for productivity? 
+		- Children on the nice list 
+		- Distance of top children on the nice list
+	- Evaluate: 
+		- How much impact each lever can give us to solve the problem
+
+- This is where we define/outline what we want to describe/evaluate/validate 
+- What are the key questions that we should answer? 
+
+Creating insights and conclusions:
+- Never trust your data!
+	- Always sense check if the averages, min, max values make sense. It can also tell you if these values might need special handling 
+- Ensure you have enough data points to make your conclusions 
+- Beware of confirmation bias. Make counter-validation part of your analysis.

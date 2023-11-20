@@ -1238,7 +1238,7 @@ $$\text{or}$$
 $$f_{x}=f(x_{0}+rh)= f_{0}+r\delta f_{1/2}+\frac{(r)(r-1)}{2!}\delta^0 f_0 + \frac{(r+1)(r)(r-1)}{3!}\delta^3f_{1/2}+\frac{(r+1)(r)(r-1)(r-2)}{4!}\delta^4f_0+.....$$
 
 #### The Gauss Backward Central Difference Formula 
-$$f_x=f_{x_0}+\frac{x-x_0}{h}\delta f_{-1/2}+\frac{(x-x_1)(x-x_0)}{2!h^2}\delta^2f_0+\frac{(x-x_1)(x-x_0)(x-x_1)}{3!h^3}\delta ^3 f_{1/2}+\frac{(x-x_{-2})(x-x_{-1})(x-x_0)(x-x_1)}{4!h^4}\delta^4 f_0+ ...$$
+$$f_x=f_{x_0}+\frac{x-x_0}{h}\delta f_{-1/2}+\frac{(x-x_1)(x-x_0)}{2!h^2}\delta^2f_0+\frac{(x-x_1)(x-x_0)(x-x_1)}{3!h^3}\delta ^3 f_{-1/2}+\frac{(x-x_{-2})(x-x_{-1})(x-x_0)(x-x_1)}{4!h^4}\delta^4 f_0+ ...$$
 
 or 
 
@@ -1261,3 +1261,7 @@ $f_x=f(x_0+rh)=\frac{f_0+f_1}{2}+(r-\frac{1}{2})*\delta f_{1/2}+\frac{(r)(r-1)}{
 $f_x=f(x_0+rh) =sf_0+\frac{(s)(s^2-1)}{3!}\delta ^2 f_0 + \frac{(s)(s^2-1)(s^2-4)}{5!}\delta^4f_0+...+rf_1++\frac{(r)(r^2-1)}{3!}*\delta^3f_{1}+\frac++\frac{(r)(r^2-1)(r^2-4)}{5!}\delta^4f_1+...$
 Where 
 s=1-r
+
+$r=\frac{x-x_0}{h}$
+
+

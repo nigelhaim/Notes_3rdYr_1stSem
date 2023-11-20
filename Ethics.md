@@ -951,5 +951,85 @@ Implications:
 - There are a number of objective moral codes
 
 
-### Main arguments for Moral objetivism 
+11-20-2023
 
+## Does the end justify the means? 
+
+### Teleological Theory
+
+"The greatest good for the greatest number of people"
+
+Domain of ethical assessment: **CONSEQUENCE**
+**TELOS or TELOS** = ENDGOAL OR END CONSEQUENCES, IMPACT, EFFECTS, PURPOSE 
+
+- An act is neither good nor bad 
+- The "end" or consequences make the act right or wrong. (Consequentialist/Hedonic Principles)
+- Utilitarianism is the most common consequentialist or teleological moral theory 
+- There are two variants: **act utilitarianism** or **rule utilitarianism**
+- **Classical (Henonic/Eudamonic) utilitarians** think that benefits and harms can be characterized in more than one way. (Happiness or pleasure)
+- Basic question: What actions or pleasure and minimize pain or suffering?
+
+
+### Different Utilitarian Perspectives 
+
+#### Each action produces good or bad consequences
+- Good or bad or does not benefit 
+- Even if we want to be neutral 
+#### Direct and Indirect consequences
+- Consequences that we see that we can achieve
+- There are consequences we have no control off 
+#### Pleasure or happiness is the only intrinsic good
+- We pursue for the sake for itself is pleasure or happiness
+- True happiness not just joy
+
+#### Pleasure and pain can be quantified (Jeremy Bentham)
+
+#### Pleasure and pain come in different forms. (John Stuart Mill)
+
+#### The betterment of the society is the ultimate aim 
+- It is not the happiness of one 
+
+#### Everyone's happiness counts equally
+
+#### There are general actions or rules that maximize utility
+
+#### Actual Consequences 
+- Life resuscitated 
+- Pleasure of family 
+- Pleasure of the person saved 
+- Less trauma 
+- Pain will be minimized 
+
+#### Foreseeable Consequences 
+- The person may go back to his job or profession
+- The society may improve and benefit from the person's work 
+
+**Saving a drwoning person**
+**But what if the person ends up becoming a murderer?**
+
+### Act Utilitarianism versus Rule Utilitarianism 
+
+#### Act Utilitairianism
+- Specific acts generate the greater good 
+- Example: 
+	- Pharmaceutical companies releasing drugs that have been governmentally approved but with known minor side effects because the drug is able to help more people 
+#### Rule Utilitarianism 
+- There are rules that maximize the good 
+- Example:
+	- Airlines selling tiered tickets/services (economy, business, first class seats) to accommodate those who cannot afford upper-class seats. More people are able to fly. 
+
+### Felicific or Bentham's Calculus 
+- The pleasure derived form drinking beer is more intense than the pleasurable derived from reading Rizal's novels (intensity)
+- The pleasure of drinking beer lasts longer than the pleasure derived from Rizal's novels (duration)
+- We are confident and sure that drinkning beer is more pleasurable than reading Rizal's novels (certainty)
+- The beer is closer to us than the novel's setting., and therefore it is easier for us to access the former than the latter (proximity)
+- Drinking beer is more likely to promote more pleasure in the future than reading Rizal's Novels (Fecundity)
+- Drinking beer is pure pleasure compared to reading Rizal's novels which are mixed with something else (purity)
+- Drinking beer affects both myself and my friends and so has a greater extent. (extent)
+
+
+### Limitations 
+- Consequences cannot be predicted all the time. The results of our act9ions happen in the future 
+- Utilitairanism has trouble accounting for justice and individual rights
+- Happiness is not the only commodity worth considering 
+- Happiness is oftentimes subjective
