@@ -35,11 +35,9 @@
             "id": "546a9822027f86e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Ethics.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20231123155539.png"
               }
             }
           }
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethics.md",
+                "file": "Media/Pasted image 20231123155539.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethics.md",
+                "file": "Media/Pasted image 20231123155539.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethics.md"
+                "file": "Media/Pasted image 20231123155539.png"
               }
             }
           },
@@ -193,23 +191,23 @@
   "active": "546a9822027f86e0",
   "lastOpenFiles": [
     "Data warehousing.md",
-    "Numerical Methods Seatworks.md",
-    "Ethics.md",
-    "Pasted image 20231120181556.png",
-    "Media/Pasted image 20231119174948.png",
-    "Media/Pasted image 20231119174523.png",
-    "Media/Pasted image 20231120151717.png",
-    "Media/Pasted image 20231120144935.png",
-    "Media/Pasted image 20231120144739.png",
-    "Media/Pasted image 20231120144609.png",
-    "Media/Pasted image 20231120144555.png",
-    "Media/Pasted image 20231120123531.png",
-    "Media/Pasted image 20231120121725.png",
-    "Software Engineering I_V2.md",
+    "Media/Pasted image 20231123155539.png",
+    "Web and mobile programming.md",
+    "Media/Pasted image 20231129082957.png",
+    "Media/Pasted image 20231129082950.png",
+    "Media/Pasted image 20231129082733.png",
+    "Media/Pasted image 20231129081640.png",
+    "Media/Pasted image 20231129081621.png",
+    "Media/Pasted image 20231129081614.png",
     "Software Engineering I.md",
+    "Ethics.md",
+    "Media/Pasted image 20231120181556.png",
+    "Media/Pasted image 20231122083807.png",
+    "Media/Pasted image 20231122082440.png",
+    "Numerical Methods Seatworks.md",
+    "Software Engineering I_V2.md",
     "Programming languages.md",
     "Numerical Methods.md",
-    "Web and mobile programming.md",
     "Untitled.md",
     "Spanish.md",
     "README.md",

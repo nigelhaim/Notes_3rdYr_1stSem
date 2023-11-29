@@ -1273,3 +1273,13 @@ Creating insights and conclusions:
 	- Always sense check if the averages, min, max values make sense. It can also tell you if these values might need special handling 
 - Ensure you have enough data points to make your conclusions 
 - Beware of confirmation bias. Make counter-validation part of your analysis.
+
+
+# Lab exer 3
+
+## Install pyenv 
+- Use pip 
+
+### pyenv install 3.8.4
+
+We do this because apache-airflow is not compatible with the latest version of python

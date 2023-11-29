@@ -790,9 +790,20 @@ After the UDF, create a Wire-Frame and Mock ups, link them together using POP an
 
 Phase 3: Your actual app. Due date Dec 2 (will be revisited and may be adjusted).
 
+Your app must have: 
+- Multiple screns
+- Your code and presenation should demonstrate all the 4 pillars of OOP 
+- Must be useful 
+- Your UI should be faithful with the designs you've submitted in phase 1 and phase 2 designs 
+
 Phase 4: Get 30 users to try out your app, prepare a google form with at least 15 questions (the more, the better) that will evaluate the UI, functionality and use of your app. Collect the data and share the ss of the responses. Due date: Dec 9  (will be revisited and may be adjusted).
 
+Addendum:
 
+Answer the following questions: 
+
+1. On a scale from 1 (lowest) to 5(highest), how will you rate your app in terms of its functionality? 
+2. On a scale from 1 (lowest) to 5(highest), how will you rate your app in terms of it's similarity to your phase 1 and phase 2 UI submissions? 
 
 2023-11-15
 
@@ -895,3 +906,48 @@ Phase 4: Get 30 users to try out your app, prepare a google form with at least 1
 >On Tap
 >![[Pasted image 20231115093632.png]]
 >![[Pasted image 20231115093916.png]]
+
+
+
+### Enum 
+- For different types 
+
+>[!Note]- Enum
+>![[Pasted image 20231122081227.png]]
+
+>[!Note]- Enum Examples 
+>![[Pasted image 20231122081626.png]]
+
+>[!Note]- Improved code with Enum
+>![[Pasted image 20231122082009.png]]
+>![[Pasted image 20231122081957.png]]
+
+
+### Ternary Operator 
+>[!Note]- Dart Ternary Operator 
+>![[Pasted image 20231122082148.png]]
+
+>[!Note]- Example 
+>![[Pasted image 20231122082440.png]]
+
+
+>[!Note]- Functions
+>![[Pasted image 20231122083807.png]]
+
+
+### Routes & Navigation 
+
+>[!Note]- Main.dart and screen1  
+>![[Pasted image 20231129081614.png]]
+>![[Pasted image 20231129081621.png]]
+>![[Pasted image 20231129081640.png]]
+
+>[!Note]- Routes
+>![[Pasted image 20231129082733.png]]
+
+>[!Note]- Initial Route 
+>![[Pasted image 20231129082957.png]]
+
+>[!Note]- Named Route 
+>![[Pasted image 20231129082950.png]]
+

@@ -1033,3 +1033,26 @@ Domain of ethical assessment: **CONSEQUENCE**
 - Utilitairanism has trouble accounting for justice and individual rights
 - Happiness is not the only commodity worth considering 
 - Happiness is oftentimes subjective
+
+## Deontological Theory
+
+#### Emmanuel Kant's version
+- An act is either good or bad/right or wrong
+- It depends on whether the act fulfills one's duty
+- (Duty/Obligation)
+	- Does the action fulfils the duty? 
+- An action can only be good if its maxim - the it is duty to the moral law
+	- An action is morally good if the action is inclined to the duty	
+- Moral agents have certain duties or obligations formalized into rules or imperatives 
+	- A student's duty is to study
+	- Play your role 
+	- Universally applied to everyone 
+- The most common deontological theory is Immanuel Kant's ethics
+- There are actions that are categorically wrong: lying, murder, theft
+	- If they are categorically wrong then it is wrong
+	- No gray area
+- Basic questions: 
+	- Is the performance of the act one's duty? 
+	- Can I rationally will that the act become a universal law? 
+
+**Murder and lying (no matter what the reason is) is always evil**
