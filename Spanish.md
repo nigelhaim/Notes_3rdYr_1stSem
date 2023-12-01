@@ -630,3 +630,6 @@ Mi famila es pequeña. Somos quatro en la familia. Mi padre se Ilama Nicanor. Es
 **Translation:**
 
 My family is small. There are four of us in the family. My father's name is Nicanor. He is self-employed. He is 54 years old. He is tall, handsome, and simple. My mother's name is Nimfa. She is a manager. She is 54 years old. I think she is pretty, hardworking, and short. Nigel is the youngest in the family. He is a student. He studies at the National Science School in Puerto Princesa. He is tall, handsome, and intelligent like my mother. My name is Nigel. I am a student. I study at the College of Informatics and Computer Science, University of Santo Tomas, España Avenue, City of Manila. I think I am kind, hardworking, and attractive. That is my family.
+
+
+

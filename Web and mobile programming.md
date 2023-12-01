@@ -951,3 +951,96 @@ Answer the following questions:
 >[!Note]- Named Route 
 >![[Pasted image 20231129082950.png]]
 
+---
+# Script
+
+So good evening sir ako po si Nigel ang backend developer ng pomotasker.
+
+I'll be explaining how the app functions in the background. 
+
+
+So we start at the main.dart main function. so async po siya kasi maghihintay po siya ng respond galing sa isang flutter package which is hive, which is a key value database. Basically nagfufunction po siya as like a database ng boxes na kung saan pwede ka mag store ng objects for the app. 
+
+So ioopen ni main yung box which is pomobox. Then naka set yung app as portraitUP orientation lang. 
+
+So pag pasok po sa build. which is everytime maoopen po yung app meron po tayong splash screen. Tapos if ioopen yung app for the first time meron po tayo screen na get_started na ieexplain ni Mark Nicasio. If not diretso po siya sa main screen which is pomodoroscreen. 
+
+Sir since sa sobrang dami ng lines of code I'll be just providing snapshots para mas madali po ma explain yung code. So pag pasok po ng main screen which is pomodoroscreen. 
+
+First iexplain ko muna po yung backbone ng both features ng app which can be found in the database. dart. So we have two objects ToDoDatabase and Timer Data. ang ToDoDatabase ay para sa todo list na mula sa isang Hivebox which is yung pomobox. Meron tayong list na in every list merong title, boolean, date and time for the deadline and yung descriptions yung date and time po strings lang po sila since hive is a simple database. if need po istore ang ibang objects kailangan pa po ng adapters na magcoconvert from objects to its binaryform.
+
+inside the ToDoDatabase ay yung create InitialData which is used na if null yungdatabase or for the first time siya gagamitin then magcrecreate ng dalawang tasks para mashowcase sa user for the first time kung paano siya magfucntion. 
+
+loadData ay para ma kuha ng mainscreen yung value na list of lists na kuha from the pomobox na may key TODOLIST and updateDatabase ay nagrurun everytime maychanges sa todo list ng user
+![[Pasted image 20231201202347.png]]
+ TimerData which is galing rin sa pomobox na in keys like WORKTIMER, SHORTTIMER, LONGTIMER ay may kanya kanyang value na Map which is meron map of key na min and sec which holds the data int for the details ng every type of timer. Meron rin siya na initial setters, updateSetters and loaders which acts as the getters for the main screen. 
+
+![[Pasted image 20231201202405.png]]
+Not on the main screen Meron tayo Class na PomoTasker which inherits StateFulWidget funcitonalities for the timer and to-do list. Ang functions ng getWorkTime, getShortTime, and getLongTime is kukunin yung time details from the HiveDatabase which runs the getters from the TimerData sa database. 
+![[Pasted image 20231201203802.png]]
+These methods ay icoconvert nila into Duration na mastore sa 3 variables 
+![[Pasted image 20231201203939.png]]
+
+So meron tayong _MyTimerstate na ininherit yung state ng statefulwidget ng pomo tasker. which is meron tayong SingleTickerProvider na natitick and iimport ang CustomTimer package
+
+![[Pasted image 20231201204657.png]]
+
+The imter is initiated that starts on the working timer. 
+
+![[Pasted image 20231201204727.png]]
+
+
+and meron rin tayong function na didispose yung tiemr after the session 
+![[Pasted image 20231201204748.png]]
+
+Sa timer dito na rin papasok yung todo list which access the pomobox and gets the data which isd yung TodoDatabase. 
+
+if wala sa box yung todolist this also means the app was opened for the first time. Then it runs the initial timer data function sa database
+![[Pasted image 20231201205048.png]]
+
+dito rin sa main scren meron tayong TextEditingControllers that gets the values form the textfields if the user deicides to add a task. 
+![[Pasted image 20231201205619.png]]
+
+If a user decides to add a task  saveNewTask function ay iseset niya yung bagong state adding the task at the same time irurun yung database object to run the updateDataBase method. 
+![[Pasted image 20231201205647.png]]
+
+Sa app meron tayong button which kung saan yung user ay gagawa ng panibagong task. Since ang controllers natin ay global ang gianwa ko is pag run ng function icleclear niya all values na meron sa controllers. 
+and irurun ang showDialog which I will be explaianing later but basically iniimport niya yung controllers and yung method na saveNewtask bago ipakita yung Form na isang alert dialogue para makapag add yung user ng bagong task.
+![[Pasted image 20231201210104.png]]
+
+Similary yung updateTask Function ay ginagawa ang pag show dialogue but ang difference is before ipakita yung  Alert Dialogue iniimport ko muna yung task dtails sa controllers para pag pop up ng dialogue makikita ng user ang editable task details 
+
+
+saveUpdateTask sets the state and saves the new details based on the list_index ng task na inedit. Similar siya sa save newtask function kanina 
+![[Pasted image 20231201210445.png]]
+
+The build method is the one of the longest block sa pomodoro screen since including na rin dito yung front end codes na maeexplain later. but I would like to focus on sa body where dito makikita yung BuildCustom timer which is isang object
+![[Pasted image 20231201210632.png]]
+Dito rin makikita yung isang block of code which acts as the method of showing all the tasks coming from the database everytask is enclosed in an Elevated button na when pressed dito mapopop up and DialogueBox or alert box that runs the update tasks 
+
+![[Pasted image 20231201210720.png]]
+
+
+
+and ofcourse this also houses the add task button na magpapakita ng Same dialogue box but with different method and functions of updating sa database. 
+
+![[Pasted image 20231201210821.png]]
+
+the timerbuttons class enhouses yun dialogue box na may form na pwede iedit yung user yung minutes and seconds ng bawat timer Working, Short Breaks and long breaks. It has its own controller na kukunin ang bawat value and istostore sa database
+![[Pasted image 20231201211908.png]]![[Pasted image 20231201211930.png]]
+
+pagpinindot ni user ang ok button irurun ng database ToDoList object ang update setters then update sa database 
+
+![[Pasted image 20231201213450.png]]
+
+BUild custom timer controlles the timer whether the user is working on short break or long break meron siyang listener na dinedetect if tapos na yung timer then irurun yung getters para ma check if may updates sa database about sa data ng timer tapos may booleans para ma check kung anong type ang timer ang ipapakita. May method na jumpTo sa package para lilipat yung timer sa specific time na timer type ng user. 
+![[Pasted image 20231201215121.png]]
+
+Dito na rin makikita yung functionalities ng timer which in every tick magbabago yung Text showing yung minutes and seconds remaining and yung buttons which yung mga buttons is enclosed sa isa pang function na it acts as a class pero expanded function lang siya na rineread ang string and irurun yung function para ipause, start, reset or stop ang time 
+![[Pasted image 20231201215516.png]]
+![[Pasted image 20231201215526.png]]
+
+
+Sa todo tile ay may object siya na may task name, onChanged, taskCompleted isang boolean and taskCOmpletion na nagdedetect if compeleted na yung task 
+
+![[Pasted image 20231201222113.png]]
