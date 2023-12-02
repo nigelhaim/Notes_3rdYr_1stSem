@@ -963,8 +963,8 @@ So we start at the main.dart main function. so async po siya kasi maghihintay po
 
 So ioopen ni main yung box which is pomobox. Then naka set yung app as portraitUP orientation lang. 
 
-So pag pasok po sa build. which is everytime maoopen po yung app meron po tayong splash screen. Tapos if ioopen yung app for the first time meron po tayo screen na get_started na ieexplain ni Mark Nicasio. If not diretso po siya sa main screen which is pomodoroscreen. 
-
+So pag pasok po sa build. which is everytime maoopen po yung app meron po tayong splash screen. Tapos if ioopen yung app for the first time meron po tayo screen na get_started na ieexplain ni Mark Nicasio. If not diretso po siya sa main screen which is pomodoroscreen.  c
+ 
 Sir since sa sobrang dami ng lines of code I'll be just providing snapshots para mas madali po ma explain yung code. So pag pasok po ng main screen which is pomodoroscreen. 
 
 First iexplain ko muna po yung backbone ng both features ng app which can be found in the database. dart. So we have two objects ToDoDatabase and Timer Data. ang ToDoDatabase ay para sa todo list na mula sa isang Hivebox which is yung pomobox. Meron tayong list na in every list merong title, boolean, date and time for the deadline and yung descriptions yung date and time po strings lang po sila since hive is a simple database. if need po istore ang ibang objects kailangan pa po ng adapters na magcoconvert from objects to its binaryform.
@@ -973,7 +973,7 @@ inside the ToDoDatabase ay yung create InitialData which is used na if null yung
 
 loadData ay para ma kuha ng mainscreen yung value na list of lists na kuha from the pomobox na may key TODOLIST and updateDatabase ay nagrurun everytime maychanges sa todo list ng user
 ![[Pasted image 20231201202347.png]]
- TimerData which is galing rin sa pomobox na in keys like WORKTIMER, SHORTTIMER, LONGTIMER ay may kanya kanyang value na Map which is meron map of key na min and sec which holds the data int for the details ng every type of timer. Meron rin siya na initial setters, updateSetters and loaders which acts as the getters for the main screen. 
+ TimerData which is galing rin sa pomobox na in keys like WORKTIMER, SHORTTIMER, LONGTIMER ay may kanya kanyang value na Map which is meron map of key na min and sec which holds the data int for the details ng every type of timer. Meron rin siya na initial setters, updateSetters and loaders which acts as th  e getters for the main screen. 
 
 ![[Pasted image 20231201202405.png]]
 Not on the main screen Meron tayo Class na PomoTasker which inherits StateFulWidget funcitonalities for the timer and to-do list. Ang functions ng getWorkTime, getShortTime, and getLongTime is kukunin yung time details from the HiveDatabase which runs the getters from the TimerData sa database. 
@@ -1026,7 +1026,7 @@ and ofcourse this also houses the add task button na magpapakita ng Same dialogu
 
 ![[Pasted image 20231201210821.png]]
 
-the timerbuttons class enhouses yun dialogue box na may form na pwede iedit yung user yung minutes and seconds ng bawat timer Working, Short Breaks and long breaks. It has its own controller na kukunin ang bawat value and istostore sa database
+the timerbuttons class enhouses yun dialogue box na may form na pwede iedit yung user yung minutes and seconds ng bawat timer Working, Short Breaks and long breaks. It has it s own controller na kukunin ang bawat value and istostore sa database
 ![[Pasted image 20231201211908.png]]![[Pasted image 20231201211930.png]]
 
 pagpinindot ni user ang ok button irurun ng database ToDoList object ang update setters then update sa database 
@@ -1036,7 +1036,7 @@ pagpinindot ni user ang ok button irurun ng database ToDoList object ang update 
 BUild custom timer controlles the timer whether the user is working on short break or long break meron siyang listener na dinedetect if tapos na yung timer then irurun yung getters para ma check if may updates sa database about sa data ng timer tapos may booleans para ma check kung anong type ang timer ang ipapakita. May method na jumpTo sa package para lilipat yung timer sa specific time na timer type ng user. 
 ![[Pasted image 20231201215121.png]]
 
-Dito na rin makikita yung functionalities ng timer which in every tick magbabago yung Text showing yung minutes and seconds remaining and yung buttons which yung mga buttons is enclosed sa isa pang function na it acts as a class pero expanded function lang siya na rineread ang string and irurun yung function para ipause, start, reset or stop ang time 
+Dito na rin makikita yung functionalities ng timer which in every tick magbabago yung Text showing yung minutes and seconds remaining and yung buttons which yung mga buttons is enclosed sa isa pang function na it acts as a class pero expanded function lang siya na rineread ang string and irurun yung function para ipause, start, r eset or stop ang time 
 ![[Pasted image 20231201215516.png]]
 ![[Pasted image 20231201215526.png]]
 

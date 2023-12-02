@@ -35,11 +35,9 @@
             "id": "546a9822027f86e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Web and mobile programming.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20231201222113.png"
               }
             }
           }
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Media/Pasted image 20231201222113.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web and mobile programming.md",
+                "file": "Media/Pasted image 20231201222113.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web and mobile programming.md"
+                "file": "Media/Pasted image 20231201222113.png"
               }
             }
           },
@@ -190,22 +188,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "546a9822027f86e0",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
-    "Pasted image 20231201222113.png",
-    "Pasted image 20231201215526.png",
-    "Pasted image 20231201215516.png",
-    "Pasted image 20231201215121.png",
-    "Pasted image 20231201213450.png",
-    "Pasted image 20231201211930.png",
-    "Pasted image 20231201211908.png",
-    "Pasted image 20231201210821.png",
-    "Pasted image 20231201210819.png",
-    "Pasted image 20231201210720.png",
-    "Pasted image 20231201210632.png",
+    "Web and mobile programming.md",
+    "Media/Pasted image 20231201222113.png",
+    "Media/Pasted image 20231201215526.png",
+    "Media/Pasted image 20231201215516.png",
+    "Media/Pasted image 20231201215121.png",
+    "Media/Pasted image 20231201213450.png",
+    "Media/Pasted image 20231201211930.png",
+    "Media/Pasted image 20231201211908.png",
+    "Media/Pasted image 20231201210821.png",
+    "Media/Pasted image 20231201210819.png",
+    "Media/Pasted image 20231201210720.png",
     "Data warehousing.md",
     "Numerical Methods Seatworks.md",
-    "Web and mobile programming.md",
     "Spanish.md",
     "Software Engineering I.md",
     "Ethics.md",
