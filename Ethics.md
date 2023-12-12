@@ -1056,3 +1056,19 @@ Domain of ethical assessment: **CONSEQUENCE**
 	- Can I rationally will that the act become a universal law? 
 
 **Murder and lying (no matter what the reason is) is always evil**
+
+
+
+---
+# Notes on final project in ethics 
+
+
+
+1. Do you agree that data rights are fundamental human rights that we need to protect? Why or why not?
+	- Yes because based form the documentary, we can clearly tell on how different people or agencies take advantage of our data. They also admitted that in every choice a user made. In every update of their life in their social media accounts can be used to exploit and to show information to convince you in their advantage. 
+
+2. What are the ethical issues that surround data collection, manipulation and exploitation done by data technology companies? Why are they ethical concerns? What principles, core ideas, and theories in ethics discussed in class support your position? (Please take note that we are only using the documentary as a springboard. You may answer the questions based on your own experience and research on the topic.) 
+	- Libertarianism focuses on the promotion of individual rights. It is the code of law to protect, respect, and self-preserve oneself in the digital world. As the documentary states that the internet "connects people", but doing actions that exploits through a user's personality has the opposite consequences of what the internet is intendedly used for. it is also unethical to promote fallacies to an another person through technology. From the start of the internet, people spread different forms of information including fallacies. Anyone can inform another person about fallacious moral arguments. It is also our duty that we protect the concept of relativism that all beliefs should be equal and not to be put against each other. The world expanded its borders through digital footprints, it is our role to also accept diversity and respect each others differences. 
+	  
+3. What ethical policies must be crafted to protect our data rights? Build your own theory of (sufficient) data/information ethics. Create arguments as well to back up the justifiability of using the said ethical principles. (Reflect and pick up insights from our discussions on Teleological Ethics, Deontological Ethics, Social Contract Theory, and Virtue Ethics.)
+	- Based from the documentary. First and foremost is to mitigate or eliminate the spread of fallacies. The documentary focuses on how technology can effect elections and people's beliefs. It also focuses on how information can easily destroy a person's reputation. Technology should also become equal to all walks in life. Balancing and verifying information and digital footprints in the internet. Creating a safe space and a free flow of inform. From the utilitarian perspective it is our duty to think for the greater good. The protection of oneself identity and digital interests should be protected and not be exploited for another man's gains. Any user can have his or her own beliefs, but it should not be fueled with hatred to the other party that could explode an another digital imbalance in diversity.

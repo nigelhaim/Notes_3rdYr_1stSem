@@ -570,6 +570,8 @@ Las ninas son inteligentes
 **Esado Civil:** Estoy soltero
 **Lugar de Estudio/Trabajo:** Estudio en el colegio de informatica y Ciencias de la Computación, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila, No trabaho 
 
+
+Mi Ilamo Nigel Haim Sebastian soy estudyante soy filipino tengo vienti anyos Hablo Filipino, Ingles y un poco de Espanol Vibo en la calle Halcon dos, numero trenta y ocho, barangay santa teresita, syudad de quezon mi correo electronico es nigelhaim punto sebastian punto se i se ese aroba u ese te punto edu punto pe ache no tengo telefono en casa Mi numero de telefono movil es el Cero noventa y uno cincuenta y nueve noventa y siete noventa y nueve cero nueve Estoy soltero Estudio en el colegio de informatica y Ciencias de la Computación, Unibersidad de Santo Tomas, paseo de espana, siyudad de Manila, No trabaho 
 Eso Estodo 
 
 
@@ -633,3 +635,9 @@ My family is small. There are four of us in the family. My father's name is Nica
 
 
 
+---
+# Mi Casa
+
+Vivo en Manila, en la calle Halcon dos, numero trenta y ocho. Mi calle es amplia y bastante tranquila. Mi casa es alta y moderna y muy bonita, con tres pisos. La casa es calurosa. Tiene seis dormitorios, la cocina, la sala, el comedor y el dos de bano.
+
+Mi habitation es pequenia, pero es luminosa y tranquila. Tiene una litera, un reloj en la pared junto a la cama, un refrigerador, una computadora y una jaula para el perro."
