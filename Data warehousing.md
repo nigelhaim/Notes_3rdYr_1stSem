@@ -1274,6 +1274,157 @@ Creating insights and conclusions:
 - Ensure you have enough data points to make your conclusions 
 - Beware of confirmation bias. Make counter-validation part of your analysis.
 
+## Data Governance
+
+##### What is Data Governance? 
+**Data Gov. encompasses the overall management and strategy of an organization’s data assets to ensure the availability, usability, integrity, accuracy, security of the data.**
+
+It involves defining and implementing policies, procedures, and controls to govern the entire data lifecycle, from creation and collection to storage, analysis, dissemination, and deletion.
+
+A good data governance strategy aims to establish accountability, transparency, and consistency in data-related decision-making processes across the organization.
+
+#### Why is Data Governance Important? 
+- Data governance is of paramount importance in today’s digital landscape. It ensures data definitions are clearly defined and standardized across an organization, addressing any ambiguity or confusion that may arise. 
+- Data governance fosters data literacy within organizations, empowering employees to understand, interpret, and effectively use data for decision-making and problem-solving.
+- Governance programs also pave the way for data science initiatives by providing a solid foundation of quality data that ensures data scientists can trust the data they analyze and derive meaningful insights from it.
+
+##### Benefits of Governance 
+
+| Benefits                                       | Description                                                                                                           |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Increased Operational Efficiency and Reduced Costs | Allows organizations to create a single source of truth for their data estate, preventing data sprawl and silos, and reducing duplication                  |
+| Improved Productivity and Faster Decision-Making  | Promotes data democratization by ensuring quick access to high-quality, accurate, consistent, and trustworthy data     |
+| Enhanced Collaboration and Value Realization | Lays the foundation for enhanced data collaboration and sharing across teams, business units, and partners, promoting a culture of knowledge sharing |
+| Enhanced Security and Privacy                   | Mitigates security and privacy risks by implementing controls and processes to prevent unauthorized access and misuse of sensitive data                      |
+|       Better Compliance with Regulations and Standards                                              | Results in better compliance with regulatory requirements, such as NPC; protecting the organization’s reputation, avoiding potential financial and legal consequences    |
+
+>[!Note]- Key Elements of Data Governance
+>![[Pasted image 20231215143710.png]]
+
+Effective data governance requires knowledge of the data that exists within
+an organization. This is where a data catalog comes in, as it provides a
+centralized metadata repository for an organization’s data assets.
+
+A data catalog allows stakeholders to quickly discover, understand, and
+access the data they need, improving data-related activities such as
+discovery, governance, and analytics. 
+
+It acts as a searchable index of all the data available, including information about its format,
+structure, location, and usage, providing semantic value to an otherwise unidentifiable sea of
+information.
+
+>[!Note]- Data Catalog 
+>![[Pasted image 20231215143905.png]]
+
+##### Data Quality
+- In today’s data-driven world, ensuring high data quality is crucial for accurate analytics, informed decision-making, and cost-effectiveness.
+
+- Data quality directly impacts the reliability of data-driven decisions and
+is a key aspect of data governance.
+
+- To maintain effective data governance, organizations must prioritize the evaluation of key data quality
+attributes such as accuracy, completeness, freshness, and compliance with data-quality rules.
+
+- Therefore, a strong focus on data quality is essential in any data governance strategy, as it helps trace data lineage, enforce data quality rules, and track changes.
+
+
+##### Data Classification 
+- Data classification is a crucial part of data governance that involves organizing and categorizing data based on its sensitivity, value, and criticality.
+
+- Classification allows organizations to identify and classify data based on its risk level and importance, allowing them to apply appropriate security measures and policies.
+
+
+>[!Note]- Data Classification 
+>![[Pasted image 20231215145101.png]]
+
+
+##### Data Security 
+
+
+Organizations understand the significance of granting high-quality data access to their teams to drive insights and business value, while prioritizing sensitive data protection against unauthorized access.
+
+Effective data access management is crucial for data security and governance, and a good data security governance program should include access controls that define which groups or individuals can access what data.
+ 
+As data breaches and regulations such as GDPR and CCPA pose increased risks, businesses must establish clear governance policies that define who can access sensitive data sets and how to track any misuse.
+
+##### Auditing Data Entitlements and Accesses
+
+Effective data access auditing is a critical aspect of data governance and security governance programs, particularly in regulated industries.
+
+By understanding who has access to what data and tracking recent access, organizations can proactively identify over-entitled users or groups and adjust their access accordingly, minimizing the risk of data misuse.
+
+By implementing effective data access auditing strategies, organizations can maintain the trust of their customers and protect their data from unauthorized access or misuse.
+
+
+##### Data Lineage 
+
+Data lineage is a powerful tool that helps organizations ensure data quality and trustworthiness by providing a better understanding of data sources and consumption.
+
+It captures relevant metadata and events throughout the data’s lifecycle, providing an end-to-end view of how data flows across an organization’s data estate.
+
+Data lineage empowers data consumers to perform better analyses and helps data teams perform root cause analysis of any errors, significantly reducing debugging time.
+
+>[!Note]- Data Lineage 
+>![[Pasted image 20231215150348.png]]
+>![[Pasted image 20231215150358.png]]
+
+##### Data Discovery 
+
+As organizations continue to gather massive amounts of data from various sources, it’s becoming increasingly important to make this data easily discoverable for analytics, AI, or ML use cases. 
+
+Furthermore, with the emergence of modern data assets like dashboards, machine learning models, queries, libraries, and notebooks, data discovery has become a key pillar of a robust data governance strategy. 
+
+This is critical to accelerate data democratization and unlock the true value of the data.
+
+
+##### Data Sharing and Collaboration 
+
+Data sharing and collaboration are vital components in today’s business environment, with organizations exchanging data with internal teams, external partners, and customers across multiple clouds, data platforms, and regions.
+
+As the demand for external data continues to grow, it is critical for organizations to securely exchange data while maintaining control and visibility over how their sensitive information is used.
+
+It is essential for organizations to invest in open format, interoperable, and multicloud data sharing technologies to meet their data-driven innovation needs.
+
+Moreover, data marketplaces serve as a bridge between data providers and consumers, facilitating the discovery and distribution of data sets.
+
+
+##### Data Governance Solution 
+- Data-forward organizations prioritize data, analytics and AI to drive business outcomes, and build their data strategies around a cohesive and sustainable data platform with a set of key capabilities
+>[!Note]- Data Governance Solution 
+>![[Pasted image 20231215151319.png]]
+
+#### Who are involved in Data Governance? 
+
+**Data Owner** - These individuals or departments are responsible for defining and maintaining the overall data strategy, policies, and standards within an organization. Data owners ensure data aligns with business goals and objectives.
+
+**Data Stewards** - Data stewards are individuals responsible for the day-to-day management and oversight of specific data assets. They ensure data quality, integrity, and compliance with established policies and procedures.
+
+**Data Custodians** - Data custodians are responsible for the technical implementation and management of data storage, infrastructure, and security. They ensure the storage, backing up, and protection of organizational data.
+
+**Data Users** - These are individuals or departments relying on data to perform their job functions. Data users should understand and adhere to data governance policies and procedures to ensure data integrity and accuracy.
+
+
+
+>[!Note]- Core and Basic principles of Data Governance 
+>![[Pasted image 20231215160102.png]]
+
+#### Main Steps of Data Governance
+The principal steps required include:  
+1. Identifying all sources of data  
+2. Preparing metadata for the data and organizing a metadata storage option  
+3. Setting up mechanisms to track data lineage for data flow and usage  
+4. Scanning for sensitive data in your data estate  
+5. Creating a governance framework, with set policies and procedures for the various overseers  
+6. Checking the framework’s compliance with relevant regulatory instruments  
+7. Performing data quality checks by creating a rules library that is centrally managed and versioned. Update the rules library periodically with new rules.  
+8. Regularly audit data entitlements and access to ensure compliance  
+9. Identifying further risks, such as lack of data security or excess access to sensitive data sets  
+10. Securing the go-ahead from the senior executive team and data governance committee  
+11. Hiring or training essential staff members, such as data stewards  
+12. Establishing a means of data distribution, so everyone in your organization can locate the centralized data catalog  
+13. Having regular reviews with senior executives (inviting team member feedback)  
+14. Constantly adapting the governance model, such as when new data sets are introduced
+
 
 # Lab exer 3
 

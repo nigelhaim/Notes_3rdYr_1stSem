@@ -11,11 +11,9 @@
             "id": "2661eeabb4c5679b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Ethics.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20231215143710.png"
               }
             }
           },
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethics.md",
+                "file": "Media/Pasted image 20231215143710.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethics.md",
+                "file": "Media/Pasted image 20231215143710.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethics.md"
+                "file": "Media/Pasted image 20231215143710.png"
               }
             }
           },
@@ -175,12 +173,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2661eeabb4c5679b",
+  "active": "78ef5a80065e6454",
   "lastOpenFiles": [
     "Data warehousing.md",
-    "Books and modules/Concepts-of-Programming-Languages.pdf",
-    "Ethics.md",
+    "Media/Pasted image 20231215160102.png",
+    "Media/Pasted image 20231215151319.png",
+    "Media/Pasted image 20231215150358.png",
+    "Media/Pasted image 20231215150348.png",
+    "Media/Pasted image 20231215145101.png",
+    "Media/Pasted image 20231215143905.png",
+    "Media/Pasted image 20231215143710.png",
     "Spanish.md",
+    "Programming languages.md",
+    "Ethics.md",
+    "Books and modules/Concepts-of-Programming-Languages.pdf",
     "Numerical Methods Seatworks.md",
     "Books and modules/Book 2 (Cottingham. 1996. Western Philosophy_ Anthology)Book 2 (Cottingham. 1996. Western Philosophy_ Anthology) .pdf",
     "SPANISH 1.md",
@@ -188,16 +194,8 @@
     "Media/Pasted image 20231201222113.png",
     "Media/Pasted image 20231201215526.png",
     "Media/Pasted image 20231201215516.png",
-    "Media/Pasted image 20231201215121.png",
-    "Media/Pasted image 20231201213450.png",
-    "Media/Pasted image 20231201211930.png",
-    "Media/Pasted image 20231201211908.png",
-    "Media/Pasted image 20231201210821.png",
-    "Media/Pasted image 20231201210819.png",
-    "Media/Pasted image 20231201210720.png",
     "Software Engineering I.md",
     "Software Engineering I_V2.md",
-    "Programming languages.md",
     "Numerical Methods.md",
     "Untitled.md",
     "README.md",

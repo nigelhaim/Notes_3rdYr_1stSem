@@ -785,5 +785,28 @@ dummy variable listed in the subprogram header and used in the subprogram ;; for
 represents a value or address used in the subprogram call statement ;; actual parameter 
 
 prototypes ;; Function declarations in C and C++ are often called
+## Finals
+
+### Script 
+
+Good day everyone I am Nigel Haim Sebastian presenting our simple prolog code. The simple program was derived from a lesson of our class last year in CS 2618 Introduction to intelligent systems. The code was inspired from the N queens problem where in an 8 by 8 chess board that two queens threatens each other.
+
+We have two rules. First the create rule states that in every position created we have two numbers which is the row and column. Where both the row and column coordinates can only be between 0 to 7. This simulates the 8x8 standard chessboard. If the rule was called and the coordinates satisfy the rule it will result to true and if the rule wasn't satisfied it will result to false. 
+
+Same goes for the attack rule where we input two coordinates this time, that simulates two queen pieces. This rule states that if the two row coordinates or the two row coordinates are equal then they can attack each other. In terms in checking the diagonal aspect we check the difference of the absolute value of both rows and columns of the pieces and check if the result of the two absolute values are equal. 
+
+
+Running the file in different coordinate permutations that satisfies the rule results to true else it will be false. When running the program we first type swipl then the file name. 
+
+
+PROLOG also has the ability to use test cases. Here in test_cases.pl. Consists of different permutations that calls the create rule and the attack rule along with their respective outputs. Test cases are used to che ck if the logic is correct before implementing it to main applications. Running the program tells the user if all the test cases passed or failed. This also tells the user of the total time after checking all test cases. This is where we can also conclude that even Prolog is an old language we can see its capabilities of running fast logical computations and its efficiency to solve Intelligent system problems. Unlike in Imperative programming languages, where you need to set main functions, arguments and other parameters before actually running the program, prolog can be a straight forward language that focuses on the logical part and solving both simple and complex problems. It could also be used to further understand intelligent systems. That is all thank you. 
+
+
+swpl --version
+
+swipl queen_problem.pl
+
+swipl -f queen_problem.pl -s test_cases.pl -g run_tests
+
 
 
