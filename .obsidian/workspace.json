@@ -4,26 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "337decd606009f0a",
+        "id": "248ffe1c209a6645",
         "type": "tabs",
         "children": [
           {
-            "id": "2661eeabb4c5679b",
+            "id": "2143a02cdc15bf19",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Pasted image 20231215143710.png"
-              }
-            }
-          },
-          {
-            "id": "009c99df01260d31",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books and modules/Concepts-of-Programming-Languages.pdf"
+                "file": "Numerical Methods.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -93,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20231215143710.png",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20231215143710.png",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20231215143710.png"
+                "file": "Numerical Methods.md"
               }
             }
           },
@@ -173,29 +165,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "78ef5a80065e6454",
+  "active": "2143a02cdc15bf19",
   "lastOpenFiles": [
     "Data warehousing.md",
+    "Books and modules/Bunker.md",
+    "Numerical Methods Seatworks.md",
+    "Spanish.md",
+    "SPANISH 1.md",
+    "Software Engineering I_V2.md",
+    "Media/Pasted image 20231215143710.png",
     "Media/Pasted image 20231215160102.png",
     "Media/Pasted image 20231215151319.png",
     "Media/Pasted image 20231215150358.png",
     "Media/Pasted image 20231215150348.png",
     "Media/Pasted image 20231215145101.png",
     "Media/Pasted image 20231215143905.png",
-    "Media/Pasted image 20231215143710.png",
-    "Spanish.md",
     "Programming languages.md",
     "Ethics.md",
     "Books and modules/Concepts-of-Programming-Languages.pdf",
-    "Numerical Methods Seatworks.md",
     "Books and modules/Book 2 (Cottingham. 1996. Western Philosophy_ Anthology)Book 2 (Cottingham. 1996. Western Philosophy_ Anthology) .pdf",
-    "SPANISH 1.md",
     "Web and mobile programming.md",
     "Media/Pasted image 20231201222113.png",
     "Media/Pasted image 20231201215526.png",
     "Media/Pasted image 20231201215516.png",
     "Software Engineering I.md",
-    "Software Engineering I_V2.md",
     "Numerical Methods.md",
     "Untitled.md",
     "README.md",
@@ -203,7 +196,6 @@
     "Notes/Courses/Ethics/ETCS.md",
     "Notes/Courses/Ethics/Thought Experiment 1.md",
     "Notes/Courses/Ethics/Web of Whys.md",
-    "Books and modules/Bunker.md",
     "Notes/000.md",
     "Flashcards/flashcards.md",
     "ProgrammingLangFlashcards.md",
